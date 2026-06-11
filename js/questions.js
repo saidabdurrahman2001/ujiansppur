@@ -1,11 +1,30 @@
 const QUIZ_DATA = {
-  "title": "Kuis SP & PUR - PCPM 40",
-  "version": "1.0",
-  "total": 42,
+  "title": "Kuis SP & PUR",
+  "version": "2.0",
+  "total": 628,
   "categories": [
     "PUR",
     "SP",
-    "DR & KPW",
+    "1. Soal Sistem Pembayaran",
+    "2. BSPI 2030 & Infrastrukutr Data SP",
+    "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+    "4. BI-FAST & Infrastruktur SP Ritel",
+    "5. CBDC dan Proyek Garuda",
+    "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+    "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+    "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+    "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+    "10. GPN Elektronifikasi",
+    "11. BI-FAST",
+    "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+    "13. Pengawasan SP PJP PIP PJPUR",
+    "14. Risiko Siber",
+    "15. Kas Titipan",
+    "16. PUR",
+    "17. IDCM DPU",
+    "18. Catatan Uang Palsu",
+    "19. Peran DR KPWDN",
+    "20. Catatan Kas Titipan",
     "Semua"
   ],
   "questions": [
@@ -234,20 +253,6 @@ const QUIZ_DATA = {
       "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
     },
     {
-      "id": "sp_2",
-      "category": "SP",
-      "source": "SP.pdf",
-      "question": "Rupiah Digital wholesale didesain sebagai \"Non-Interest Bearing\" (tidak memberikan bunga). Apa alasan fundamental dibalik desain ini?",
-      "options": {
-        "a": "Karena sistem blockchain tidak bisa menghitung bunga harian.",
-        "b": "Karena fungsinya adalah uang (alat pembayaran), dan secara prinsip uang tunai tidak membawa bunga",
-        "c": "Untuk memaksa nasabah agar tetap menyimpan uang di bank.",
-        "d": "Karena Bank Indonesia sedang mengalami defisit modal."
-      },
-      "answer": "b",
-      "explanation": "Rupiah Digital wholesale non-interest bearing karena fungsinya sebagai uang (alat pembayaran), dan uang tunai secara prinsip tidak membawa bunga."
-    },
-    {
       "id": "sp_3",
       "category": "SP",
       "source": "SP.pdf",
@@ -374,20 +379,6 @@ const QUIZ_DATA = {
       "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
     },
     {
-      "id": "sp_2",
-      "category": "SP",
-      "source": "SP.pdf",
-      "question": "Salah satu sistem Financial Market Infrastructure (FMI) Bank Indonesia adalah BI-Electronic Trading Platform (BI-ETP). Berikut ini merupakan pernyataan yang benar mengenai BI-ETP, kecuali",
-      "options": {
-        "a": "Infrastruktur yang digunakan sebagai sarana transaksi yang dilakukan secara elektronik",
-        "b": "Digunakan untuk transaksi operasi moneter/syariah, transaksi untuk dan atas nama pemerintah, transaksi surat berharga dan transaksi pinjam meminjam tanpa surat berharga dalam rangka pasar uang",
-        "c": "Mekanisme transaksi terdiri dari lelang dan bilateral trading",
-        "d": "Dapat digunakan untuk transaksi antar rekening masyarakat di Bank"
-      },
-      "answer": "b",
-      "explanation": "Rupiah Digital wholesale non-interest bearing karena fungsinya sebagai uang (alat pembayaran), dan uang tunai secara prinsip tidak membawa bunga."
-    },
-    {
       "id": "sp_3",
       "category": "SP",
       "source": "SP.pdf",
@@ -458,144 +449,8376 @@ const QUIZ_DATA = {
       "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
     },
     {
-      "id": "pcpm_1",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Evolusi Tim Pengendalian Inflasi di Indonesia dimulai dari TPI (2005), kemudian berkembang menjadi TPID (2008). Berapa jumlah TPID yang mencakup seluruh Indonesia saat ini?",
+      "id": "ba2_01_1",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Reformasi pengaturan industri Sistem Pembayaran dituangkan dalam...",
       "options": {
-        "a": "342 TPID",
-        "b": "442 TPID",
-        "c": "542 TPID",
-        "d": "642 TPID"
+        "a": "UU P2SK dan UU PDP",
+        "b": "PBI No. 10 Tahun 2025 dan PADG No. 32 Tahun 2025",
+        "c": "PBI No. 22/23/PBI/2020 dan PADG No. 32 Tahun 2025",
+        "d": "UU Transfer Dana dan UU BI"
       },
-      "answer": "c",
-      "explanation": "Materi PCPM menyebutkan evolusi TPI → TPID → Pokjanas → Keppres 23/2017 (TPIN), kini mencakup 542 TPID di seluruh Indonesia."
+      "answer": "b",
+      "explanation": "Jawaban benar (B): PBI No. 10 Tahun 2025 dan PADG No. 32 Tahun 2025"
     },
     {
-      "id": "pcpm_2",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Berapa persen inflasi nasional yang berasal dari daerah menurut materi pengendalian inflasi?",
+      "id": "ba2_01_2",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Yang termasuk kategori Pelaku Sistem Pembayaran (PSP) menurut ketentuan terbaru adalah...",
       "options": {
-        "a": "±60%",
-        "b": "±70%",
-        "c": "±80%",
-        "d": "±90%"
+        "a": "Bank Indonesia, SRO, dan merchant",
+        "b": "PJP, PIP, dan Bank Umum berdasarkan UU Transfer Dana",
+        "c": "PJP, PIP, dan SRO",
+        "d": "Bank Indonesia, PJP, dan pedagang krypto"
       },
-      "answer": "c",
-      "explanation": "Sekitar ±80% inflasi nasional berasal dari daerah, sehingga pengendalian inflasi memerlukan peran aktif pemda melalui TPID."
+      "answer": "b",
+      "explanation": "Jawaban benar (B): PJP, PIP, dan Bank Umum berdasarkan UU Transfer Dana"
     },
     {
-      "id": "pcpm_3",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Payung hukum utama pengendalian inflasi berlandaskan pada peraturan berikut, KECUALI:",
+      "id": "ba2_01_3",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Penyelenggaraan infrastruktur SP yang dilakukan oleh PIP meliputi aktivitas...",
       "options": {
-        "a": "Keppres 23/2017",
-        "b": "Permenko 10/2017",
-        "c": "Peraturan sektoral 4K (Perpres, Permendag, Permentan, PP)",
-        "d": "UU No. 23 Tahun 1999 tentang Bank Indonesia"
+        "a": "Penatausahaan sumber dana dan penerusan transaksi",
+        "b": "Kliring dan penyelesaian akhir (setelmen)",
+        "c": "Penerbitan uang elektronik dan kartu debit",
+        "d": "Penerusan data transaksi dan perintah transfer"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kliring dan penyelesaian akhir (setelmen)"
+    },
+    {
+      "id": "ba2_01_4",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Saldo GoPay dan OVO yang ada di dompet digital pengguna termasuk dalam jenis Sumber Dana...",
+      "options": {
+        "a": "Simpanan",
+        "b": "Deferred Payment",
+        "c": "Nilai Uang Elektronik (UE)",
+        "d": "Nilai yang dipersamakan dengan uang"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Nilai Uang Elektronik (UE)"
+    },
+    {
+      "id": "ba2_01_5",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Kartu kredit dikategorikan sebagai Sumber Dana jenis...",
+      "options": {
+        "a": "Simpanan",
+        "b": "Nilai Uang Elektronik",
+        "c": "Deferred Payment",
+        "d": "Akses ke Sumber Dana"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Deferred Payment"
+    },
+    {
+      "id": "ba2_01_6",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "TIKMI merupakan kriteria penilaian bagi PSP yang merupakan singkatan dari...",
+      "options": {
+        "a": "Transaksi, Interkoneksi, Kapabilitas, Modal, Integrasi",
+        "b": "Transaksi, Interkoneksi, Kompetensi, Manajemen Risiko, Infrastruktur IT",
+        "c": "Teknologi, Inovasi, Kepatuhan, Manajemen, Infrastruktur",
+        "d": "Transaksi, Izin, Kliring, Modal, Infrastruktur"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transaksi, Interkoneksi, Kompetensi, Manajemen Risiko, Infrastruktur IT"
+    },
+    {
+      "id": "ba2_01_7",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Jangka waktu maksimum uji coba Inovasi Teknologi Sistem Pembayaran (ITSP) beserta perpanjangannya adalah...",
+      "options": {
+        "a": "6 bulan tanpa perpanjangan",
+        "b": "12 bulan tanpa perpanjangan",
+        "c": "6 bulan + perpanjangan 1x maksimal 6 bulan = 12 bulan",
+        "d": "12 bulan + perpanjangan 1x maksimal 12 bulan = 24 bulan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 6 bulan + perpanjangan 1x maksimal 6 bulan = 12 bulan"
+    },
+    {
+      "id": "ba2_01_8",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Strategic Business Plan (SBP) wajib disampaikan pertama kali oleh PSP paling lambat pada...",
+      "options": {
+        "a": "31 Maret 2026",
+        "b": "30 April 2026",
+        "c": "30 Juni 2026",
+        "d": "30 November 2026"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 30 April 2026"
+    },
+    {
+      "id": "ba2_01_9",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "PJP yang diklasifikasikan sebagai \"PSP UTAMA\" adalah yang memiliki izin paket...",
+      "options": {
+        "a": "Paket Bundling 1B",
+        "b": "Paket Bundling 1A",
+        "c": "Paket Bundling 2",
+        "d": "Paket Bundling 3"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Paket Bundling 1A"
+    },
+    {
+      "id": "ba2_01_10",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Dalam hal PJP penerbit Uang Elektronik dinyatakan pailit, maka dana nasabah yang telah dipisahkan...",
+      "options": {
+        "a": "Termasuk dalam harta pailit dan dibagi ke kreditur",
+        "b": "Dikembalikan seluruhnya ke Bank Indonesia",
+        "c": "Tidak termasuk dalam harta pailit untuk melindungi nasabah",
+        "d": "Dibekukan selamanya sampai proses hukum selesai"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Tidak termasuk dalam harta pailit untuk melindungi nasabah"
+    },
+    {
+      "id": "ba2_01_11",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Berikut ini adalah pertimbangan BI dalam menetapkan skema harga (pricing), KECUALI...",
+      "options": {
+        "a": "Kepentingan nasional",
+        "b": "Efisiensi biaya",
+        "c": "Keuntungan maksimal Bank Indonesia",
+        "d": "Perluasan akseptasi masyarakat"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Keuntungan maksimal Bank Indonesia"
+    },
+    {
+      "id": "ba2_01_12",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Pihak yang memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP atau PIP adalah...",
+      "options": {
+        "a": "Otoritas Jasa Keuangan (OJK)",
+        "b": "Nasabah yang dirugikan",
+        "c": "Bank Indonesia",
+        "d": "Pengadilan Niaga atas usulan kurator"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bank Indonesia"
+    },
+    {
+      "id": "ba2_01_13",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Self Asesmen TIKMI untuk kategori PSP UTAMA wajib dilakukan sebanyak...",
+      "options": {
+        "a": "1x setahun setiap 1 Februari",
+        "b": "2x setahun pada 1 Februari dan 1 Agustus",
+        "c": "4x setahun (setiap kuartal)",
+        "d": "1x setahun setiap 1 Agustus"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 2x setahun pada 1 Februari dan 1 Agustus"
+    },
+    {
+      "id": "ba2_01_14",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Kategori Penyelenggara Penunjang (PP) yang wajib terdaftar secara resmi di Bank Indonesia adalah...",
+      "options": {
+        "a": "Kategori Standar",
+        "b": "Kategori Penting",
+        "c": "Kategori Kritikal",
+        "d": "Semua kategori Penunjang wajib mendaftar"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Kategori Kritikal"
+    },
+    {
+      "id": "ba2_01_15",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Lembaga Selain Bank (LSB) dilarang melakukan aksi korporasi yang mengubah kepemilikan sejak izin diberikan selama...",
+      "options": {
+        "a": "1 tahun pertama",
+        "b": "3 tahun pertama",
+        "c": "5 tahun pertama",
+        "d": "10 tahun pertama"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 5 tahun pertama"
+    },
+    {
+      "id": "ba2_01_16",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Dalam analogi lalu lintas, aturan PADG (Peraturan Anggota Dewan Gubernur) diibaratkan sebagai...",
+      "options": {
+        "a": "Rambu-rambu lalu lintas (aturan dasar)",
+        "b": "Buku panduan teknis bagi petugas",
+        "c": "SOP harian operasional",
+        "d": "Surat izin mengemudi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Buku panduan teknis bagi petugas"
+    },
+    {
+      "id": "ba2_01_17",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Aktivitas \"Inisiasi dan Otorisasi\" akun dalam sistem pembayaran termasuk ke dalam lingkup kegiatan...",
+      "options": {
+        "a": "Penerusan Transaksi (PT)",
+        "b": "Penatausahaan Sumber Dana (PSD)",
+        "c": "Kliring infrastruktur",
+        "d": "Penyelesaian Akhir"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penatausahaan Sumber Dana (PSD)"
+    },
+    {
+      "id": "ba2_01_18",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Manakah di bawah ini yang merupakan contoh dari \"Deferred Payment\"?",
+      "options": {
+        "a": "Tabungan dan Giro",
+        "b": "Saldo GoPay",
+        "c": "Kartu Kredit",
+        "d": "Cek dan Bilyet Giro"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Kartu Kredit"
+    },
+    {
+      "id": "ba2_01_19",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Mekanisme perpindahan dana yang diinisiasi oleh penerima dana disebut...",
+      "options": {
+        "a": "Transfer Kredit",
+        "b": "Transfer Debit",
+        "c": "Transfer Online",
+        "d": "Penarikan Tunai"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transfer Debit"
+    },
+    {
+      "id": "ba2_01_20",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Bank Indonesia berwenang mengawasi uang kripto milik swasta apabila kripto tersebut...",
+      "options": {
+        "a": "Digunakan sebagai aset investasi",
+        "b": "Digunakan untuk tujuan pembayaran",
+        "c": "Diperdagangkan di bursa berjangka",
+        "d": "Memiliki nilai yang sangat fluktuatif"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Digunakan untuk tujuan pembayaran"
+    },
+    {
+      "id": "ba2_01_21",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Keuntungan utama bagi PSP yang memenuhi kriteria TIKMI dengan nilai tinggi adalah mendapatkan...",
+      "options": {
+        "a": "Pembebasan biaya pajak",
+        "b": "Blanket Approval (persetujuan sekaligus) untuk pengembangan",
+        "c": "Izin seumur hidup tanpa evaluasi",
+        "d": "Penambahan modal dari Bank Indonesia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Blanket Approval (persetujuan sekaligus) untuk pengembangan"
+    },
+    {
+      "id": "ba2_01_22",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Risiko utama (Primary Risk) dalam sistem pembayaran meliputi hal-hal berikut, KECUALI...",
+      "options": {
+        "a": "Risiko Operasional",
+        "b": "Risiko Likuiditas",
+        "c": "Risiko Keuangan",
+        "d": "Risiko Reputasi"
       },
       "answer": "d",
-      "explanation": "Landasan hukum TPIP-TPID berlapis: Keppres 23/2017, Permenko 10/2017, dan regulasi sektoral 4K. UU BI bukan payung hukum langsung TPID."
+      "explanation": "Risiko Reputasi adalah Risiko Sekunder. Jawaban benar: Risiko Reputasi"
     },
     {
-      "id": "pcpm_4",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Struktur koordinasi pengendalian inflasi berjenjang dari pusat ke daerah adalah:",
+      "id": "ba2_01_23",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Modal yang harus dijaga oleh PSP sepanjang menjalankan operasionalnya disebut...",
       "options": {
-        "a": "TPIN (Menko Perekonomian) → TPID Provinsi (Gubernur) → TPID Kab/Kota (Bupati/Walikota)",
-        "b": "BI Pusat → KPwDN → TPID Provinsi → TPID Kab/Kota",
-        "c": "Menko Perekonomian → Bupati/Walikota → Gubernur",
-        "d": "TPIN → TPID Kab/Kota → TPID Provinsi"
+        "a": "Initial Capital",
+        "b": "Ongoing Capital",
+        "c": "Authorized Capital",
+        "d": "Working Capital"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Ongoing Capital"
+    },
+    {
+      "id": "ba2_01_24",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Berapa jumlah \"Persyaratan Minimum\" yang harus dipenuhi PSP jika belum memiliki penilaian TIKMI?",
+      "options": {
+        "a": "5 Persyaratan",
+        "b": "10 Persyaratan",
+        "c": "15 Persyaratan",
+        "d": "20 Persyaratan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 15 Persyaratan"
+    },
+    {
+      "id": "ba2_01_25",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Laporan insidental terkait gangguan sistem informasi wajib disampaikan kepada BI paling lambat...",
+      "options": {
+        "a": "1 hari kerja setelah kejadian",
+        "b": "3 hari kerja setelah kejadian",
+        "c": "7 hari kerja setelah kejadian",
+        "d": "24 jam setelah kejadian"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 3 hari kerja setelah kejadian"
+    },
+    {
+      "id": "ba2_01_26",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Rencana Bisnis Sistem Pembayaran (RBSP) disusun untuk jangka waktu...",
+      "options": {
+        "a": "1 Tahun",
+        "b": "3 Tahun",
+        "c": "5 Tahun",
+        "d": "10 Tahun"
       },
       "answer": "a",
-      "explanation": "Struktur berjenjang: TPIN di pusat (Menko Perekonomian), TPID Provinsi (Gubernur), dan TPID Kab/Kota (Bupati/Walikota) dengan pelaporan dua arah."
+      "explanation": "SBP untuk 3 tahun, RBSP untuk 1 tahun. Jawaban benar: 1 Tahun"
     },
     {
-      "id": "pcpm_5",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Siklus respons pengendalian inflasi yang dijalankan melalui forum rakor strategi 4K disebut:",
+      "id": "ba2_01_27",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Urutan tahapan pemrosesan transaksi yang benar adalah...",
       "options": {
-        "a": "SMART",
-        "b": "PIKKE",
-        "c": "DSCM",
-        "d": "KEKDA"
+        "a": "Otorisasi → Inisiasi → Kliring → Setelmen",
+        "b": "Inisiasi → Otorisasi → Kliring → Setelmen",
+        "c": "Inisiasi → Kliring → Otorisasi → Setelmen",
+        "d": "Kliring → Inisiasi → Otorisasi → Setelmen"
       },
       "answer": "b",
-      "explanation": "PIKKE = Pemantauan – Identifikasi – Koordinasi – Kebijakan – Evaluasi, dijalankan lewat 6 forum rakor strategi 4K."
+      "explanation": "Jawaban benar (B): Inisiasi → Otorisasi → Kliring → Setelmen"
     },
     {
-      "id": "pcpm_6",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "GNPIP (Gerakan Nasional Pengendalian Inflasi Pangan) diluncurkan pada 10 Agustus 2022 di kota:",
+      "id": "ba2_01_28",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Apa perbedaan mendasar antara status PJP dan PIP dari Bank Indonesia?",
       "options": {
-        "a": "Jakarta",
-        "b": "Surabaya",
-        "c": "Malang",
-        "d": "Bandung"
-      },
-      "answer": "c",
-      "explanation": "GNPIP diluncurkan 10 Agustus 2022 di Malang sebagai respons lonjakan inflasi volatile food 11,47%."
-    },
-    {
-      "id": "pcpm_7",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Berapa tingkat inflasi volatile food saat peluncuran GNPIP yang menjadi latar belakang urgensi program tersebut?",
-      "options": {
-        "a": "8,47%",
-        "b": "9,47%",
-        "c": "10,47%",
-        "d": "11,47%"
-      },
-      "answer": "d",
-      "explanation": "GNPIP diluncurkan akibat lonjakan inflasi volatile food mencapai 11,47% pada saat itu."
-    },
-    {
-      "id": "pcpm_8",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Program GNPIP yang kini diperkuat menjadi GPIPS (Gerakan Pengendalian Inflasi dan Pangan Sejahtera) diperbarui pada:",
-      "options": {
-        "a": "Mei 2024",
-        "b": "Mei 2025",
-        "c": "Mei 2026",
-        "d": "Agustus 2026"
-      },
-      "answer": "c",
-      "explanation": "GPIPS merupakan penguatan GNPIP untuk tantangan ketahanan pangan yang lebih kompleks, diperbarui Mei 2026."
-    },
-    {
-      "id": "pcpm_9",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Strategi 4K dalam pengendalian inflasi mencakup, KECUALI:",
-      "options": {
-        "a": "Keterjangkauan",
-        "b": "Ketersediaan",
-        "c": "Kelancaran",
-        "d": "Kemandirian"
-      },
-      "answer": "d",
-      "explanation": "Strategi 4K: Keterjangkauan, Ketersediaan, Kelancaran, dan Komunikasi — bukan Kemandirian."
-    },
-    {
-      "id": "pcpm_10",
-      "category": "DR & KPW",
-      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-      "question": "Peran KPwDN dalam sinergi TPIP/TPID dapat mencakup fasilitasi operasi pasar melalui:",
-      "options": {
-        "a": "Penetapan suku bunga acuan daerah",
-        "b": "Sewa tenda, meja, pemberian FDP, dan disinergikan dengan program kerja KPwDN",
-        "c": "Pencetakan uang rupiah di daerah",
-        "d": "Pengelolaan rekening kas umum daerah"
+        "a": "PJP bersifat sukarela, PIP wajib",
+        "b": "PJP berdasarkan izin, PIP berdasarkan penetapan/penunjukan",
+        "c": "PJP untuk bank, PIP untuk non-bank",
+        "d": "Tidak ada perbedaan status hukum"
       },
       "answer": "b",
-      "explanation": "KPwDN mendukung operasi pasar melalui fasilitasi penyelenggaraan (sewa tenda, meja), pemberian FDP, dan sinergi program kerja dengan timing/lokasi tepat sasaran."
+      "explanation": "Jawaban benar (B): PJP berdasarkan izin, PIP berdasarkan penetapan/penunjukan"
+    },
+    {
+      "id": "ba2_01_29",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "Perubahan SBP atau RBSP hanya dapat dilakukan maksimal sebanyak...",
+      "options": {
+        "a": "1 kali dalam setahun",
+        "b": "2 kali dalam setahun",
+        "c": "3 kali dalam setahun",
+        "d": "Kapan saja sesuai kebutuhan bisnis"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): 1 kali dalam setahun"
+    },
+    {
+      "id": "ba2_01_30",
+      "category": "1. Soal Sistem Pembayaran",
+      "source": "1. Soal Sistem Pembayaran.txt",
+      "question": "UU yang mengatur mengenai pelindungan data pribadi dalam transaksi sistem pembayaran adalah...",
+      "options": {
+        "a": "UU BI",
+        "b": "UU P2SK",
+        "c": "UU PDP",
+        "d": "UU Transfer Dana"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): UU PDP"
+    },
+    {
+      "id": "ba2_02_1",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Apa kepanjangan dari BSPI 2030 yang menjadi peta jalan Bank Indonesia?",
+      "options": {
+        "a": "Badan Supervisi Perbankan Indonesia 2030",
+        "b": "Blueprint Sistem Pembayaran Indonesia 2030",
+        "c": "Basis Sistem Pembayaran Internasional 2030",
+        "d": "Bangun Sistem Pembayaran Integrasi 2030"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Blueprint Sistem Pembayaran Indonesia 2030"
+    },
+    {
+      "id": "ba2_02_2",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Inisiatif utama dalam BSPI 2030 dikenal dengan istilah 4I-RD. Apa yang dimaksud dengan \"RD\"?",
+      "options": {
+        "a": "Regulasi Digital",
+        "b": "Rupiah Digital",
+        "c": "Riset Data",
+        "d": "Reformasi Digital"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rupiah Digital"
+    },
+    {
+      "id": "ba2_02_3",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Prinsip utama BSPI 2030 dikenal dengan istilah \"3S\", yaitu...",
+      "options": {
+        "a": "Standarisasi, Simplifikasi, dan Sistemisasi",
+        "b": "Stabilitas, Sinergi, dan Sinkronisasi",
+        "c": "Standarisasi, Sentralisasi, dan Sistemik",
+        "d": "Strategi, Simplifikasi, dan Solusi"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Standarisasi, Simplifikasi, dan Sistemisasi"
+    },
+    {
+      "id": "ba2_02_4",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Dalam strategi prioritas jangka pendek, infrastruktur penghubung antara New BI-FAST dengan Fast Payment Industri (FPI) disebut...",
+      "options": {
+        "a": "SNAP",
+        "b": "BIDIC",
+        "c": "NLE (National Linking Engine)",
+        "d": "ANTASENA"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): NLE (National Linking Engine)"
+    },
+    {
+      "id": "ba2_02_5",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Komponen infrastruktur data yang berfungsi sebagai ID unik setiap pelaku pembayaran digital adalah...",
+      "options": {
+        "a": "BI-Payment Clear",
+        "b": "Payment ID",
+        "c": "Data Exchange Platform",
+        "d": "BI-Payment Info"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Payment ID"
+    },
+    {
+      "id": "ba2_02_6",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Manakah fungsi utama dari BI-Payment Clear dalam ekosistem data SP?",
+      "options": {
+        "a": "Mengumpulkan data granular untuk analitik",
+        "b": "Menyediakan platform berbagi data dengan pemerintah",
+        "c": "Melakukan validasi nama (Account Enquiry) dan deteksi fraud",
+        "d": "Mengelola izin (consent) penggunaan data nasabah"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Melakukan validasi nama (Account Enquiry) dan deteksi fraud"
+    },
+    {
+      "id": "ba2_02_7",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Payment ID terdiri dari dua bagian. Bagian yang bersifat STATIS dan tidak berubah adalah...",
+      "options": {
+        "a": "Attribute ID",
+        "b": "Primary ID (Hash NIK/NPWP)",
+        "c": "Fraud Check Indicator",
+        "d": "Security Code"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Primary ID (Hash NIK/NPWP)"
+    },
+    {
+      "id": "ba2_02_8",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Pola penulisan Primary ID dalam Payment ID yang benar adalah...",
+      "options": {
+        "a": "16 digit angka NIK asli",
+        "b": "9 digit dengan pola: 3 huruf (KVK) + 3 angka + 3 huruf (KVK)",
+        "c": "12 digit angka acak",
+        "d": "Kode bank diikuti nomor rekening"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 9 digit dengan pola: 3 huruf (KVK) + 3 angka + 3 huruf (KVK)"
+    },
+    {
+      "id": "ba2_02_9",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Pihak yang memiliki wewenang penuh untuk MENGELOLA infrastruktur Payment ID (Generator & Management) adalah...",
+      "options": {
+        "a": "Penyedia Jasa Pembayaran (PJP)",
+        "b": "Otoritas Jasa Keuangan (OJK)",
+        "c": "Bank Indonesia",
+        "d": "Kementerian Dalam Negeri"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bank Indonesia"
+    },
+    {
+      "id": "ba2_02_10",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Eksperimentasi pertama penggunaan Payment ID dilakukan secara terbatas untuk use case...",
+      "options": {
+        "a": "Pembayaran tol elektronik",
+        "b": "Transaksi QRIS lintas negara",
+        "c": "Bantuan Sosial (Bansos)",
+        "d": "Pendaftaran kartu kredit"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bantuan Sosial (Bansos)"
+    },
+    {
+      "id": "ba2_02_11",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Komponen Payment ID yang dapat diperbarui (DINAMIS) jika terjadi perubahan status atau data adalah...",
+      "options": {
+        "a": "Primary ID",
+        "b": "Hash NIK",
+        "c": "Attribute ID",
+        "d": "Hash NPWP"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Attribute ID"
+    },
+    {
+      "id": "ba2_02_12",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Fungsi \"Account Enquiry\" (AE) pada BI-Payment Clear dilakukan pada waktu...",
+      "options": {
+        "a": "On Transaction (sebelum transaksi dieksekusi)",
+        "b": "Post Transaction (setelah transaksi berhasil)",
+        "c": "Akhir hari (EOD)",
+        "d": "Saat nasabah pertama kali membuka rekening"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): On Transaction (sebelum transaksi dieksekusi)"
+    },
+    {
+      "id": "ba2_02_13",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Modul dalam BI-Payment Clear yang berisi data fraudster yang telah DIVERIFIKASI oleh PSP disebut...",
+      "options": {
+        "a": "Potential Fraudster Watchlist (PFW)",
+        "b": "Data Anomaly Transaction",
+        "c": "Fraudster Database",
+        "d": "Negative List Configuration"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Fraudster Database"
+    },
+    {
+      "id": "ba2_02_14",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "FDS BI-Payment Clear secara khusus berlaku untuk transaksi yang melibatkan...",
+      "options": {
+        "a": "Hanya antar sesama PSP Non-Utama",
+        "b": "Antar PSP Utama dan transaksi cross (Utama ke Non-Utama)",
+        "c": "Hanya transaksi tunai di ATM",
+        "d": "Transaksi internal di satu bank yang sama (On-us)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Antar PSP Utama dan transaksi cross (Utama ke Non-Utama)"
+    },
+    {
+      "id": "ba2_02_15",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Platform pertukaran data sistem pembayaran yang mendukung inklusivitas ekonomi digital disebut...",
+      "options": {
+        "a": "BI-FAST",
+        "b": "Data Exchange Platform (DEP) / BI-Payment Info",
+        "c": "RTGS",
+        "d": "SNAP"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Data Exchange Platform (DEP) / BI-Payment Info"
+    },
+    {
+      "id": "ba2_02_16",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Berdasarkan UU Pelindungan Data Pribadi (PDP), jenis data SP yang HANYA bisa diakses dengan izin eksplisit pemilik data adalah...",
+      "options": {
+        "a": "Data Publik (Statistik SP)",
+        "b": "Data Kontraktual",
+        "c": "Data Privat (Payment History Individu)",
+        "d": "Data Fraudster"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Data Privat (Payment History Individu)"
+    },
+    {
+      "id": "ba2_02_17",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Istilah untuk transaksi yang terjadi di dalam satu penyelenggara (PSP) yang sama adalah...",
+      "options": {
+        "a": "Off-us transaction",
+        "b": "Cross-border transaction",
+        "c": "On-us transaction",
+        "d": "Interbank transaction"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): On-us transaction"
+    },
+    {
+      "id": "ba2_02_18",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Pusat Data BI mengumpulkan data detail per transaksi individu yang disebut dengan data...",
+      "options": {
+        "a": "Agregat",
+        "b": "Granular",
+        "c": "Statistik",
+        "d": "Metadata"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Granular"
+    },
+    {
+      "id": "ba2_02_19",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Infrastruktur pengambil data BI yang menyediakan data agregat secara periodik bulanan adalah...",
+      "options": {
+        "a": "BI-FAST",
+        "b": "ANTASENA",
+        "c": "RTGS",
+        "d": "BI-Payment Clear"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): ANTASENA"
+    },
+    {
+      "id": "ba2_02_20",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Risiko berupa potensi resistensi dari industri terkait desain infrastruktur data SP diklasifikasikan sebagai...",
+      "options": {
+        "a": "Risiko Hukum",
+        "b": "Risiko Operasional",
+        "c": "Risiko Strategis",
+        "d": "Risiko Siber"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Risiko Strategis"
+    },
+    {
+      "id": "ba2_02_21",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Apa mitigasi yang disiapkan BI untuk menghadapi Risiko Hukum terkait pertukaran data individu?",
+      "options": {
+        "a": "Meningkatkan kapasitas server",
+        "b": "Mengelola data sesuai UU PDP dan menerbitkan regulasi payung",
+        "c": "Melakukan FGD dengan kepolisian",
+        "d": "Menggunakan teknologi blockchain terbaru"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mengelola data sesuai UU PDP dan menerbitkan regulasi payung"
+    },
+    {
+      "id": "ba2_02_22",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Berdasarkan roadmap, kapan target \"Live Implementasi\" secara bertahap untuk Infrastruktur Data SP?",
+      "options": {
+        "a": "Juni 2025",
+        "b": "Desember 2026",
+        "c": "Maret 2027",
+        "d": "Desember 2028"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Desember 2026"
+    },
+    {
+      "id": "ba2_02_23",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Bagian paling kompleks dari BI-Payment Clear yang direncanakan diimplementasi pada 2027-2028 adalah...",
+      "options": {
+        "a": "Fraudster Database",
+        "b": "Payment Clear - Post Transaction",
+        "c": "Payment Clear - On Transaction (Real-time detection)",
+        "d": "Account Enquiry"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Payment Clear - On Transaction (Real-time detection)"
+    },
+    {
+      "id": "ba2_02_24",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Regulasi baru yang disiapkan sebagai \"payung hukum\" kewenangan BI dalam penyelenggaraan infrastruktur data adalah...",
+      "options": {
+        "a": "UU P2SK",
+        "b": "RPBI 'Payung' SP",
+        "c": "UU PDP",
+        "d": "PBI Perlindungan Konsumen"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): RPBI 'Payung' SP"
+    },
+    {
+      "id": "ba2_02_25",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Standar internasional pesan keuangan yang digunakan untuk memperkaya data transaksi dalam BSPI 2030 adalah...",
+      "options": {
+        "a": "ISO 9001",
+        "b": "ISO 20022",
+        "c": "SNAP API",
+        "d": "SWIFT Code"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): ISO 20022"
+    },
+    {
+      "id": "ba2_02_26",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Dalam struktur 4I-RD, inisiatif \"Internasional\" fokus pada...",
+      "options": {
+        "a": "Mencari investor asing untuk bank lokal",
+        "b": "Konektivitas sistem pembayaran lintas batas (cross-border)",
+        "c": "Penggunaan mata uang dolar di seluruh aplikasi",
+        "d": "Standarisasi gaji pegawai bank internasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Konektivitas sistem pembayaran lintas batas (cross-border)"
+    },
+    {
+      "id": "ba2_02_27",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Apa singkatan dari simpul pusat data di Bank Indonesia?",
+      "options": {
+        "a": "BIDIC (Bank Indonesia Data and Information Center)",
+        "b": "BISC (Bank Indonesia Security Center)",
+        "c": "BI-Info",
+        "d": "Pusat Data Nasional"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): BIDIC (Bank Indonesia Data and Information Center)"
+    },
+    {
+      "id": "ba2_02_28",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "\"National Linking Engine\" (NLE) selama masa transisi dioperasikan oleh...",
+      "options": {
+        "a": "Bank Indonesia",
+        "b": "RAJA",
+        "c": "ASPI",
+        "d": "Telkom"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): RAJA"
+    },
+    {
+      "id": "ba2_02_29",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "Manakah yang termasuk 3 Area Kebijakan Sistem Pembayaran di BI?",
+      "options": {
+        "a": "Perumusan, Pelaksanaan, dan Pengawasan",
+        "b": "Perencanaan, Penindakan, dan Pelaporan",
+        "c": "Inisiasi, Kliring, dan Setelmen",
+        "d": "Domestik, Regional, dan Global"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Perumusan, Pelaksanaan, dan Pengawasan"
+    },
+    {
+      "id": "ba2_02_30",
+      "category": "2. BSPI 2030 & Infrastrukutr Data SP",
+      "source": "2. BSPI 2030 & Infrastrukutr Data SP.txt",
+      "question": "UU PDP yang menjadi landasan utama pengelolaan data dalam infrastruktur data SP adalah singkatan dari...",
+      "options": {
+        "a": "Undang-Undang Pembangunan Digital Pratama",
+        "b": "Undang-Undang Pelindungan Data Pribadi",
+        "c": "Undang-Undang Pengelolaan Data Publik",
+        "d": "Undang-Undang Perizinan Data Perbankan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Undang-Undang Pelindungan Data Pribadi"
+    },
+    {
+      "id": "ba2_03_1",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Pembayaran antara lembaga keuangan besar bernilai tinggi dan umumnya menggunakan SWIFT disebut...",
+      "options": {
+        "a": "Retail Payment",
+        "b": "Remittances Payment",
+        "c": "Wholesale Payment",
+        "d": "Fast Payment"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Wholesale Payment"
+    },
+    {
+      "id": "ba2_03_2",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Sistem standar pesan keuangan internasional yang diadopsi BI-RTGS Gen III adalah...",
+      "options": {
+        "a": "ISO 9001",
+        "b": "ISO 20022",
+        "c": "SWIFT MT103",
+        "d": "ISO 27001"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): ISO 20022"
+    },
+    {
+      "id": "ba2_03_3",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Singkatan BSPI 2030 adalah...",
+      "options": {
+        "a": "Badan Sistem Pembayaran Indonesia 2030",
+        "b": "Blueprint Sistem Pembayaran Indonesia 2030",
+        "c": "Bank Sentral Pembayaran Internasional 2030",
+        "d": "Biro Standar Pembayaran Indonesia 2030"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Blueprint Sistem Pembayaran Indonesia 2030"
+    },
+    {
+      "id": "ba2_03_4",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Manakah yang BUKAN merupakan guiding principle BI-RTGS Gen III?",
+      "options": {
+        "a": "Extended Interoperability",
+        "b": "Broader Access",
+        "c": "Centralized Control",
+        "d": "Promoting Financial Stability"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Centralized Control"
+    },
+    {
+      "id": "ba2_03_5",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "LSM (Liquidity Saving Mechanism) pada BI-RTGS Gen III berfungsi untuk...",
+      "options": {
+        "a": "Mencetak uang baru",
+        "b": "Mitigasi risiko dan meningkatkan efisiensi kebutuhan likuiditas",
+        "c": "Memblokir transaksi mencurigakan",
+        "d": "Memperluas kepesertaan non-bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mitigasi risiko dan meningkatkan efisiensi kebutuhan likuiditas"
+    },
+    {
+      "id": "ba2_03_6",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Dalam skema PvP (Payment vs Payment), hal berikut yang BENAR adalah...",
+      "options": {
+        "a": "Surat berharga dikirim bersamaan dengan pembayaran",
+        "b": "Dua pembayaran berbeda mata uang dilakukan bersamaan",
+        "c": "Pembayaran dilakukan secara bertahap",
+        "d": "Pembayaran dilakukan netting terlebih dahulu"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Dua pembayaran berbeda mata uang dilakukan bersamaan"
+    },
+    {
+      "id": "ba2_03_7",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Fitur DvP (Delivery vs Payment) pada Multicurrency BI-RTGS Gen III bertujuan untuk...",
+      "options": {
+        "a": "Mengirim uang ke luar negeri lebih cepat",
+        "b": "Menghilangkan risiko FX settlement saat jual beli valas",
+        "c": "Menyelesaikan serah-terima surat berharga bersamaan dengan pembayaran dana",
+        "d": "Menghemat biaya transfer antar bank"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Menyelesaikan serah-terima surat berharga bersamaan dengan pembayaran dana"
+    },
+    {
+      "id": "ba2_03_8",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "BI-RTGS Gen III termasuk dalam inisiatif BSPI 2030 kategori...",
+      "options": {
+        "a": "Industri",
+        "b": "Internasional",
+        "c": "Infrastruktur - Wholesale",
+        "d": "Rupiah Digital"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Infrastruktur - Wholesale"
+    },
+    {
+      "id": "ba2_03_9",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Yang dimaksud aspek '3i' dalam konteks BI-RTGS Gen III adalah...",
+      "options": {
+        "a": "Interoperabilitas, Integrasi, Interkoneksi",
+        "b": "Inovasi, Inklusi, Internasional",
+        "c": "Infrastruktur, Industri, Inovasi",
+        "d": "Identifikasi, Implementasi, Integrasi"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Interoperabilitas, Integrasi, Interkoneksi"
+    },
+    {
+      "id": "ba2_03_10",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Dalam alur LSM, pembayaran yang TIDAK mendesak akan mengalami proses...",
+      "options": {
+        "a": "Langsung gross settlement",
+        "b": "Ditolak otomatis",
+        "c": "Net settlement melalui deferred transactions",
+        "d": "Diproses manual oleh BI"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Net settlement melalui deferred transactions"
+    },
+    {
+      "id": "ba2_03_11",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Apa perbedaan utama antara Retail Payment dan Remittances Payment?",
+      "options": {
+        "a": "Retail Payment hanya untuk B2B, Remittances untuk P2P",
+        "b": "Retail Payment untuk berbagai jenis transaksi lintas negara; Remittances khusus transfer uang P2P antar individu",
+        "c": "Tidak ada perbedaan, keduanya sama",
+        "d": "Retail Payment menggunakan SWIFT; Remittances menggunakan kartu"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Retail Payment untuk berbagai jenis transaksi lintas negara; Remittances khusus transfer uang P2P antar individu"
+    },
+    {
+      "id": "ba2_03_12",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "EKD dalam konteks BSPI 2030 merupakan singkatan dari...",
+      "options": {
+        "a": "Ekuitas Keuangan Digital",
+        "b": "Ekspor Komoditas Digital",
+        "c": "Ekosistem Keuangan Digital",
+        "d": "Evaluasi Kebijakan Digital"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Ekosistem Keuangan Digital"
+    },
+    {
+      "id": "ba2_03_13",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Manakah yang merupakan contoh Remittances Payment?",
+      "options": {
+        "a": "Bank A mentransfer Rp10 triliun ke Bank B untuk pembelian SBN",
+        "b": "TKI di Malaysia mengirim uang Rp5 juta ke keluarga di Jawa Timur",
+        "c": "Perusahaan ekspor membayar pajak ke pemerintah",
+        "d": "Bank sentral membeli dolar di pasar valas"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): TKI di Malaysia mengirim uang Rp5 juta ke keluarga di Jawa Timur"
+    },
+    {
+      "id": "ba2_03_14",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Mandatory field nomor berapa pada ISO 20022 yang mencakup informasi 'Nominal dan Valuta'?",
+      "options": {
+        "a": "Field 2",
+        "b": "Field 3",
+        "c": "Field 4",
+        "d": "Field 5"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Field 4"
+    },
+    {
+      "id": "ba2_03_15",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Prinsip 'Smooth and Reliable Process' pada BI-RTGS Gen III berarti...",
+      "options": {
+        "a": "Sistem pembayaran terbuka untuk semua kalangan masyarakat",
+        "b": "Proses setelmen dana berjalan lancar dan minim hambatan",
+        "c": "Mendukung stabilitas sistem keuangan nasional",
+        "d": "Menghubungkan sistem domestik dengan sistem luar negeri"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Proses setelmen dana berjalan lancar dan minim hambatan"
+    },
+    {
+      "id": "ba2_03_16",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Dalam contoh studi kasus ISO 20022, Bank Mandiri berperan sebagai...",
+      "options": {
+        "a": "Debtor Agent saja",
+        "b": "Creditor Agent",
+        "c": "InstructingAgent & IntermediaryAgent1",
+        "d": "Ultimate Debtor"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): InstructingAgent & IntermediaryAgent1"
+    },
+    {
+      "id": "ba2_03_17",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "BI-FAST berbeda dengan BI-RTGS dalam hal...",
+      "options": {
+        "a": "BI-FAST untuk transaksi besar, BI-RTGS untuk transaksi kecil",
+        "b": "BI-FAST untuk transaksi ritel/kecil (limit ≤1M), BI-RTGS untuk transaksi wholesale/besar (>1M)",
+        "c": "Keduanya sama, hanya nama berbeda",
+        "d": "BI-RTGS sudah dihapus digantikan BI-FAST"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): BI-FAST untuk transaksi ritel/kecil (limit ≤1M), BI-RTGS untuk transaksi wholesale/besar (>1M)"
+    },
+    {
+      "id": "ba2_03_18",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Key Objective BI-RTGS Gen III adalah menjadi infrastruktur wholesale yang...",
+      "options": {
+        "a": "Berdaya tahan, terdigitalisasi, terstandarisasi, dan mendukung kebijakan BI",
+        "b": "Murah, cepat, dan terbuka untuk umum",
+        "c": "Menggantikan seluruh sistem pembayaran ritel",
+        "d": "Mengadopsi teknologi blockchain sepenuhnya"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Berdaya tahan, terdigitalisasi, terstandarisasi, dan mendukung kebijakan BI"
+    },
+    {
+      "id": "ba2_03_19",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Perluasan kepesertaan pada BI-RTGS Gen III mencakup...",
+      "options": {
+        "a": "Hanya bank BUMN",
+        "b": "Bank dan non-bank (termasuk Lembaga Selain Bank/LSB)",
+        "c": "Individu dan UMKM",
+        "d": "Hanya bank asing"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bank dan non-bank (termasuk Lembaga Selain Bank/LSB)"
+    },
+    {
+      "id": "ba2_03_20",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Dalam LSM, transaksi yang sudah melewati batas waktu T dari Central Queue akan...",
+      "options": {
+        "a": "Diproses sebagai net settlement",
+        "b": "Diteruskan ke hari berikutnya",
+        "c": "Ditolak (Rejected)",
+        "d": "Dikonversi menjadi urgent payment"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Ditolak (Rejected)"
+    },
+    {
+      "id": "ba2_03_21",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Manfaat ISO 20022 untuk analisis AML/CFT adalah...",
+      "options": {
+        "a": "Mempercepat kecepatan transfer antar bank",
+        "b": "Menyediakan data lebih kaya dan terstruktur untuk proses analisis pencucian uang",
+        "c": "Mengurangi biaya transaksi lintas negara",
+        "d": "Menghilangkan kebutuhan verifikasi identitas"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Menyediakan data lebih kaya dan terstruktur untuk proses analisis pencucian uang"
+    },
+    {
+      "id": "ba2_03_22",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Dalam BSPI 2030, inisiatif 'Rupiah Digital' mencakup...",
+      "options": {
+        "a": "Pencetakan uang kertas baru",
+        "b": "Cash-Ledger, Securities-Ledger, Cross-Border",
+        "c": "Pengembangan BI-FAST dan BI-RTGS",
+        "d": "Program literasi keuangan digital"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Cash-Ledger, Securities-Ledger, Cross-Border"
+    },
+    {
+      "id": "ba2_03_23",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Arahan Gubernur BI dari SIMKRISNAS & SIMKRISBI 2024 berkaitan dengan...",
+      "options": {
+        "a": "Pengembangan fitur Multicurrency",
+        "b": "Memperkuat ketahanan infrastruktur SP terhadap likuiditas, siber, dan bencana alam",
+        "c": "Integrasi BI-RTGS dengan BI-SSSS",
+        "d": "Perluasan akses kepesertaan non-bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memperkuat ketahanan infrastruktur SP terhadap likuiditas, siber, dan bencana alam"
+    },
+    {
+      "id": "ba2_03_24",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Konsep 'One Time Entry' pada ISO 20022 berarti...",
+      "options": {
+        "a": "Satu transaksi hanya bisa dilakukan sekali per hari",
+        "b": "Data pelaku cukup diinput sekali; sistem menggunakannya lagi untuk transaksi berikutnya",
+        "c": "Hanya satu bank yang boleh memproses transaksi",
+        "d": "Limit transaksi hanya satu kali sebelum verifikasi ulang"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Data pelaku cukup diinput sekali; sistem menggunakannya lagi untuk transaksi berikutnya"
+    },
+    {
+      "id": "ba2_03_25",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "BI-SSSS adalah...",
+      "options": {
+        "a": "Sistem kliring antar bank untuk transaksi ritel",
+        "b": "Sistem setelmen surat berharga yang bekerja bersama BI-RTGS",
+        "c": "Sistem pengawasan perbankan BI",
+        "d": "Platform e-commerce resmi Bank Indonesia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Sistem setelmen surat berharga yang bekerja bersama BI-RTGS"
+    },
+    {
+      "id": "ba2_03_26",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Manakah yang BUKAN use case Transfer Valas dalam Multicurrency Domestik?",
+      "options": {
+        "a": "PUAB Valas",
+        "b": "Trade Finance",
+        "c": "Portfolio Investment",
+        "d": "Pembayaran QRIS di minimarket"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Pembayaran QRIS di minimarket"
+    },
+    {
+      "id": "ba2_03_27",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Prinsip 'Broader Access' pada BI-RTGS Gen III bertujuan untuk...",
+      "options": {
+        "a": "Mempercepat proses setelmen",
+        "b": "Mengakomodasi peserta bank dan non-bank",
+        "c": "Mendukung transaksi lintas negara",
+        "d": "Menjaga stabilitas keuangan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mengakomodasi peserta bank dan non-bank"
+    },
+    {
+      "id": "ba2_03_28",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Program Transformasi #3 terkait BI-RTGS Gen III mencakup kode inisiatif...",
+      "options": {
+        "a": "ICT_#1.1.2.1",
+        "b": "ICT_#3.1.2.1 dan ICT_#3.1.2.3",
+        "c": "ICT_#5.2.1.1",
+        "d": "ICT_#2.3.1.2"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): ICT_#3.1.2.1 dan ICT_#3.1.2.3"
+    },
+    {
+      "id": "ba2_03_29",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Correspondent banking pada Wholesale Payment umumnya menggunakan jaringan...",
+      "options": {
+        "a": "VISA/Mastercard",
+        "b": "QRIS",
+        "c": "SWIFT",
+        "d": "PayPal"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): SWIFT"
+    },
+    {
+      "id": "ba2_03_30",
+      "category": "3. BI-RTGS Generasi III & Infrastructure Wholesale",
+      "source": "3. BI-RTGS Generasi III & Infrastructure Wholesale.txt",
+      "question": "Tiga value proposition utama BI-RTGS Gen III adalah...",
+      "options": {
+        "a": "Hemat biaya, cepat, dan mudah digunakan masyarakat",
+        "b": "Memperkuat kehandalan infrastruktur, akses layanan lebih luas, dan optimalisasi data untuk kebijakan",
+        "c": "Menggantikan BI-FAST, memperluas QRIS, dan mendukung Rupiah Digital",
+        "d": "Meningkatkan devisa, menekan inflasi, dan memperkuat kurs rupiah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memperkuat kehandalan infrastruktur, akses layanan lebih luas, dan optimalisasi data untuk kebijakan"
+    },
+    {
+      "id": "ba2_04_1",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Akronim CEMUMUAH dalam konteks BI-FAST merupakan singkatan dari...",
+      "options": {
+        "a": "Cepat, Mudah, Murah, Aman, Handal",
+        "b": "Cepat, Maju, Murah, Aman, Halal",
+        "c": "Canggih, Mudah, Murah, Aman, Handal",
+        "d": "Cepat, Mudah, Murah, Aktif, Handal"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Cepat, Mudah, Murah, Aman, Handal"
+    },
+    {
+      "id": "ba2_04_2",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Batas maksimal nominal transaksi BI-FAST per transaksi saat ini adalah...",
+      "options": {
+        "a": "Rp100 juta",
+        "b": "Rp250 juta",
+        "c": "Rp500 juta",
+        "d": "Rp1 miliar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp250 juta"
+    },
+    {
+      "id": "ba2_04_3",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Manakah di bawah ini yang BUKAN merupakan fitur atau karakteristik BI-FAST?",
+      "options": {
+        "a": "Proxy Address",
+        "b": "Fraud Detection System (FDS)",
+        "c": "Deferred Settlement (Setelmen Tertunda)",
+        "d": "Notifikasi Otomatis"
+      },
+      "answer": "c",
+      "explanation": "BI-FAST menggunakan setelmen real-time. Jawaban benar: Deferred Settlement (Setelmen Tertunda)"
+    },
+    {
+      "id": "ba2_04_4",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Istilah TPS dalam pengukuran kapasitas sistem BI-FAST berarti...",
+      "options": {
+        "a": "Transfer Per Hari",
+        "b": "Transaksi Per Sistem",
+        "c": "Transactions Per Second",
+        "d": "Transfer Per Session"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Transactions Per Second"
+    },
+    {
+      "id": "ba2_04_5",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Kapasitas maksimum pemrosesan transaksi (TPS) BI-FAST saat ini adalah...",
+      "options": {
+        "a": "1.000 TPS",
+        "b": "1.500 TPS",
+        "c": "2.000 TPS",
+        "d": "5.000 TPS"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 2.000 TPS"
+    },
+    {
+      "id": "ba2_04_6",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Berapa persentase threshold TPS BI-FAST yang dijaga oleh Bank Indonesia untuk kondisi normal?",
+      "options": {
+        "a": "50%",
+        "b": "60%",
+        "c": "75%",
+        "d": "90%"
+      },
+      "answer": "c",
+      "explanation": "Setara dengan 1.500 TPS. Jawaban benar: 75%"
+    },
+    {
+      "id": "ba2_04_7",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Fitur Proxy Address pada BI-FAST berfungsi sebagai...",
+      "options": {
+        "a": "Alamat fisik nasabah",
+        "b": "Pengganti nomor rekening (menggunakan email atau nomor HP)",
+        "c": "Alamat server cadangan",
+        "d": "Identitas rahasia peserta"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pengganti nomor rekening (menggunakan email atau nomor HP)"
+    },
+    {
+      "id": "ba2_04_8",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "BI-FAST dirancang oleh Bank Indonesia sebagai infrastruktur untuk kategori...",
+      "options": {
+        "a": "Wholesale Payment (Nilai Besar)",
+        "b": "Sistem Pembayaran Ritel Nasional",
+        "c": "Transaksi Pasar Modal",
+        "d": "Pinjaman Antar Bank saja"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Sistem Pembayaran Ritel Nasional"
+    },
+    {
+      "id": "ba2_04_9",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Biaya maksimal yang dikenakan dari peserta (bank) kepada nasabah untuk transaksi BI-FAST adalah...",
+      "options": {
+        "a": "Rp19",
+        "b": "Rp2.500",
+        "c": "Rp2.900",
+        "d": "Rp6.500"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp2.500"
+    },
+    {
+      "id": "ba2_04_10",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Berapa biaya yang dikenakan Bank Indonesia kepada peserta per transaksi BI-FAST?",
+      "options": {
+        "a": "Gratis",
+        "b": "Rp19",
+        "c": "Rp2.500",
+        "d": "Rp1.500"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp19"
+    },
+    {
+      "id": "ba2_04_11",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Perbedaan utama BI-FAST dibandingkan dengan SKNBI dalam hal penyelesaian dana (setelmen) adalah...",
+      "options": {
+        "a": "SKNBI real-time, BI-FAST tertunda",
+        "b": "Keduanya dilakukan secara tertunda (deferred)",
+        "c": "BI-FAST dilakukan secara real-time, SKNBI secara tertunda",
+        "d": "BI-FAST hanya beroperasi pada hari kerja"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): BI-FAST dilakukan secara real-time, SKNBI secara tertunda"
+    },
+    {
+      "id": "ba2_04_12",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Dalam Visi SPI 2030, aktivitas keuangan yang mirip bank namun tanpa pengawasan ketat disebut...",
+      "options": {
+        "a": "Digital Banking",
+        "b": "Shadow Banking",
+        "c": "Open API",
+        "d": "Fintech Lending"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Shadow Banking"
+    },
+    {
+      "id": "ba2_04_13",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Prinsip \"Resiprokalitas\" dalam kerja sama internasional sistem pembayaran berarti...",
+      "options": {
+        "a": "Semua biaya harus gratis",
+        "b": "Kesetaraan perlakuan/timbal balik antar negara",
+        "c": "Penggunaan satu mata uang yang sama",
+        "d": "Kewajiban menggunakan teknologi lokal"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kesetaraan perlakuan/timbal balik antar negara"
+    },
+    {
+      "id": "ba2_04_14",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Apa yang dimaksud dengan IN-FAST?",
+      "options": {
+        "a": "International Fast Payment",
+        "b": "Industri Fast Payment (infrastruktur yang dikelola industri)",
+        "c": "Internet Fast System",
+        "d": "Infrastruktur Nasabah Fast"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Industri Fast Payment (infrastruktur yang dikelola industri)"
+    },
+    {
+      "id": "ba2_04_15",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Entitas mana yang akan memiliki IN-FAST pada fase akhir (end state) 2028-2030?",
+      "options": {
+        "a": "Bank Indonesia secara penuh",
+        "b": "Kementerian BUMN",
+        "c": "RAJA (sebagai New Legal Entity PT dengan kepemilikan merata)",
+        "d": "Kolektif Bank-Bank BUMN saja"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): RAJA (sebagai New Legal Entity PT dengan kepemilikan merata)"
+    },
+    {
+      "id": "ba2_04_16",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Mengapa BI-FAST eksisting disebut memiliki \"Monolithic System\"?",
+      "options": {
+        "a": "Karena sangat kuat dan besar",
+        "b": "Karena sistemnya tidak modular (harus upgrade seluruhnya sekaligus)",
+        "c": "Karena hanya bisa digunakan oleh satu bank",
+        "d": "Karena menggunakan teknologi batu (kuno)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Karena sistemnya tidak modular (harus upgrade seluruhnya sekaligus)"
+    },
+    {
+      "id": "ba2_04_17",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Tiga (3) Pilar Kebijakan Sistem Pembayaran Bank Indonesia terdiri dari...",
+      "options": {
+        "a": "Industri Sehat, Integrasi 3i, dan Praktik Pasar Sehat",
+        "b": "Cepat, Murah, dan Aman",
+        "c": "Moneter, Makroprudensial, dan Kelancaran SP",
+        "d": "Inovasi, Infrastruktur, dan Internasional"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Industri Sehat, Integrasi 3i, dan Praktik Pasar Sehat"
+    },
+    {
+      "id": "ba2_04_18",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Layanan infrastruktur BI-Payment Clear ditetapkan oleh Bank Indonesia sebagai...",
+      "options": {
+        "a": "Layanan premium berbayar mahal",
+        "b": "Infrastruktur publik yang tidak dikenakan biaya (gratis)",
+        "c": "Layanan khusus untuk bank asing",
+        "d": "Layanan opsional bagi peserta"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Infrastruktur publik yang tidak dikenakan biaya (gratis)"
+    },
+    {
+      "id": "ba2_04_19",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Manakah yang merupakan tiga fungsi utama dari BI-Payment Clear?",
+      "options": {
+        "a": "Transfer, Kliring, dan Setelmen",
+        "b": "Integritas Akun, Integritas Transaksi, dan Integritas Pasca Transaksi",
+        "c": "Registrasi, Autentikasi, dan Otorisasi",
+        "d": "Penarikan, Setoran, dan Transfer"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Integritas Akun, Integritas Transaksi, dan Integritas Pasca Transaksi"
+    },
+    {
+      "id": "ba2_04_20",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Apa singkatan dari 4I-RD dalam inisiatif BSPI 2030?",
+      "options": {
+        "a": "4 Infrastruktur dan Rupiah Digital",
+        "b": "4 Inisiatif (Infrastruktur, Industri, Inovasi, Internasional) + Rupiah Digital",
+        "c": "4 Institusi dan Reformasi Digital",
+        "d": "4 Indikator dan Regulasi Digital"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 4 Inisiatif (Infrastruktur, Industri, Inovasi, Internasional) + Rupiah Digital"
+    },
+    {
+      "id": "ba2_04_21",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Berapa proyeksi volume transaksi Off Us pada tahun 2030 mendatang?",
+      "options": {
+        "a": "8 Miliar Transaksi",
+        "b": "37 Miliar Transaksi",
+        "c": "48,6 Miliar Transaksi",
+        "d": "147,9 Miliar Transaksi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 48,6 Miliar Transaksi"
+    },
+    {
+      "id": "ba2_04_22",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Mekanisme DNS yang digunakan pada transaksi IN-FAST merupakan singkatan dari...",
+      "options": {
+        "a": "Domain Name System",
+        "b": "Deferred Net Settlement (Setelmen tertunda dengan netting)",
+        "c": "Digital Network System",
+        "d": "Direct Net Settlement"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Deferred Net Settlement (Setelmen tertunda dengan netting)"
+    },
+    {
+      "id": "ba2_04_23",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Penilaian TIKMI digunakan oleh Bank Indonesia sebagai prasyarat untuk...",
+      "options": {
+        "a": "Mendapatkan dana talangan",
+        "b": "Akses kepesertaan infrastruktur sistem pembayaran",
+        "c": "Menentukan biaya administrasi bank",
+        "d": "Menilai kinerja saham bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Akses kepesertaan infrastruktur sistem pembayaran"
+    },
+    {
+      "id": "ba2_04_24",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Pengembangan New BI-FAST Fase 2 akan berfokus pada layanan...",
+      "options": {
+        "a": "Individual Credit Transfer domestik",
+        "b": "Bulk Transfer massal",
+        "c": "Cross Border Transfer (transaksi antar negara via Nexus)",
+        "d": "Overlay Services seperti QRIS"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Cross Border Transfer (transaksi antar negara via Nexus)"
+    },
+    {
+      "id": "ba2_04_25",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Konsep \"Herd Immunity Ekosistem\" dalam BI-Payment Clear merujuk pada...",
+      "options": {
+        "a": "Kewajiban vaksinasi bagi seluruh pegawai bank",
+        "b": "Perlindungan kolektif melalui sharing data fraudster antar peserta",
+        "c": "Proteksi sistem dari serangan virus komputer secara otomatis",
+        "d": "Imunitas hukum bagi penyelenggara sistem pembayaran"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Perlindungan kolektif melalui sharing data fraudster antar peserta"
+    },
+    {
+      "id": "ba2_04_26",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Perbedaan utama antara New BI-FAST dan IN-FAST adalah...",
+      "options": {
+        "a": "New BI-FAST untuk PSP Utama, IN-FAST untuk PSP Selain Utama",
+        "b": "New BI-FAST dikelola industri, IN-FAST dikelola BI",
+        "c": "New BI-FAST untuk transaksi kecil, IN-FAST untuk transaksi besar",
+        "d": "Tidak ada perbedaan sama sekali"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): New BI-FAST untuk PSP Utama, IN-FAST untuk PSP Selain Utama"
+    },
+    {
+      "id": "ba2_04_27",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Pada kondisi end state (2028-2030), peran RAJA akan bergeser menjadi...",
+      "options": {
+        "a": "Regulator tunggal sistem pembayaran",
+        "b": "PSP Penerusan Transaksi dan Penyelenggara Penunjang",
+        "c": "Pemilik tunggal Bank Indonesia",
+        "d": "Penyedia uang kartal nasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): PSP Penerusan Transaksi dan Penyelenggara Penunjang"
+    },
+    {
+      "id": "ba2_04_28",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Manakah layanan yang termasuk dalam Overlay Services (Fase 3 New BI-FAST)?",
+      "options": {
+        "a": "Transfer antar rekening biasa",
+        "b": "Kliring cek dan bilyet giro",
+        "c": "QRIS dan Kartu Kredit Internasional",
+        "d": "Penarikan tunai di ATM"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): QRIS dan Kartu Kredit Internasional"
+    },
+    {
+      "id": "ba2_04_29",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Bagaimana karakteristik skema harga pada New BI-FAST nantinya?",
+      "options": {
+        "a": "Flat satu harga untuk semua kondisi",
+        "b": "Gratis total selamanya",
+        "c": "Parameterized (berdasarkan layanan, waktu, volume, nominal, dan nasabah)",
+        "d": "Ditentukan sepenuhnya oleh masing-masing bank tanpa batasan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Parameterized (berdasarkan layanan, waktu, volume, nominal, dan nasabah)"
+    },
+    {
+      "id": "ba2_04_30",
+      "category": "4. BI-FAST & Infrastruktur SP Ritel",
+      "source": "4. BI-FAST & Infrastruktur SP Ritel.txt",
+      "question": "Visi SPI 2030 menjamin interlink antara fintech dan perbankan bertujuan utama untuk menghindari...",
+      "options": {
+        "a": "Persaingan bisnis yang sehat",
+        "b": "Risiko shadow banking",
+        "c": "Penggunaan mata uang asing",
+        "d": "Pertumbuhan ekonomi digital"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Risiko shadow banking"
+    },
+    {
+      "id": "ba2_05_1",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Rupiah Digital (CBDC) adalah mata uang digital yang diterbitkan oleh...",
+      "options": {
+        "a": "Kementerian Keuangan",
+        "b": "Bank Indonesia",
+        "c": "Otoritas Jasa Keuangan (OJK)",
+        "d": "Konsorsium Bank Swasta"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bank Indonesia"
+    },
+    {
+      "id": "ba2_05_2",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Apa kepanjangan dari istilah CBDC?",
+      "options": {
+        "a": "Central Bank Digital Currency",
+        "b": "Central Banking Digital Commerce",
+        "c": "Crypto Based Digital Currency",
+        "d": "Central Bank Digital Capital"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Central Bank Digital Currency"
+    },
+    {
+      "id": "ba2_05_3",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Berdasarkan klasifikasi \"Money Flower\" (BIS 2018), karakteristik yang mendefinisikan CBDC meliputi hal berikut, KECUALI...",
+      "options": {
+        "a": "Penerbit (Siapa yang buat)",
+        "b": "Bentuk (Digital/Fisik)",
+        "c": "Aksesibilitas (Terbatas/Luas)",
+        "d": "Lokasi Server (Pusat/Daerah)"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Lokasi Server (Pusat/Daerah)"
+    },
+    {
+      "id": "ba2_05_4",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Perbedaan mendasar antara Rupiah Digital dengan E-money (seperti GoPay/OVO) adalah...",
+      "options": {
+        "a": "E-money dijamin oleh negara, Rupiah Digital tidak",
+        "b": "Rupiah Digital diterbitkan Bank Indonesia, E-money diterbitkan swasta",
+        "c": "Rupiah Digital berbentuk saldo aplikasi, E-money berbentuk token",
+        "d": "Tidak ada perbedaan, keduanya adalah hal yang sama"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rupiah Digital diterbitkan Bank Indonesia, E-money diterbitkan swasta"
+    },
+    {
+      "id": "ba2_05_5",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Prinsip \"Do No Harm\" dalam pengembangan Rupiah Digital berarti...",
+      "options": {
+        "a": "Tidak boleh digunakan untuk mendanai terorisme",
+        "b": "Tidak boleh mengganggu tugas BI di bidang moneter dan makroprudensial",
+        "c": "Harus aman dari serangan peretas (hacker)",
+        "d": "Tidak boleh merusak lingkungan dalam proses produksinya"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tidak boleh mengganggu tugas BI di bidang moneter dan makroprudensial"
+    },
+    {
+      "id": "ba2_05_6",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Prinsip \"Coexist\" dalam implementasi Rupiah Digital mengandung makna bahwa...",
+      "options": {
+        "a": "Rupiah Digital akan menggantikan seluruh uang tunai",
+        "b": "Rupiah Digital hidup berdampingan dengan uang tunai dan e-money",
+        "c": "Seluruh negara harus meluncurkan CBDC secara bersamaan",
+        "d": "Rupiah Digital hanya bisa digunakan bersama dengan aset kripto"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rupiah Digital hidup berdampingan dengan uang tunai dan e-money"
+    },
+    {
+      "id": "ba2_05_7",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "w-Rupiah Digital (Wholesale) secara khusus ditujukan untuk...",
+      "options": {
+        "a": "Masyarakat umum untuk belanja harian",
+        "b": "Bank dan lembaga keuangan untuk penyelesaian transaksi antar bank",
+        "c": "Usaha Mikro, Kecil, dan Menengah (UMKM)",
+        "d": "Turis asing yang masuk ke Indonesia"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Usaha Mikro, Kecil, dan Menengah (UMKM)"
+    },
+    {
+      "id": "ba2_05_8",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "r-Rupiah Digital (Retail) dikembangkan dengan tujuan untuk...",
+      "options": {
+        "a": "Cadangan devisa negara",
+        "b": "Digunakan oleh masyarakat umum untuk pembayaran sehari-hari",
+        "c": "Hanya untuk transaksi di pasar modal",
+        "d": "Pembayaran utang luar negeri pemerintah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Digunakan oleh masyarakat umum untuk pembayaran sehari-hari"
+    },
+    {
+      "id": "ba2_05_9",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Distribusi Rupiah Digital menggunakan sistem \"2 Tier\". Pihak yang berada di Tier 1 (sebagai penerbit) adalah...",
+      "options": {
+        "a": "Bank Indonesia",
+        "b": "Bank Umum dan Non-Bank",
+        "c": "Merchant atau Pedagang",
+        "d": "Masyarakat Luas"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Bank Indonesia"
+    },
+    {
+      "id": "ba2_05_10",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Teknologi yang diuji dan dinyatakan berhasil dalam Proof of Concept (PoC) Proyek Garuda adalah...",
+      "options": {
+        "a": "Bitcoin dan Ethereum",
+        "b": "Corda dan Hyperledger Besu",
+        "c": "Solana dan Polygon",
+        "d": "AWS dan Google Cloud"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Corda dan Hyperledger Besu"
+    },
+    {
+      "id": "ba2_05_11",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Apa kepanjangan dari DLT yang merupakan fondasi teknologi Rupiah Digital?",
+      "options": {
+        "a": "Digital Ledger Transfer",
+        "b": "Distributed Ledger Technology",
+        "c": "Direct Linked Transaction",
+        "d": "Dynamic Ledger Token"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Distributed Ledger Technology"
+    },
+    {
+      "id": "ba2_05_12",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "\"Permissioned DLT\" yang digunakan dalam Proyek Garuda berarti...",
+      "options": {
+        "a": "Jaringan terbuka yang bisa diakses siapa saja secara anonim",
+        "b": "Jaringan blockchain yang terbatas hanya untuk peserta yang terdaftar/diizinkan",
+        "c": "Sistem manual yang memerlukan izin tertulis untuk setiap transfer",
+        "d": "Teknologi yang hanya boleh digunakan oleh pemerintah pusat"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Jaringan blockchain yang terbatas hanya untuk peserta yang terdaftar/diizinkan"
+    },
+    {
+      "id": "ba2_05_13",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Apa nama resmi proyek pengembangan Rupiah Digital oleh Bank Indonesia?",
+      "options": {
+        "a": "Proyek Nusantara",
+        "b": "Proyek Garuda",
+        "c": "Proyek Merah Putih",
+        "d": "Proyek Digitalisasi NKRI"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Proyek Garuda"
+    },
+    {
+      "id": "ba2_05_14",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Dokumen \"White Paper\" Proyek Garuda pertama kali diterbitkan pada...",
+      "options": {
+        "a": "Januari 2022",
+        "b": "November 2022",
+        "c": "Maret 2023",
+        "d": "Agustus 2024"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): November 2022"
+    },
+    {
+      "id": "ba2_05_15",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Berapa jumlah bank yang terlibat sebagai peserta dalam tahap Sandboxing Proyek Garuda?",
+      "options": {
+        "a": "5 Bank",
+        "b": "10 Bank",
+        "c": "15 Bank",
+        "d": "26 Bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 10 Bank"
+    },
+    {
+      "id": "ba2_05_16",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Berdasarkan data Chainalysis, Indonesia menempati peringkat berapa dunia dalam adopsi aset kripto?",
+      "options": {
+        "a": "Peringkat 1",
+        "b": "Peringkat 3",
+        "c": "Peringkat 5",
+        "d": "Peringkat 10"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Peringkat 3"
+    },
+    {
+      "id": "ba2_05_17",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Regulasi di Amerika Serikat yang melegalkan stablecoin dan mendorong respons global terhadap CBDC adalah...",
+      "options": {
+        "a": "GENIUS Act",
+        "b": "CRYPTO Act",
+        "c": "DIGITAL Dollar Act",
+        "d": "STABLE Act"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): GENIUS Act"
+    },
+    {
+      "id": "ba2_05_18",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Risiko \"Substitusi Mata Uang\" akibat maraknya stablecoin dolar (seperti USDT) dapat menyebabkan...",
+      "options": {
+        "a": "Rupiah semakin kuat nilainya",
+        "b": "Terjadinya dolarisasi di mana masyarakat lebih suka menggunakan USD daripada Rupiah",
+        "c": "Bank-bank di Indonesia mendapatkan lebih banyak nasabah",
+        "d": "Inflasi di Indonesia menurun drastis"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Terjadinya dolarisasi di mana masyarakat lebih suka menggunakan USD daripada Rupiah"
+    },
+    {
+      "id": "ba2_05_19",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "DFABI merupakan instrumen digital yang diterbitkan Bank Indonesia dalam bentuk...",
+      "options": {
+        "a": "Mata uang digital untuk rakyat",
+        "b": "Surat berharga digital (securities)",
+        "c": "Dompet digital milik negara",
+        "d": "Aplikasi perdagangan kripto"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Surat berharga digital (securities)"
+    },
+    {
+      "id": "ba2_05_20",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Salah satu perbedaan utama antara Rupiah Digital dan DFABI adalah...",
+      "options": {
+        "a": "Rupiah Digital berbunga, DFABI tidak",
+        "b": "Rupiah Digital tidak menghasilkan bunga, DFABI menghasilkan bunga",
+        "c": "Rupiah Digital diterbitkan OJK, DFABI diterbitkan BI",
+        "d": "Rupiah Digital adalah investasi, DFABI adalah alat bayar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rupiah Digital tidak menghasilkan bunga, DFABI menghasilkan bunga"
+    },
+    {
+      "id": "ba2_05_21",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Mekanisme penerbitan Rupiah Digital bersifat \"On-Demand\", yang artinya...",
+      "options": {
+        "a": "Diterbitkan massal setiap awal tahun",
+        "b": "Diterbitkan sesuai permintaan bank melalui konversi saldo giro di BI",
+        "c": "Diterbitkan secara otomatis oleh sistem setiap ada transaksi ritel",
+        "d": "Diterbitkan hanya saat terjadi krisis ekonomi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Diterbitkan sesuai permintaan bank melalui konversi saldo giro di BI"
+    },
+    {
+      "id": "ba2_05_22",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Proses mengubah aset fisik seperti properti atau obligasi menjadi representasi digital di blockchain disebut...",
+      "options": {
+        "a": "Digitalisasi",
+        "b": "Tokenisasi",
+        "c": "Enkripsi",
+        "d": "Katalogisasi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tokenisasi"
+    },
+    {
+      "id": "ba2_05_23",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Bank peserta Sandboxing yang sedang mengeksplorasi tokenisasi aset properti adalah...",
+      "options": {
+        "a": "Bank Mandiri",
+        "b": "Bank BCA",
+        "c": "Bank BTN",
+        "d": "Bank BRI"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bank BTN"
+    },
+    {
+      "id": "ba2_05_24",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Berdasarkan UU Mata Uang jo. UU P2SK, saat ini Rupiah terdiri atas...",
+      "options": {
+        "a": "Rupiah kertas dan logam saja",
+        "b": "Rupiah fisik dan Rupiah elektronik",
+        "c": "Rupiah kertas, logam, dan digital",
+        "d": "Rupiah domestik dan Rupiah internasional"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rupiah kertas, logam, dan digital"
+    },
+    {
+      "id": "ba2_05_25",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Program komputer di blockchain yang otomatis berjalan saat syarat tertentu terpenuhi disebut...",
+      "options": {
+        "a": "Artificial Intelligence",
+        "b": "Smart Contract",
+        "c": "Digital Agreement",
+        "d": "Auto-Transfer"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Smart Contract"
+    },
+    {
+      "id": "ba2_05_26",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Dalam roadmap Proyek Garuda, pengembangan \"Securities Ledger\" atau DFABI berada pada tahap...",
+      "options": {
+        "a": "Stage 1 (Immediate State)",
+        "b": "Stage 2 (Intermediate State)",
+        "c": "Stage 3 (End State)",
+        "d": "Tahap Eksplorasi Awal"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Stage 2 (Intermediate State)"
+    },
+    {
+      "id": "ba2_05_27",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Berdasarkan data kependudukan, kelompok usia yang paling mendominasi investor kripto di Indonesia (62%) adalah...",
+      "options": {
+        "a": "Baby Boomers",
+        "b": "Gen X",
+        "c": "Gen Y dan Gen Z (Usia 18-30 tahun)",
+        "d": "Penduduk usia di atas 50 tahun"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Gen Y dan Gen Z (Usia 18-30 tahun)"
+    },
+    {
+      "id": "ba2_05_28",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Apa kepanjangan dari DFABI?",
+      "options": {
+        "a": "Digital Finance Asset Bank Indonesia",
+        "b": "Digital Financial Asset Bank Indonesia",
+        "c": "Distributed Fund and Asset Bank Indonesia",
+        "d": "Digital Financial Association of Bank Indonesia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Digital Financial Asset Bank Indonesia"
+    },
+    {
+      "id": "ba2_05_29",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Prinsip \"Inovasi\" dalam pengembangan Rupiah Digital bertujuan untuk...",
+      "options": {
+        "a": "Menciptakan mata uang yang paling mahal di dunia",
+        "b": "Mendorong efisiensi dan inovasi pada sistem pembayaran nasional",
+        "c": "Menghilangkan peran bank-bank konvensional",
+        "d": "Memungkinkan masyarakat mencetak uang digital sendiri"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mendorong efisiensi dan inovasi pada sistem pembayaran nasional"
+    },
+    {
+      "id": "ba2_05_30",
+      "category": "5. CBDC dan Proyek Garuda",
+      "source": "5. CBDC dan Proyek Garuda.txt",
+      "question": "Visi strategis Bank Indonesia adalah menjadikan Rupiah Digital sebagai...",
+      "options": {
+        "a": "Pengganti seluruh aset kripto swasta",
+        "b": "Platform masa depan bagi sistem keuangan nasional era digital",
+        "c": "Alat spekulasi untuk mendapatkan keuntungan tinggi",
+        "d": "Satu-satunya aset yang boleh dimiliki masyarakat"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Platform masa depan bagi sistem keuangan nasional era digital"
+    },
+    {
+      "id": "ba2_06_1",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Apa kepanjangan dari istilah QRIS yang ditetapkan oleh Bank Indonesia?",
+      "options": {
+        "a": "Quick Response Indonesian Standard",
+        "b": "QR Code Indonesian Standard for Payment",
+        "c": "Quick Rate Indonesian System for Payment",
+        "d": "QR Code International Standard for Payment"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): QR Code Indonesian Standard for Payment"
+    },
+    {
+      "id": "ba2_06_2",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "QRIS Merchant Presented Mode (MPM) pertama kali diimplementasikan pada...",
+      "options": {
+        "a": "1 Januari 2019",
+        "b": "17 Agustus 2019",
+        "c": "17 Agustus 2020",
+        "d": "14 Maret 2025"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 17 Agustus 2019"
+    },
+    {
+      "id": "ba2_06_3",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Manakah pernyataan yang BENAR mengenai QRIS Consumer Presented Mode (CPM)?",
+      "options": {
+        "a": "Merchant menampilkan QR statis di kasir",
+        "b": "Pelanggan menunjukkan QR Code di HP-nya untuk di-scan kasir",
+        "c": "Merchant mengirim gambar QR melalui aplikasi chat",
+        "d": "Digunakan untuk tarik tunai di mesin ATM"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pelanggan menunjukkan QR Code di HP-nya untuk di-scan kasir"
+    },
+    {
+      "id": "ba2_06_4",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Fitur QRIS yang memungkinkan pengguna melakukan tarik tunai, setor tunai, dan transfer disebut...",
+      "options": {
+        "a": "QRIS MPM",
+        "b": "QRIS Cross-Border",
+        "c": "QRIS TUNTAS",
+        "d": "QRIS TAP"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): QRIS TUNTAS"
+    },
+    {
+      "id": "ba2_06_5",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Negara mitra pertama yang mengimplementasikan QRIS Cross-Border (antarnegara) dengan Indonesia adalah...",
+      "options": {
+        "a": "Malaysia",
+        "b": "Singapura",
+        "c": "Thailand",
+        "d": "Jepang"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Thailand"
+    },
+    {
+      "id": "ba2_06_6",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Inovasi QRIS yang menggunakan teknologi NFC sehingga pengguna cukup menempelkan HP ke mesin reader disebut...",
+      "options": {
+        "a": "QRIS CPM",
+        "b": "QRIS TTM",
+        "c": "QRIS TAP",
+        "d": "QRIS Paylater"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): QRIS TAP"
+    },
+    {
+      "id": "ba2_06_7",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Apa keunggulan utama QRIS TAP dibandingkan dengan QRIS scan biasa?",
+      "options": {
+        "a": "Tidak memerlukan smartphone",
+        "b": "Biaya transaksi jauh lebih murah",
+        "c": "Proses lebih cepat (1 langkah) dan bisa dilakukan saat layar HP mati/redup",
+        "d": "Hanya bisa digunakan oleh nasabah bank BUMN"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Proses lebih cepat (1 langkah) dan bisa dilakukan saat layar HP mati/redup"
+    },
+    {
+      "id": "ba2_06_8",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Sektor yang paling potensial dan sudah banyak mengimplementasikan QRIS TAP untuk menangani antrean panjang adalah...",
+      "options": {
+        "a": "Pertanian",
+        "b": "Transportasi publik (MRT, KRL, LRT)",
+        "c": "Belanja di pasar tradisional",
+        "d": "Pembayaran pajak tahunan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transportasi publik (MRT, KRL, LRT)"
+    },
+    {
+      "id": "ba2_06_9",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Apa kepanjangan dari KKI yang merupakan inisiatif digitalisasi belanja pemerintah?",
+      "options": {
+        "a": "Kartu Keuangan Indonesia",
+        "b": "Kartu Kredit Indonesia",
+        "c": "Kas Kredit Indonesia",
+        "d": "Komunitas Keuangan Indonesia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kartu Kredit Indonesia"
+    },
+    {
+      "id": "ba2_06_10",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Infrastruktur yang digunakan oleh KKI adalah infrastruktur domestik milik...",
+      "options": {
+        "a": "Visa",
+        "b": "Mastercard",
+        "c": "GPN (Gerbang Pembayaran Nasional)",
+        "d": "SWIFT"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): GPN (Gerbang Pembayaran Nasional)"
+    },
+    {
+      "id": "ba2_06_11",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Salah satu tujuan utama pengembangan KKI bagi pemerintah adalah...",
+      "options": {
+        "a": "Meningkatkan penggunaan produk dalam negeri (GBBI)",
+        "b": "Memberikan pinjaman pribadi bagi pegawai negeri",
+        "c": "Mempermudah wisatawan asing belanja di Indonesia",
+        "d": "Menghilangkan peran bank daerah"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Meningkatkan penggunaan produk dalam negeri (GBBI)"
+    },
+    {
+      "id": "ba2_06_12",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Biaya yang dikenakan ke merchant untuk setiap transaksi kartu (MDR) pada KKI fitur QRIS berkisar antara...",
+      "options": {
+        "a": "2% - 3%",
+        "b": "1% - 1,5%",
+        "c": "0% - 0,7%",
+        "d": "Gratis selamanya"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 0% - 0,7%"
+    },
+    {
+      "id": "ba2_06_13",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Regulasi daerah yang harus diterbitkan Kepala Daerah sebagai landasan hukum penggunaan KKI disebut...",
+      "options": {
+        "a": "PERKADA",
+        "b": "PERMEN",
+        "c": "PERPU",
+        "d": "PERPRES"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): PERKADA"
+    },
+    {
+      "id": "ba2_06_14",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Berdasarkan target 2026 (Tema 17-08-47), berapa target jumlah merchant QRIS yang ingin dicapai?",
+      "options": {
+        "a": "17 Juta Merchant",
+        "b": "8 Juta Merchant",
+        "c": "47 Juta Merchant",
+        "d": "70 Juta Merchant"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 47 Juta Merchant"
+    },
+    {
+      "id": "ba2_06_15",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Apa kepanjangan dari PIDI yang merupakan pusat inovasi digital milik Bank Indonesia?",
+      "options": {
+        "a": "Pusat Informasi Digital Indonesia",
+        "b": "Pusat Inovasi Digital Indonesia",
+        "c": "Platform Inovasi Digital Indonesia",
+        "d": "Program Inklusi Digital Indonesia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pusat Inovasi Digital Indonesia"
+    },
+    {
+      "id": "ba2_06_16",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Manakah yang merupakan 3 pilar utama PIDI?",
+      "options": {
+        "a": "Standarisasi, Simplifikasi, Sistemisasi",
+        "b": "Infrastruktur, Industri, Inovasi",
+        "c": "Market Intelligence, Innovation Experimentation, Digital Talent Development",
+        "d": "Inbound, Outbound, Cross-Border"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Market Intelligence, Innovation Experimentation, Digital Talent Development"
+    },
+    {
+      "id": "ba2_06_17",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Program sertifikasi dan pelatihan talenta inovator digital di PIDI dikenal dengan nama...",
+      "options": {
+        "a": "SIGMA",
+        "b": "DIGDAYA",
+        "c": "HACKATHON",
+        "d": "FEKDI"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): DIGDAYA"
+    },
+    {
+      "id": "ba2_06_18",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Dalam strategi spasial BI, daerah dengan \"Adopsi Tinggi\" namun \"Infrastruktur Belum Siap\" mendapatkan strategi...",
+      "options": {
+        "a": "MAINTAIN",
+        "b": "ENCOURAGE (Dukungan Infrastruktur)",
+        "c": "IMPROVE",
+        "d": "TERMINATE"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): ENCOURAGE (Dukungan Infrastruktur)"
+    },
+    {
+      "id": "ba2_06_19",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Flagship program edukasi dan kampanye QRIS yang berkeliling ke berbagai daerah disebut...",
+      "options": {
+        "a": "FEKDI",
+        "b": "SNAP",
+        "c": "QRIS Jelajah Indonesia (QJI)",
+        "d": "BI-FAST"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): QRIS Jelajah Indonesia (QJI)"
+    },
+    {
+      "id": "ba2_06_20",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Slogan yang diusung dalam Blueprint Sistem Pembayaran Indonesia (BSPI) adalah...",
+      "options": {
+        "a": "Cepat, Mudah, Murah, Aman, Handal",
+        "b": "Bersatu Membangun Digitalisasi",
+        "c": "Satu Nusa, Satu Bangsa, Satu Bahasa",
+        "d": "Indonesia Maju dengan Digital"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Satu Nusa, Satu Bangsa, Satu Bahasa"
+    },
+    {
+      "id": "ba2_06_21",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Istilah \"Inbound\" dalam QRIS Cross-Border merujuk pada...",
+      "options": {
+        "a": "WNI yang berbelanja di luar negeri menggunakan QRIS",
+        "b": "Wisatawan mancanegara yang berbelanja di Indonesia menggunakan QR negara asalnya",
+        "c": "Transfer uang dari bank lokal ke bank asing",
+        "d": "Ekspor jasa digital ke negara mitra"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Wisatawan mancanegara yang berbelanja di Indonesia menggunakan QR negara asalnya"
+    },
+    {
+      "id": "ba2_06_22",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Berapa proyeksi total transaksi Ekonomi Keuangan Digital (EKD) Indonesia pada tahun 2030?",
+      "options": {
+        "a": "37 Miliar Transaksi",
+        "b": "48,6 Miliar Transaksi",
+        "c": "147,3 Miliar Transaksi",
+        "d": "200 Miliar Transaksi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 147,3 Miliar Transaksi"
+    },
+    {
+      "id": "ba2_06_23",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Apa yang dimaksud dengan transaksi \"Off-Us\"?",
+      "options": {
+        "a": "Transaksi di dalam satu bank yang sama",
+        "b": "Transaksi antar bank/penyelenggara yang berbeda",
+        "c": "Transaksi yang dilakukan secara luring (offline)",
+        "d": "Transaksi yang dibatalkan oleh sistem"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transaksi antar bank/penyelenggara yang berbeda"
+    },
+    {
+      "id": "ba2_06_24",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Prinsip \"3S\" dalam strategi BSPI 2030 terdiri dari...",
+      "options": {
+        "a": "Strategi, Solusi, Sinergi",
+        "b": "Standarisasi, Simplifikasi, Sistemisasi",
+        "c": "Stabilitas, Struktur, Safety",
+        "d": "Speed, Smart, Service"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Standarisasi, Simplifikasi, Sistemisasi"
+    },
+    {
+      "id": "ba2_06_25",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "QRIS TTM (Tanpa Tatap Muka) biasanya digunakan oleh merchant dengan cara...",
+      "options": {
+        "a": "Memasang stiker QR di etalase",
+        "b": "Mengirim gambar/foto QR Code melalui aplikasi chat kepada pelanggan",
+        "c": "Mengharuskan pelanggan datang ke toko",
+        "d": "Menggunakan sidik jari sebagai alat verifikasi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mengirim gambar/foto QR Code melalui aplikasi chat kepada pelanggan"
+    },
+    {
+      "id": "ba2_06_26",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Apa nama standar nasional Open API yang digunakan untuk interlink bank dan fintech?",
+      "options": {
+        "a": "BI-FAST",
+        "b": "SNAP",
+        "c": "GPN",
+        "d": "RTGS"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): SNAP"
+    },
+    {
+      "id": "ba2_06_27",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Paket bundling SIM Card dan Uang Elektronik untuk wisatawan mancanegara dalam strategi QRIS CB disebut...",
+      "options": {
+        "a": "Indonesia Digital Pack",
+        "b": "Indonesia Tourist Travel Pack",
+        "c": "QRIS Visitor Kit",
+        "d": "Wonderful Indonesia Card"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Indonesia Tourist Travel Pack"
+    },
+    {
+      "id": "ba2_06_28",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Berapa total hadiah yang disediakan dalam kompetisi PIDI Digdaya x Hackathon 2026?",
+      "options": {
+        "a": "Rp 500 Juta",
+        "b": "Rp 820 Miliar",
+        "c": "Rp 1,4 Miliar",
+        "d": "Rp 10 Miliar"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp 1,4 Miliar"
+    },
+    {
+      "id": "ba2_06_29",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Komponen strategi \"Literasi\" dalam framework akseptasi digital fokus pada...",
+      "options": {
+        "a": "Perbaikan kabel fiber optik",
+        "b": "Peningkatan pemahaman dan kesadaran masyarakat serta perlindungan konsumen",
+        "c": "Pembuatan aplikasi mobile banking baru",
+        "d": "Penurunan bunga pinjaman bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Peningkatan pemahaman dan kesadaran masyarakat serta perlindungan konsumen"
+    },
+    {
+      "id": "ba2_06_30",
+      "category": "6. Akseptasi Digital & Inovasi Sistem Pembayaran",
+      "source": "6. Akseptasi Digital & Inovasi Sistem Pembayaran.txt",
+      "question": "Daerah yang memiliki akses terbatas terhadap uang tunai (biasanya di wilayah 3T) disebut dengan istilah...",
+      "options": {
+        "a": "High Digital Area",
+        "b": "LATC (Low Access To Cash)",
+        "c": "Non-Cash Zone",
+        "d": "Underdeveloped Market"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): LATC (Low Access To Cash)"
+    },
+    {
+      "id": "ba2_07_1",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Infrastruktur yang mendukung penyelesaian transaksi di pasar keuangan seperti obligasi dan surat berharga negara disebut...",
+      "options": {
+        "a": "Sistem Pembayaran (SP)",
+        "b": "Financial Market Infrastructure (FMI)",
+        "c": "Financial Management Institution",
+        "d": "Real Time Gross Settlement (RTGS)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Financial Market Infrastructure (FMI)"
+    },
+    {
+      "id": "ba2_07_2",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Dalam analogi sistem pembayaran, manakah yang disebut sebagai \"Tol Besar\" untuk bank dan lembaga keuangan?",
+      "options": {
+        "a": "BI-FAST",
+        "b": "SKNBI",
+        "c": "BI-RTGS",
+        "d": "BI-ETP"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): BI-RTGS"
+    },
+    {
+      "id": "ba2_07_3",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Berapa jumlah infrastruktur SP-FMI yang diselenggarakan secara langsung oleh Bank Indonesia?",
+      "options": {
+        "a": "3 Infrastruktur",
+        "b": "4 Infrastruktur",
+        "c": "5 Infrastruktur",
+        "d": "7 Infrastruktur"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 5 Infrastruktur"
+    },
+    {
+      "id": "ba2_07_4",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "SIPS (Systemically Important Payment System) adalah infrastruktur yang sangat penting karena jika bermasalah dapat mengganggu stabilitas keuangan nasional. Manakah yang BUKAN termasuk SIPS?",
+      "options": {
+        "a": "BI-RTGS",
+        "b": "BI-SSSS",
+        "c": "BI-FAST",
+        "d": "BI-ETP"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): BI-ETP"
+    },
+    {
+      "id": "ba2_07_5",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Suatu infrastruktur disebut sistemik menurut standar PFMI jika memenuhi minimal...",
+      "options": {
+        "a": "1 dari 4 kriteria",
+        "b": "2 dari 4 kriteria",
+        "c": "3 dari 4 kriteria",
+        "d": "Seluruh kriteria (4 kriteria)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 2 dari 4 kriteria"
+    },
+    {
+      "id": "ba2_07_6",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Kriteria PFMI yang menilai apakah ada infrastruktur serupa yang bisa menggantikan jika suatu sistem gagal disebut...",
+      "options": {
+        "a": "SIZE",
+        "b": "INTERCONNECTION",
+        "c": "COMPLEXITY",
+        "d": "SUBSTITUTION"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): SUBSTITUTION"
+    },
+    {
+      "id": "ba2_07_7",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Jam operasional (cut off) untuk sistem transfer dana wholesale BI-RTGS adalah pukul...",
+      "options": {
+        "a": "16.45 WIB",
+        "b": "18.00 WIB",
+        "c": "18.30 WIB",
+        "d": "19.00 WIB"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 19.00 WIB"
+    },
+    {
+      "id": "ba2_07_8",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Berapa nilai minimal transfer dana nasabah agar dapat diproses melalui BI-RTGS?",
+      "options": {
+        "a": "> Rp10 Juta",
+        "b": "> Rp100 Juta",
+        "c": "> Rp250 Juta",
+        "d": "> Rp1 Miliar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): > Rp100 Juta"
+    },
+    {
+      "id": "ba2_07_9",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Prinsip di BI-RTGS yang menyatakan bahwa transaksi yang telah setel bersifat final dan tidak dapat ditarik kembali disebut...",
+      "options": {
+        "a": "No Money No Game",
+        "b": "Finality of Settlement",
+        "c": "Delivery versus Payment",
+        "d": "Gross Settlement"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Finality of Settlement"
+    },
+    {
+      "id": "ba2_07_10",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Prinsip \"No Money No Game\" dalam operasional BI-RTGS berarti...",
+      "options": {
+        "a": "Transaksi gratis untuk peserta tertentu",
+        "b": "Setelmen harus didukung dana yang cukup (tidak bisa berhutang)",
+        "c": "Hanya bank dengan modal besar yang boleh menjadi peserta",
+        "d": "Transaksi hanya boleh dilakukan pada hari kerja"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Setelmen harus didukung dana yang cukup (tidak bisa berhutang)"
+    },
+    {
+      "id": "ba2_07_11",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Mekanisme antrian transaksi di BI-RTGS yang memproses transaksi yang masuk duluan untuk kategori High Priority disebut...",
+      "options": {
+        "a": "FAFO (First Available First Out)",
+        "b": "LIFO (Last In First Out)",
+        "c": "FIFO (First In First Out)",
+        "d": "Offsetting"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): FIFO (First In First Out)"
+    },
+    {
+      "id": "ba2_07_12",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Berapa biaya layanan Single Credit BI-RTGS jika dilakukan sebelum jam 10.00 WIB?",
+      "options": {
+        "a": "Rp6.000",
+        "b": "Rp15.000",
+        "c": "Rp21.000",
+        "d": "Rp30.000"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Rp6.000"
+    },
+    {
+      "id": "ba2_07_13",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Sistem yang menatausahakan dan menyelesaikan transaksi Surat Berharga Negara (SBN) secara elektronik tanpa warkat fisik adalah...",
+      "options": {
+        "a": "BI-RTGS",
+        "b": "BI-SSSS",
+        "c": "BI-ETP",
+        "d": "SKNBI"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): BI-SSSS"
+    },
+    {
+      "id": "ba2_07_14",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Dalam BI-SSSS, bank besar atau KSEI yang menatausahakan rekening SBN untuk kepentingan nasabah akhir (investor individu) bertindak sebagai...",
+      "options": {
+        "a": "Central Registry",
+        "b": "Central Counterparty",
+        "c": "Sub-Registry",
+        "d": "Securities Depository"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Sub-Registry"
+    },
+    {
+      "id": "ba2_07_15",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Mekanisme penyelesaian transaksi di mana penyerahan surat berharga dan pembayaran dana dilakukan secara bersamaan disebut...",
+      "options": {
+        "a": "Free of Payment (FoP)",
+        "b": "Delivery versus Delivery (DvD)",
+        "c": "Delivery versus Payment (DvP)",
+        "d": "Real Time Settlement"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Delivery versus Payment (DvP)"
+    },
+    {
+      "id": "ba2_07_16",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Perpindahan kepemilikan SBN tanpa disertai dengan setelmen dana di BI-SSSS (misalnya untuk hadiah atau pledge) menggunakan mekanisme...",
+      "options": {
+        "a": "Outright",
+        "b": "Repo",
+        "c": "Free of Payment (FoP)",
+        "d": "Buyback"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Free of Payment (FoP)"
+    },
+    {
+      "id": "ba2_07_17",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Transaksi jual-beli SBN secara putus di mana kepemilikan berpindah secara permanen disebut...",
+      "options": {
+        "a": "Repo",
+        "b": "Outright",
+        "c": "SLB",
+        "d": "Pledge"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Outright"
+    },
+    {
+      "id": "ba2_07_18",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Manakah fungsi utama dari BI-ETP (Electronic Trading Platform)?",
+      "options": {
+        "a": "Kliring cek dan bilyet giro",
+        "b": "Platform transaksi Operasi Moneter dan Lelang SBN",
+        "c": "Transfer dana antar nasabah ritel",
+        "d": "Pencetakan sertifikat surat berharga"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Platform transaksi Operasi Moneter dan Lelang SBN"
+    },
+    {
+      "id": "ba2_07_19",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Mekanisme transaksi di BI-ETP di mana dua peserta bernegosiasi langsung mengenai harga dan kuantitas disebut...",
+      "options": {
+        "a": "Lelang Terbuka",
+        "b": "Bilateral Trading",
+        "c": "Multilateral Settlement",
+        "d": "Centralized Order"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bilateral Trading"
+    },
+    {
+      "id": "ba2_07_20",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Mekanisme setelmen yang digunakan oleh SKNBI di mana transaksi dikumpulkan dulu lalu diselesaikan selisih bersihnya pada jadwal tertentu disebut...",
+      "options": {
+        "a": "Real Time Gross Settlement (RTGS)",
+        "b": "Deferred Net Settlement (DNS)",
+        "c": "Delivery versus Payment (DvP)",
+        "d": "Finality Settlement"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Deferred Net Settlement (DNS)"
+    },
+    {
+      "id": "ba2_07_21",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Batas maksimal nominal transaksi transfer kredit antar nasabah melalui SKNBI adalah...",
+      "options": {
+        "a": "Rp250 Juta",
+        "b": "Rp500 Juta",
+        "c": "Rp1 Miliar",
+        "d": "Tidak terbatas"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp1 Miliar"
+    },
+    {
+      "id": "ba2_07_22",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Layanan SKNBI yang digunakan untuk mengirim gaji karyawan ke banyak rekening sekaligus adalah...",
+      "options": {
+        "a": "Transfer Dana (TD)",
+        "b": "Kliring Warkat Debit (KWD)",
+        "c": "Pembayaran Reguler (PR)",
+        "d": "Penagihan Reguler (PNR)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Pembayaran Reguler (PR)"
+    },
+    {
+      "id": "ba2_07_23",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "BI-FAST memfasilitasi transfer dana nasabah ritel dengan batas maksimal nominal per transaksi sebesar...",
+      "options": {
+        "a": "Rp100 Juta",
+        "b": "Rp250 Juta",
+        "c": "Rp500 Juta",
+        "d": "Rp1 Miliar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp250 Juta"
+    },
+    {
+      "id": "ba2_07_24",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Manakah yang merupakan 5 karakteristik utama BI-FAST?",
+      "options": {
+        "a": "Cepat, Murah, Mudah, Aman, Andal (CEMUMUAH)",
+        "b": "Canggih, Murah, Masif, Aman, Hebat",
+        "c": "Cepat, Modern, Mudah, Akurat, Hemat",
+        "d": "Cepat, Murah, Merata, Aman, Handal"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Cepat, Murah, Mudah, Aman, Andal (CEMUMUAH)"
+    },
+    {
+      "id": "ba2_07_25",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Sumber likuiditas peserta BI-FAST berasal dari saldo rekening mereka di...",
+      "options": {
+        "a": "Kas fisik bank",
+        "b": "BI-SSSS",
+        "c": "BI-RTGS",
+        "d": "Tabungan nasabah"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): BI-RTGS"
+    },
+    {
+      "id": "ba2_07_26",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "MKTBI (Manajemen Keberlangsungan Tugas Bank Indonesia) merupakan bentuk perencanaan BI untuk menghadapi gangguan yang dikenal dengan istilah...",
+      "options": {
+        "a": "AML/CFT",
+        "b": "Business Continuity Plan (BCP)",
+        "c": "Strategic Business Plan (SBP)",
+        "d": "Risk Management Audit"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Business Continuity Plan (BCP)"
+    },
+    {
+      "id": "ba2_07_27",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Batas waktu MAKSIMAL yang dapat diterima BI jika terjadi gangguan pada infrastruktur kritis sebelum berdampak serius disebut...",
+      "options": {
+        "a": "RTO (Recovery Time Objective)",
+        "b": "MTPD (Maximum Tolerable Period of Disruption)",
+        "c": "Cut Off Time",
+        "d": "Settlement Window"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): MTPD (Maximum Tolerable Period of Disruption)"
+    },
+    {
+      "id": "ba2_07_28",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Target waktu pemulihan (RTO) untuk sebagian besar infrastruktur sistem pembayaran Bank Indonesia adalah...",
+      "options": {
+        "a": "30 Menit",
+        "b": "60 Menit",
+        "c": "120 Menit",
+        "d": "24 Jam"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 60 Menit"
+    },
+    {
+      "id": "ba2_07_29",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Kondisi MKTBI di mana gangguan telah menyebabkan TERHENTINYA Tugas Kritikal dan berpotensi berdampak pada stabilitas sistem keuangan disebut...",
+      "options": {
+        "a": "WASPADA",
+        "b": "SIAGA",
+        "c": "INSIDEN",
+        "d": "NORMAL"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): INSIDEN"
+    },
+    {
+      "id": "ba2_07_30",
+      "category": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia",
+      "source": "7. Sistem Pembayaran dan Infrastruktur Keuangan (SP-FMI) Bank Indonesia.txt",
+      "question": "Blueprint Sistem Pembayaran Indonesia (BSPI) 2030 memiliki 5 Inisiatif utama (4I-RD). Manakah yang dimaksud dengan \"RD\"?",
+      "options": {
+        "a": "Regulasi Digital",
+        "b": "Rupiah Digital (CBDC)",
+        "c": "Reformasi Data",
+        "d": "Riset dan Development"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rupiah Digital (CBDC)"
+    },
+    {
+      "id": "ba2_08_1",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "FMI adalah singkatan dari...",
+      "options": {
+        "a": "Financial Market Infrastructure",
+        "b": "Financial Management Institution",
+        "c": "Fund Management Index",
+        "d": "Financial Monitoring Infrastructure"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Financial Market Infrastructure"
+    },
+    {
+      "id": "ba2_08_3",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "SIPS adalah singkatan dari...",
+      "options": {
+        "a": "Systemically Important Payment Settlement",
+        "b": "Systemically Important Payment System",
+        "c": "Standard Interbank Payment System",
+        "d": "Secure Interbank Payment Standard"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Systemically Important Payment System"
+    },
+    {
+      "id": "ba2_08_4",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Manakah di bawah ini yang BUKAN termasuk kategori infrastruktur SIPS (Systemically Important Payment System)?",
+      "options": {
+        "a": "BI-RTGS",
+        "b": "BI-SSSS",
+        "c": "BI-ETP",
+        "d": "BI-FAST"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): BI-ETP"
+    },
+    {
+      "id": "ba2_08_5",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Suatu FMI disebut sistemik menurut standar PFMI jika memenuhi minimal...",
+      "options": {
+        "a": "1 dari 4 kriteria",
+        "b": "Semua 4 kriteria",
+        "c": "Minimal 2 dari 4 kriteria",
+        "d": "Cukup 3 kriteria saja"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Minimal 2 dari 4 kriteria"
+    },
+    {
+      "id": "ba2_08_6",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Kriteria 'SUBSTITUTION' dalam PFMI untuk menentukan infrastruktur sistemik berarti...",
+      "options": {
+        "a": "Infrastruktur mampu menggantikan sistem lain sewaktu-waktu",
+        "b": "Tidak ada infrastruktur serupa yang bisa menggantikan jika sistem ini gagal",
+        "c": "Sistem harus bisa disubstitusi dengan dana tunai",
+        "d": "Peserta dapat digantikan oleh lembaga lain"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tidak ada infrastruktur serupa yang bisa menggantikan jika sistem ini gagal"
+    },
+    {
+      "id": "ba2_08_7",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "BI-RTGS adalah sistem transfer dana antar lembaga keuangan yang digunakan untuk transaksi yang bersifat...",
+      "options": {
+        "a": "Ritel dengan nominal kecil dan tidak mendesak",
+        "b": "Wholesale dengan nominal besar dan time-critical",
+        "c": "Transaksi internasional saja",
+        "d": "Transfer gaji karyawan secara massal"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Wholesale dengan nominal besar dan time-critical"
+    },
+    {
+      "id": "ba2_08_8",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Prinsip 'Finality of Settlement' di BI-RTGS memiliki arti bahwa...",
+      "options": {
+        "a": "Transaksi dapat dibatalkan dalam waktu 24 jam",
+        "b": "Transaksi yang sudah setel bersifat final dan tidak bisa dibatalkan (irrevocable)",
+        "c": "Semua transaksi harus mendapatkan persetujuan manual dari Gubernur BI",
+        "d": "Setelmen hanya dilakukan di akhir hari kerja (end of day)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transaksi yang sudah setel bersifat final dan tidak bisa dibatalkan (irrevocable)"
+    },
+    {
+      "id": "ba2_08_9",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Prinsip 'No Money No Game' dalam operasional BI-RTGS berarti...",
+      "options": {
+        "a": "Transaksi tidak dipungut biaya jika dana cukup",
+        "b": "Setelmen dana harus didukung dana yang cukup di rekening peserta (tidak bisa defisit)",
+        "c": "Hanya bank yang memiliki modal besar yang boleh bertransaksi",
+        "d": "Transaksi hanya boleh dilakukan pada hari kerja"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Setelmen dana harus didukung dana yang cukup di rekening peserta (tidak bisa defisit)"
+    },
+    {
+      "id": "ba2_08_10",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Pukul berapakah waktu Cut Off (penutupan sistem) untuk BI-RTGS?",
+      "options": {
+        "a": "16.45 WIB",
+        "b": "17.00 WIB",
+        "c": "18.30 WIB",
+        "d": "19.00 WIB"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 19.00 WIB"
+    },
+    {
+      "id": "ba2_08_11",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Mekanisme antrian untuk kategori 'High Priority' di BI-RTGS diproses menggunakan metode...",
+      "options": {
+        "a": "FAFO (First Available First Out)",
+        "b": "LIFO (Last In First Out)",
+        "c": "FIFO (First In First Out)",
+        "d": "Random Selection"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): FIFO (First In First Out)"
+    },
+    {
+      "id": "ba2_08_12",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Mekanisme antrian untuk kategori 'Normal' di BI-RTGS diproses menggunakan metode...",
+      "options": {
+        "a": "FIFO (First In First Out)",
+        "b": "LIFO (Last In First Out)",
+        "c": "FAFO (First Available First Out)",
+        "d": "Offsetting manual"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): FAFO (First Available First Out)"
+    },
+    {
+      "id": "ba2_08_13",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Berapa biaya layanan BI-RTGS Single Credit jika dilakukan sebelum pukul 10.00 WIB?",
+      "options": {
+        "a": "Rp 0 (Gratis)",
+        "b": "Rp 6.000",
+        "c": "Rp 15.000",
+        "d": "Rp 21.000"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp 6.000"
+    },
+    {
+      "id": "ba2_08_14",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Istilah 'Scripless' dalam sistem BI-SSSS memiliki arti...",
+      "options": {
+        "a": "Transaksi surat berharga dilakukan secara elektronik tanpa warkat fisik",
+        "b": "Transaksi dilakukan tanpa biaya administrasi",
+        "c": "Sistem tidak menggunakan kode atau skrip komputer",
+        "d": "Surat berharga dicetak menggunakan kertas khusus"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Transaksi surat berharga dilakukan secara elektronik tanpa warkat fisik"
+    },
+    {
+      "id": "ba2_08_15",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Apa fungsi utama dari infrastruktur BI-SSSS?",
+      "options": {
+        "a": "Penyaluran bantuan sosial pemerintah",
+        "b": "Central Securities Depository & Securities Settlement System untuk SBN dan instrumen OM",
+        "c": "Penukaran uang rusak masyarakat",
+        "d": "Platform jual beli saham perusahaan swasta"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Central Securities Depository & Securities Settlement System untuk SBN dan instrumen OM"
+    },
+    {
+      "id": "ba2_08_16",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Dalam sistem Two-Tier Registry BI-SSSS, pihak yang bertindak sebagai Tier 1 (Central Registry) adalah...",
+      "options": {
+        "a": "Bank Umum",
+        "b": "Bank Indonesia",
+        "c": "Kementerian Keuangan",
+        "d": "Kustodian Sentral Efek Indonesia (KSEI)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bank Indonesia"
+    },
+    {
+      "id": "ba2_08_17",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Mekanisme setelmen DvP (Delivery versus Payment) dalam transaksi surat berharga berarti...",
+      "options": {
+        "a": "Penyerahan surat berharga dilakukan setelah dana diterima di hari berikutnya",
+        "b": "Penyerahan surat berharga dan pembayaran dana dilakukan secara bersamaan (simultaneous)",
+        "c": "Dana dibayarkan lebih dulu tanpa jaminan surat berharga",
+        "d": "Surat berharga diberikan secara cuma-cuma"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penyerahan surat berharga dan pembayaran dana dilakukan secara bersamaan (simultaneous)"
+    },
+    {
+      "id": "ba2_08_18",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Mekanisme FoP (Free of Payment) dalam BI-SSSS digunakan ketika...",
+      "options": {
+        "a": "Transaksi dilakukan tanpa biaya layanan BI",
+        "b": "Kepemilikan surat berharga berpindah tanpa disertai pergerakan dana (setelmen dana)",
+        "c": "Surat berharga diperdagangkan secara bebas di pasar terbuka",
+        "d": "Investor tidak perlu membayar pajak transaksi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kepemilikan surat berharga berpindah tanpa disertai pergerakan dana (setelmen dana)"
+    },
+    {
+      "id": "ba2_08_19",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Transaksi jual-beli SBN di pasar sekunder secara putus di mana kepemilikan berpindah permanen disebut...",
+      "options": {
+        "a": "Repo",
+        "b": "Outright",
+        "c": "SLB (Securities Lending and Borrowing)",
+        "d": "Pledge"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Outright"
+    },
+    {
+      "id": "ba2_08_20",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Transaksi 'Greenshoe' dalam BI-SSSS merupakan istilah untuk...",
+      "options": {
+        "a": "Investasi pada instrumen ramah lingkungan",
+        "b": "Lelang tambahan di pasar perdana yang dilaksanakan 1 hari kerja setelah lelang utama",
+        "c": "Pembelian SBN oleh pihak asing",
+        "d": "Penukaran SBN lama dengan SBN seri terbaru"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Lelang tambahan di pasar perdana yang dilaksanakan 1 hari kerja setelah lelang utama"
+    },
+    {
+      "id": "ba2_08_21",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Transaksi 'Repo' (Repurchase Agreement) pada dasarnya adalah...",
+      "options": {
+        "a": "Jual beli SBN secara permanen",
+        "b": "Pinjam meminjam uang dengan jaminan SBN, disertai janji membeli kembali",
+        "c": "Pemberian jaminan SBN untuk kredit rumah",
+        "d": "Penghapusan utang negara melalui SBN"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pinjam meminjam uang dengan jaminan SBN, disertai janji membeli kembali"
+    },
+    {
+      "id": "ba2_08_22",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Fungsi utama dari platform BI-ETP adalah sebagai...",
+      "options": {
+        "a": "Sistem kliring transfer dana ritel",
+        "b": "Tempat penyimpanan fisik emas Bank Indonesia",
+        "c": "Platform transaksi Operasi Moneter BI dan Lelang Surat Berharga Negara",
+        "d": "Aplikasi perbankan seluler untuk nasabah umum"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Platform transaksi Operasi Moneter BI dan Lelang Surat Berharga Negara"
+    },
+    {
+      "id": "ba2_08_23",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Mekanisme 'Bilateral Trading' di BI-ETP memungkinkan terjadinya transaksi di mana...",
+      "options": {
+        "a": "Peserta bersaing melalui sistem lelang terbuka",
+        "b": "Transaksi terjadi antara 2 peserta dengan harga dan waktu yang dapat dinegosiasi",
+        "c": "BI menentukan harga secara sepihak untuk semua bank",
+        "d": "Transaksi hanya boleh melibatkan pihak asing"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transaksi terjadi antara 2 peserta dengan harga dan waktu yang dapat dinegosiasi"
+    },
+    {
+      "id": "ba2_08_24",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "PUAB adalah transaksi pinjam-meminjam dana jangka pendek antarbank yang difasilitasi di BI-ETP, kepanjangannya adalah...",
+      "options": {
+        "a": "Pusat Uang Antar Bank",
+        "b": "Pasar Uang Antar Bank",
+        "c": "Program Utama Alokasi Bank",
+        "d": "Pasar Umum Aset Bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pasar Uang Antar Bank"
+    },
+    {
+      "id": "ba2_08_25",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Berapakah batas maksimal nominal transaksi untuk transfer kredit antar nasabah melalui SKNBI?",
+      "options": {
+        "a": "Rp 100 Juta",
+        "b": "Rp 250 Juta",
+        "c": "Rp 500 Juta",
+        "d": "Rp 1 Miliar"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Rp 1 Miliar"
+    },
+    {
+      "id": "ba2_08_26",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Mekanisme setelmen yang digunakan oleh SKNBI adalah...",
+      "options": {
+        "a": "RTGS (Real-Time Gross Settlement)",
+        "b": "DNS (Deferred Net Settlement)",
+        "c": "DvP (Delivery versus Payment)",
+        "d": "FoP (Free of Payment)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): DNS (Deferred Net Settlement)"
+    },
+    {
+      "id": "ba2_08_27",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Satu-satunya layanan di SKNBI yang masih menggunakan instrumen berbasis kertas (cek/bilyet giro) adalah...",
+      "options": {
+        "a": "Transfer Dana (TD)",
+        "b": "Pembayaran Reguler (PR)",
+        "c": "Kliring Warkat Debit (KWD)",
+        "d": "Penagihan Reguler (PNR)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Kliring Warkat Debit (KWD)"
+    },
+    {
+      "id": "ba2_08_28",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Batas nominal maksimum untuk satu kali transaksi melalui BI-FAST adalah...",
+      "options": {
+        "a": "Rp 100 Juta",
+        "b": "Rp 250 Juta",
+        "c": "Rp 500 Juta",
+        "d": "Rp 1 Miliar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp 250 Juta"
+    },
+    {
+      "id": "ba2_08_29",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "Keunggulan operasional utama BI-FAST dibandingkan SKNBI adalah...",
+      "options": {
+        "a": "Biaya transaksi yang lebih mahal",
+        "b": "Hanya melayani bank pemerintah",
+        "c": "Beroperasi 24 jam sehari, 7 hari seminggu (24/7) tanpa henti",
+        "d": "Menggunakan sistem antrian FIFO"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Beroperasi 24 jam sehari, 7 hari seminggu (24/7) tanpa henti"
+    },
+    {
+      "id": "ba2_08_30",
+      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
+      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
+      "question": "MKTBI adalah singkatan dari perencanaan BI untuk menjamin operasional tugas kritikal tetap berjalan saat terjadi gangguan, yaitu...",
+      "options": {
+        "a": "Manajemen Keuangan Tugas Bank Indonesia",
+        "b": "Manajemen Keberlangsungan Tugas Bank Indonesia",
+        "c": "Mekanisme Kepatuhan Transaksi Bank Indonesia",
+        "d": "Manajemen Kritis Tugas dan Bisnis BI"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Manajemen Keberlangsungan Tugas Bank Indonesia"
+    },
+    {
+      "id": "ba2_09_1",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Sistem BI-RTGS merupakan sarana transfer dana elektronik yang setelmennya dilakukan secara...",
+      "options": {
+        "a": "Batch per hari",
+        "b": "Netting antar bank",
+        "c": "Seketika per transaksi secara individual",
+        "d": "Harian pada akhir hari"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Seketika per transaksi secara individual"
+    },
+    {
+      "id": "ba2_09_2",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Siapakah penyelenggara tunggal dari BI-RTGS, BI-SSSS, dan BI-ETP?",
+      "options": {
+        "a": "Kementerian Keuangan",
+        "b": "Otoritas Jasa Keuangan (OJK)",
+        "c": "Bank Indonesia (Bank Sentral)",
+        "d": "Bursa Efek Indonesia"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bank Indonesia (Bank Sentral)"
+    },
+    {
+      "id": "ba2_09_3",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "BI-SSSS memiliki dua fungsi utama dalam ekosistem surat berharga, yaitu...",
+      "options": {
+        "a": "Transfer dana dan kliring",
+        "b": "Central Securities Depository dan Securities Settlement System",
+        "c": "Electronic Trading dan Reporting",
+        "d": "Monetary Operation dan Standing Facility"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Central Securities Depository dan Securities Settlement System"
+    },
+    {
+      "id": "ba2_09_4",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Peserta BI-ETP yang dapat melakukan transaksi melalui sistem tersebut TIDAK termasuk...",
+      "options": {
+        "a": "Bank Indonesia",
+        "b": "Perusahaan Pialang Pasar Uang",
+        "c": "Perorangan/individu",
+        "d": "Perusahaan Efek"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Perorangan/individu"
+    },
+    {
+      "id": "ba2_09_5",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Mekanisme setelmen DvP (Delivery versus Payment) mengandung arti bahwa...",
+      "options": {
+        "a": "Surat Berharga disetelmenkan tanpa disertai dana",
+        "b": "Surat Berharga dan dana disetelmenkan secara bersamaan (simultan)",
+        "c": "Dua kewajiban Surat Berharga diselesaikan bersamaan",
+        "d": "Dana disetelmenkan lebih dulu, baru surat berharga menyusul"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Surat Berharga dan dana disetelmenkan secara bersamaan (simultan)"
+    },
+    {
+      "id": "ba2_09_6",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Berapakah besaran biaya transaksi (transaction fee) untuk layanan BI-ETP dan BI-SSSS?",
+      "options": {
+        "a": "Rp10.000 dan Rp20.000",
+        "b": "Rp23.000 dan Rp23.000",
+        "c": "Rp6.000 dan Rp23.000",
+        "d": "Rp50.000 dan Rp100.000"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp23.000 dan Rp23.000"
+    },
+    {
+      "id": "ba2_09_7",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Pukul berapakah jam penutupan (cut-off) untuk sistem BI-RTGS?",
+      "options": {
+        "a": "17.00 WIB",
+        "b": "18.00 WIB",
+        "c": "18.30 WIB",
+        "d": "19.00 WIB"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 19.00 WIB"
+    },
+    {
+      "id": "ba2_09_8",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Sistem pelaporan dan monitoring yang menerima data dari ketiga FMI (BI-RTGS, BI-SSSS, BI-ETP) secara periodik adalah...",
+      "options": {
+        "a": "FOMOBO",
+        "b": "HARTIS",
+        "c": "EDW",
+        "d": "CBS"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): HARTIS"
+    },
+    {
+      "id": "ba2_09_9",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Prinsip 'Finality of Settlement' dalam BI-RTGS memberikan perlindungan hukum bahwa...",
+      "options": {
+        "a": "Setelmen bisa dibatalkan dalam 24 jam",
+        "b": "Setelmen hanya final setelah disetujui BI secara manual",
+        "c": "Transaksi yang sudah disetel bersifat final dan tidak dapat ditarik kembali (irrevocable)",
+        "d": "Setelmen dilakukan secara netting di akhir hari"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Transaksi yang sudah disetel bersifat final dan tidak dapat ditarik kembali (irrevocable)"
+    },
+    {
+      "id": "ba2_09_10",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Apa yang dimaksud dengan prinsip 'No Money No Game' pada operasional BI-RTGS?",
+      "options": {
+        "a": "Sistem tidak memungut biaya untuk transaksi kecil",
+        "b": "Transaksi hanya bisa dilakukan jika dana di rekening pengirim mencukupi",
+        "c": "Bank Indonesia akan memberikan dana talangan otomatis jika saldo minus",
+        "d": "Transaksi harus melalui proses netting sebelum disetelmenkan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transaksi hanya bisa dilakukan jika dana di rekening pengirim mencukupi"
+    },
+    {
+      "id": "ba2_09_11",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Apa perbedaan utama antara PG (Payment Gateway) dan STPG (STP Gateway) di sisi peserta?",
+      "options": {
+        "a": "PG untuk transaksi nominal besar, STPG untuk transaksi nominal kecil",
+        "b": "PG untuk transaksi manual oleh operator, STPG untuk transaksi otomatis (sistem ke sistem)",
+        "c": "PG dikelola oleh Bank Indonesia, STPG dikelola oleh Bank Umum",
+        "d": "PG hanya digunakan untuk RTGS, sedangkan STPG khusus untuk SSSS"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): PG untuk transaksi manual oleh operator, STPG untuk transaksi otomatis (sistem ke sistem)"
+    },
+    {
+      "id": "ba2_09_12",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Dalam sistem Two-Tier Registry di BI-SSSS, lembaga Sub-Registry berperan sebagai...",
+      "options": {
+        "a": "1st Tier yang mencatat rekening SB secara global (omnibus)",
+        "b": "2nd Tier yang mencatat rekening SB untuk kepentingan investor/nasabah",
+        "c": "Penyelenggara utama sistem yang menerbitkan instrumen moneter",
+        "d": "Pihak regulator yang mengawasi perdagangan di pasar sekunder"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 2nd Tier yang mencatat rekening SB untuk kepentingan investor/nasabah"
+    },
+    {
+      "id": "ba2_09_13",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Manakah di bawah ini yang BUKAN merupakan instrumen Operasi Moneter Bank Indonesia?",
+      "options": {
+        "a": "SRBI (Sekuritas Rupiah Bank Indonesia)",
+        "b": "SBIS (Sertifikat Bank Indonesia Syariah)",
+        "c": "Obligasi Korporasi Swasta",
+        "d": "SVBI (Sukuk Valas Bank Indonesia)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Obligasi Korporasi Swasta"
+    },
+    {
+      "id": "ba2_09_14",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Mekanisme Bilateral Trading dalam platform BI-ETP secara spesifik digunakan untuk...",
+      "options": {
+        "a": "Lelang instrumen Operasi Moneter BI",
+        "b": "Transaksi PUAB (Pasar Uang Antar Bank) antar peserta",
+        "c": "Penerbitan Surat Berharga Negara (SBN) oleh Kementerian Keuangan",
+        "d": "Setelmen dana untuk transaksi pasar modal"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transaksi PUAB (Pasar Uang Antar Bank) antar peserta"
+    },
+    {
+      "id": "ba2_09_15",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Berapakah biaya transaksi (fee) BI-RTGS jika instruksi dikirimkan pada pukul 15.00 WIB?",
+      "options": {
+        "a": "Rp6.000",
+        "b": "Rp15.000",
+        "c": "Rp21.000",
+        "d": "Rp23.000"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp21.000"
+    },
+    {
+      "id": "ba2_09_16",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Transaksi berkategori 'Normal' di sistem BI-RTGS diproses menggunakan mekanisme antrian...",
+      "options": {
+        "a": "FIFO (First In First Out)",
+        "b": "FAFO (First Available First Out)",
+        "c": "LIFO (Last In First Out)",
+        "d": "Prioritas berdasarkan besarnya nominal transaksi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): FAFO (First Available First Out)"
+    },
+    {
+      "id": "ba2_09_17",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Istilah 'Greenshoe' dalam transaksi pasar perdana melalui sistem BI-SSSS merujuk pada...",
+      "options": {
+        "a": "Pembelian kembali Surat Berharga yang gagal setelmen",
+        "b": "Lelang tambahan di pasar perdana yang dilaksanakan 1 hari kerja setelah lelang utama",
+        "c": "Penerbitan seri Surat Berharga baru melalui skema private placement",
+        "d": "Perpanjangan jangka waktu jatuh tempo instrumen moneter"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Lelang tambahan di pasar perdana yang dilaksanakan 1 hari kerja setelah lelang utama"
+    },
+    {
+      "id": "ba2_09_18",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Apa kepanjangan dari RCN dalam komponen infrastruktur sistem Bank Indonesia?",
+      "options": {
+        "a": "Rekening Cadangan Nasional",
+        "b": "BI-RTGS Central Node (sistem di sisi penyelenggara)",
+        "c": "Remote Central Network",
+        "d": "Registry Core Node"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): BI-RTGS Central Node (sistem di sisi penyelenggara)"
+    },
+    {
+      "id": "ba2_09_19",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Setelmen transaksi surat berharga di BI-SSSS dilakukan berdasarkan prinsip...",
+      "options": {
+        "a": "Netting harian (diakumulasikan)",
+        "b": "Gross to Gross (per transaksi individual)",
+        "c": "Batch per periode waktu tertentu",
+        "d": "Kliring multilateral antar bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Gross to Gross (per transaksi individual)"
+    },
+    {
+      "id": "ba2_09_20",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Apa perbedaan mendasar antara mekanisme FoP dan DvP di BI-SSSS?",
+      "options": {
+        "a": "FoP digunakan untuk pasar perdana, sedangkan DvP untuk pasar sekunder",
+        "b": "FoP adalah setelmen SB tanpa dana, sedangkan DvP setelmen SB dan dana secara bersamaan",
+        "c": "FoP dikenakan biaya lebih murah dibandingkan mekanisme DvP",
+        "d": "DvP memiliki waktu pemrosesan yang lebih lama daripada FoP"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): FoP adalah setelmen SB tanpa dana, sedangkan DvP setelmen SB dan dana secara bersamaan"
+    },
+    {
+      "id": "ba2_09_21",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Apa tindakan sistem BI-SSSS apabila instruksi setelmen dari pembeli dan penjual belum 'matching'?",
+      "options": {
+        "a": "Sistem akan langsung membatalkan instruksi tersebut secara otomatis",
+        "b": "Sistem menunggu sampai matched atau hingga batas waktu window berakhir",
+        "c": "Sistem akan langsung mengkreditkan surat berharga kepada pembeli",
+        "d": "Sistem mengirimkan pemberitahuan denda kepada kedua belah pihak"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Sistem menunggu sampai matched atau hingga batas waktu window berakhir"
+    },
+    {
+      "id": "ba2_09_22",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Manakah dari transaksi berikut yang merupakan salah satu jenis transaksi di BI-RTGS?",
+      "options": {
+        "a": "Pencatatan kepemilikan investor akhir di Sub-Registry",
+        "b": "Pengisian profil lelang oleh penyelenggara di platform perdagangan",
+        "c": "Setelmen hasil kliring ritel SKNBI",
+        "d": "Pendaftaran instrumen moneter baru di sistem penatausahaan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Setelmen hasil kliring ritel SKNBI"
+    },
+    {
+      "id": "ba2_09_23",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "BI-RTGS diklasifikasikan sebagai SIPS (Systemically Important Payment System) karena...",
+      "options": {
+        "a": "Sistem ini mengelola seluruh data surat berharga negara",
+        "b": "Platform ini digunakan sebagai sarana utama lelang operasi moneter",
+        "c": "Gangguan pada sistem ini dapat mengguncang stabilitas sistem keuangan nasional",
+        "d": "Sistem ini merupakan satu-satunya yang beroperasi hingga pukul 19.00 WIB"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Gangguan pada sistem ini dapat mengguncang stabilitas sistem keuangan nasional"
+    },
+    {
+      "id": "ba2_09_24",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Pihak manakah dalam infrastruktur BI-SSSS yang berwenang mencatat rekening investor/nasabah?",
+      "options": {
+        "a": "Bank Indonesia (Central Registry)",
+        "b": "Sub-Registry (Bank atau Lembaga Kustodian)",
+        "c": "Penyelenggara platform ETP",
+        "d": "Kementerian Keuangan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Sub-Registry (Bank atau Lembaga Kustodian)"
+    },
+    {
+      "id": "ba2_09_25",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Regulasi terbaru (PADG) yang mengatur tentang penyelenggaraan BI-RTGS adalah...",
+      "options": {
+        "a": "PADG No. 20/32/PADG/2018",
+        "b": "PADG No. 23/24/PADG/2021",
+        "c": "PADG Nomor 24 Tahun 2025",
+        "d": "PADG No. 20/4/PADG/2018"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PADG Nomor 24 Tahun 2025"
+    },
+    {
+      "id": "ba2_09_26",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Dalam proses lelang SBN, pihak manakah yang melakukan simulasi dan penetapan hasil lelang?",
+      "options": {
+        "a": "Bank Indonesia (Departemen Pengelolaan Moneter)",
+        "b": "Kementerian Keuangan melalui sistem DSS MoF",
+        "c": "Lembaga Penjamin Simpanan (LPS)",
+        "d": "Konsorsium pialang pasar uang"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kementerian Keuangan melalui sistem DSS MoF"
+    },
+    {
+      "id": "ba2_09_27",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Apa konsekuensi dari prinsip 'Tidak menerapkan zero-hour rule' pada sistem BI-RTGS?",
+      "options": {
+        "a": "Sistem dapat beroperasi selama 24 jam penuh tanpa henti",
+        "b": "Setelmen yang sudah terjadi tetap sah meski peserta kemudian dinyatakan pailit",
+        "c": "Transaksi di jam pertama operasi tidak boleh dibatalkan oleh bank",
+        "d": "Seluruh transaksi harus diselesaikan tepat pada jam pembukaan sistem"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Setelmen yang sudah terjadi tetap sah meski peserta kemudian dinyatakan pailit"
+    },
+    {
+      "id": "ba2_09_28",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Mekanisme setelmen 'Hybrid' di BI-RTGS secara khusus digunakan untuk...",
+      "options": {
+        "a": "Transaksi antar nasabah bank umum",
+        "b": "Transaksi untuk kepentingan Bank Indonesia (OM/Standing Facility)",
+        "c": "Transaksi perpindahan surat berharga antar peserta",
+        "d": "Transaksi pengiriman uang ke luar negeri (remitansi)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Transaksi untuk kepentingan Bank Indonesia (OM/Standing Facility)"
+    },
+    {
+      "id": "ba2_09_29",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Berapakah nominal minimal transfer dana nasabah yang wajib melalui sistem BI-RTGS?",
+      "options": {
+        "a": "Di atas Rp50 juta",
+        "b": "Di atas Rp100 juta",
+        "c": "Di atas Rp500 juta",
+        "d": "Di atas Rp1 miliar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Di atas Rp100 juta"
+    },
+    {
+      "id": "ba2_09_30",
+      "category": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40)",
+      "source": "9. BI-RTGS, BI-SSSS, & BI-ETP (PCPM 40).txt",
+      "question": "Berdasarkan jadwal harian, pukul berapakah konversi FLI yang tidak lunas diproses di BI-SSSS?",
+      "options": {
+        "a": "16.30 - 17.00 WIB",
+        "b": "17.30 - 18.00 WIB",
+        "c": "18.00 - 18.30 WIB",
+        "d": "18.30 - 19.00 WIB"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 17.30 - 18.00 WIB"
+    },
+    {
+      "id": "ba2_10_1",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Berdasarkan UU No. 23/1999, apa definisi resmi dari Sistem Pembayaran?",
+      "options": {
+        "a": "Kumpulan infrastruktur teknologi milik perbankan",
+        "b": "Sistem yang mencakup aturan, lembaga, dan mekanisme untuk melaksanakan pemindahan dana guna memenuhi kewajiban ekonomi",
+        "c": "Aplikasi digital yang digunakan untuk transfer dana antar nasabah",
+        "d": "Perjanjian antara Bank Indonesia dengan lembaga switching internasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Sistem yang mencakup aturan, lembaga, dan mekanisme untuk melaksanakan pemindahan dana guna memenuhi kewajiban ekonomi"
+    },
+    {
+      "id": "ba2_10_2",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Berapakah nominal minimal transaksi yang dikategorikan sebagai High Value Payment System (HVPS)?",
+      "options": {
+        "a": "≥ Rp10 juta",
+        "b": "≥ Rp50 juta",
+        "c": "≥ Rp100 juta",
+        "d": "≥ Rp500 juta"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): ≥ Rp100 juta"
+    },
+    {
+      "id": "ba2_10_3",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Manakah di bawah ini yang termasuk wewenang Bank Indonesia dalam Sistem Pembayaran?",
+      "options": {
+        "a": "Menetapkan suku bunga deposito bank umum",
+        "b": "Memberikan izin atau persetujuan penyelenggaraan jasa sistem pembayaran",
+        "c": "Mencetak kartu debit untuk seluruh nasabah bank",
+        "d": "Menentukan harga barang di tingkat merchant"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memberikan izin atau persetujuan penyelenggaraan jasa sistem pembayaran"
+    },
+    {
+      "id": "ba2_10_4",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Sistem BI-FAST dikategorikan ke dalam jenis sistem pembayaran apa?",
+      "options": {
+        "a": "HVPS yang diselenggarakan oleh industri",
+        "b": "RVPS yang diselenggarakan oleh Bank Indonesia",
+        "c": "HVPS yang diselenggarakan oleh Bank Indonesia",
+        "d": "RVPS yang diselenggarakan oleh industri"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): RVPS yang diselenggarakan oleh Bank Indonesia"
+    },
+    {
+      "id": "ba2_10_5",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Berikut adalah 5 pilar Inisiatif Strategis BSPI 2030, KECUALI...",
+      "options": {
+        "a": "Infrastruktur",
+        "b": "Inovasi",
+        "c": "Internasional",
+        "d": "Implementasi Mata Uang Kripto sebagai alat bayar resmi"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Implementasi Mata Uang Kripto sebagai alat bayar resmi"
+    },
+    {
+      "id": "ba2_10_6",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Gerbang Pembayaran Nasional (GPN) terdiri atas tiga komponen utama, yaitu...",
+      "options": {
+        "a": "Kartu, Mesin ATM, dan EDC",
+        "b": "Standar, Switching, dan Services",
+        "c": "Issuer, Acquirer, dan Merchant",
+        "d": "Bank Indonesia, ASPI, dan PTEN"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Standar, Switching, dan Services"
+    },
+    {
+      "id": "ba2_10_7",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Lembaga dalam GPN yang bertugas melakukan pemrosesan transaksi secara domestik disebut...",
+      "options": {
+        "a": "Lembaga Standar",
+        "b": "Lembaga Switching",
+        "c": "Lembaga Services",
+        "d": "Lembaga Kliring"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Lembaga Switching"
+    },
+    {
+      "id": "ba2_10_8",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Apa yang dimaksud dengan \"Interoperabilitas\" dalam konteks GPN?",
+      "options": {
+        "a": "Kondisi di mana antar sistem infrastruktur dapat saling terhubung dan saling bicara",
+        "b": "Kondisi di mana instrumen pembayaran dapat diterima dan diproses di berbagai kanal/device pembayaran",
+        "c": "Proses pengiriman laporan data transaksi secara real-time ke Bank Indonesia",
+        "d": "Mekanisme penetapan harga tunggal untuk seluruh layanan perbankan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kondisi di mana instrumen pembayaran dapat diterima dan diproses di berbagai kanal/device pembayaran"
+    },
+    {
+      "id": "ba2_10_9",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Dalam alur transaksi APMK OFF-US, langkah apa yang dilakukan tepat setelah proses Otentifikasi?",
+      "options": {
+        "a": "Approval (persetujuan transaksi)",
+        "b": "Konfirmasi ke merchant",
+        "c": "Verifikasi ketersediaan dana di Penerbit",
+        "d": "Pemindahan dana ke Acquirer"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Verifikasi ketersediaan dana di Penerbit"
+    },
+    {
+      "id": "ba2_10_10",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Transaksi di mana Penerbit berbeda dengan Acquirer, namun keduanya berada dalam satu jaringan Lembaga Switching yang sama disebut...",
+      "options": {
+        "a": "ON-US",
+        "b": "OFF-US On-Network",
+        "c": "OFF-US Off-Network",
+        "d": "Cross-Border"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): OFF-US On-Network"
+    },
+    {
+      "id": "ba2_10_11",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Apa manfaat utama GPN bagi merchant atau pedagang?",
+      "options": {
+        "a": "Merchant mendapatkan bagi hasil dari biaya administrasi bank",
+        "b": "Cukup memiliki 1 mesin EDC untuk menerima berbagai jenis kartu dari bank berbeda",
+        "c": "Merchant tidak perlu membayar pajak atas transaksi nontunai",
+        "d": "Mendapatkan dana talangan otomatis dari Bank Indonesia jika saldo minim"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Cukup memiliki 1 mesin EDC untuk menerima berbagai jenis kartu dari bank berbeda"
+    },
+    {
+      "id": "ba2_10_12",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Siapakah pihak yang menetapkan, memiliki, dan mengelola Logo Nasional GPN?",
+      "options": {
+        "a": "ASPI (Asosiasi Sistem Pembayaran Indonesia)",
+        "b": "PTEN (Lembaga Services)",
+        "c": "Bank Indonesia",
+        "d": "Kementerian Hukum dan HAM"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bank Indonesia"
+    },
+    {
+      "id": "ba2_10_13",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Sejak kapan setiap nasabah yang memiliki kartu ATM/debit diwajibkan memiliki minimal satu kartu berlogo GPN?",
+      "options": {
+        "a": "1 Januari 2018",
+        "b": "17 Agustus 2019",
+        "c": "1 Januari 2022",
+        "d": "31 Maret 2026"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 1 Januari 2022"
+    },
+    {
+      "id": "ba2_10_14",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Merchant Discount Rate (MDR) adalah biaya yang dibebankan kepada...",
+      "options": {
+        "a": "Nasabah/pembeli",
+        "b": "Bank Penerbit (Issuer)",
+        "c": "Merchant/pedagang",
+        "d": "Lembaga Switching"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Merchant/pedagang"
+    },
+    {
+      "id": "ba2_10_15",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Berapakah tarif MDR QRIS untuk kategori merchant Usaha Mikro (UMI) dengan nominal transaksi Rp200.000?",
+      "options": {
+        "a": "0% (Gratis)",
+        "b": "0,3%",
+        "c": "0,7%",
+        "d": "1%"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): 0% (Gratis)"
+    },
+    {
+      "id": "ba2_10_16",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Dalam distribusi MDR Kartu Debit Off-Us, pihak mana yang menerima porsi persentase terbesar?",
+      "options": {
+        "a": "Issuer (37%)",
+        "b": "Acquirer (39%)",
+        "c": "Switching (18%)",
+        "d": "Services (4%)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Acquirer (39%)"
+    },
+    {
+      "id": "ba2_10_17",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Mengapa Acquirer mendapatkan porsi terbesar dalam distribusi MDR?",
+      "options": {
+        "a": "Karena Acquirer yang mencetak kartu nasabah",
+        "b": "Karena Acquirer menanggung risiko dan menyediakan infrastruktur di sisi merchant",
+        "c": "Karena Acquirer memiliki akses langsung ke saldo nasabah",
+        "d": "Karena Acquirer bertugas menyusun standar keamanan nasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Karena Acquirer menanggung risiko dan menyediakan infrastruktur di sisi merchant"
+    },
+    {
+      "id": "ba2_10_18",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Manakah kategori transaksi QRIS yang dikenakan MDR sebesar 0%?",
+      "options": {
+        "a": "Layanan Pendidikan",
+        "b": "Transaksi di SPBU",
+        "c": "G2P (Bansos), P2G (Pajak), dan Donasi",
+        "d": "Transaksi di Usaha Menengah"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): G2P (Bansos), P2G (Pajak), dan Donasi"
+    },
+    {
+      "id": "ba2_10_19",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Tindakan apa yang DILARANG dilakukan oleh merchant terkait MDR menurut aturan Bank Indonesia?",
+      "options": {
+        "a": "Menyediakan lebih dari satu QRIS di kasir",
+        "b": "Mengenakan biaya tambahan (surcharge) kepada nasabah atas MDR",
+        "c": "Menolak pembayaran tunai dari pelanggan",
+        "d": "Meminta nasabah menunjukkan identitas saat bertransaksi kartu"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mengenakan biaya tambahan (surcharge) kepada nasabah atas MDR"
+    },
+    {
+      "id": "ba2_10_20",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Berdasarkan data tren transaksi Jan 2021-Mar 2026, instrumen mana yang pertumbuhannya paling pesat?",
+      "options": {
+        "a": "Kartu Debit Off-us (Turun)",
+        "b": "ATM Off-us (Turun)",
+        "c": "QRIS Off-us (Naik +158,30%)",
+        "d": "Cek dan Bilyet Giro"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): QRIS Off-us (Naik +158,30%)"
+    },
+    {
+      "id": "ba2_10_21",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Wilayah manakah yang memiliki sebaran merchant QRIS terbesar di Indonesia (mencapai 66,64%)?",
+      "options": {
+        "a": "Sumatera",
+        "b": "Kalimantan",
+        "c": "Jawa",
+        "d": "Sulawesi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Jawa"
+    },
+    {
+      "id": "ba2_10_22",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Mayoritas merchant QRIS berdasarkan kriteria usaha didominasi oleh kategori...",
+      "options": {
+        "a": "Usaha Besar (UBE)",
+        "b": "Usaha Menengah (UME)",
+        "c": "Usaha Kecil (UKE)",
+        "d": "Usaha Mikro (UMI)"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Usaha Mikro (UMI)"
+    },
+    {
+      "id": "ba2_10_23",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Apa fungsi utama dari SAM GPN (Secure Access Module)?",
+      "options": {
+        "a": "Mencatat seluruh identitas nasabah secara nasional",
+        "b": "Menyimpan key management dan fungsi kriptografi untuk validasi transaksi UE chip-based",
+        "c": "Mengatur antrean transaksi di sistem BI-RTGS",
+        "d": "Menjadi platform untuk jual beli aset kripto"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Menyimpan key management dan fungsi kriptografi untuk validasi transaksi UE chip-based"
+    },
+    {
+      "id": "ba2_10_24",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Sektor mana yang paling banyak menggunakan unit SAM GPN per Maret 2026?",
+      "options": {
+        "a": "Perparkiran",
+        "b": "Jalan Tol",
+        "c": "Transportasi (KRL, MRT, Bus)",
+        "d": "Retail/Supermarket"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Transportasi (KRL, MRT, Bus)"
+    },
+    {
+      "id": "ba2_10_25",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Apa tujuan utama dari program Elektronifikasi Transaksi Pemerintah Daerah (ETPD)?",
+      "options": {
+        "a": "Mewajibkan seluruh warga desa memiliki smartphone",
+        "b": "Mengubah transaksi pendapatan dan belanja Pemda dari tunai menjadi nontunai digital",
+        "c": "Mengurangi jumlah bank daerah yang beroperasi",
+        "d": "Menghapuskan penggunaan uang kertas di seluruh instansi pemerintah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mengubah transaksi pendapatan dan belanja Pemda dari tunai menjadi nontunai digital"
+    },
+    {
+      "id": "ba2_10_26",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Suatu daerah dikategorikan masuk ke dalam Tahap 'Digital' dalam Indeks ETPD jika memiliki skor...",
+      "options": {
+        "a": "0 - 20",
+        "b": "> 20 - 55",
+        "c": "> 55 - 80",
+        "d": "> 80"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): > 80"
+    },
+    {
+      "id": "ba2_10_27",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Pada fase G2P 3.0 dalam evolusi elektronifikasi Bansos, mekanisme yang digunakan adalah...",
+      "options": {
+        "a": "Penyaluran tunai langsung",
+        "b": "Nontunai dengan skema 1 kartu untuk 1 jenis bantuan",
+        "c": "Nontunai dengan Kartu Keluarga Sejahtera (KKS) untuk banyak jenis bantuan",
+        "d": "Penyaluran melalui aset digital/kripto"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Nontunai dengan Kartu Keluarga Sejahtera (KKS) untuk banyak jenis bantuan"
+    },
+    {
+      "id": "ba2_10_28",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Apa kepanjangan dari MLFF dalam rencana pengembangan elektronifikasi jalan tol?",
+      "options": {
+        "a": "Multi Link Fast Flow",
+        "b": "Multi Lane Free Flow",
+        "c": "Mobile Lane Financial Flow",
+        "d": "Managed Link Fast Finance"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Multi Lane Free Flow"
+    },
+    {
+      "id": "ba2_10_29",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Berapa persentase capaian elektronifikasi di sektor Jalan Tol di Indonesia saat ini?",
+      "options": {
+        "a": "75%",
+        "b": "90%",
+        "c": "100%",
+        "d": "50%"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 100%"
+    },
+    {
+      "id": "ba2_10_30",
+      "category": "10. GPN Elektronifikasi",
+      "source": "10. GPN Elektronifikasi.txt",
+      "question": "Siapakah yang menjabat sebagai Ketua Satgas P2DD (Percepatan dan Perluasan Digitalisasi Daerah)?",
+      "options": {
+        "a": "Gubernur Bank Indonesia",
+        "b": "Menteri Keuangan",
+        "c": "Menteri Koordinator Bidang Perekonomian",
+        "d": "Menteri Dalam Negeri"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Menteri Koordinator Bidang Perekonomian"
+    },
+    {
+      "id": "ba2_11_1",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "BI-FAST mulai beroperasi (go live) untuk tahap pertama (Individual Credit Transfer) pada tanggal...",
+      "options": {
+        "a": "1 Januari 2021",
+        "b": "17 Agustus 2021",
+        "c": "21 Desember 2021",
+        "d": "21 Desember 2024"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 21 Desember 2021"
+    },
+    {
+      "id": "ba2_11_2",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Berdasarkan PADG No. 3 Tahun 2026, apa definisi resmi dari BI-FAST?",
+      "options": {
+        "a": "Sistem pembayaran internasional Bank Indonesia",
+        "b": "Infrastruktur sistem pembayaran ritel BI untuk pemindahan dana dengan setelmen seketika per transaksi dan dapat diakses setiap saat",
+        "c": "Platform transfer dana antar bank khusus pada hari dan jam kerja",
+        "d": "Sistem kliring nasional yang beroperasi secara batch setiap hari"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Infrastruktur sistem pembayaran ritel BI untuk pemindahan dana dengan setelmen seketika per transaksi dan dapat diakses setiap saat"
+    },
+    {
+      "id": "ba2_11_3",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Berapakah batas maksimal tarif yang boleh dikenakan oleh bank (peserta) kepada nasabah untuk setiap transaksi BI-FAST?",
+      "options": {
+        "a": "Rp 19",
+        "b": "Rp 1.500",
+        "c": "Rp 2.500",
+        "d": "Rp 6.500"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp 2.500"
+    },
+    {
+      "id": "ba2_11_4",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Berapa batas maksimal nominal per transaksi BI-FAST pada tahap awal implementasi saat ini?",
+      "options": {
+        "a": "Rp 100 juta",
+        "b": "Rp 250 juta",
+        "c": "Rp 500 juta",
+        "d": "Rp 1 miliar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp 250 juta"
+    },
+    {
+      "id": "ba2_11_5",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Komponen infrastruktur BI-FAST yang berfungsi mendeteksi transaksi mencurigakan atau penipuan secara otomatis disebut...",
+      "options": {
+        "a": "API Gateway",
+        "b": "Connector",
+        "c": "Fraud Detection System (FDS)",
+        "d": "Proxy Address"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Fraud Detection System (FDS)"
+    },
+    {
+      "id": "ba2_11_6",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Salah satu karakteristik utama BI-FAST adalah 'Finalitas', yang berarti...",
+      "options": {
+        "a": "Transaksi dapat dibatalkan dalam waktu 24 jam",
+        "b": "Dana akhir bersifat irrevocable (tidak dapat dibatalkan) dan tersedia seketika setelah setelmen",
+        "c": "Transaksi diproses secara batch harian di akhir hari",
+        "d": "Dana disimpan sementara di rekening escrow sebelum dikirim"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Dana akhir bersifat irrevocable (tidak dapat dibatalkan) dan tersedia seketika setelah setelmen"
+    },
+    {
+      "id": "ba2_11_7",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Apa yang dimaksud dengan 'Proxy' dalam layanan BI-FAST?",
+      "options": {
+        "a": "Server cadangan milik Bank Indonesia",
+        "b": "Alias identitas (seperti nomor HP atau email) yang digunakan sebagai pengganti nomor rekening",
+        "c": "Sistem enkripsi data transaksi tingkat tinggi",
+        "d": "Metode setelmen alternatif jika sistem utama sedang offline"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Alias identitas (seperti nomor HP atau email) yang digunakan sebagai pengganti nomor rekening"
+    },
+    {
+      "id": "ba2_11_8",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Layanan BI-FAST yang memungkinkan transfer dana massal dari satu pengirim ke banyak penerima sekaligus disebut...",
+      "options": {
+        "a": "Individual Credit Transfer (ICT)",
+        "b": "Request for Payment (RFP)",
+        "c": "Bulk Credit Transfer (BCT)",
+        "d": "Direct Debit Transfer (DDT)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bulk Credit Transfer (BCT)"
+    },
+    {
+      "id": "ba2_11_9",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Pada layanan Request for Payment (RFP), pihak manakah yang pertama kali mengirimkan instruksi atau tagihan?",
+      "options": {
+        "a": "Nasabah pembayar (debitur)",
+        "b": "Bank Indonesia sebagai penyelenggara",
+        "c": "Nasabah penerima (kreditur/penerima bayaran)",
+        "d": "Bank pengirim dana"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Nasabah penerima (kreditur/penerima bayaran)"
+    },
+    {
+      "id": "ba2_11_10",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Berapakah jumlah total peserta BI-FAST per kuartal pertama (Q1) tahun 2026?",
+      "options": {
+        "a": "100 peserta",
+        "b": "115 peserta",
+        "c": "127 peserta",
+        "d": "150 peserta"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 127 peserta"
+    },
+    {
+      "id": "ba2_11_11",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Peraturan Bank Indonesia (PBI) manakah yang mengatur tentang pengaturan industri sistem pembayaran serta kepesertaan infrastruktur secara komprehensif?",
+      "options": {
+        "a": "PBI 23/7/PBI/2021",
+        "b": "PBI No. 2 Tahun 2024",
+        "c": "PBI No. 10 Tahun 2025",
+        "d": "PADG 17/2023"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PBI No. 10 Tahun 2025"
+    },
+    {
+      "id": "ba2_11_12",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "PADG manakah yang merupakan aturan terbaru dan paling komprehensif yang mengatur operasional layanan dan keamanan BI-FAST di tahun 2026?",
+      "options": {
+        "a": "PADG 17/2023",
+        "b": "PADG 1/2025",
+        "c": "PADG 14/2025",
+        "d": "PADG 3/2026"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): PADG 3/2026"
+    },
+    {
+      "id": "ba2_11_13",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Layanan Direct Debit Transfer (DDT) mewajibkan adanya dokumen prasyarat berupa persetujuan elektronik dari nasabah yang disebut...",
+      "options": {
+        "a": "Surat kuasa notaris",
+        "b": "E-mandate (mandate elektronik)",
+        "c": "Kartu kredit aktif",
+        "d": "Pakta integritas nasabah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): E-mandate (mandate elektronik)"
+    },
+    {
+      "id": "ba2_11_14",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Secara global, berapa jumlah negara yang sudah mengimplementasikan sistem Fast Payment (live) hingga tahun 2024?",
+      "options": {
+        "a": "50 negara",
+        "b": "65 negara",
+        "c": "80 negara",
+        "d": "100 negara"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 80 negara"
+    },
+    {
+      "id": "ba2_11_15",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Komponen BI-FAST yang bertindak sebagai 'otak' pemrosesan transaksi (kliring) dan penyelesaian dana (setelmen) adalah...",
+      "options": {
+        "a": "Portal",
+        "b": "API",
+        "c": "Connector",
+        "d": "Hub"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Hub"
+    },
+    {
+      "id": "ba2_11_16",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Apa kepanjangan dari TPS yang digunakan untuk mengukur kapasitas sistem BI-FAST?",
+      "options": {
+        "a": "Total Payment System",
+        "b": "Transaksi Per Sesi",
+        "c": "Transactions Per Second",
+        "d": "Transfer Per Settlement"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Transactions Per Second"
+    },
+    {
+      "id": "ba2_11_17",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Solusi utama yang diusung Bank Indonesia untuk mengatasi masalah fragmentasi sistem pembayaran ritel nasional adalah...",
+      "options": {
+        "a": "Pengembangan New BI-FAST secara tertutup",
+        "b": "Penambahan jumlah peserta bank pemerintah saja",
+        "c": "Sinergi dengan IN-FAST dan integrasi melalui BI-Payment Clear",
+        "d": "Meningkatkan biaya transaksi untuk membatasi volume"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Sinergi dengan IN-FAST dan integrasi melalui BI-Payment Clear"
+    },
+    {
+      "id": "ba2_11_18",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Kapan target 'Go Live' untuk pengembangan New BI-FAST fase domestik transfer?",
+      "options": {
+        "a": "2026",
+        "b": "2027",
+        "c": "2028",
+        "d": "2030"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 2028"
+    },
+    {
+      "id": "ba2_11_19",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Pada tahap 'End State' (2028 ke atas), mekanisme setelmen New BI-FAST akan dilakukan sebanyak...",
+      "options": {
+        "a": "1 kali sehari secara batch",
+        "b": "Real Time Gross Settlement (RTGS) sepanjang hari",
+        "c": "24/7 H+0 dengan 8x Deferred Net Settlement (DNS)",
+        "d": "Setelmen tertunda setiap 2 hari kerja (T+2)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 24/7 H+0 dengan 8x Deferred Net Settlement (DNS)"
+    },
+    {
+      "id": "ba2_11_20",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Berapa persentase pertumbuhan volume transaksi rata-rata harian BI-FAST pada Q1 2026 dibandingkan tahun sebelumnya (YoY)?",
+      "options": {
+        "a": "15%",
+        "b": "20%",
+        "c": "28%",
+        "d": "30%"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 30%"
+    },
+    {
+      "id": "ba2_11_21",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Dalam konfigurasi teknis, fungsi utama dari 'Connector' adalah sebagai...",
+      "options": {
+        "a": "Media penyimpanan data nasabah",
+        "b": "Penghubung teknis antara sistem internal peserta (bank) dengan Hub BI-FAST",
+        "c": "Mesin otomatis untuk mencetak laporan transaksi",
+        "d": "Alat verifikasi biometrik nasabah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penghubung teknis antara sistem internal peserta (bank) dengan Hub BI-FAST"
+    },
+    {
+      "id": "ba2_11_22",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Fase II dalam roadmap pengembangan BI-FAST direncanakan akan mencakup layanan berbasis instrumen, yaitu...",
+      "options": {
+        "a": "Transfer ICT dan BCT saja",
+        "b": "Layanan setelmen nilai besar (wholesale)",
+        "c": "APMK (kartu), Uang Elektronik, QRIS, dan Cross Border Payment",
+        "d": "Hanya layanan penukaran uang valas"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): APMK (kartu), Uang Elektronik, QRIS, dan Cross Border Payment"
+    },
+    {
+      "id": "ba2_11_23",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Dalam skema Bulk Credit Transfer (BCT), ke manakah dana diteruskan oleh HUB setelah proses setelmen selesai?",
+      "options": {
+        "a": "Kembali ke rekening pengirim",
+        "b": "Hanya ke satu bank penerima saja",
+        "c": "Ke banyak peserta (bank) penerima yang berbeda dalam satu waktu",
+        "d": "Ke kas negara sebagai jaminan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Ke banyak peserta (bank) penerima yang berbeda dalam satu waktu"
+    },
+    {
+      "id": "ba2_11_24",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Apa makna dari istilah 'setelmen seketika' pada infrastruktur BI-FAST?",
+      "options": {
+        "a": "Dana dikumpulkan dulu selama 24 jam baru diselesaikan",
+        "b": "Dana diselesaikan secara final satu per satu (gross) secara real-time tanpa penundaan",
+        "c": "Setelmen hanya dilakukan pada hari kerja pukul 08.00 WIB",
+        "d": "Menggunakan metode netting harian pada akhir jam operasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Dana diselesaikan secara final satu per satu (gross) secara real-time tanpa penundaan"
+    },
+    {
+      "id": "ba2_11_25",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Manakah yang BUKAN merupakan prinsip Bank Indonesia dalam menetapkan skema harga BI-FAST?",
+      "options": {
+        "a": "Mendorong kompetisi dan inovasi dalam industri",
+        "b": "Mengutamakan transparansi tarif kepada masyarakat",
+        "c": "Memaksimalkan keuntungan finansial bagi Bank Indonesia",
+        "d": "Menjaga keberlangsungan para pelaku industri sistem pembayaran"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Memaksimalkan keuntungan finansial bagi Bank Indonesia"
+    },
+    {
+      "id": "ba2_11_26",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Perbedaan operasional mendasar antara layanan ICT dan BCT terletak pada...",
+      "options": {
+        "a": "Kecepatan prosesnya (ICT lebih cepat)",
+        "b": "Jumlah pihak penerima (ICT satu-ke-satu, BCT satu-ke-banyak atau banyak-ke-satu)",
+        "c": "Biaya administrasinya (BCT gratis)",
+        "d": "Jam operasionalnya (BCT hanya di jam kerja)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Jumlah pihak penerima (ICT satu-ke-satu, BCT satu-ke-banyak atau banyak-ke-satu)"
+    },
+    {
+      "id": "ba2_11_27",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Infrastruktur BI-Payment Clear yang akan diintegrasikan dengan New BI-FAST berfungsi untuk...",
+      "options": {
+        "a": "Menggantikan seluruh peran sistem RTGS nasional",
+        "b": "Pemeriksaan transaksi mencurigakan serta pertukaran data fraudster antar peserta",
+        "c": "Mengelola tabungan individu masyarakat secara langsung di BI",
+        "d": "Menyediakan pinjaman likuiditas bagi bank yang kekurangan dana"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pemeriksaan transaksi mencurigakan serta pertukaran data fraudster antar peserta"
+    },
+    {
+      "id": "ba2_11_28",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Kapasitas pemrosesan maksimal (TPS) dari sistem BI-FAST monolitik yang digunakan saat ini adalah...",
+      "options": {
+        "a": "500 TPS",
+        "b": "1.000 TPS",
+        "c": "2.000 TPS",
+        "d": "5.000 TPS"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 2.000 TPS"
+    },
+    {
+      "id": "ba2_11_29",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Pada masa transisi (2026-2028), mekanisme setelmen BI-FAST akan berubah dari mekanisme RTGS menjadi...",
+      "options": {
+        "a": "Mekanisme batch harian pukul 16.00 WIB",
+        "b": "Mekanisme 24/7 H+0 dengan 3x Deferred Net Settlement (DNS)",
+        "c": "Mekanisme setelmen seketika 24 jam penuh tanpa jeda DNS",
+        "d": "Mekanisme setelmen mingguan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mekanisme 24/7 H+0 dengan 3x Deferred Net Settlement (DNS)"
+    },
+    {
+      "id": "ba2_11_30",
+      "category": "11. BI-FAST",
+      "source": "11. BI-FAST.txt",
+      "question": "Program 'Sinergi dengan IN-FAST' bertujuan untuk mengintegrasikan infrastruktur industri (3i) agar...",
+      "options": {
+        "a": "Seluruh transaksi dialihkan ke pihak swasta",
+        "b": "Memiliki service level (kualitas layanan) yang setara dengan BI-FAST dan terstandardisasi",
+        "c": "Biaya transaksi dapat dinaikkan secara bertahap",
+        "d": "Bank Indonesia tidak perlu lagi mengawasi transaksi ritel"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memiliki service level (kualitas layanan) yang setara dengan BI-FAST dan terstandardisasi"
+    },
+    {
+      "id": "ba2_12_1",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Satuan Kerja (Satker) di Bank Indonesia yang bertugas MENGEMBANGKAN framework, pedoman, dan tools pengawasan Sistem Pembayaran adalah...",
+      "options": {
+        "a": "DSPK (Departemen Surveilans SP dan Pelindungan Konsumen)",
+        "b": "DPSP (Departemen Penyelenggaraan Sistem Pembayaran)",
+        "c": "DSSM (Departemen Surveilans Makroprudensial, Moneter dan Market)",
+        "d": "KPwDN (Kantor Perwakilan Dalam Negeri)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): DSSM (Departemen Surveilans Makroprudensial, Moneter dan Market)"
+    },
+    {
+      "id": "ba2_12_2",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Bank Indonesia memiliki tiga kewenangan utama di bidang Sistem Pembayaran. Mana yang merupakan contoh kewenangan \"Pengaturan\"?",
+      "options": {
+        "a": "Memberikan izin kepada GoPay dan OVO",
+        "b": "Menerbitkan PBI No. 10 Tahun 2025 tentang Industri SP",
+        "c": "Melakukan pemeriksaan onsite ke bank umum",
+        "d": "Mengenakan denda administratif kepada penyelenggara"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Menerbitkan PBI No. 10 Tahun 2025 tentang Industri SP"
+    },
+    {
+      "id": "ba2_12_3",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Manakah di bawah ini yang merupakan sasaran kebijakan pengawasan SP terkait \"Velositas\"?",
+      "options": {
+        "a": "Transaksi SP berjalan cepat, mudah diakses, dan biaya terjangkau",
+        "b": "Ekosistem penyelenggara yang kompetitif dan tertata",
+        "c": "Sistem yang aman dari fraud dan serangan siber",
+        "d": "Terjaminnya kualitas dan keaslian uang rupiah fisik"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Transaksi SP berjalan cepat, mudah diakses, dan biaya terjangkau"
+    },
+    {
+      "id": "ba2_12_4",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Berdasarkan PBI No. 10 Tahun 2025, kategori PJP yang memiliki izin Paket 1A dan mendapatkan akses langsung ke BI-FAST disebut...",
+      "options": {
+        "a": "PSP Selain Utama",
+        "b": "Penyelenggara Penunjang",
+        "c": "PSP Utama",
+        "d": "Penyelenggara Infrastruktur (PIP)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PSP Utama"
+    },
+    {
+      "id": "ba2_12_5",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Dalam klasifikasi aktivitas PJP, singkatan dari aktivitas \"PSD\" adalah...",
+      "options": {
+        "a": "Penyelenggaraan Sistem Digital",
+        "b": "Penatausahaan Sumber Dana",
+        "c": "Penerusan Setelmen Dana",
+        "d": "Penukaran Surat Berharga"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penatausahaan Sumber Dana"
+    },
+    {
+      "id": "ba2_12_6",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Berapa jumlah inisiatif utama yang tertuang dalam Blueprint Sistem Pembayaran Indonesia (BSPI) 2030?",
+      "options": {
+        "a": "3 Inisiatif",
+        "b": "4 Inisiatif",
+        "c": "5 Inisiatif (4I + RD)",
+        "d": "6 Inisiatif"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 5 Inisiatif (4I + RD)"
+    },
+    {
+      "id": "ba2_12_7",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Dimensi \"I\" kedua dalam singkatan TIKMI yang menilai standar minimum TI dan ketahanan siber adalah...",
+      "options": {
+        "a": "Interkoneksi",
+        "b": "Integritas",
+        "c": "Infrastruktur TI",
+        "d": "Inovasi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Infrastruktur TI"
+    },
+    {
+      "id": "ba2_12_8",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Manakah yang termasuk ke dalam kategori \"Risiko Utama\" dalam penilaian TIKMI?",
+      "options": {
+        "a": "Risiko Kepatuhan dan Risiko Hukum",
+        "b": "Risiko Reputasi dan Risiko Strategis",
+        "c": "Risiko Operasional, Likuiditas, dan Keuangan",
+        "d": "Risiko PU-PT dan Risiko Perlindungan Konsumen"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Risiko Operasional, Likuiditas, dan Keuangan"
+    },
+    {
+      "id": "ba2_12_9",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Seberapa sering asesmen TIKMI dilakukan untuk kategori \"PSP Utama\"?",
+      "options": {
+        "a": "Setiap bulan",
+        "b": "Setiap tiga bulan (triwulanan)",
+        "c": "Setiap enam bulan (semesteran pada Maret & September)",
+        "d": "Setiap satu tahun sekali"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Setiap enam bulan (semesteran pada Maret & September)"
+    },
+    {
+      "id": "ba2_12_10",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Dokumen keluaran (output) utama dari proses pemeriksaan lapangan (onsite) disebut...",
+      "options": {
+        "a": "Asesmen TIKMI",
+        "b": "Laporan Monitoring Bulanan",
+        "c": "LHP (Laporan Hasil Pemeriksaan)",
+        "d": "Know Your PSP (KYSP)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): LHP (Laporan Hasil Pemeriksaan)"
+    },
+    {
+      "id": "ba2_12_11",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Penyelenggara Penunjang (PP) yang mendukung infrastruktur operasional kritis dan melayani PSP Utama dikategorikan sebagai...",
+      "options": {
+        "a": "PP Kritikal",
+        "b": "PP Penting",
+        "c": "PP Standar",
+        "d": "PP Utama"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): PP Kritikal"
+    },
+    {
+      "id": "ba2_12_12",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "PP kategori \"PENTING\" wajib dilakukan asesmen oleh BI minimal pada aspek...",
+      "options": {
+        "a": "Manajemen Risiko (M) dan Infrastruktur TI (I)",
+        "b": "Infrastruktur TI (I) saja",
+        "c": "Kompetensi (K) dan Transaksi (T)",
+        "d": "Seluruh aspek TIKMI"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Infrastruktur TI (I) saja"
+    },
+    {
+      "id": "ba2_12_13",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Kapan daftar Penyelenggara Penunjang (PP) Kritikal & Penting akan dipublikasikan untuk pertama kalinya?",
+      "options": {
+        "a": "Tahun 2026",
+        "b": "Tahun 2027",
+        "c": "Tahun 2028",
+        "d": "Tahun 2030"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Tahun 2028"
+    },
+    {
+      "id": "ba2_12_14",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Perusahaan swasta yang melakukan kegiatan sortir, hitung, dan pengisian ATM disebut...",
+      "options": {
+        "a": "PJP (Penyedia Jasa Pembayaran)",
+        "b": "PIP (Penyelenggara Infrastruktur)",
+        "c": "PJPUR (Penyelenggara Jasa Pengolahan Uang Rupiah)",
+        "d": "KUPVA BB (Money Changer)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PJPUR (Penyelenggara Jasa Pengolahan Uang Rupiah)"
+    },
+    {
+      "id": "ba2_12_15",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Apa nama alat penilaian risiko yang digunakan secara khusus oleh Bank Indonesia untuk mengawasi PJPUR?",
+      "options": {
+        "a": "TIKMI",
+        "b": "RAM",
+        "c": "SiRAM (Simplified Risk Assessment Matrix)",
+        "d": "EWS"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): SiRAM (Simplified Risk Assessment Matrix)"
+    },
+    {
+      "id": "ba2_12_16",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Dalam tiga pilar pengawasan PJPUR, aspek yang mencakup legalitas badan hukum dan permodalan adalah pilar...",
+      "options": {
+        "a": "Kelembagaan",
+        "b": "Sarana & Prasarana",
+        "c": "Kegiatan Usaha",
+        "d": "Manajemen Risiko"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Kelembagaan"
+    },
+    {
+      "id": "ba2_12_17",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Dalam struktur pengawasan PJPUR, Bank Indonesia bertindak sebagai pengawas eksternal yang merupakan...",
+      "options": {
+        "a": "1st Line of Defence",
+        "b": "2nd Line of Defence",
+        "c": "3rd Line of Defence",
+        "d": "4th Line of Defence"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 4th Line of Defence"
+    },
+    {
+      "id": "ba2_12_18",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Laporan tahunan yang wajib disampaikan PJPUR kepada Bank Indonesia meliputi...",
+      "options": {
+        "a": "Laporan Distribusi Uang Rupiah",
+        "b": "Laporan Pengisian ATM",
+        "c": "Laporan Keuangan Audited dan Rencana Bisnis",
+        "d": "Laporan Gangguan Sarana"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Laporan Keuangan Audited dan Rencana Bisnis"
+    },
+    {
+      "id": "ba2_12_19",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Pemanfaatan inovasi teknologi oleh otoritas pengawas (regulator) untuk mendukung tugas pengawasan disebut...",
+      "options": {
+        "a": "FinTech",
+        "b": "RegTech",
+        "c": "SupTech",
+        "d": "InsurTech"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): SupTech"
+    },
+    {
+      "id": "ba2_12_20",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Apa perbedaan mendasar antara SupTech dan FinTech?",
+      "options": {
+        "a": "FinTech menggunakan AI, SupTech tidak",
+        "b": "SupTech digunakan oleh pengawas/regulator, FinTech oleh industri swasta",
+        "c": "SupTech hanya untuk bank, FinTech untuk non-bank",
+        "d": "SupTech adalah teknologi lama, FinTech adalah teknologi baru"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): SupTech digunakan oleh pengawas/regulator, FinTech oleh industri swasta"
+    },
+    {
+      "id": "ba2_12_21",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Tingkatan analisis SupTech yang mampu memberikan REKOMENDASI tindakan yang harus dilakukan pengawas disebut level...",
+      "options": {
+        "a": "Descriptive",
+        "b": "Diagnostic",
+        "c": "Predictive",
+        "d": "Prescriptive"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Prescriptive"
+    },
+    {
+      "id": "ba2_12_22",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Dashboard SupTech yang digunakan untuk mendeteksi dini PSP yang berpotensi bermasalah adalah...",
+      "options": {
+        "a": "Dashboard Kinerja PJP",
+        "b": "Early Warning System (EWS)",
+        "c": "Dashboard Profil User",
+        "d": "Sentiment Analysis"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Early Warning System (EWS)"
+    },
+    {
+      "id": "ba2_12_23",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Alat SupTech yang memvisualisasikan jejaring transaksi antar PJP dan PIP untuk melihat keterhubungan sistemik disebut...",
+      "options": {
+        "a": "Dashboard Compliance",
+        "b": "BI-SSS",
+        "c": "FNA (Financial Network Analytics)",
+        "d": "ANTASENA"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): FNA (Financial Network Analytics)"
+    },
+    {
+      "id": "ba2_12_24",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Sumber data utama yang digunakan dalam Financial Network Analytics (FNA) Bank Indonesia berasal dari...",
+      "options": {
+        "a": "Laporan manual PJP",
+        "b": "Data sosial media",
+        "c": "Transaksi RTGS, SKNBI, dan BI-FAST",
+        "d": "Data kependudukan (NIK)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Transaksi RTGS, SKNBI, dan BI-FAST"
+    },
+    {
+      "id": "ba2_12_25",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Satker di BI yang menjadi koordinator pengawasan PJPUR secara nasional adalah...",
+      "options": {
+        "a": "DSSM",
+        "b": "DSPK",
+        "c": "DPU",
+        "d": "DPSP"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): DSPK"
+    },
+    {
+      "id": "ba2_12_26",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Manakah yang merupakan contoh sanksi administratif yang dapat diberikan Bank Indonesia kepada penyelenggara SP?",
+      "options": {
+        "a": "Teguran lisan",
+        "b": "Penghentian sebagian atau seluruh kegiatan",
+        "c": "Hukuman penjara bagi direksi",
+        "d": "Penyitaan aset pribadi pemilik"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penghentian sebagian atau seluruh kegiatan"
+    },
+    {
+      "id": "ba2_12_27",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Dalam glosarium Sistem Pembayaran, istilah \"Market Conduct\" merujuk pada...",
+      "options": {
+        "a": "Harga saham penyelenggara di bursa",
+        "b": "Kapasitas server yang digunakan PJP",
+        "c": "Perilaku penyelenggara SP dalam melayani konsumen",
+        "d": "Jumlah total transaksi di pasar ritel"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Perilaku penyelenggara SP dalam melayani konsumen"
+    },
+    {
+      "id": "ba2_12_28",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Apa kepanjangan dari IOKS yang menjadi acuan dalam pengawasan Penyelenggara Penunjang?",
+      "options": {
+        "a": "Industri Operasional Kerja Sama",
+        "b": "Infrastruktur Operasional Kritis Sistem Pembayaran",
+        "c": "Instrumen Otomasi Keamanan Siber",
+        "d": "Institusi Olah Kas Standar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Infrastruktur Operasional Kritis Sistem Pembayaran"
+    },
+    {
+      "id": "ba2_12_30",
+      "category": "12. Framework Pengawasan SP, PJPUR, dan SupTech",
+      "source": "12. Framework Pengawasan SP, PJPUR, dan SupTech.txt",
+      "question": "Tanda \"■■\" (dua kotak hitam) dalam materi belajar Framework Pengawasan ini menandakan...",
+      "options": {
+        "a": "Materi yang bersifat rahasia",
+        "b": "Poin prioritas tinggi yang sering muncul di ujian",
+        "c": "Materi yang sudah dihapus atau tidak berlaku",
+        "d": "Nama unit kerja yang baru dibentuk"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Poin prioritas tinggi yang sering muncul di ujian"
+    },
+    {
+      "id": "ba2_13_1",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Berdasarkan UU No. 23/1999, Bank Indonesia memiliki kewenangan penuh atas Sistem Pembayaran yang mencakup hal berikut, KECUALI... ,",
+      "options": {
+        "a": "Perizinan",
+        "b": "Pengaturan",
+        "c": "Pengawasan",
+        "d": "Penetapan harga produk perbankan"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Penetapan harga produk perbankan"
+    },
+    {
+      "id": "ba2_13_2",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Satuan Kerja (Satker) yang bertugas mengembangkan framework, pedoman, dan tools pengawasan SP adalah... ,",
+      "options": {
+        "a": "DSPK",
+        "b": "DPSP",
+        "c": "DSSM",
+        "d": "KPwDN"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): DSSM"
+    },
+    {
+      "id": "ba2_13_3",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Manakah Satker yang bertanggung jawab melakukan pengawasan terhadap PJP KI-3 (Layanan Remitansi)? ,",
+      "options": {
+        "a": "DSPK",
+        "b": "KPwDN",
+        "c": "DPSP",
+        "d": "DSSM"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): KPwDN"
+    },
+    {
+      "id": "ba2_13_4",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Dalam analogi \"Jalan Tol Keuangan\", masyarakat diibaratkan sebagai...",
+      "options": {
+        "a": "Pengelola jalan tol",
+        "b": "Kendaraan yang melintas",
+        "c": "Penumpang yang ingin sampai tujuan",
+        "d": "Petugas gerbang tol"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Penumpang yang ingin sampai tujuan"
+    },
+    {
+      "id": "ba2_13_5",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Undang-Undang yang mengatur bahwa Rupiah adalah satu-satunya alat pembayaran sah di Indonesia adalah...",
+      "options": {
+        "a": "UU No. 23/1999",
+        "b": "UU No. 3/2011",
+        "c": "UU No. 7/2011",
+        "d": "UU No. 11/2008"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): UU No. 7/2011"
+    },
+    {
+      "id": "ba2_13_6",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Apa tujuan utama dari pilar \"Velositas SP\" dalam pengawasan?",
+      "options": {
+        "a": "Memastikan transaksi cepat, mudah, murah, aman, dan andal",
+        "b": "Menjamin interkoneksi antar penyelenggara",
+        "c": "Mengawasi kompetensi SDM perbankan",
+        "d": "Menganalisis risiko sistemik lintas sektor"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Memastikan transaksi cepat, mudah, murah, aman, dan andal"
+    },
+    {
+      "id": "ba2_13_7",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Pendekatan pengawasan SP oleh Bank Indonesia menggunakan metode berikut, KECUALI...",
+      "options": {
+        "a": "Risk-Based Approach",
+        "b": "Behaviour-Based Approach",
+        "c": "Compliance-Based Approach",
+        "d": "Profit-Based Approach"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Profit-Based Approach"
+    },
+    {
+      "id": "ba2_13_8",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Objek pengawasan yang mencakup 30 Bank Besar dengan asesmen semesteran disebut...",
+      "options": {
+        "a": "PSP Utama",
+        "b": "PSP Non-Utama",
+        "c": "Lembaga Services",
+        "d": "Penyelenggara Infrastruktur"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): PSP Utama"
+    },
+    {
+      "id": "ba2_13_9",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Dalam siklus pengawasan SP, tahap yang dilakukan secara \"offsite\" (tidak bertemu langsung) adalah...",
+      "options": {
+        "a": "Pengawasan Tidak Langsung (Surveilans)",
+        "b": "Pengawasan Langsung (Pemeriksaan)",
+        "c": "Evaluasi & Tindak Lanjut",
+        "d": "Koordinasi antar Otoritas"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Pengawasan Tidak Langsung (Surveilans)"
+    },
+    {
+      "id": "ba2_13_10",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "TIKMI adalah alat ukur utama menilai kondisi PJP/PIP. Huruf \"K\" merujuk pada... , ,",
+      "options": {
+        "a": "Kepatuhan Ketentuan",
+        "b": "Keuangan dan Permodalan",
+        "c": "Kompetensi SDM (Sertifikasi)",
+        "d": "Kliring dan Setelmen"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Kompetensi SDM (Sertifikasi)"
+    },
+    {
+      "id": "ba2_13_11",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Manakah yang termasuk dalam kategori \"Risiko Utama\" dalam identifikasi risiko SP?",
+      "options": {
+        "a": "Risiko Likuiditas, Operasional, dan Keuangan",
+        "b": "Risiko Kredit dan Kepatuhan",
+        "c": "Risiko Hukum dan Reputasi",
+        "d": "Risiko Strategis dan Siber"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Risiko Likuiditas, Operasional, dan Keuangan"
+    },
+    {
+      "id": "ba2_13_12",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Berdasarkan materi, aktivitas Monitoring, Identifikasi, dan Asesmen dalam pengawasan tidak langsung bersifat...",
+      "options": {
+        "a": "Harus berurutan (sequential)",
+        "b": "Bukan alur yang harus berurutan (non-sequential)",
+        "c": "Hanya boleh dilakukan setahun sekali",
+        "d": "Wajib dilakukan bersama otoritas lain"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bukan alur yang harus berurutan (non-sequential)"
+    },
+    {
+      "id": "ba2_13_13",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Pemeriksaan yang dilakukan mendadak karena adanya isu tertentu disebut pemeriksaan...",
+      "options": {
+        "a": "Reguler",
+        "b": "Insidentil",
+        "c": "Umum",
+        "d": "Full Scope"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Insidentil"
+    },
+    {
+      "id": "ba2_13_14",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Apa output utama dari proses pemeriksaan lapangan oleh pengawas?",
+      "options": {
+        "a": "TIKMI Evaluation",
+        "b": "LHP (Laporan Hasil Pemeriksaan)",
+        "c": "Action Plan Semesteran",
+        "d": "Rencana Bisnis PJP"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): LHP (Laporan Hasil Pemeriksaan)"
+    },
+    {
+      "id": "ba2_13_15",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Berapa modal minimum untuk mendirikan PJPUR Kategori II?",
+      "options": {
+        "a": "Rp 1 Miliar",
+        "b": "Rp 1,5 Miliar",
+        "c": "Rp 3 Miliar",
+        "d": "Rp 5 Miliar"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp 3 Miliar"
+    },
+    {
+      "id": "ba2_13_16",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Kegiatan yang HANYA boleh dilakukan oleh PJPUR Kategori II adalah... ,",
+      "options": {
+        "a": "Distribusi uang Rupiah",
+        "b": "Penyimpanan uang Rupiah",
+        "c": "Pemrosesan dan Pengisian ATM/CDM/CRM",
+        "d": "Pengawalan uang tunai"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Pemrosesan dan Pengisian ATM/CDM/CRM"
+    },
+    {
+      "id": "ba2_13_17",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Berdasarkan data 2025, berapa persentase PJPUR yang terafiliasi dengan bank? ,",
+      "options": {
+        "a": "20%",
+        "b": "35%",
+        "c": "55%",
+        "d": "100%"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 35%"
+    },
+    {
+      "id": "ba2_13_18",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Apa alasan utama bank memiliki atau berafiliasi dengan PJPUR?",
+      "options": {
+        "a": "Untuk mengontrol langsung rantai pasokan uang fisiknya",
+        "b": "Untuk mendapatkan dana talangan dari Bank Indonesia",
+        "c": "Agar tidak perlu melakukan pelaporan ke BI",
+        "d": "Untuk mengurangi biaya pajak perusahaan"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Untuk mengontrol langsung rantai pasokan uang fisiknya"
+    },
+    {
+      "id": "ba2_13_19",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Alat (tools) asesmen risiko yang digunakan khusus untuk PJPUR adalah... , ,",
+      "options": {
+        "a": "RAM (Risk Assessment Matrix)",
+        "b": "TIKMI Evaluation",
+        "c": "SiRAM (Simplified Risk Assessment Matrix)",
+        "d": "DSRS Report"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): SiRAM (Simplified Risk Assessment Matrix)"
+    },
+    {
+      "id": "ba2_13_20",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Manakah yang termasuk dalam \"Risiko Dasar\" pengawasan PJPUR? , ,",
+      "options": {
+        "a": "Operasional, Bisnis, dan Kepatuhan",
+        "b": "Likuiditas, Kredit, dan Pasar",
+        "c": "Hukum, Reputasi, dan Strategis",
+        "d": "Siber, Teknologi, dan Inovasi"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Operasional, Bisnis, dan Kepatuhan"
+    },
+    {
+      "id": "ba2_13_21",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Contoh risiko operasional pada PJPUR adalah...",
+      "options": {
+        "a": "Salah mengambil keputusan bisnis",
+        "b": "Petugas curang atau kendaraan pengangkut rusak",
+        "c": "Terlambat menyampaikan laporan berkala",
+        "d": "Petugas tidak memiliki sertifikasi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Petugas curang atau kendaraan pengangkut rusak"
+    },
+    {
+      "id": "ba2_13_22",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Laporan Keuangan Audited dan Rencana Bisnis PJPUR wajib disampaikan setiap...",
+      "options": {
+        "a": "Bulan",
+        "b": "Semester",
+        "c": "Tahun",
+        "d": "Minggu"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Tahun"
+    },
+    {
+      "id": "ba2_13_23",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Apa tujuan dilakukannya penilaian Risiko Akhir (Net Risk) pada SiRAM?",
+      "options": {
+        "a": "Deteksi dini risiko signifikan dan penetapan strategi pengawasan",
+        "b": "Menghitung jumlah uang palsu secara nasional",
+        "c": "Menentukan gaji direksi PJPUR",
+        "d": "Mengatur jadwal pengisian ATM di daerah 3T"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Deteksi dini risiko signifikan dan penetapan strategi pengawasan"
+    },
+    {
+      "id": "ba2_13_24",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Siapa pihak yang memiliki skala prioritas UTAMA untuk dilakukan pemeriksaan onsite?",
+      "options": {
+        "a": "PJPUR berdasarkan hasil surveilans dan penilaian profil risiko (SiRAM)",
+        "b": "PJPUR yang baru beroperasi satu bulan",
+        "c": "PJPUR yang meminta untuk diperiksa",
+        "d": "PJPUR yang memiliki kantor cabang paling sedikit"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): PJPUR berdasarkan hasil surveilans dan penilaian profil risiko (SiRAM)"
+    },
+    {
+      "id": "ba2_13_25",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Temuan berupa \"Gedung tidak ada loker tamu atau pintu air khazanah rusak\" masuk dalam aspek...",
+      "options": {
+        "a": "Legalitas",
+        "b": "Operasional",
+        "c": "Manajemen Risiko",
+        "d": "Kepatuhan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Operasional"
+    },
+    {
+      "id": "ba2_13_26",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Satker pengawas utama (DSPK) mendapatkan rekap kualitas setoran PJPUR (soil level & UPAL) dari... ,",
+      "options": {
+        "a": "Satker Kebijakan (DPU)",
+        "b": "Otoritas Jasa Keuangan (OJK)",
+        "c": "Satker Perkasan (KPwDN)",
+        "d": "Pengadilan Niaga"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Satker Perkasan (KPwDN)"
+    },
+    {
+      "id": "ba2_13_27",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Berapa frekuensi penyampaian data kualitas setoran PJPUR oleh KPwDN kepada pengawas utama? , ,",
+      "options": {
+        "a": "Bulanan",
+        "b": "Semesteran",
+        "c": "Triwulanan",
+        "d": "Tahunan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Triwulanan"
+    },
+    {
+      "id": "ba2_13_28",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Jika izin PJP berubah atau kantor pusat pindah lokasi, maka kewenangan pengawasan...",
+      "options": {
+        "a": "Berpindah antara DSPK dan KPwDN sesuai prosedur",
+        "b": "Tetap berada di satker yang lama selamanya",
+        "c": "Diambil alih sepenuhnya oleh Gubernur BI",
+        "d": "Dibatalkan dan harus mengajukan izin baru"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Berpindah antara DSPK dan KPwDN sesuai prosedur"
+    },
+    {
+      "id": "ba2_13_29",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Asesmen TIKMI untuk Non-PSP Utama dilakukan dengan frekuensi... ,",
+      "options": {
+        "a": "Mingguan",
+        "b": "Bulanan",
+        "c": "Semesteran",
+        "d": "Tahunan"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Tahunan"
+    },
+    {
+      "id": "ba2_13_30",
+      "category": "13. Pengawasan SP PJP PIP PJPUR",
+      "source": "13. Pengawasan SP PJP PIP PJPUR.txt",
+      "question": "Huruf \"I\" pertama dalam pilar TIKMI yang mengukur kerja sama bisnis dan SNAP merujuk pada... ,",
+      "options": {
+        "a": "Infrastruktur IT",
+        "b": "Interkoneksi",
+        "c": "Inovasi Teknologi",
+        "d": "Integritas Data"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Interkoneksi"
+    },
+    {
+      "id": "ba2_14_1",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Satuan Kerja di Bank Indonesia yang bertanggung jawab atas pengawasan risiko siber dan pelindungan konsumen adalah...",
+      "options": {
+        "a": "Departemen Kebijakan Sistem Pembayaran (DKSP)",
+        "b": "Departemen Surveilans Sistem Pembayaran dan Pelindungan Konsumen (DSPPK)",
+        "c": "Departemen Penyelenggaraan Sistem Pembayaran (DPSP)",
+        "d": "Departemen Pengelolaan Moneter (DPM)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Departemen Surveilans Sistem Pembayaran dan Pelindungan Konsumen (DSPPK)"
+    },
+    {
+      "id": "ba2_14_2",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Regulasi utama yang menjadi landasan pengawasan Keamanan Sistem Informasi dan Ketahanan Siber (KKS) saat ini adalah...",
+      "options": {
+        "a": "PBI No. 22 Tahun 2020",
+        "b": "PBI No. 23 Tahun 2021",
+        "c": "PBI No. 2 Tahun 2024",
+        "d": "PBI No. 10 Tahun 2025"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PBI No. 2 Tahun 2024"
+    },
+    {
+      "id": "ba2_14_3",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Berdasarkan siklus pengawasan berkelanjutan BI, tahap pertama yang dilakukan adalah...",
+      "options": {
+        "a": "Pemeriksaan On-site",
+        "b": "Evaluasi dan Tindak Lanjut",
+        "c": "Surveilans (Pemantauan dan Identifikasi Risiko)",
+        "d": "Pemberian Sanksi Administratif"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Surveilans (Pemantauan dan Identifikasi Risiko)"
+    },
+    {
+      "id": "ba2_14_4",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Manakah dari laporan berikut yang wajib disampaikan oleh PJP kepada Bank Indonesia dengan frekuensi HARIAN?",
+      "options": {
+        "a": "Laporan Rekapitulasi Gangguan Sistem",
+        "b": "Laporan Hasil Audit TI",
+        "c": "Cyber Threat Intelligence",
+        "d": "Laporan Data Pokok TI"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Laporan Data Pokok TI"
+    },
+    {
+      "id": "ba2_14_5",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "TIKI adalah framework asesmen keandalan infrastruktur TI. Huruf \"K\" dalam TIKI merujuk pada...",
+      "options": {
+        "a": "Keamanan Informasi",
+        "b": "Kompetensi SDM dan Organisasi",
+        "c": "Konektivitas Jaringan",
+        "d": "Kepatuhan Ketentuan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kompetensi SDM dan Organisasi"
+    },
+    {
+      "id": "ba2_14_6",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Skala hasil penilaian keandalan infrastruktur TI yang menyatakan kondisi \"andal dengan pengendalian memadai\" adalah...",
+      "options": {
+        "a": "Fairly Reliable",
+        "b": "Reliable",
+        "c": "Completely Reliable",
+        "d": "Usually Reliable"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Reliable"
+    },
+    {
+      "id": "ba2_14_7",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Berdasarkan PBI No. 2 Tahun 2024, tiga pilar utama framework KKS terdiri dari...",
+      "options": {
+        "a": "People, Process, Technology",
+        "b": "Identifikasi, Proteksi, Deteksi",
+        "c": "Tata Kelola, Pencegahan, Penanganan",
+        "d": "Surveilans, Pemeriksaan, Evaluasi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Tata Kelola, Pencegahan, Penanganan"
+    },
+    {
+      "id": "ba2_14_8",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Analisis Dampak Bisnis (Business Impact Analysis) dikategorikan ke dalam komponen KKS pilar...",
+      "options": {
+        "a": "Tata Kelola",
+        "b": "Pencegahan (Identifikasi)",
+        "c": "Penanganan (Respons)",
+        "d": "Kolaborasi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pencegahan (Identifikasi)"
+    },
+    {
+      "id": "ba2_14_9",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Prinsip KKS yang mengharuskan adanya komitmen pimpinan puncak dalam pengelolaan risiko siber disebut...",
+      "options": {
+        "a": "Cybersecurity Culture",
+        "b": "Accountability",
+        "c": "Readiness for Incident",
+        "d": "Comprehensive Strategy"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Accountability"
+    },
+    {
+      "id": "ba2_14_10",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Pelaku ancaman siber (threat actors) dengan persentase terbanyak (22%) menurut data adalah...",
+      "options": {
+        "a": "Hackers",
+        "b": "Malicious Insiders",
+        "c": "Cybercriminals (bermotif finansial)",
+        "d": "Nation State Attackers"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Cybercriminals (bermotif finansial)"
+    },
+    {
+      "id": "ba2_14_11",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Jenis malware yang membatasi penggunaan komputer sampai pemilik membayar tebusan disebut...",
+      "options": {
+        "a": "Trojan",
+        "b": "Ransomware",
+        "c": "Adware",
+        "d": "Worm"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Ransomware"
+    },
+    {
+      "id": "ba2_14_12",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Periode evolusi kejahatan siber 2019-2021 bertema \"Find and Exploit\" yang ditandai dengan...",
+      "options": {
+        "a": "Munculnya Ransomware-as-a-Service (RaaS)",
+        "b": "Lemahnya proses SDLC pada pengembangan mobile apps",
+        "c": "Serangan siber melalui celah mitra API",
+        "d": "Pencurian dana secara masif (Cyber Heist)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Lemahnya proses SDLC pada pengembangan mobile apps"
+    },
+    {
+      "id": "ba2_14_13",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Tren \"Third Party Risk\" yang diprediksi dominan pada 2025-2026 fokus pada celah di...",
+      "options": {
+        "a": "Core banking internal bank",
+        "b": "Aplikasi nasabah",
+        "c": "Mitra PSP, vendor managed service, atau partner API",
+        "d": "Mesin ATM fisik"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Mitra PSP, vendor managed service, atau partner API"
+    },
+    {
+      "id": "ba2_14_14",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Apa tindakan pertama yang bersifat universal dalam penanganan setiap kasus siber?",
+      "options": {
+        "a": "Melakukan rebuild infrastruktur",
+        "b": "Melakukan analisa atas log transaksi yang dianggap anomali",
+        "c": "Melakukan investigasi internal",
+        "d": "Melakukan money trail"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Melakukan analisa atas log transaksi yang dianggap anomali"
+    },
+    {
+      "id": "ba2_14_15",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Lembaga koordinasi nasional untuk penanganan kejahatan siber dan penipuan digital di Indonesia adalah...",
+      "options": {
+        "a": "IASC (Indonesian Anti-Scam Centre)",
+        "b": "BSSN",
+        "c": "Siber Polri",
+        "d": "Kominfo"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): IASC (Indonesian Anti-Scam Centre)"
+    },
+    {
+      "id": "ba2_14_16",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Dalam pencegahan fraud via EDC, Bank Acquirer secara tegas DILARANG menggunakan...",
+      "options": {
+        "a": "EDC berbasis Chip",
+        "b": "EDC berbasis Android",
+        "c": "EDC dengan fitur purchase",
+        "d": "EDC yang terhubung ke kabel LAN"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): EDC berbasis Android"
+    },
+    {
+      "id": "ba2_14_17",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Perangkat fisik penghasil OTP untuk otentikasi transaksi wholesale payment disebut...",
+      "options": {
+        "a": "Soft Token",
+        "b": "Hard Token",
+        "c": "Smart Card",
+        "d": "Biometric Reader"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Hard Token"
+    },
+    {
+      "id": "ba2_14_18",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Sistem untuk mengelola, memantau, dan mengontrol akses istimewa ke sistem kritis disebut...",
+      "options": {
+        "a": "EDR",
+        "b": "SIEM",
+        "c": "PAM (Privileged Access Management)",
+        "d": "WAF"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PAM (Privileged Access Management)"
+    },
+    {
+      "id": "ba2_14_19",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Tools keamanan yang berfungsi mendeteksi dan merespons ancaman secara spesifik di level endpoint (perangkat) adalah...",
+      "options": {
+        "a": "WAF",
+        "b": "EDR (Endpoint Detection and Response)",
+        "c": "MFA",
+        "d": "Firewall"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): EDR (Endpoint Detection and Response)"
+    },
+    {
+      "id": "ba2_14_20",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Platform terpusat yang mengumpulkan dan menganalisis log dari berbagai security tools disebut...",
+      "options": {
+        "a": "SIEM (Security Information and Event Management)",
+        "b": "SNAP",
+        "c": "API Gateway",
+        "d": "IASC"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): SIEM (Security Information and Event Management)"
+    },
+    {
+      "id": "ba2_14_21",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Apa kepanjangan dari SNAP dalam konteks interlink bank dan fintech?",
+      "options": {
+        "a": "Sistem Nasional Akses Pembayaran",
+        "b": "Standar Nasional Open API Pembayaran",
+        "c": "Security Network Access Provider",
+        "d": "Standard Network API Payment"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Standar Nasional Open API Pembayaran"
+    },
+    {
+      "id": "ba2_14_22",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Hasil asesmen 35 Bank Besar menunjukkan rerata skor keandalan (Faktor I) sebesar...",
+      "options": {
+        "a": "3,00",
+        "b": "3,50",
+        "c": "3,85",
+        "d": "4,25"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 3,85"
+    },
+    {
+      "id": "ba2_14_23",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Dari 35 Bank Besar yang diases, berapa banyak bank yang mencapai kategori \"Sangat Andal\"?",
+      "options": {
+        "a": "0 bank",
+        "b": "1 bank",
+        "c": "16 bank",
+        "d": "18 bank"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): 0 bank"
+    },
+    {
+      "id": "ba2_14_24",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Teknologi Suptech yang dikembangkan BI bertujuan untuk meningkatkan efektivitas surveilans melalui...",
+      "options": {
+        "a": "Penambahan jumlah pemeriksa lapangan",
+        "b": "Data collection dan data analytics",
+        "c": "Penggunaan robot di kantor wilayah",
+        "d": "Pembatasan akses internet industri"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Data collection dan data analytics"
+    },
+    {
+      "id": "ba2_14_25",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Praktik pengembangan software yang mengotomasi pengujian dan deployment secara berkelanjutan disebut...",
+      "options": {
+        "a": "SDLC Tradisional",
+        "b": "CI/CD (Continuous Integration/Continuous Deployment)",
+        "c": "Agile Management",
+        "d": "Waterfall Model"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): CI/CD (Continuous Integration/Continuous Deployment)"
+    },
+    {
+      "id": "ba2_14_26",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Apa yang dimaksud dengan \"Resurfaced Breach\"?",
+      "options": {
+        "a": "Kebocoran data baru yang sangat besar",
+        "b": "Data lama yang sudah pernah bocor dipublikasikan ulang untuk popularitas",
+        "c": "Pemulihan data yang hilang setelah serangan",
+        "d": "Serangan siber yang menargetkan sektor asuransi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Data lama yang sudah pernah bocor dipublikasikan ulang untuk popularitas"
+    },
+    {
+      "id": "ba2_14_27",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Prinsip \"least privilege access\" berarti pemberian hak akses kepada pengguna sebesar...",
+      "options": {
+        "a": "Hak akses penuh (administrator) agar fleksibel",
+        "b": "Hak akses minimal yang diperlukan saja untuk menjalankan tugasnya",
+        "c": "Hak akses yang sama untuk semua level karyawan",
+        "d": "Hak akses hanya pada jam kerja saja"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Hak akses minimal yang diperlukan saja untuk menjalankan tugasnya"
+    },
+    {
+      "id": "ba2_14_28",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Firewall khusus yang melindungi aplikasi web dari serangan seperti SQL Injection dan XSS adalah...",
+      "options": {
+        "a": "PAM",
+        "b": "WAF (Web Application Firewall)",
+        "c": "EDR",
+        "d": "MFA"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): WAF (Web Application Firewall)"
+    },
+    {
+      "id": "ba2_14_29",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Komponen KKS pilar PENANGANAN terdiri dari sub-fungsi...",
+      "options": {
+        "a": "Identifikasi dan Proteksi",
+        "b": "Deteksi dan Monitoring",
+        "c": "Respons dan Pemulihan",
+        "d": "Tata Kelola dan Audit"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Respons dan Pemulihan"
+    },
+    {
+      "id": "ba2_14_30",
+      "category": "14. Risiko Siber",
+      "source": "14. Risiko Siber.txt",
+      "question": "Kutipan penutup materi menyatakan bahwa bank saat ini lebih mungkin jatuh karena \"missed security alert\" daripada karena...",
+      "options": {
+        "a": "Krisis ekonomi global",
+        "b": "Penarikan dana massal (bank run)",
+        "c": "Kredit macet (bad loans)",
+        "d": "Bencana alam"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Kredit macet (bad loans)"
+    },
+    {
+      "id": "ba2_15_1",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Kas Titipan pertama kali dibuka pada tahun 1992 berlokasi di...",
+      "options": {
+        "a": "Timika, Papua",
+        "b": "Jayapura, Papua",
+        "c": "Sorong, Papua Barat",
+        "d": "Merauke, Papua"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Sorong, Papua Barat"
+    },
+    {
+      "id": "ba2_15_2",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Definisi resmi Kas Titipan menurut PBI No. 21/10/PBI/2019 adalah...",
+      "options": {
+        "a": "Kantor kas Bank Indonesia yang dibuka di daerah terpencil",
+        "b": "Kegiatan layanan kas Bank Indonesia di luar kantor yang dilakukan oleh pihak lain melalui Perjanjian Kerja Sama",
+        "c": "Tabungan uang milik Bank Indonesia yang disimpan di bank umum",
+        "d": "Layanan penukaran uang yang dilakukan bank atas nama masyarakat"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kegiatan layanan kas Bank Indonesia di luar kantor yang dilakukan oleh pihak lain melalui Perjanjian Kerja Sama"
+    },
+    {
+      "id": "ba2_15_3",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Pihak yang melakukan kerja sama dengan Bank Indonesia sebagai pengelola Kas Titipan di suatu wilayah disebut...",
+      "options": {
+        "a": "Bank Peserta",
+        "b": "Bank Pengelola",
+        "c": "Bank Koordinator",
+        "d": "Bank Mitra"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bank Pengelola"
+    },
+    {
+      "id": "ba2_15_4",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Layanan yang TIDAK termasuk dalam ruang lingkup Kas Titipan adalah...",
+      "options": {
+        "a": "Penyetoran dan penarikan uang Rupiah",
+        "b": "Pemberian kredit kepada masyarakat",
+        "c": "Penukaran uang Rupiah termasuk kas keliling",
+        "d": "Edukasi terkait Rupiah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pemberian kredit kepada masyarakat"
+    },
+    {
+      "id": "ba2_15_5",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Berapa TOTAL jumlah Kas Titipan aktif di seluruh Indonesia per April 2026?",
+      "options": {
+        "a": "75 Kas Titipan",
+        "b": "87 Kas Titipan",
+        "c": "100 Kas Titipan",
+        "d": "32 Kas Titipan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 87 Kas Titipan"
+    },
+    {
+      "id": "ba2_15_6",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Bank Pengelola Kas Titipan yang jumlahnya paling banyak (51 unit) adalah kategori...",
+      "options": {
+        "a": "Bank Mandiri",
+        "b": "BRI",
+        "c": "BPD/Bank Daerah",
+        "d": "BNI"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): BPD/Bank Daerah"
+    },
+    {
+      "id": "ba2_15_7",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Karakteristik transaksi Kas Titipan sepanjang 2025 adalah NET OUTFLOW. Artinya...",
+      "options": {
+        "a": "Lebih banyak uang yang disetorkan bank ke Kas Titipan daripada yang ditarik",
+        "b": "Kas Titipan selalu kosong sepanjang tahun",
+        "c": "Lebih banyak uang yang ditarik bank dari Kas Titipan daripada yang disetorkan",
+        "d": "Inflow dan outflow sama besarnya"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Lebih banyak uang yang ditarik bank dari Kas Titipan daripada yang disetorkan"
+    },
+    {
+      "id": "ba2_15_8",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Bantuan finansial jenis OPERASIONAL diberikan oleh Bank Indonesia dengan frekuensi...",
+      "options": {
+        "a": "Satu kali saat pembukaan",
+        "b": "Setiap bulan",
+        "c": "Setiap 2 tahun (saat perpanjangan PKS)",
+        "d": "Setelah pengolahan UTLE"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Setiap bulan"
+    },
+    {
+      "id": "ba2_15_9",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Besaran bantuan pendirian Kas Titipan di wilayah Sulawesi, Maluku, dan Papua (Paket C) adalah...",
+      "options": {
+        "a": "Rp35.000.000",
+        "b": "Rp40.000.000",
+        "c": "Rp45.000.000",
+        "d": "Rp50.000.000"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Rp50.000.000"
+    },
+    {
+      "id": "ba2_15_10",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Uang kas titipan yang disimpan di dalam khazanah wajib di-cover dengan asuransi...",
+      "options": {
+        "a": "Cash in Transit",
+        "b": "Cash in Cashiers Box",
+        "c": "Cash in Safe",
+        "d": "All Risk Insurance"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Cash in Safe"
+    },
+    {
+      "id": "ba2_15_11",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Salah satu syarat pembukaan Kas Titipan adalah jarak minimal dari KPwDN. Berapa jarak minimumnya?",
+      "options": {
+        "a": "1 jam perjalanan darat",
+        "b": "2 jam perjalanan darat",
+        "c": "3 jam perjalanan darat",
+        "d": "5 jam perjalanan darat"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 3 jam perjalanan darat"
+    },
+    {
+      "id": "ba2_15_12",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Evaluasi perpanjangan Kas Titipan dilaksanakan paling lambat berapa bulan sebelum PKS berakhir?",
+      "options": {
+        "a": "6 bulan sebelum berakhir",
+        "b": "5 bulan sebelum berakhir",
+        "c": "4 bulan sebelum berakhir",
+        "d": "3 bulan sebelum berakhir"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 3 bulan sebelum berakhir"
+    },
+    {
+      "id": "ba2_15_13",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Izin prinsip untuk pembukaan, perpanjangan, dan penutupan Kas Titipan diberikan oleh...",
+      "options": {
+        "a": "KPwDN (Kantor Perwakilan Dalam Negeri)",
+        "b": "DPU (Departemen Pengelolaan Uang)",
+        "c": "Bank Pengelola",
+        "d": "Kementerian Keuangan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): DPU (Departemen Pengelolaan Uang)"
+    },
+    {
+      "id": "ba2_15_14",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "SKM Tipe B dalam rencana pengembangan Kas Titipan adalah...",
+      "options": {
+        "a": "Sentra Kas bank besar dengan layanan lengkap setor-tarik, pengolahan, penukaran",
+        "b": "Sentra Kas mitra non-bank yang fokus pada layanan penukaran saja",
+        "c": "Kantor kas BI yang baru dibuka di daerah terpencil",
+        "d": "Armada kas keliling yang beroperasi di wilayah 3T"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Sentra Kas mitra non-bank yang fokus pada layanan penukaran saja"
+    },
+    {
+      "id": "ba2_15_15",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Dalam kondisi overplafond yang disebabkan oleh KEBIJAKAN BANK INDONESIA, apakah diperlukan persetujuan Kepala KPwDN?",
+      "options": {
+        "a": "Ya, tetap harus mendapat persetujuan Kepala KPwDN",
+        "b": "Tidak, karena overplafond akibat kebijakan BI dikecualikan dari kewajiban persetujuan Kepala KPwDN",
+        "c": "Ya, dan harus dilaporkan ke Gubernur BI",
+        "d": "Tidak diperlukan karena overplafond selalu diperbolehkan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tidak, karena overplafond akibat kebijakan BI dikecualikan dari kewajiban persetujuan Kepala KPwDN"
+    },
+    {
+      "id": "ba2_15_16",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Apa tujuan utama dari pembentukan Kas Titipan oleh Bank Indonesia?",
+      "options": {
+        "a": "Mencari keuntungan dari bunga simpanan bank",
+        "b": "Memenuhi kebutuhan uang Rupiah layak edar secara merata di NKRI",
+        "c": "Mengurangi jumlah uang beredar di masyarakat",
+        "d": "Menggantikan peran bank umum dalam melayani nasabah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memenuhi kebutuhan uang Rupiah layak edar secara merata di NKRI"
+    },
+    {
+      "id": "ba2_15_17",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Manakah di bawah ini yang merupakan tahapan ke-4 dalam 6 Tahapan Pengelolaan Uang Rupiah?",
+      "options": {
+        "a": "Percetakan",
+        "b": "Pengeluaran",
+        "c": "Pengedaran",
+        "d": "Pemusnahan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Pengedaran"
+    },
+    {
+      "id": "ba2_15_18",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "UU yang mengatur kewenangan BI dalam menjaga kelancaran sistem pembayaran (Pasal 8) adalah...",
+      "options": {
+        "a": "UU No. 23 Tahun 1999",
+        "b": "UU No. 7 Tahun 2011",
+        "c": "UU No. 10 Tahun 1998",
+        "d": "UU No. 21 Tahun 2011"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): UU No. 23 Tahun 1999"
+    },
+    {
+      "id": "ba2_15_19",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "UU No. 7 Tahun 2011 tentang Mata Uang mengatur kewajiban BI untuk memenuhi kebutuhan uang dalam kondisi...",
+      "options": {
+        "a": "Berwarna cerah dan baru",
+        "b": "Nominal besar saja",
+        "c": "Nominal cukup, pecahan sesuai, dan layak edar",
+        "d": "Tersedia di seluruh ATM setiap saat"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Nominal cukup, pecahan sesuai, dan layak edar"
+    },
+    {
+      "id": "ba2_15_20",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Pihak perbankan yang menyetor atau menarik uang dari Kas Titipan tanpa mengelolanya disebut...",
+      "options": {
+        "a": "Bank Pengelola",
+        "b": "Bank Peserta",
+        "c": "Bank Titipan",
+        "d": "Bank Operasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bank Peserta"
+    },
+    {
+      "id": "ba2_15_21",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Bantuan finansial \"PEMELIHARAAN\" diberikan BI kepada Bank Pengelola setiap...",
+      "options": {
+        "a": "Bulan sekali",
+        "b": "Tahun sekali",
+        "c": "2 tahun (saat perpanjangan PKS)",
+        "d": "5 tahun sekali"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 2 tahun (saat perpanjangan PKS)"
+    },
+    {
+      "id": "ba2_15_22",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Besaran bantuan pemeliharaan untuk seluruh paket wilayah ditetapkan sebesar...",
+      "options": {
+        "a": "10% dari biaya pendirian",
+        "b": "20% dari biaya pendirian",
+        "c": "50% dari biaya pendirian",
+        "d": "Disesuaikan dengan plafon"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 20% dari biaya pendirian"
+    },
+    {
+      "id": "ba2_15_23",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Apa yang dimaksud dengan \"UTLE\"?",
+      "options": {
+        "a": "Uang Tunai Layak Edar",
+        "b": "Uang Tidak Layak Edar",
+        "c": "Unit Transaksi Layak Edar",
+        "d": "Uang Tunai Luar Ekosistem"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Uang Tidak Layak Edar"
+    },
+    {
+      "id": "ba2_15_24",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Bank nasional dengan jumlah unit Kas Titipan terbanyak kedua (13 unit) adalah...",
+      "options": {
+        "a": "Bank Mandiri",
+        "b": "BRI",
+        "c": "BNI",
+        "d": "BSI"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): BRI"
+    },
+    {
+      "id": "ba2_15_25",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Uang kas titipan WAJIB disimpan secara terpisah dari uang milik Bank Pengelola melalui...",
+      "options": {
+        "a": "Rekening bank yang berbeda",
+        "b": "Penyekatan khazanah (brankas)",
+        "c": "Kantor cabang yang berbeda",
+        "d": "Brankas portable yang bisa dipindah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penyekatan khazanah (brankas)"
+    },
+    {
+      "id": "ba2_15_26",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Asuransi yang wajib dimiliki untuk melindungi uang dalam perjalanan distribusi/kas keliling disebut...",
+      "options": {
+        "a": "Cash in Safe",
+        "b": "Cash in Cashiers Box",
+        "c": "Cash in Transit",
+        "d": "Travel Insurance"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Cash in Transit"
+    },
+    {
+      "id": "ba2_15_27",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Penandatanganan Perjanjian Kerja Sama (PKS) Kas Titipan merupakan kewenangan dari...",
+      "options": {
+        "a": "Kepala Departemen Pengelolaan Uang",
+        "b": "Kepala KPwDN (Izin Operasional)",
+        "c": "Direktur Bank Pengelola",
+        "d": "Gubernur Bank Indonesia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kepala KPwDN (Izin Operasional)"
+    },
+    {
+      "id": "ba2_15_28",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Minimal jumlah kantor bank (status minimal kantor kas) di suatu wilayah untuk bisa dibuka Kas Titipan adalah...",
+      "options": {
+        "a": "1 kantor bank",
+        "b": "2 kantor bank",
+        "c": "3 kantor bank",
+        "d": "5 kantor bank"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 3 kantor bank"
+    },
+    {
+      "id": "ba2_15_29",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Zona layanan kas yang berjarak ≥10 km dari bank terluar di Zona II (daerah 3T) disebut...",
+      "options": {
+        "a": "Zona I",
+        "b": "Zona II",
+        "c": "Zona III",
+        "d": "Zona Terluar"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Zona III"
+    },
+    {
+      "id": "ba2_15_30",
+      "category": "15. Kas Titipan",
+      "source": "15. Kas Titipan.txt",
+      "question": "Berapa total plafon seluruh Kas Titipan nasional berdasarkan data April 2026?",
+      "options": {
+        "a": "Rp10,00 Triliun",
+        "b": "Rp13,12 Triliun",
+        "c": "Rp16,31 Triliun",
+        "d": "Rp23,36 Triliun"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp16,31 Triliun"
+    },
+    {
+      "id": "ba2_16_1",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Bank Indonesia adalah satu-satunya lembaga yang berwenang melakukan Pengelolaan Uang Rupiah (PUR) di wilayah NKRI berdasarkan...",
+      "options": {
+        "a": "UU No. 23 Tahun 1999 saja",
+        "b": "UU No. 7 Tahun 2011 tentang Mata Uang",
+        "c": "Peraturan Bank Indonesia (PBI)",
+        "d": "Semua jawaban benar"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Semua jawaban benar"
+    },
+    {
+      "id": "ba2_16_2",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Berdasarkan UU No. 7 Tahun 2011, uang Rupiah terdiri dari tiga jenis, yaitu...",
+      "options": {
+        "a": "Uang Kertas, Uang Logam, Uang Emas",
+        "b": "Uang Kertas, Uang Logam, Uang Digital",
+        "c": "Uang Fisik, Uang Virtual, Uang Elektronik",
+        "d": "Uang Cetak, Uang Koin, Uang Plastik"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Uang Kertas, Uang Logam, Uang Digital"
+    },
+    {
+      "id": "ba2_16_3",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Lembaga BUMN yang mendapatkan penugasan untuk MENCETAK uang Rupiah adalah...",
+      "options": {
+        "a": "Bank Indonesia",
+        "b": "Bank Mandiri",
+        "c": "Perum Peruri",
+        "d": "PT Pos Indonesia"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Perum Peruri"
+    },
+    {
+      "id": "ba2_16_4",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "\"6P\" dalam tahapan Pengelolaan Uang Rupiah secara berurutan adalah...",
+      "options": {
+        "a": "Perencanaan, Produksi, Pengesahan, Pengedaran, Penukaran, Pemusnahan",
+        "b": "Perencanaan, Pencetakan, Pengeluaran, Pengedaran, Pencabutan & Penarikan, Pemusnahan",
+        "c": "Perencanaan, Percetakan, Peredaran, Penggunaan, Penarikan, Penghancuran",
+        "d": "Perintah, Produksi, Pengiriman, Penukaran, Pembekuan, Penghapusan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Perencanaan, Pencetakan, Pengeluaran, Pengedaran, Pencabutan & Penarikan, Pemusnahan"
+    },
+    {
+      "id": "ba2_16_5",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Uang yang kondisinya rusak, kotor, atau cacat sehingga tidak layak digunakan lagi disebut...",
+      "options": {
+        "a": "UTLE (Uang Tidak Layak Edar)",
+        "b": "ULE (Uang Layak Edar)",
+        "c": "HCS (Hasil Cetak Sempurna)",
+        "d": "Legal Tender"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): UTLE (Uang Tidak Layak Edar)"
+    },
+    {
+      "id": "ba2_16_6",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Pemusnahan uang Rupiah dilakukan terhadap hal-hal berikut, KECUALI...",
+      "options": {
+        "a": "Uang Tidak Layak Edar (UTLE)",
+        "b": "Uang yang sudah tidak memiliki manfaat ekonomis",
+        "c": "Uang yang sudah ditarik dari peredaran dan tidak berlaku lagi",
+        "d": "Uang baru yang baru saja dicetak (HCS)"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Uang baru yang baru saja dicetak (HCS)"
+    },
+    {
+      "id": "ba2_16_7",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Penetapan uang Rupiah sebagai alat pembayaran yang sah (Legal Tender) dilakukan melalui...",
+      "options": {
+        "a": "Keputusan Presiden",
+        "b": "Peraturan Bank Indonesia (PBI) yang ditempatkan di LNRI",
+        "c": "Undang-undang DPR",
+        "d": "Nota Kesepahaman (NK)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Peraturan Bank Indonesia (PBI) yang ditempatkan di LNRI"
+    },
+    {
+      "id": "ba2_16_8",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Soil Level dalam konteks PUR digunakan sebagai indikator untuk mengukur...",
+      "options": {
+        "a": "Ketahanan bahan baku kertas uang",
+        "b": "Tingkat kelayakan (kekotoran) uang Rupiah yang beredar di masyarakat",
+        "c": "Jumlah uang palsu yang ditemukan",
+        "d": "Kecepatan distribusi uang ke daerah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tingkat kelayakan (kekotoran) uang Rupiah yang beredar di masyarakat"
+    },
+    {
+      "id": "ba2_16_9",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Apa yang dimaksud dengan EKU dalam perencanaan distribusi uang?",
+      "options": {
+        "a": "Ekonomi Keuangan Umum",
+        "b": "Estimasi Kebutuhan Uang (proyeksi jumlah uang per wilayah)",
+        "c": "Elektronifikasi Kas Utama",
+        "d": "Evaluasi Kinerja Uang"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Estimasi Kebutuhan Uang (proyeksi jumlah uang per wilayah)"
+    },
+    {
+      "id": "ba2_16_10",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Manakah rumus Estimasi Kebutuhan Uang (EKU) yang benar?",
+      "options": {
+        "a": "Outflow + Inflow - Pemusnahan",
+        "b": "Outflow - Inflow + Pemusnahan + Kas Minimum - Posisi Kas Akhir",
+        "c": "Total Uang Beredar - Uang Rusak + Uang Baru",
+        "d": "Inflow - Outflow + Posisi Kas Akhir"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Outflow - Inflow + Pemusnahan + Kas Minimum - Posisi Kas Akhir"
+    },
+    {
+      "id": "ba2_16_11",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Pendekatan penyusunan EKU secara \"Top Down\" dilakukan oleh DKEM menggunakan metode...",
+      "options": {
+        "a": "Dekomposisi per wilayah",
+        "b": "Error Correction Model (ECM)",
+        "c": "Survei preferensi masyarakat",
+        "d": "Monitoring realisasi harian"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Error Correction Model (ECM)"
+    },
+    {
+      "id": "ba2_16_12",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Dokumen yang disusun oleh Divisi Command Center sebagai dasar pengiriman uang ke DKU/DKW disebut...",
+      "options": {
+        "a": "RDU (Rencana Distribusi Uang)",
+        "b": "ROD (Rencana Operasional Distribusi)",
+        "c": "EKU (Estimasi Kebutuhan Uang)",
+        "d": "PBI (Peraturan Bank Indonesia)"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): RDU (Rencana Distribusi Uang)"
+    },
+    {
+      "id": "ba2_16_13",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Kegiatan penyediaan uang BI yang dititipkan kepada salah satu bank untuk mencukupi kebutuhan daerah tertentu disebut...",
+      "options": {
+        "a": "Kas Keliling",
+        "b": "Kas Titipan",
+        "c": "Kas 3T",
+        "d": "Remise"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kas Titipan"
+    },
+    {
+      "id": "ba2_16_14",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Satuan Kerja Middle Office (MO) yang berfungsi sebagai pusat pengendalian informasi dan koordinasi PUR nasional adalah...",
+      "options": {
+        "a": "Satker Kas FO Level 1",
+        "b": "Command Center PUR (CC-PUR)",
+        "c": "SPU (Sentra Pengelolaan Uang)",
+        "d": "DKUT (Depot Kas Utama Terpusat)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Command Center PUR (CC-PUR)"
+    },
+    {
+      "id": "ba2_16_15",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Struktur sentralisasi operasional PUR yang bertindak sebagai \"main hub\" distribusi nasional adalah...",
+      "options": {
+        "a": "DKW (Depot Kas Wilayah)",
+        "b": "DKU (Depot Kas Utama)",
+        "c": "Satker Kas",
+        "d": "Front Office (FO)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): DKU (Depot Kas Utama)"
+    },
+    {
+      "id": "ba2_16_16",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Konsep sentralisasi operasional PUR di Bank Indonesia menggunakan kerangka...",
+      "options": {
+        "a": "Input-Process-Output",
+        "b": "Front Office (FO) - Middle Office (MO) - Back Office (BO)",
+        "c": "Centralized-Decentralized",
+        "d": "Planning-Doing-Checking"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Front Office (FO) - Middle Office (MO) - Back Office (BO)"
+    },
+    {
+      "id": "ba2_16_17",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Wilayah 3T yang menjadi prioritas layanan kas Bank Indonesia terdiri dari...",
+      "options": {
+        "a": "Tertinggal, Terdepan, Terjauh",
+        "b": "Terdepan, Terluar, Terpencil",
+        "c": "Terpencil, Terisolasi, Terluar",
+        "d": "Terdepan, Terbelakang, Terbatas"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Terdepan, Terluar, Terpencil"
+    },
+    {
+      "id": "ba2_16_18",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Kerja sama pengedaran uang ke pulau-pulau terpencil (3T) melalui program ERB dilakukan bersama...",
+      "options": {
+        "a": "Polri",
+        "b": "TNI AD",
+        "c": "TNI AL",
+        "d": "Kementerian Perhubungan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): TNI AL"
+    },
+    {
+      "id": "ba2_16_19",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Berapa jumlah pulau 3T yang berhasil dilayani dalam program ERB pada tahun 2023?",
+      "options": {
+        "a": "18 Pulau",
+        "b": "40 Pulau",
+        "c": "81 Pulau",
+        "d": "85 Pulau"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 85 Pulau"
+    },
+    {
+      "id": "ba2_16_20",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Apa kepanjangan dari WMS dalam sistem digitalisasi penyimpanan uang di khazanah?",
+      "options": {
+        "a": "Wireless Money System",
+        "b": "Warehouse Management System",
+        "c": "Web Money Service",
+        "d": "Wealth Management System"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Warehouse Management System"
+    },
+    {
+      "id": "ba2_16_21",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Keunggulan WMS Racking System dibandingkan Virtual Racking System adalah...",
+      "options": {
+        "a": "Tidak memerlukan internet",
+        "b": "Lebih optimal dalam efisiensi waktu karena menggunakan rak fisik",
+        "c": "Dapat diimplementasikan di khazanah non-ideal",
+        "d": "Biaya infrastruktur lebih murah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Lebih optimal dalam efisiensi waktu karena menggunakan rak fisik"
+    },
+    {
+      "id": "ba2_16_22",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Sistem otomasi pengolahan uang (ABFS/ABPS) mampu meningkatkan throughput pengolahan sebesar...",
+      "options": {
+        "a": "10%",
+        "b": "15%",
+        "c": "20%",
+        "d": "50%"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 20%"
+    },
+    {
+      "id": "ba2_16_23",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Fitur MONIKA yang berfungsi mengirim sinyal bantuan ke CC-PUR saat kondisi darurat (force majeure) disebut...",
+      "options": {
+        "a": "Geo Fencing",
+        "b": "Panic Button",
+        "c": "Engine Cut Off",
+        "d": "RFID Driver Identification"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Panic Button"
+    },
+    {
+      "id": "ba2_16_24",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "MONIKA memperbarui data lokasi kendaraan perkasan (tracking) secara real-time setiap...",
+      "options": {
+        "a": "1 menit",
+        "b": "30 detik",
+        "c": "10 detik",
+        "d": "5 detik"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 5 detik"
+    },
+    {
+      "id": "ba2_16_25",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Dashboard CC-PUR memiliki berapa menu fungsi utama untuk monitoring indikator PUR?",
+      "options": {
+        "a": "10 Menu",
+        "b": "15 Menu",
+        "c": "18 Menu",
+        "d": "25 Menu"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 18 Menu"
+    },
+    {
+      "id": "ba2_16_26",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "PUR Analytics memiliki karakteristik \"3C\", yaitu...",
+      "options": {
+        "a": "Clear, Concise, Complete",
+        "b": "Comprehensive, Coherent, Convenient",
+        "c": "Centralized, Connected, Continuous",
+        "d": "Compact, Compatible, Compliant"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Comprehensive, Coherent, Convenient"
+    },
+    {
+      "id": "ba2_16_27",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Istilah \"Backlog\" dalam operasional perkasan Satker Kas merujuk pada...",
+      "options": {
+        "a": "Antrean nasabah di loket penukaran",
+        "b": "Tumpukan uang masuk (setoran bank) yang belum selesai diolah",
+        "c": "Kekurangan uang baru dari Peruri",
+        "d": "Selisih uang kas yang hilang"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tumpukan uang masuk (setoran bank) yang belum selesai diolah"
+    },
+    {
+      "id": "ba2_16_28",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Uang baru yang baru saja dicetak oleh Peruri dan siap dikirimkan ke Bank Indonesia disebut...",
+      "options": {
+        "a": "ULE (Uang Layak Edar)",
+        "b": "HCS (Hasil Cetak Sempurna)",
+        "c": "UTLE (Uang Tidak Layak Edar)",
+        "d": "Legal Tender"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): HCS (Hasil Cetak Sempurna)"
+    },
+    {
+      "id": "ba2_16_29",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Struktur sentralisasi operasional PUR yang berfungsi sebagai pusat utama perkasan nasional adalah...",
+      "options": {
+        "a": "DKW (Depot Kas Wilayah)",
+        "b": "SPU (Sentra Pengelolaan Uang)",
+        "c": "Satker Kas",
+        "d": "KPwDN"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): SPU (Sentra Pengelolaan Uang)"
+    },
+    {
+      "id": "ba2_16_30",
+      "category": "16. PUR",
+      "source": "16. PUR.txt",
+      "question": "Berdasarkan alur distribusi, DKW (Depot Kas Wilayah) berperan sebagai...",
+      "options": {
+        "a": "Main hub distribusi nasional",
+        "b": "Jalur penghubung (hub) distribusi ke Satker Kas di wilayahnya",
+        "c": "Penanggung jawab pencetakan uang",
+        "d": "Middle Office pengawas nasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Jalur penghubung (hub) distribusi ke Satker Kas di wilayahnya"
+    },
+    {
+      "id": "ba2_17_1",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "IDCM adalah singkatan dari...",
+      "options": {
+        "a": "Integrated Data Cash Management",
+        "b": "Integrated Digital Cash Management",
+        "c": "Indonesia Digital Currency Management",
+        "d": "Integrated Digital Currency Mechanism"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Integrated Digital Cash Management"
+    },
+    {
+      "id": "ba2_17_2",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Visi utama Pengelolaan Uang Rupiah (PUR) sesuai Pasal 4 PDG adalah...",
+      "options": {
+        "a": "Mencetak uang sebanyak-banyaknya",
+        "b": "Memastikan ketersediaan Rupiah berkualitas & terpercaya untuk kedaulatan NKRI",
+        "c": "Menggantikan uang tunai dengan uang digital",
+        "d": "Menyederhanakan pecahan uang Rupiah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memastikan ketersediaan Rupiah berkualitas & terpercaya untuk kedaulatan NKRI"
+    },
+    {
+      "id": "ba2_17_3",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Berapakah nominal Uang Yang Diedarkan (UYD) yang tercatat dalam fakta skala PUR Indonesia?",
+      "options": {
+        "a": "Rp 341 Triliun",
+        "b": "Rp 587 Triliun",
+        "c": "Rp 1.341 Triliun",
+        "d": "Rp 13.410 Triliun"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp 1.341 Triliun"
+    },
+    {
+      "id": "ba2_17_4",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Indonesia memiliki lebih dari berapa pulau, sehingga distribusi uang menjadi sangat kompleks dan memerlukan IDCM?",
+      "options": {
+        "a": ">7.000 pulau",
+        "b": ">10.000 pulau",
+        "c": ">17.000 pulau",
+        "d": ">20.000 pulau"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): >17.000 pulau"
+    },
+    {
+      "id": "ba2_17_5",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "IDCM merupakan bagian dari sistem digital Bank Indonesia yang lebih besar, yaitu...",
+      "options": {
+        "a": "IDPS (Integrated Digital Payment System)",
+        "b": "IDCB (Integrated Digital Central Bank)",
+        "c": "RIVIBI (Rencana Induk SI BI)",
+        "d": "BPPUR (Blueprint PUR)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): IDCB (Integrated Digital Central Bank)"
+    },
+    {
+      "id": "ba2_17_6",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Dalam ekosistem PUR, PERURI (Perum Percetakan Uang RI) berperan sebagai...",
+      "options": {
+        "a": "Bank sentral yang mengedarkan uang",
+        "b": "Pencetak uang Rupiah",
+        "c": "Pengawas kualitas uang",
+        "d": "Distributor uang ke masyarakat"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Pencetak uang Rupiah"
+    },
+    {
+      "id": "ba2_17_7",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Berapa jumlah Bank Peserta Kas Titipan yang tercatat dalam ekosistem PUR?",
+      "options": {
+        "a": "87 bank",
+        "b": "144 bank",
+        "c": "293 bank",
+        "d": "587 bank"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): 587 bank"
+    },
+    {
+      "id": "ba2_17_8",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "PJPUR dalam ekosistem PUR adalah singkatan dari...",
+      "options": {
+        "a": "Pusat Jasa Pengelolaan Uang Rupiah",
+        "b": "Program Jaminan Pengelolaan Uang Rupiah",
+        "c": "Penyelenggara Jasa Pengelolaan Uang Rupiah",
+        "d": "Pejabat Jasa Pengawas Uang Rupiah"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Penyelenggara Jasa Pengelolaan Uang Rupiah"
+    },
+    {
+      "id": "ba2_17_9",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Blueprint Pengelolaan Uang Rupiah (BPPUR) 2024-2030 memiliki berapa strategi utama?",
+      "options": {
+        "a": "2 strategi utama",
+        "b": "3 strategi utama",
+        "c": "6 strategi utama",
+        "d": "9 strategi utama"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 3 strategi utama"
+    },
+    {
+      "id": "ba2_17_10",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Program Utama IDCM (SI-PUR Terintegrasi) berada di nomor berapa dalam BPPUR?",
+      "options": {
+        "a": "PU-8 (Digitalisasi)",
+        "b": "PU-17 (Infrastruktur PUR)",
+        "c": "PU-18 (SI-PUR Terintegrasi/IDCM)",
+        "d": "PU-19 (Green PUR)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PU-18 (SI-PUR Terintegrasi/IDCM)"
+    },
+    {
+      "id": "ba2_17_11",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "IDCM Super App memiliki 3 kemampuan utama (Smart Capabilities), yaitu...",
+      "options": {
+        "a": "Smart Planning, Smart Monitoring, Smart Tracking",
+        "b": "Smart Banking, Smart Payment, Smart Data",
+        "c": "Analytics, Repository, Infrastructure",
+        "d": "Perencanaan, Pengedaran, Pemusnahan"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Smart Planning, Smart Monitoring, Smart Tracking"
+    },
+    {
+      "id": "ba2_17_12",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Lapisan paling dasar (fondasi) dalam framework piramida IDCM adalah...",
+      "options": {
+        "a": "IDCM Data Mart",
+        "b": "Analytical Tools",
+        "c": "Infrastruktur PUR Internal dan Eksternal Bank Indonesia",
+        "d": "Digital Business Process (DBP)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Infrastruktur PUR Internal dan Eksternal Bank Indonesia"
+    },
+    {
+      "id": "ba2_17_13",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "IDCM Data Mart dalam framework IDCM berfungsi untuk...",
+      "options": {
+        "a": "Aplikasi mobile untuk masyarakat umum",
+        "b": "Penyimpanan dan pengelolaan data (structured & unstructured) sebagai gudang data",
+        "c": "Mesin cetak uang digital",
+        "d": "Sistem pembayaran non-tunai"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penyimpanan dan pengelolaan data (structured & unstructured) sebagai gudang data"
+    },
+    {
+      "id": "ba2_17_14",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "DBP dalam framework IDCM adalah singkatan dari...",
+      "options": {
+        "a": "Data Base Platform",
+        "b": "Digital Banking Process",
+        "c": "Digital Business Process",
+        "d": "Data Business Protocol"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Digital Business Process"
+    },
+    {
+      "id": "ba2_17_15",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Pengembangan IDCM harus selaras dengan RIVIBI, yang merupakan singkatan dari...",
+      "options": {
+        "a": "Rencana Investasi Valuta Indonesia Bank Indonesia",
+        "b": "Rencana Induk Sistem Informasi Bank Indonesia",
+        "c": "Rencana Integrasi Virtual Indonesia Bank Indonesia",
+        "d": "Rencana Inovasi Visual Indonesia Bank Indonesia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rencana Induk Sistem Informasi Bank Indonesia"
+    },
+    {
+      "id": "ba2_17_16",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Komponen apa yang TIDAK termasuk dalam framework internal IDCM?",
+      "options": {
+        "a": "IDCM Super App",
+        "b": "Analytical Tools",
+        "c": "IDCM Data Mart",
+        "d": "SWIFT Network untuk transfer internasional"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): SWIFT Network untuk transfer internasional"
+    },
+    {
+      "id": "ba2_17_17",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Dalam framework IDCM, data apa yang masuk ke Repository sebagai bahan analitik?",
+      "options": {
+        "a": "Hanya data inflow dan outflow kas",
+        "b": "Hanya data pencetakan uang",
+        "c": "Structured & Unstructured data dari seluruh proses 6P PUR",
+        "d": "Hanya data transaksi perbankan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Structured & Unstructured data dari seluruh proses 6P PUR"
+    },
+    {
+      "id": "ba2_17_18",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "IDT (Core) dalam konteks sistem IDCM mencakup integrasi antara...",
+      "options": {
+        "a": "Internet Data Transfer",
+        "b": "Integrated Data Technology",
+        "c": "Core Banking System (CBS) + ERP (Enterprise Resource Planning)",
+        "d": "Indonesian Digital Transaction"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Core Banking System (CBS) + ERP (Enterprise Resource Planning)"
+    },
+    {
+      "id": "ba2_17_19",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Regulatory Reform, Sumber Daya, dan Dukungan Organisasi dalam framework IDCM berfungsi sebagai...",
+      "options": {
+        "a": "Lapisan teratas dalam piramida IDCM",
+        "b": "Penyangga/landasan non-teknis di bawah seluruh sistem",
+        "c": "Bagian dari IDCM Super App",
+        "d": "Pengganti infrastruktur fisik"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Penyangga/landasan non-teknis di bawah seluruh sistem"
+    },
+    {
+      "id": "ba2_17_20",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Dalam ekosistem PUR terdapat dua jenis aliran yang terjadi, yaitu...",
+      "options": {
+        "a": "Hanya aliran data digital",
+        "b": "Hanya aliran fisik uang",
+        "c": "Aliran fisik uang DAN aliran data/informasi",
+        "d": "Aliran keuangan antarnegara"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Aliran fisik uang DAN aliran data/informasi"
+    },
+    {
+      "id": "ba2_17_21",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Urutan langkah strategi yang benar menuju IDCM adalah...",
+      "options": {
+        "a": "Simplifikasi ➜ Standardisasi ➜ Sistemisasi ➜ IDCM",
+        "b": "Digitalisasi ➜ BPR ➜ Otomatisasi ➜ IDCM",
+        "c": "Standardisasi ➜ Simplifikasi ➜ BPR ➜ IDCM",
+        "d": "IDCM ➜ Digitalisasi ➜ Integrasi ➜ Otomatisasi"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Simplifikasi ➜ Standardisasi ➜ Sistemisasi ➜ IDCM"
+    },
+    {
+      "id": "ba2_17_22",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "BPR dalam konteks pengembangan sistem IDCM adalah singkatan dari...",
+      "options": {
+        "a": "Bank Perkreditan Rakyat",
+        "b": "Business Process Reengineering",
+        "c": "Blueprint Program Rupiah",
+        "d": "Basis Pengembangan Rupiah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Business Process Reengineering"
+    },
+    {
+      "id": "ba2_17_23",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Apa tujuan dilakukannya simplifikasi 6P PUR menjadi 3P (Produksi, Distribusi, Pemusnahan)?",
+      "options": {
+        "a": "Mengurangi fungsi pengelolaan uang",
+        "b": "Menyederhanakan klasifikasi proses bisnis agar lebih mudah didigitalisasi",
+        "c": "Menghapus proses pencabutan dan penarikan uang",
+        "d": "Menggabungkan semua tugas BI menjadi satu departemen"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Menyederhanakan klasifikasi proses bisnis agar lebih mudah didigitalisasi"
+    },
+    {
+      "id": "ba2_17_24",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Kapan target Go Live untuk Kesiapan Operasional SPU & DKU (PU-15) dalam roadmap BPPUR?",
+      "options": {
+        "a": "2024",
+        "b": "2025",
+        "c": "2026",
+        "d": "2027"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 2026"
+    },
+    {
+      "id": "ba2_17_25",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Kodifikasi Proses dan Sub Proses 3P dalam strategi IDCM bertujuan untuk...",
+      "options": {
+        "a": "Memberi nama dan kode unik setiap proses agar bisa dikelola dalam sistem digital",
+        "b": "Membuat buku pedoman cetak uang baru",
+        "c": "Mengganti regulasi PUR yang lama",
+        "d": "Mempercepat pencetakan uang"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Memberi nama dan kode unik setiap proses agar bisa dikelola dalam sistem digital"
+    },
+    {
+      "id": "ba2_17_26",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Strategi Utama III dalam BPPUR 2024-2030 yang menaungi IDCM adalah...",
+      "options": {
+        "a": "Ketersediaan Uang Rupiah",
+        "b": "Pengedaran Uang Rupiah",
+        "c": "Infrastruktur PUR",
+        "d": "Digitalisasi dan Inovasi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Infrastruktur PUR"
+    },
+    {
+      "id": "ba2_17_27",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "Apa makna 'Otomatisasi' dalam tahapan sistemisasi strategi IDCM?",
+      "options": {
+        "a": "Mengganti semua pegawai BI dengan robot",
+        "b": "Proses yang sebelumnya manual kini dilakukan otomatis oleh sistem digital",
+        "c": "Hanya menggunakan AI tanpa manusia",
+        "d": "Mendigitalisasi uang menjadi CBDC"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Proses yang sebelumnya manual kini dilakukan otomatis oleh sistem digital"
+    },
+    {
+      "id": "ba2_17_28",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "SPU dalam ekosistem pengelolaan uang Bank Indonesia pusat adalah singkatan dari...",
+      "options": {
+        "a": "Satuan Pengelola Uang",
+        "b": "Sistem Pengedaran Utama",
+        "c": "Standar Pengelolaan Uang",
+        "d": "Sentral Peredaran Uang"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Satuan Pengelola Uang"
+    },
+    {
+      "id": "ba2_17_29",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "PADG Intern No. 80 Tahun 2025 merupakan regulasi terbaru yang mengatur tentang...",
+      "options": {
+        "a": "Pemusnahan Uang Rupiah",
+        "b": "Pengedaran Uang Rupiah",
+        "c": "Perencanaan Uang Rupiah Kertas dan Logam",
+        "d": "Pengeluaran Uang Rupiah"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Perencanaan Uang Rupiah Kertas dan Logam"
+    },
+    {
+      "id": "ba2_17_30",
+      "category": "17. IDCM DPU",
+      "source": "17. IDCM DPU.txt",
+      "question": "EKU dalam alur perencanaan uang adalah singkatan dari...",
+      "options": {
+        "a": "Estimasi Keuntungan Uang",
+        "b": "Evaluasi Kualitas Uang",
+        "c": "Estimasi Kebutuhan Uang",
+        "d": "Edaran Kebijakan Uang"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Estimasi Kebutuhan Uang"
+    },
+    {
+      "id": "ba2_18_1",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Lembaga yang memiliki wewenang tunggal untuk menetapkan, mengeluarkan, dan menentukan keaslian uang Rupiah di Indonesia adalah...",
+      "options": {
+        "a": "Otoritas Jasa Keuangan (OJK)",
+        "b": "Kementerian Keuangan",
+        "c": "Bank Indonesia",
+        "d": "Badan Reserse Kriminal POLRI"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bank Indonesia"
+    },
+    {
+      "id": "ba2_18_2",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Apa dasar hukum utama yang mengatur mengenai mata uang dan larangan pemalsuan Rupiah di wilayah NKRI?",
+      "options": {
+        "a": "UU No. 23 Tahun 1999",
+        "b": "UU No. 7 Tahun 2011",
+        "c": "UU No. 20 Tahun 2025",
+        "d": "Perpres No. 123 Tahun 2012"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): UU No. 7 Tahun 2011"
+    },
+    {
+      "id": "ba2_18_3",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Berdasarkan UU No. 7/2011, uang Rupiah palsu didefinisikan sebagai benda yang menyerupai Rupiah dan digunakan sebagai alat pembayaran secara...",
+      "options": {
+        "a": "Tidak sengaja",
+        "b": "Terpaksa",
+        "c": "Melawan hukum",
+        "d": "Tersembunyi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Melawan hukum"
+    },
+    {
+      "id": "ba2_18_4",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Lembaga lintas instansi yang bertugas mengoordinasikan pemberantasan Rupiah palsu di Indonesia dikenal dengan nama...",
+      "options": {
+        "a": "BI-CAC",
+        "b": "Botasupal",
+        "c": "Satker Kas",
+        "d": "BI-RCAC"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Botasupal"
+    },
+    {
+      "id": "ba2_18_5",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Manakah di bawah ini yang termasuk dalam FAKTOR EKONOMI pendorong beredarnya uang palsu?",
+      "options": {
+        "a": "Kemudahan membeli alat cetak canggih di internet",
+        "b": "Kemiskinan, pengangguran, dan ketimpangan pendapatan",
+        "c": "Penggunaan media sosial untuk distribusi",
+        "d": "Adanya tutorial pembuatan uang di web gelap"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kemiskinan, pengangguran, dan ketimpangan pendapatan"
+    },
+    {
+      "id": "ba2_18_6",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Penyebaran uang palsu yang masif di suatu daerah dapat mengakibatkan dampak negatif berupa...",
+      "options": {
+        "a": "Deflasi lokal",
+        "b": "Inflasi lokal",
+        "c": "Kenaikan suku bunga bank",
+        "d": "Peningkatan daya beli masyarakat"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Inflasi lokal"
+    },
+    {
+      "id": "ba2_18_7",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Urutan dampak peredaran uang palsu bagi negara yang benar adalah (KIMM)...",
+      "options": {
+        "a": "Kerugian Finansial → Inflasi → Kepercayaan Berkurang → Martabat Merosot",
+        "b": "Inflasi → Kerugian Finansial → Martabat Merosot → Kepercayaan Berkurang",
+        "c": "Kepercayaan Berkurang → Kerugian Finansial → Inflasi → Martabat Merosot",
+        "d": "Martabat Merosot → Kerugian Finansial → Inflasi → Kepercayaan Berkurang"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Kerugian Finansial → Inflasi → Kepercayaan Berkurang → Martabat Merosot"
+    },
+    {
+      "id": "ba2_18_8",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Berapakah rasio temuan uang palsu (ppm) di Indonesia pada tahun 2025?",
+      "options": {
+        "a": "2 ppm",
+        "b": "4 ppm",
+        "c": "5 ppm",
+        "d": "10 ppm"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 4 ppm"
+    },
+    {
+      "id": "ba2_18_9",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Daerah dengan jumlah temuan uang palsu tertinggi pada tahun 2025 adalah...",
+      "options": {
+        "a": "Jawa Timur",
+        "b": "Jawa Tengah",
+        "c": "Jakarta",
+        "d": "Sumatera Utara"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Jakarta"
+    },
+    {
+      "id": "ba2_18_10",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Mengapa perputaran uang palsu di Pulau Jawa cenderung selalu dominan dibandingkan daerah lain?",
+      "options": {
+        "a": "Karena ukuran ekonomi besar menyebabkan uang beredar sangat cepat sehingga sulit dilacak",
+        "b": "Karena masyarakat Jawa kurang memahami ciri keaslian uang",
+        "c": "Karena biaya cetak uang palsu di Jawa lebih murah",
+        "d": "Karena Bank Indonesia tidak melakukan pengawasan di Pulau Jawa"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Karena ukuran ekonomi besar menyebabkan uang beredar sangat cepat sehingga sulit dilacak"
+    },
+    {
+      "id": "ba2_18_11",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Apa kelemahan utama dalam UU Mata Uang terkait penegakan hukum bagi pemalsu uang?",
+      "options": {
+        "a": "Tidak ada pasal yang mengatur pemalsuan",
+        "b": "Tidak mencantumkan kurungan minimal, hanya mencantumkan kurungan maksimal",
+        "c": "Hakim dilarang memberikan vonis penjara",
+        "d": "Polisi tidak boleh menangkap pelaku di tempat kejadian"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tidak mencantumkan kurungan minimal, hanya mencantumkan kurungan maksimal"
+    },
+    {
+      "id": "ba2_18_12",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Dalam Strategy Map BI, istilah UPAL merujuk pada...",
+      "options": {
+        "a": "Unit Pengamanan Aset Lembaga",
+        "b": "Urusan Penukaran Alat Logam",
+        "c": "Uang Palsu",
+        "d": "Unit Pemberantasan Uang Liar"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Uang Palsu"
+    },
+    {
+      "id": "ba2_18_13",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Manakah yang merupakan 3 pilar strategi utama Bank Indonesia dalam memerangi uang palsu?",
+      "options": {
+        "a": "Standardisasi Uang, Edukasi Masyarakat (CBP), dan Penegakan Hukum",
+        "b": "Pencetakan, Pengedaran, dan Pemusnahan",
+        "c": "Identifikasi, Klarifikasi, dan Sosialisasi",
+        "d": "Pengawasan Bank, Operasi Moneter, dan Pengelolaan Uang"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Standardisasi Uang, Edukasi Masyarakat (CBP), dan Penegakan Hukum"
+    },
+    {
+      "id": "ba2_18_14",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Laboratorium pusat milik Bank Indonesia yang digunakan untuk menganalisis unsur pengaman uang palsu disebut...",
+      "options": {
+        "a": "BI-RCAC",
+        "b": "BI-Digital Lab",
+        "c": "BI-CAC (Currency Analysis Center)",
+        "d": "BI-Forensic Center"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): BI-CAC (Currency Analysis Center)"
+    },
+    {
+      "id": "ba2_18_15",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Berapa jumlah Ahli Uang Rupiah yang dimiliki Bank Indonesia yang tersebar di seluruh kantor perwakilan?",
+      "options": {
+        "a": "± 100 orang",
+        "b": "± 200 orang",
+        "c": "± 400 orang",
+        "d": "± 1.000 orang"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): ± 400 orang"
+    },
+    {
+      "id": "ba2_18_16",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Jika Front Office Bank menerima uang yang diragukan keasliannya dari nasabah, tindakan yang WAJIB dilakukan adalah...",
+      "options": {
+        "a": "Mengembalikan uang tersebut agar tidak rugi",
+        "b": "Menahan uang tersebut dan mencatat identitas penyerah",
+        "c": "Membakar uang tersebut di depan nasabah",
+        "d": "Mengabaikannya jika nasabah adalah orang penting"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Menahan uang tersebut dan mencatat identitas penyerah"
+    },
+    {
+      "id": "ba2_18_17",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Apabila hasil klarifikasi Bank Indonesia menyatakan uang tersebut ASLI, maka BI akan...",
+      "options": {
+        "a": "Memusnahkan uang tersebut",
+        "b": "Memberikan penggantian sesuai ketentuan",
+        "c": "Menyerahkannya ke kepolisian",
+        "d": "Memberikan denda kepada penyerah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memberikan penggantian sesuai ketentuan"
+    },
+    {
+      "id": "ba2_18_18",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Apabila hasil klarifikasi menyatakan uang TIDAK ASLI, Bank Indonesia akan menyerahkan uang tersebut ke Kepolisian paling lambat...",
+      "options": {
+        "a": "Tanggal 1 setiap bulan",
+        "b": "Tanggal 10 bulan berjalan",
+        "c": "Tanggal 15 bulan berikutnya",
+        "d": "Akhir tahun emisi"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Tanggal 15 bulan berikutnya"
+    },
+    {
+      "id": "ba2_18_19",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Dokumen resmi yang ditandatangani saat penyerahan uang palsu dari BI ke Kepolisian disebut...",
+      "options": {
+        "a": "LHP (Laporan Hasil Pemeriksaan)",
+        "b": "BAST (Berita Acara Serah Terima)",
+        "c": "SBP (Strategic Business Plan)",
+        "d": "PKS (Perjanjian Kerja Sama)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): BAST (Berita Acara Serah Terima)"
+    },
+    {
+      "id": "ba2_18_20",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Apa kepanjangan dari TE dalam istilah uang Rupiah seri terbaru seperti TE 2022?",
+      "options": {
+        "a": "Teknologi Enkripsi",
+        "b": "Terbitan Ekonomi",
+        "c": "Tahun Emisi",
+        "d": "Transaksi Elektronik"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Tahun Emisi"
+    },
+    {
+      "id": "ba2_18_21",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Apa konsep dasar desain uang Rupiah TE 2022 untuk mendukung tunanetra?",
+      "options": {
+        "a": "Memperbesar gambar pahlawan",
+        "b": "Menghilangkan benang pengaman",
+        "c": "Meningkatkan selisih ukuran panjang antar pecahan menjadi 5mm",
+        "d": "Mengganti bahan kertas menjadi plastik"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Meningkatkan selisih ukuran panjang antar pecahan menjadi 5mm"
+    },
+    {
+      "id": "ba2_18_22",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Teknologi benang pengaman terkini yang digunakan pada uang TE 2022 dan merupakan best practice internasional disebut...",
+      "options": {
+        "a": "Rectoverso",
+        "b": "Microlenses",
+        "c": "Watermark",
+        "d": "UV Fluoresensi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Microlenses"
+    },
+    {
+      "id": "ba2_18_23",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Fitur OVMI (Optically Variable Magnetic Ink) pada uang TE 2022 hanya terdapat pada...",
+      "options": {
+        "a": "Seluruh pecahan kertas",
+        "b": "Pecahan kecil (Rp1.000 - Rp5.000)",
+        "c": "Pecahan besar (Rp100.000, Rp50.000, Rp20.000)",
+        "d": "Hanya uang logam"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Pecahan besar (Rp100.000, Rp50.000, Rp20.000)"
+    },
+    {
+      "id": "ba2_18_24",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Untuk memperpanjang masa edar, pecahan kecil Rp1.000, Rp2.000, dan Rp5.000 pada TE 2022 menggunakan teknologi...",
+      "options": {
+        "a": "Microlenses",
+        "b": "Magnetic Ink",
+        "c": "Coating (Lapisan pelindung)",
+        "d": "Hologram"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Coating (Lapisan pelindung)"
+    },
+    {
+      "id": "ba2_18_25",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Metode standar bagi masyarakat untuk mengenali uang Rupiah asli secara cepat dikenal dengan istilah...",
+      "options": {
+        "a": "3M (Melihat, Memegang, Membayar)",
+        "b": "3P (Perhatikan, Periksa, Pastikan)",
+        "c": "3D (Dilihat, Diraba, Diterawang)",
+        "d": "3S (Scan, Sinar, Setor)"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 3D (Dilihat, Diraba, Diterawang)"
+    },
+    {
+      "id": "ba2_18_26",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Apa yang akan tampak jika uang Rupiah asli diangkat ke arah cahaya (Diterawang)?",
+      "options": {
+        "a": "Watermark (gambar pahlawan) dan benang pengaman",
+        "b": "Tekstur kasar cetakan",
+        "c": "Perubahan warna tinta secara dinamis",
+        "d": "Gambar tarian yang bisa bergerak"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Watermark (gambar pahlawan) dan benang pengaman"
+    },
+    {
+      "id": "ba2_18_27",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Gerakan edukasi BI agar masyarakat mencintai Rupiah dengan tidak melipat atau mencoret uang disebut...",
+      "options": {
+        "a": "Bangga Rupiah",
+        "b": "Cinta Rupiah",
+        "c": "Paham Rupiah",
+        "d": "Sayang Rupiah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Cinta Rupiah"
+    },
+    {
+      "id": "ba2_18_28",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Masyarakat yang memahami cara membedakan uang asli dan palsu serta tahu cara melapor masuk dalam kategori...",
+      "options": {
+        "a": "Cinta Rupiah",
+        "b": "Bangga Rupiah",
+        "c": "Paham Rupiah",
+        "d": "Peduli Rupiah"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Paham Rupiah"
+    },
+    {
+      "id": "ba2_18_29",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Perusahaan swasta yang bertugas dalam distribusi dan pengolahan uang tunai seperti pengisian ATM disebut...",
+      "options": {
+        "a": "Bank Peserta",
+        "b": "PJPUR",
+        "c": "Penyelenggara Infrastruktur",
+        "d": "Kas Titipan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): PJPUR"
+    },
+    {
+      "id": "ba2_18_30",
+      "category": "18. Catatan Uang Palsu",
+      "source": "18. Catatan Uang Palsu.txt",
+      "question": "Gambar yang tampak sempurna saat bagian depan dan belakang uang ditumpuk diterawang ke arah cahaya disebut...",
+      "options": {
+        "a": "Watermark",
+        "b": "Microlenses",
+        "c": "Rectoverso",
+        "d": "OVMI"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rectoverso"
+    },
+    {
+      "id": "ba2_19_1",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Apa kepanjangan dari KEKDA dalam lingkup kebijakan Bank Indonesia?",
+      "options": {
+        "a": "Koordinasi Ekonomi dan Keuangan Digital Daerah",
+        "b": "Kebijakan Ekonomi dan Keuangan Daerah",
+        "c": "Komitmen Ekspor dan Komoditas Daerah",
+        "d": "Kerangka Ekonomi Konsolidasi Digital Asia"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kebijakan Ekonomi dan Keuangan Daerah"
+    },
+    {
+      "id": "ba2_19_2",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Analogi yang tepat untuk menjelaskan peran BI dalam KEKDA adalah...",
+      "options": {
+        "a": "Polisi yang menilang pelanggar aturan lalu lintas",
+        "b": "Dokter yang memberikan resep obat berbeda untuk setiap pasien (daerah)",
+        "c": "Guru yang memberikan ujian yang sama untuk semua murid",
+        "d": "Hakim yang memutuskan perkara di pengadilan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Dokter yang memberikan resep obat berbeda untuk setiap pasien (daerah)"
+    },
+    {
+      "id": "ba2_19_3",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Manakah tantangan global yang ditandai dengan utang negara yang tinggi sehingga bunga pinjaman menjadi mahal?",
+      "options": {
+        "a": "Prolonged US Protectionism",
+        "b": "Slower and Fragmented Growth",
+        "c": "High Public Debt & Interest Rate",
+        "d": "Fragile Global Financial Market"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): High Public Debt & Interest Rate"
+    },
+    {
+      "id": "ba2_19_4",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Disparitas inflasi dalam karakteristik ekonomi domestik Indonesia berarti...",
+      "options": {
+        "a": "Harga barang di seluruh Indonesia sudah seragam",
+        "b": "Tingkat kenaikan harga di daerah (seperti Papua) bisa jauh berbeda dari Jakarta",
+        "c": "Seluruh daerah memiliki pertumbuhan ekonomi yang sama",
+        "d": "Inflasi nasional selalu di bawah 1%"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tingkat kenaikan harga di daerah (seperti Papua) bisa jauh berbeda dari Jakarta"
+    },
+    {
+      "id": "ba2_19_5",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Sinergi kebijakan BI yang fokus pada \"Hilirisasi SDA dan industri maju\" disebut...",
+      "options": {
+        "a": "Menjaga Stabilitas",
+        "b": "Mendorong Transformasi Ekonomi",
+        "c": "Mengembangkan Ekonomi Kerakyatan",
+        "d": "Mengakselerasi Digitalisasi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mendorong Transformasi Ekonomi"
+    },
+    {
+      "id": "ba2_19_6",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Arah transformasi KEKDA yang dikoordinasikan secara terpusat oleh DKEM di Kantor Pusat adalah...",
+      "options": {
+        "a": "Hilirisasi & Industrialisasi SDA",
+        "b": "Penguatan Kajian Spasial Inflasi",
+        "c": "Dukungan Kebijakan Ekonomi Kerakyatan",
+        "d": "Pengelolaan Uang Rupiah di Daerah"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Hilirisasi & Industrialisasi SDA"
+    },
+    {
+      "id": "ba2_19_7",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Apa salah satu tujuan utama dari kerangka kerja KEKDA Baru?",
+      "options": {
+        "a": "Mengambil alih wewenang Pemerintah Daerah",
+        "b": "Menjadikan BI sebagai Strategic Partner Pemda",
+        "c": "Menghapuskan penggunaan uang tunai di daerah",
+        "d": "Meningkatkan pajak daerah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Menjadikan BI sebagai Strategic Partner Pemda"
+    },
+    {
+      "id": "ba2_19_8",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Sasaran KEKDA di bidang Sistem Pembayaran mencakup \"Velositas\", yang berarti...",
+      "options": {
+        "a": "Jumlah uang yang dicetak harus banyak",
+        "b": "Perputaran uang harus cepat, mudah, dan murah",
+        "c": "Hanya bank besar yang boleh beroperasi",
+        "d": "Suku bunga kredit harus nol persen"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Perputaran uang harus cepat, mudah, dan murah"
+    },
+    {
+      "id": "ba2_19_9",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Strategi KEKDA yang melibatkan pembuatan kajian dan rekomendasi kebijakan ekonomi daerah oleh DR dan KPwDN adalah...",
+      "options": {
+        "a": "Strategi 1: Perumusan Kebijakan EKD",
+        "b": "Strategi 2: Implementasi KEKDA",
+        "c": "Strategi 3: Implementasi SP-PUR-MI",
+        "d": "Strategi 4: Manajemen Risiko Intern"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Strategi 1: Perumusan Kebijakan EKD"
+    },
+    {
+      "id": "ba2_19_10",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Prinsip Tata Kelola KEKDA yang memastikan BI bebas dari tekanan politik dalam mengambil kebijakan adalah...",
+      "options": {
+        "a": "Independensi",
+        "b": "Konsistensi",
+        "c": "Akuntabilitas",
+        "d": "Transparansi"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Independensi"
+    },
+    {
+      "id": "ba2_19_11",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Satuan Kerja di Kantor Pusat yang bertugas mengoordinasikan dan menyelaraskan kebijakan nasional ke seluruh KPwDN adalah...",
+      "options": {
+        "a": "DPU (Departemen Pengelolaan Uang)",
+        "b": "DKSP (Departemen Kebijakan Sistem Pembayaran)",
+        "c": "DR (Departemen Regional)",
+        "d": "KPw Korwil"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): DR (Departemen Regional)"
+    },
+    {
+      "id": "ba2_19_12",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Dalam perumusan KEKDA, usulan rekomendasi dari KPwDN dibahas pertama kali dalam...",
+      "options": {
+        "a": "Rapat Dewan Gubernur (RDGB)",
+        "b": "Forum Kajian KEKDA",
+        "c": "Forum KBKU",
+        "d": "Musrenbang Nasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Forum Kajian KEKDA"
+    },
+    {
+      "id": "ba2_19_13",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Berapa frekuensi Rapat Dewan Gubernur (RDGB) menyetujui rekomendasi KEKDA?",
+      "options": {
+        "a": "Setiap bulan",
+        "b": "Triwulanan",
+        "c": "Semesteran",
+        "d": "Tahunan"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Triwulanan"
+    },
+    {
+      "id": "ba2_19_14",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Tipe koordinasi di mana DR bertindak sebagai Koordinator Nasional dan membuat juknis untuk program QRIS & ETPD adalah...",
+      "options": {
+        "a": "Tipe 1a",
+        "b": "Tipe 1b",
+        "c": "Tipe 2",
+        "d": "Tipe 3"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Tipe 2"
+    },
+    {
+      "id": "ba2_19_15",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Fungsi utama dari KPwDN Koordinator Wilayah (Korwil) adalah...",
+      "options": {
+        "a": "Membuat kebijakan moneter nasional",
+        "b": "Mengoordinasi KPwDN lain di dalam wilayah koordinasinya",
+        "c": "Mencetak uang Rupiah secara mandiri",
+        "d": "Menetapkan nilai tukar mata uang daerah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mengoordinasi KPwDN lain di dalam wilayah koordinasinya"
+    },
+    {
+      "id": "ba2_19_16",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Laporan lengkap kondisi ekonomi satu provinsi yang diterbitkan secara triwulanan oleh KPwDN disebut...",
+      "options": {
+        "a": "Laporan Nusantara",
+        "b": "LPP (Laporan Perekonomian Provinsi)",
+        "c": "LAPID",
+        "d": "RER"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): LPP (Laporan Perekonomian Provinsi)"
+    },
+    {
+      "id": "ba2_19_17",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Program kolaborasi antara TPIP dan TPID untuk mengendalikan harga pangan di daerah disebut...",
+      "options": {
+        "a": "RIRU",
+        "b": "GNPIP (Gerakan Nasional Pengendalian Inflasi Pangan)",
+        "c": "TP2DD",
+        "d": "SIAPIK"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): GNPIP (Gerakan Nasional Pengendalian Inflasi Pangan)"
+    },
+    {
+      "id": "ba2_19_18",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Berapakah sasaran inflasi nasional untuk tahun 2025?",
+      "options": {
+        "a": "1,5 ± 1%",
+        "b": "2,0 ± 1%",
+        "c": "2,5 ± 1%",
+        "d": "3,5 ± 1%"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 2,5 ± 1%"
+    },
+    {
+      "id": "ba2_19_19",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Proyeksi pertumbuhan ekonomi nasional untuk tahun 2026 berada pada kisaran...",
+      "options": {
+        "a": "3,0 - 4,0%",
+        "b": "4,5 - 5,0%",
+        "c": "4,9 - 5,7%",
+        "d": "6,0 - 7,0%"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 4,9 - 5,7%"
+    },
+    {
+      "id": "ba2_19_20",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Sistem tata kelola internal KPwDN untuk memastikan pekerjaan dilakukan dengan benar melalui penggunaan worksheet disebut...",
+      "options": {
+        "a": "SBP (Strategic Business Plan)",
+        "b": "SGo (Self Governance)",
+        "c": "ICO (Internal Control Officer)",
+        "d": "BPR (Business Process Reengineering)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): SGo (Self Governance)"
+    },
+    {
+      "id": "ba2_19_21",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Manakah worksheet dalam SGo yang menjadi pedoman bagi PELAKSANA dalam menjalankan tugas sehari-hari?",
+      "options": {
+        "a": "Worksheet Aktivitas",
+        "b": "Worksheet Supervisi",
+        "c": "Worksheet Pengendalian",
+        "d": "SGo Pimpinan"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): Worksheet Aktivitas"
+    },
+    {
+      "id": "ba2_19_22",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Petugas yang melakukan sampling atau uji acak untuk memastikan SGo berjalan baik di KPwDN disebut...",
+      "options": {
+        "a": "FSI (Fungsional Spesialis Instrumen)",
+        "b": "ICO (Internal Control Officer)",
+        "c": "Korwil",
+        "d": "FE (Fungsional Eksekutif)"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): ICO (Internal Control Officer)"
+    },
+    {
+      "id": "ba2_19_23",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Berapa total jumlah pegawai KPwDN di seluruh Indonesia berdasarkan data April 2026?",
+      "options": {
+        "a": "1.500 orang",
+        "b": "2.000 orang",
+        "c": "2.334 orang",
+        "d": "5.000 orang"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 2.334 orang"
+    },
+    {
+      "id": "ba2_19_24",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Wilayah manakah yang memiliki jumlah pegawai KPwDN terbanyak (35% dari total)?",
+      "options": {
+        "a": "Sumatera",
+        "b": "Jawa",
+        "c": "Kalimantan",
+        "d": "Sulampua"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Jawa"
+    },
+    {
+      "id": "ba2_19_25",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Program BISAID yang dikelola KPwDN berfungsi sebagai...",
+      "options": {
+        "a": "Alat pembayaran digital bagi petani",
+        "b": "Platform database UMKM potensial dibiayai bagi lembaga keuangan",
+        "c": "Sistem pelaporan inflasi real-time",
+        "d": "Aplikasi pendaftaran sertifikasi halal"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Platform database UMKM potensial dibiayai bagi lembaga keuangan"
+    },
+    {
+      "id": "ba2_19_26",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Apa kepanjangan dari TP2DD yang melibatkan BI dalam digitalisasi transaksi daerah?",
+      "options": {
+        "a": "Tim Pengawas Peredaran Dana Daerah",
+        "b": "Tim Percepatan dan Perluasan Digitalisasi Daerah",
+        "c": "Tim Pengembangan Produk Digital Daerah",
+        "d": "Tata Pengelola Pendapatan Digital Daerah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Tim Percepatan dan Perluasan Digitalisasi Daerah"
+    },
+    {
+      "id": "ba2_19_27",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Indeks yang mengukur seberapa jauh transaksi keuangan Pemerintah Daerah sudah beralih ke digital (non-tunai) disebut...",
+      "options": {
+        "a": "IKK",
+        "b": "IETPD",
+        "c": "IEKB",
+        "d": "RIRU"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): IETPD"
+    },
+    {
+      "id": "ba2_19_28",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Program Satgas PASTI Daerah yang melibatkan KPwBI bertujuan untuk...",
+      "options": {
+        "a": "Menyalurkan kredit usaha rakyat",
+        "b": "Mencegah dan menangani aktivitas keuangan ilegal",
+        "c": "Mengawasi bank umum di daerah",
+        "d": "Menetapkan harga pangan di pasar"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Mencegah dan menangani aktivitas keuangan ilegal"
+    },
+    {
+      "id": "ba2_19_29",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Unit yang bertugas memfasilitasi investasi dan promosi perdagangan daerah kepada investor global disebut...",
+      "options": {
+        "a": "GNPIP",
+        "b": "RIRU (Regional Investor Relation Unit)",
+        "c": "Botasupal",
+        "d": "GEBER PK"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): RIRU (Regional Investor Relation Unit)"
+    },
+    {
+      "id": "ba2_19_30",
+      "category": "19. Peran DR KPWDN",
+      "source": "19. Peran DR KPWDN.txt",
+      "question": "Dalam Bauran Kebijakan Bank Sentral (BKBS), KEKDA termasuk ke dalam kelompok kebijakan...",
+      "options": {
+        "a": "Kebijakan Utama",
+        "b": "Kebijakan Pendukung",
+        "c": "Kebijakan Independen",
+        "d": "Kebijakan Eksternal"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kebijakan Pendukung"
+    },
+    {
+      "id": "ba2_20_1",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Apa definisi dari Kas Titipan menurut kebijakan Bank Indonesia? ,",
+      "options": {
+        "a": "Kantor cabang Bank Indonesia di daerah terpencil",
+        "b": "Kegiatan layanan kas BI di luar kantor yang dilakukan pihak lain melalui PKS",
+        "c": "Rekening tabungan BI yang dititipkan kepada bank umum",
+        "d": "Fasilitas kredit BI kepada bank-bank daerah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kegiatan layanan kas BI di luar kantor yang dilakukan pihak lain melalui PKS"
+    },
+    {
+      "id": "ba2_20_2",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Apa tujuan utama dari pembentukan Kas Titipan? ,",
+      "options": {
+        "a": "Meningkatkan keuntungan operasional Bank Indonesia",
+        "b": "Memenuhi kebutuhan kas perbankan agar masyarakat di daerah mendapat uang layak edar",
+        "c": "Menggantikan seluruh fungsi ATM di daerah-daerah terpencil",
+        "d": "Menjadi satu-satunya pusat pengawasan uang palsu di daerah"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Memenuhi kebutuhan kas perbankan agar masyarakat di daerah mendapat uang layak edar"
+    },
+    {
+      "id": "ba2_20_3",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Regulasi setingkat Peraturan Bank Indonesia (PBI) yang menjadi landasan hukum Kas Titipan adalah... ,",
+      "options": {
+        "a": "PBI No. 20/10/PBI/2018",
+        "b": "PADG Intern No. 47 Tahun 2023",
+        "c": "PBI No. 21/10/PBI/2019 tentang Pengelolaan Uang Rupiah",
+        "d": "PDG No. 21/4/PDG/2019"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): PBI No. 21/10/PBI/2019 tentang Pengelolaan Uang Rupiah"
+    },
+    {
+      "id": "ba2_20_4",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Dalam konteks Kas Titipan, PKS merupakan singkatan dari... ,",
+      "options": {
+        "a": "Perjanjian Kerja Seluruh",
+        "b": "Program Kas Sentral",
+        "c": "Perjanjian Kerja Sama",
+        "d": "Penetapan Kas Satker"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Perjanjian Kerja Sama"
+    },
+    {
+      "id": "ba2_20_5",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Berapa jangka waktu berlakunya Perjanjian Kerja Sama (PKS) Kas Titipan? ,",
+      "options": {
+        "a": "6 bulan - 1 tahun",
+        "b": "1 - 2 tahun",
+        "c": "2 - 5 tahun",
+        "d": "Berlaku selamanya tanpa evaluasi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 1 - 2 tahun"
+    },
+    {
+      "id": "ba2_20_6",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Pihak yang menandatangani Perjanjian Kepesertaan (antara pengelola dan peserta) adalah...",
+      "options": {
+        "a": "Kepala KPwDN BI dan Pimpinan Bank Pengelola",
+        "b": "Direktur Utama Bank Pengelola dan Direktur Bank Peserta",
+        "c": "Pimpinan Cabang Bank Pengelola dan Pimpinan Cabang Bank Peserta",
+        "d": "Gubernur Bank Indonesia dan Menteri Keuangan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Pimpinan Cabang Bank Pengelola dan Pimpinan Cabang Bank Peserta"
+    },
+    {
+      "id": "ba2_20_7",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Dari 9 Kas Titipan di NTT, manakah satu-satunya yang dikelola oleh BRI? ,",
+      "options": {
+        "a": "Kas Titipan Alor",
+        "b": "Kas Titipan Atambua",
+        "c": "Kas Titipan Waingapu",
+        "d": "Kas Titipan Labuan Bajo"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Kas Titipan Waingapu"
+    },
+    {
+      "id": "ba2_20_8",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Manakah Kas Titipan di wilayah NTT yang memiliki plafon sebesar Rp 100 Miliar? ,",
+      "options": {
+        "a": "Ende dan Maumere",
+        "b": "Atambua dan Ruteng",
+        "c": "Alor dan Lewoleba",
+        "d": "Waikabubak dan Labuan Bajo"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Alor dan Lewoleba"
+    },
+    {
+      "id": "ba2_20_9",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Kas Titipan di NTT yang pengiriman uangnya dilakukan melalui jalur darat (bukan kapal laut) adalah... ,",
+      "options": {
+        "a": "Kas Titipan Ende",
+        "b": "Kas Titipan Waingapu",
+        "c": "Kas Titipan Atambua",
+        "d": "Kas Titipan Maumere"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Kas Titipan Atambua"
+    },
+    {
+      "id": "ba2_20_10",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Jenis bantuan finansial yang diberikan Bank Indonesia hanya satu kali di awal atau saat terjadi perubahan bank pengelola adalah... ,",
+      "options": {
+        "a": "Bantuan Operasional",
+        "b": "Bantuan Asuransi",
+        "c": "Bantuan Pendirian",
+        "d": "Bantuan Pemeliharaan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Bantuan Pendirian"
+    },
+    {
+      "id": "ba2_20_11",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Manakah bantuan finansial yang diberikan secara rutin setiap bulan kepada Bank Pengelola? , ,",
+      "options": {
+        "a": "Bantuan Pendirian dan Pemeliharaan",
+        "b": "Bantuan Operasional dan Asuransi",
+        "c": "Bantuan Biaya Pengolahan dan Pendirian",
+        "d": "Bantuan Pemeliharaan dan Operasional"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Bantuan Operasional dan Asuransi"
+    },
+    {
+      "id": "ba2_20_12",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Asuransi \"Cash In Safe\" dalam pengelolaan Kas Titipan mencakup perlindungan untuk... ,",
+      "options": {
+        "a": "Uang tunai yang dibawa petugas di lapangan",
+        "b": "Uang dalam brankas atau khazanah Kas Titipan",
+        "c": "Uang yang tersedia di dalam mesin ATM",
+        "d": "Seluruh aset fisik gedung kantor bank"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Uang dalam brankas atau khazanah Kas Titipan"
+    },
+    {
+      "id": "ba2_20_13",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Kapan Bank Indonesia memberikan Bantuan Pemeliharaan kepada Bank Pengelola? ,",
+      "options": {
+        "a": "Setiap tanggal 1 awal bulan",
+        "b": "Saat terjadi pergantian pejabat pimpinan bank",
+        "c": "Saat dilakukan perpanjangan PKS Kas Titipan",
+        "d": "Saat jumlah UTLE yang diolah melebihi target"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Saat dilakukan perpanjangan PKS Kas Titipan"
+    },
+    {
+      "id": "ba2_20_14",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Berapakah tarif bantuan biaya pengolahan untuk Uang Pecahan Besar (UPB)? ,",
+      "options": {
+        "a": "Rp 5 per bilyet",
+        "b": "Rp 13 per bilyet",
+        "c": "Rp 18 per bilyet",
+        "d": "Rp 25 per bilyet"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Rp 13 per bilyet"
+    },
+    {
+      "id": "ba2_20_15",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Apa kepanjangan dari istilah UTLE? ,",
+      "options": {
+        "a": "Uang Tunai Layak Edar",
+        "b": "Unit Transfer Layanan Elektronik",
+        "c": "Uang Tidak Layak Edar",
+        "d": "Uang Titipan Layanan BI"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Uang Tidak Layak Edar"
+    },
+    {
+      "id": "ba2_20_16",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Bantuan biaya pengolahan dihitung oleh Bank Indonesia berdasarkan... ,",
+      "options": {
+        "a": "Jumlah bank peserta yang terdaftar aktif",
+        "b": "Total nilai nominal uang yang disetorkan",
+        "c": "Jumlah lembar (bilyet) UTLE yang berhasil diolah",
+        "d": "Total jam kerja petugas pengolahan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Jumlah lembar (bilyet) UTLE yang berhasil diolah"
+    },
+    {
+      "id": "ba2_20_17",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Berapakah tarif bantuan pengolahan untuk Uang Pecahan Kecil (UPK/Koin) per bilyet? ,",
+      "options": {
+        "a": "Rp 13",
+        "b": "Rp 15",
+        "c": "Rp 18",
+        "d": "Rp 20"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Rp 18"
+    },
+    {
+      "id": "ba2_20_18",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Apa manfaat utama Kas Titipan bagi masyarakat di daerah terpencil? ,",
+      "options": {
+        "a": "Mendapatkan bunga tabungan yang lebih tinggi",
+        "b": "Kebutuhan uang layak edar terpenuhi secara merata di seluruh NKRI",
+        "c": "Memperoleh kemudahan akses pinjaman modal usaha",
+        "d": "Pembebasan biaya pajak untuk setiap transaksi tunai"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Kebutuhan uang layak edar terpenuhi secara merata di seluruh NKRI"
+    },
+    {
+      "id": "ba2_20_19",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Manakah yang BUKAN merupakan bagian dari kebijakan \"clean money policy\" Bank Indonesia? ,",
+      "options": {
+        "a": "Menjaga kelayakan uang yang beredar di masyarakat",
+        "b": "Menarik uang yang sudah tidak layak edar dari peredaran",
+        "c": "Menukarkan uang lusuh masyarakat dengan uang baru",
+        "d": "Mengalihkan seluruh uang fisik menjadi Rupiah Digital (CBDC)"
+      },
+      "answer": "d",
+      "explanation": "Jawaban benar (D): Mengalihkan seluruh uang fisik menjadi Rupiah Digital (CBDC)"
+    },
+    {
+      "id": "ba2_20_20",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Pemantauan Langsung (Onsite) menyeluruh dilakukan paling sedikit berapa kali dalam setahun? ,",
+      "options": {
+        "a": "1 kali",
+        "b": "2 kali",
+        "c": "3 kali",
+        "d": "4 kali (setiap triwulan)"
+      },
+      "answer": "a",
+      "explanation": "Jawaban benar (A): 1 kali"
+    },
+    {
+      "id": "ba2_20_21",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Pelaksanaan cash opname di Kas Titipan wajib melibatkan saksi dari... ,",
+      "options": {
+        "a": "Pejabat Bank Indonesia Pusat",
+        "b": "2 (dua) bank peserta",
+        "c": "Aparat kepolisian atau petugas keamanan",
+        "d": "Auditor eksternal independen"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 2 (dua) bank peserta"
+    },
+    {
+      "id": "ba2_20_22",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Dalam pengawasan Kas Titipan, LHP merupakan singkatan dari... , ,",
+      "options": {
+        "a": "Laporan Harian Pengawasan",
+        "b": "Laporan Hasil Pengawasan",
+        "c": "Laporan Hasil Pemantauan",
+        "d": "Laporan Historis Pemeriksa"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Laporan Hasil Pemantauan"
+    },
+    {
+      "id": "ba2_20_23",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Tim pemantauan langsung (onsite) minimal terdiri dari... ,",
+      "options": {
+        "a": "Satu orang Direktur dan tiga orang staf",
+        "b": "Ketua (min. Asmen) dan satu orang anggota (min. Staf)",
+        "c": "Dua orang staf dari Unit Kerja PUR saja",
+        "d": "Satu orang pejabat pengawas sudah mencukupi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Ketua (min. Asmen) dan satu orang anggota (min. Staf)"
+    },
+    {
+      "id": "ba2_20_24",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Tim wajib menyusun LHP Onsite paling lambat berapa hari kerja setelah kegiatan? ,",
+      "options": {
+        "a": "5 Hari Kerja",
+        "b": "10 Hari Kerja",
+        "c": "15 Hari Kerja",
+        "d": "30 Hari Kerja"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 15 Hari Kerja"
+    },
+    {
+      "id": "ba2_20_25",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Evaluasi perpanjangan PKS dilaksanakan paling lambat berapa bulan sebelum PKS berakhir? ,",
+      "options": {
+        "a": "1 bulan",
+        "b": "2 bulan",
+        "c": "3 bulan",
+        "d": "6 bulan"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): 3 bulan"
+    },
+    {
+      "id": "ba2_20_26",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Bagaimana cara pelaksanaan Pemantauan Tidak Langsung (Offsite)? , ,",
+      "options": {
+        "a": "Melalui kunjungan mendadak ke gudang bank",
+        "b": "Melalui analisis laporan yang disampaikan bank pengelola secara berkala",
+        "c": "Melalui wawancara langsung dengan seluruh bank peserta",
+        "d": "Melalui inspeksi fisik uang secara acak di lokasi"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Melalui analisis laporan yang disampaikan bank pengelola secara berkala"
+    },
+    {
+      "id": "ba2_20_27",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Pemeriksaan khusus terhadap Kas Titipan dilakukan apabila... ,",
+      "options": {
+        "a": "Ada permohonan tertulis dari bank peserta",
+        "b": "Saldo uang tunai melebihi plafon yang ditetapkan",
+        "c": "Terdapat indikasi fraud (kecurangan) oleh bank pengelola",
+        "d": "PKS akan habis masa berlakunya dalam waktu dekat"
+      },
+      "answer": "c",
+      "explanation": "Jawaban benar (C): Terdapat indikasi fraud (kecurangan) oleh bank pengelola"
+    },
+    {
+      "id": "ba2_20_28",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Setiap setoran uang dari bank peserta ke Kas Titipan wajib dilengkapi dengan... ,",
+      "options": {
+        "a": "Pembungkus plastik transparan yang tebal",
+        "b": "Segel yang mencantumkan tanggal dan identitas bank penyetor",
+        "c": "Dokumen asli identitas nasabah yang menyetor",
+        "d": "Laporan tertulis yang disetujui oleh Direksi BI"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Segel yang mencantumkan tanggal dan identitas bank penyetor"
+    },
+    {
+      "id": "ba2_20_29",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Persentase maksimal campuran ULE dalam setoran UTLE agar tidak menjadi temuan adalah... ,",
+      "options": {
+        "a": "5%",
+        "b": "10%",
+        "c": "15%",
+        "d": "20%"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): 10%"
+    },
+    {
+      "id": "ba2_20_30",
+      "category": "20. Catatan Kas Titipan",
+      "source": "20. Catatan Kas Titipan.txt",
+      "question": "Manakah urutan tahapan Pembukaan Kas Titipan yang benar? ,",
+      "options": {
+        "a": "Persetujuan → Survei → Plafon → PKS",
+        "b": "Survei → Persetujuan → Penetapan Plafon → PKS",
+        "c": "PKS → Survei → Plafon → Persetujuan",
+        "d": "Plafon → Survei → Persetujuan → PKS"
+      },
+      "answer": "b",
+      "explanation": "Jawaban benar (B): Survei → Persetujuan → Penetapan Plafon → PKS"
     }
   ]
 };

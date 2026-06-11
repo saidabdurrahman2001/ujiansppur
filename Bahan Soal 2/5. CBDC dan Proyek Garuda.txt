@@ -1,0 +1,59 @@
+Kumpulan Soal Kuis: Rupiah Digital & Proyek Garuda (PCPM 40)
+Soal 1: Rupiah Digital (CBDC) adalah mata uang digital yang diterbitkan oleh... A. Kementerian Keuangan B. Bank Indonesia C. Otoritas Jasa Keuangan (OJK) D. Konsorsium Bank Swasta Jawaban: B
+,
+Soal 2: Apa kepanjangan dari istilah CBDC? A. Central Bank Digital Currency B. Central Banking Digital Commerce C. Crypto Based Digital Currency D. Central Bank Digital Capital Jawaban: A
+,
+Soal 3: Berdasarkan klasifikasi "Money Flower" (BIS 2018), karakteristik yang mendefinisikan CBDC meliputi hal berikut, KECUALI... A. Penerbit (Siapa yang buat) B. Bentuk (Digital/Fisik) C. Aksesibilitas (Terbatas/Luas) D. Lokasi Server (Pusat/Daerah) Jawaban: D
+,
+Soal 4: Perbedaan mendasar antara Rupiah Digital dengan E-money (seperti GoPay/OVO) adalah... A. E-money dijamin oleh negara, Rupiah Digital tidak B. Rupiah Digital diterbitkan Bank Indonesia, E-money diterbitkan swasta C. Rupiah Digital berbentuk saldo aplikasi, E-money berbentuk token D. Tidak ada perbedaan, keduanya adalah hal yang sama Jawaban: B
+,
+Soal 5: Prinsip "Do No Harm" dalam pengembangan Rupiah Digital berarti... A. Tidak boleh digunakan untuk mendanai terorisme B. Tidak boleh mengganggu tugas BI di bidang moneter dan makroprudensial C. Harus aman dari serangan peretas (hacker) D. Tidak boleh merusak lingkungan dalam proses produksinya Jawaban: B
+,
+Soal 6: Prinsip "Coexist" dalam implementasi Rupiah Digital mengandung makna bahwa... A. Rupiah Digital akan menggantikan seluruh uang tunai B. Rupiah Digital hidup berdampingan dengan uang tunai dan e-money C. Seluruh negara harus meluncurkan CBDC secara bersamaan D. Rupiah Digital hanya bisa digunakan bersama dengan aset kripto Jawaban: B
+,
+Soal 7: w-Rupiah Digital (Wholesale) secara khusus ditujukan untuk... A. Masyarakat umum untuk belanja harian B. Bank dan lembaga keuangan untuk penyelesaian transaksi antar bank C. Usaha Mikro, Kecil, dan Menengah (UMKM) D. Turis asing yang masuk ke Indonesia Jawaban: C
+,
+Soal 8: r-Rupiah Digital (Retail) dikembangkan dengan tujuan untuk... A. Cadangan devisa negara B. Digunakan oleh masyarakat umum untuk pembayaran sehari-hari C. Hanya untuk transaksi di pasar modal D. Pembayaran utang luar negeri pemerintah Jawaban: B
+,
+Soal 9: Distribusi Rupiah Digital menggunakan sistem "2 Tier". Pihak yang berada di Tier 1 (sebagai penerbit) adalah... A. Bank Indonesia B. Bank Umum dan Non-Bank C. Merchant atau Pedagang D. Masyarakat Luas Jawaban: A
+,
+Soal 10: Teknologi yang diuji dan dinyatakan berhasil dalam Proof of Concept (PoC) Proyek Garuda adalah... A. Bitcoin dan Ethereum B. Corda dan Hyperledger Besu C. Solana dan Polygon D. AWS dan Google Cloud Jawaban: B
+,
+Soal 11: Apa kepanjangan dari DLT yang merupakan fondasi teknologi Rupiah Digital? A. Digital Ledger Transfer B. Distributed Ledger Technology C. Direct Linked Transaction D. Dynamic Ledger Token Jawaban: B
+,
+Soal 12: "Permissioned DLT" yang digunakan dalam Proyek Garuda berarti... A. Jaringan terbuka yang bisa diakses siapa saja secara anonim B. Jaringan blockchain yang terbatas hanya untuk peserta yang terdaftar/diizinkan C. Sistem manual yang memerlukan izin tertulis untuk setiap transfer D. Teknologi yang hanya boleh digunakan oleh pemerintah pusat Jawaban: B
+,
+Soal 13: Apa nama resmi proyek pengembangan Rupiah Digital oleh Bank Indonesia? A. Proyek Nusantara B. Proyek Garuda C. Proyek Merah Putih D. Proyek Digitalisasi NKRI Jawaban: B
+,
+Soal 14: Dokumen "White Paper" Proyek Garuda pertama kali diterbitkan pada... A. Januari 2022 B. November 2022 C. Maret 2023 D. Agustus 2024 Jawaban: B
+,
+Soal 15: Berapa jumlah bank yang terlibat sebagai peserta dalam tahap Sandboxing Proyek Garuda? A. 5 Bank B. 10 Bank C. 15 Bank D. 26 Bank Jawaban: B
+,
+Soal 16: Berdasarkan data Chainalysis, Indonesia menempati peringkat berapa dunia dalam adopsi aset kripto? A. Peringkat 1 B. Peringkat 3 C. Peringkat 5 D. Peringkat 10 Jawaban: B
+,
+Soal 17: Regulasi di Amerika Serikat yang melegalkan stablecoin dan mendorong respons global terhadap CBDC adalah... A. GENIUS Act B. CRYPTO Act C. DIGITAL Dollar Act D. STABLE Act Jawaban: A
+,
+Soal 18: Risiko "Substitusi Mata Uang" akibat maraknya stablecoin dolar (seperti USDT) dapat menyebabkan... A. Rupiah semakin kuat nilainya B. Terjadinya dolarisasi di mana masyarakat lebih suka menggunakan USD daripada Rupiah C. Bank-bank di Indonesia mendapatkan lebih banyak nasabah D. Inflasi di Indonesia menurun drastis Jawaban: B
+,
+Soal 19: DFABI merupakan instrumen digital yang diterbitkan Bank Indonesia dalam bentuk... A. Mata uang digital untuk rakyat B. Surat berharga digital (securities) C. Dompet digital milik negara D. Aplikasi perdagangan kripto Jawaban: B
+,
+Soal 20: Salah satu perbedaan utama antara Rupiah Digital dan DFABI adalah... A. Rupiah Digital berbunga, DFABI tidak B. Rupiah Digital tidak menghasilkan bunga, DFABI menghasilkan bunga C. Rupiah Digital diterbitkan OJK, DFABI diterbitkan BI D. Rupiah Digital adalah investasi, DFABI adalah alat bayar Jawaban: B
+,
+Soal 21: Mekanisme penerbitan Rupiah Digital bersifat "On-Demand", yang artinya... A. Diterbitkan massal setiap awal tahun B. Diterbitkan sesuai permintaan bank melalui konversi saldo giro di BI C. Diterbitkan secara otomatis oleh sistem setiap ada transaksi ritel D. Diterbitkan hanya saat terjadi krisis ekonomi Jawaban: B
+,
+Soal 22: Proses mengubah aset fisik seperti properti atau obligasi menjadi representasi digital di blockchain disebut... A. Digitalisasi B. Tokenisasi C. Enkripsi D. Katalogisasi Jawaban: B
+,
+Soal 23: Bank peserta Sandboxing yang sedang mengeksplorasi tokenisasi aset properti adalah... A. Bank Mandiri B. Bank BCA C. Bank BTN D. Bank BRI Jawaban: C
+,
+Soal 24: Berdasarkan UU Mata Uang jo. UU P2SK, saat ini Rupiah terdiri atas... A. Rupiah kertas dan logam saja B. Rupiah fisik dan Rupiah elektronik C. Rupiah kertas, logam, dan digital D. Rupiah domestik dan Rupiah internasional Jawaban: C
+,
+Soal 25: Program komputer di blockchain yang otomatis berjalan saat syarat tertentu terpenuhi disebut... A. Artificial Intelligence B. Smart Contract C. Digital Agreement D. Auto-Transfer Jawaban: B
+,
+Soal 26: Dalam roadmap Proyek Garuda, pengembangan "Securities Ledger" atau DFABI berada pada tahap... A. Stage 1 (Immediate State) B. Stage 2 (Intermediate State) C. Stage 3 (End State) D. Tahap Eksplorasi Awal Jawaban: B
+,
+Soal 27: Berdasarkan data kependudukan, kelompok usia yang paling mendominasi investor kripto di Indonesia (62%) adalah... A. Baby Boomers B. Gen X C. Gen Y dan Gen Z (Usia 18-30 tahun) D. Penduduk usia di atas 50 tahun Jawaban: C
+Soal 28: Apa kepanjangan dari DFABI? A. Digital Finance Asset Bank Indonesia B. Digital Financial Asset Bank Indonesia C. Distributed Fund and Asset Bank Indonesia D. Digital Financial Association of Bank Indonesia Jawaban: B
+,
+Soal 29: Prinsip "Inovasi" dalam pengembangan Rupiah Digital bertujuan untuk... A. Menciptakan mata uang yang paling mahal di dunia B. Mendorong efisiensi dan inovasi pada sistem pembayaran nasional C. Menghilangkan peran bank-bank konvensional D. Memungkinkan masyarakat mencetak uang digital sendiri Jawaban: B
+Soal 30: Visi strategis Bank Indonesia adalah menjadikan Rupiah Digital sebagai... A. Pengganti seluruh aset kripto swasta B. Platform masa depan bagi sistem keuangan nasional era digital C. Alat spekulasi untuk mendapatkan keuntungan tinggi D. Satu-satunya aset yang boleh dimiliki masyarakat Jawaban: B
+,

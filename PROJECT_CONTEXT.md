@@ -11,16 +11,18 @@
 ## 1. Ringkasan Proyek
 
 Aplikasi **kuis latihan berbasis web** (vanilla HTML/CSS/JS, tanpa framework) untuk materi:
-- **PUR** — Pengelolaan Uang Rupiah (Bank Indonesia)
-- **SP** — Sistem Pembayaran (Bank Indonesia)
-- **PCPM** — Materi presentasi KPw sebagai Advisor Ekonomi Daerah (KEKDA, TPID, GNPIP/GPIPS)
+- **PUR** — Pengelolaan Uang Rupiah (Bank Indonesia) — dari PDF `Bahan Soal/`
+- **SP** — Sistem Pembayaran (Bank Indonesia) — dari PDF `Bahan Soal/`
+- **20 paket Bahan Soal 2** — dari file `.txt` di `Bahan Soal 2/` (kategori = nama file, mis. `1. Soal Sistem Pembayaran` … `20. Catatan Kas Titipan`)
+
+> **Dikecualikan (hanya PDF lama):** soal DR (`sp_2`) dari PDF — paket `ba2_*` tidak difilter.
 
 Soal diambil dari PDF di folder `Bahan Soal/`, dikonversi ke JSON via script Python, lalu diload browser lewat `js/questions.js`.
 
 ### Fitur utama
 | Fitur | Implementasi |
 |-------|-------------|
-| Kuis per kategori | `PUR`, `SP`, `PCPM`, `Semua` |
+| Kuis per kategori | `PUR`, `SP`, 20 paket `Bahan Soal 2`, `Semua` (23 kategori) |
 | Acak soal | Checkbox `randomize`, Fisher-Yates shuffle di `app.js` |
 | Nilai & grade | Skor % = `benar/total × 100`; grade di `getGrade()` |
 | Pembahasan | Field `explanation` per soal, tampil setelah submit jawaban |
@@ -316,7 +318,8 @@ Topik PCPM slide: KEKDA, KPwDN koordinator, TPID/TPIN, strategi 4K, PIKKE, GNPIP
 
 ## 13. Statistik Saat Ini
 
-- **Total soal unik:** 42 (15 PUR + 15 SP + 10 PCPM + duplikat SP sudah di-dedup)
+- **Total soal unik:** ~628 (15 PUR + 15 SP PDF + ~598 dari 20 paket Bahan Soal 2)
+- **Regenerasi:** `python scripts/extract_questions.py` — parser Bahan Soal 2: `parse_bahan_soal2_txt()`
 - **Tech:** HTML5, CSS3, vanilla JS, Python 3 + pdfplumber
 - **Git:** workspace di `Documents/Ngoding/2026-06-11-ujiansppur`
 

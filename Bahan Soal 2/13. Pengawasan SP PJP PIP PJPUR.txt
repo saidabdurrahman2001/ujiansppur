@@ -1,0 +1,77 @@
+Kumpulan Soal Kuis: Pengawasan SP & PJPUR (Bank Indonesia)
+Soal 1: Berdasarkan UU No. 23/1999, Bank Indonesia memiliki kewenangan penuh atas Sistem Pembayaran yang mencakup hal berikut, KECUALI...
+,
+ A. Perizinan B. Pengaturan C. Pengawasan D. Penetapan harga produk perbankan Jawaban: D
+Soal 2: Satuan Kerja (Satker) yang bertugas mengembangkan framework, pedoman, dan tools pengawasan SP adalah...
+,
+ A. DSPK B. DPSP C. DSSM D. KPwDN Jawaban: C
+Soal 3: Manakah Satker yang bertanggung jawab melakukan pengawasan terhadap PJP KI-3 (Layanan Remitansi)?
+,
+ A. DSPK B. KPwDN C. DPSP D. DSSM Jawaban: B
+Soal 4: Dalam analogi "Jalan Tol Keuangan", masyarakat diibaratkan sebagai...
+ A. Pengelola jalan tol B. Kendaraan yang melintas C. Penumpang yang ingin sampai tujuan D. Petugas gerbang tol Jawaban: C
+Soal 5: Undang-Undang yang mengatur bahwa Rupiah adalah satu-satunya alat pembayaran sah di Indonesia adalah...
+ A. UU No. 23/1999 B. UU No. 3/2011 C. UU No. 7/2011 D. UU No. 11/2008 Jawaban: C
+Soal 6: Apa tujuan utama dari pilar "Velositas SP" dalam pengawasan?
+ A. Memastikan transaksi cepat, mudah, murah, aman, dan andal B. Menjamin interkoneksi antar penyelenggara C. Mengawasi kompetensi SDM perbankan D. Menganalisis risiko sistemik lintas sektor Jawaban: A
+Soal 7: Pendekatan pengawasan SP oleh Bank Indonesia menggunakan metode berikut, KECUALI...
+ A. Risk-Based Approach B. Behaviour-Based Approach C. Compliance-Based Approach D. Profit-Based Approach Jawaban: D
+Soal 8: Objek pengawasan yang mencakup 30 Bank Besar dengan asesmen semesteran disebut...
+ A. PSP Utama B. PSP Non-Utama C. Lembaga Services D. Penyelenggara Infrastruktur Jawaban: A
+Soal 9: Dalam siklus pengawasan SP, tahap yang dilakukan secara "offsite" (tidak bertemu langsung) adalah...
+ A. Pengawasan Tidak Langsung (Surveilans) B. Pengawasan Langsung (Pemeriksaan) C. Evaluasi & Tindak Lanjut D. Koordinasi antar Otoritas Jawaban: A
+Soal 10: TIKMI adalah alat ukur utama menilai kondisi PJP/PIP. Huruf "K" merujuk pada...
+,
+,
+ A. Kepatuhan Ketentuan B. Keuangan dan Permodalan C. Kompetensi SDM (Sertifikasi) D. Kliring dan Setelmen Jawaban: C
+Soal 11: Manakah yang termasuk dalam kategori "Risiko Utama" dalam identifikasi risiko SP?
+ A. Risiko Likuiditas, Operasional, dan Keuangan B. Risiko Kredit dan Kepatuhan C. Risiko Hukum dan Reputasi D. Risiko Strategis dan Siber Jawaban: A
+Soal 12: Berdasarkan materi, aktivitas Monitoring, Identifikasi, dan Asesmen dalam pengawasan tidak langsung bersifat...
+ A. Harus berurutan (sequential) B. Bukan alur yang harus berurutan (non-sequential) C. Hanya boleh dilakukan setahun sekali D. Wajib dilakukan bersama otoritas lain Jawaban: B
+Soal 13: Pemeriksaan yang dilakukan mendadak karena adanya isu tertentu disebut pemeriksaan...
+ A. Reguler B. Insidentil C. Umum D. Full Scope Jawaban: B
+Soal 14: Apa output utama dari proses pemeriksaan lapangan oleh pengawas?
+ A. TIKMI Evaluation B. LHP (Laporan Hasil Pemeriksaan) C. Action Plan Semesteran D. Rencana Bisnis PJP Jawaban: B
+Soal 15: Berapa modal minimum untuk mendirikan PJPUR Kategori II?
+ A. Rp 1 Miliar B. Rp 1,5 Miliar C. Rp 3 Miliar D. Rp 5 Miliar Jawaban: C
+Soal 16: Kegiatan yang HANYA boleh dilakukan oleh PJPUR Kategori II adalah...
+,
+ A. Distribusi uang Rupiah B. Penyimpanan uang Rupiah C. Pemrosesan dan Pengisian ATM/CDM/CRM D. Pengawalan uang tunai Jawaban: C
+Soal 17: Berdasarkan data 2025, berapa persentase PJPUR yang terafiliasi dengan bank?
+,
+ A. 20% B. 35% C. 55% D. 100% Jawaban: B
+Soal 18: Apa alasan utama bank memiliki atau berafiliasi dengan PJPUR?
+ A. Untuk mengontrol langsung rantai pasokan uang fisiknya B. Untuk mendapatkan dana talangan dari Bank Indonesia C. Agar tidak perlu melakukan pelaporan ke BI D. Untuk mengurangi biaya pajak perusahaan Jawaban: A
+Soal 19: Alat (tools) asesmen risiko yang digunakan khusus untuk PJPUR adalah...
+,
+,
+ A. RAM (Risk Assessment Matrix) B. TIKMI Evaluation C. SiRAM (Simplified Risk Assessment Matrix) D. DSRS Report Jawaban: C
+Soal 20: Manakah yang termasuk dalam "Risiko Dasar" pengawasan PJPUR?
+,
+,
+ A. Operasional, Bisnis, dan Kepatuhan B. Likuiditas, Kredit, dan Pasar C. Hukum, Reputasi, dan Strategis D. Siber, Teknologi, dan Inovasi Jawaban: A
+Soal 21: Contoh risiko operasional pada PJPUR adalah...
+ A. Salah mengambil keputusan bisnis B. Petugas curang atau kendaraan pengangkut rusak C. Terlambat menyampaikan laporan berkala D. Petugas tidak memiliki sertifikasi Jawaban: B
+Soal 22: Laporan Keuangan Audited dan Rencana Bisnis PJPUR wajib disampaikan setiap...
+ A. Bulan B. Semester C. Tahun D. Minggu Jawaban: C
+Soal 23: Apa tujuan dilakukannya penilaian Risiko Akhir (Net Risk) pada SiRAM?
+ A. Deteksi dini risiko signifikan dan penetapan strategi pengawasan B. Menghitung jumlah uang palsu secara nasional C. Menentukan gaji direksi PJPUR D. Mengatur jadwal pengisian ATM di daerah 3T Jawaban: A
+Soal 24: Siapa pihak yang memiliki skala prioritas UTAMA untuk dilakukan pemeriksaan onsite?
+ A. PJPUR berdasarkan hasil surveilans dan penilaian profil risiko (SiRAM) B. PJPUR yang baru beroperasi satu bulan C. PJPUR yang meminta untuk diperiksa D. PJPUR yang memiliki kantor cabang paling sedikit Jawaban: A
+Soal 25: Temuan berupa "Gedung tidak ada loker tamu atau pintu air khazanah rusak" masuk dalam aspek...
+ A. Legalitas B. Operasional C. Manajemen Risiko D. Kepatuhan Jawaban: B
+Soal 26: Satker pengawas utama (DSPK) mendapatkan rekap kualitas setoran PJPUR (soil level & UPAL) dari...
+,
+ A. Satker Kebijakan (DPU) B. Otoritas Jasa Keuangan (OJK) C. Satker Perkasan (KPwDN) D. Pengadilan Niaga Jawaban: C
+Soal 27: Berapa frekuensi penyampaian data kualitas setoran PJPUR oleh KPwDN kepada pengawas utama?
+,
+,
+ A. Bulanan B. Semesteran C. Triwulanan D. Tahunan Jawaban: C
+Soal 28: Jika izin PJP berubah atau kantor pusat pindah lokasi, maka kewenangan pengawasan...
+ A. Berpindah antara DSPK dan KPwDN sesuai prosedur B. Tetap berada di satker yang lama selamanya C. Diambil alih sepenuhnya oleh Gubernur BI D. Dibatalkan dan harus mengajukan izin baru Jawaban: A
+Soal 29: Asesmen TIKMI untuk Non-PSP Utama dilakukan dengan frekuensi...
+,
+ A. Mingguan B. Bulanan C. Semesteran D. Tahunan Jawaban: D
+Soal 30: Huruf "I" pertama dalam pilar TIKMI yang mengukur kerja sama bisnis dan SNAP merujuk pada...
+,
+ A. Infrastruktur IT B. Interkoneksi C. Inovasi Teknologi D. Integritas Data Jawaban: B

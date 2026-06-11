@@ -6,7 +6,7 @@ Aplikasi kuis latihan berbasis web dari bahan soal folder `Bahan Soal`.
 
 ## Fitur
 
-- **42 soal** dari materi PUR (15), SP (15), dan PCPM (10)
+- **31 soal** dari materi PUR (15) dan SP (14) — tanpa soal DR & KPW
 - **Nilai otomatis** dengan grade (Sangat Baik / Baik / Cukup / dll)
 - **Acak urutan soal** (opsional)
 - **Pembahasan** setiap soal setelah menjawab

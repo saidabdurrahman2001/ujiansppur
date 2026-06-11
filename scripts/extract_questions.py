@@ -7,6 +7,7 @@ import pdfplumber
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BAHAN_SOAL = os.path.join(ROOT, "Bahan Soal")
+BAHAN_SOAL_2 = os.path.join(ROOT, "Bahan Soal 2")
 OUTPUT = os.path.join(ROOT, "data", "questions.json")
 
 # Kunci jawaban & pembahasan (dari materi PUR & SP)
@@ -29,7 +30,6 @@ ANSWER_KEYS = {
     "pur_15": ("b", "SPU SINERGI: identifikasi barcode (I), otomatisasi feeding & packaging (III), dan perekaman digital (IV). Proses tidak sepenuhnya manual."),
     # SP
     "sp_1": ("a", "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."),
-    "sp_2": ("b", "Rupiah Digital wholesale non-interest bearing karena fungsinya sebagai uang (alat pembayaran), dan uang tunai secara prinsip tidak membawa bunga."),
     "sp_3": ("d", "MDR ditanggung oleh Merchant/Pedagang sebagai biaya layanan infrastruktur, sesuai azas manfaat bagi merchant."),
     "sp_4": ("d", "Payment ID menjamin keamanan ekosistem melalui pembentukan profil risiko dan integritas transaksi SP."),
     "sp_5": ("b", "BI-Payment Clear mencegah transaksi mencurigakan melalui Fraudster Database dan watchlist terintegrasi pada tahap on-transaction."),
@@ -45,118 +45,26 @@ ANSWER_KEYS = {
     "sp_15": ("c", "Daerah terbatas infrastruktur/akseptasi digital: strategi QRIS Statis untuk sektor mikro (iv) paling tepat."),
 }
 
-PCPM_QUESTIONS = [
-    {
-        "id": "pcpm_1",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Evolusi Tim Pengendalian Inflasi di Indonesia dimulai dari TPI (2005), kemudian berkembang menjadi TPID (2008). Berapa jumlah TPID yang mencakup seluruh Indonesia saat ini?",
-        "options": {"a": "342 TPID", "b": "442 TPID", "c": "542 TPID", "d": "642 TPID"},
-        "answer": "c",
-        "explanation": "Materi PCPM menyebutkan evolusi TPI → TPID → Pokjanas → Keppres 23/2017 (TPIN), kini mencakup 542 TPID di seluruh Indonesia.",
-    },
-    {
-        "id": "pcpm_2",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Berapa persen inflasi nasional yang berasal dari daerah menurut materi pengendalian inflasi?",
-        "options": {"a": "±60%", "b": "±70%", "c": "±80%", "d": "±90%"},
-        "answer": "c",
-        "explanation": "Sekitar ±80% inflasi nasional berasal dari daerah, sehingga pengendalian inflasi memerlukan peran aktif pemda melalui TPID.",
-    },
-    {
-        "id": "pcpm_3",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Payung hukum utama pengendalian inflasi berlandaskan pada peraturan berikut, KECUALI:",
-        "options": {
-            "a": "Keppres 23/2017",
-            "b": "Permenko 10/2017",
-            "c": "Peraturan sektoral 4K (Perpres, Permendag, Permentan, PP)",
-            "d": "UU No. 23 Tahun 1999 tentang Bank Indonesia",
-        },
-        "answer": "d",
-        "explanation": "Landasan hukum TPIP-TPID berlapis: Keppres 23/2017, Permenko 10/2017, dan regulasi sektoral 4K. UU BI bukan payung hukum langsung TPID.",
-    },
-    {
-        "id": "pcpm_4",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Struktur koordinasi pengendalian inflasi berjenjang dari pusat ke daerah adalah:",
-        "options": {
-            "a": "TPIN (Menko Perekonomian) → TPID Provinsi (Gubernur) → TPID Kab/Kota (Bupati/Walikota)",
-            "b": "BI Pusat → KPwDN → TPID Provinsi → TPID Kab/Kota",
-            "c": "Menko Perekonomian → Bupati/Walikota → Gubernur",
-            "d": "TPIN → TPID Kab/Kota → TPID Provinsi",
-        },
-        "answer": "a",
-        "explanation": "Struktur berjenjang: TPIN di pusat (Menko Perekonomian), TPID Provinsi (Gubernur), dan TPID Kab/Kota (Bupati/Walikota) dengan pelaporan dua arah.",
-    },
-    {
-        "id": "pcpm_5",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Siklus respons pengendalian inflasi yang dijalankan melalui forum rakor strategi 4K disebut:",
-        "options": {"a": "SMART", "b": "PIKKE", "c": "DSCM", "d": "KEKDA"},
-        "answer": "b",
-        "explanation": "PIKKE = Pemantauan – Identifikasi – Koordinasi – Kebijakan – Evaluasi, dijalankan lewat 6 forum rakor strategi 4K.",
-    },
-    {
-        "id": "pcpm_6",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "GNPIP (Gerakan Nasional Pengendalian Inflasi Pangan) diluncurkan pada 10 Agustus 2022 di kota:",
-        "options": {"a": "Jakarta", "b": "Surabaya", "c": "Malang", "d": "Bandung"},
-        "answer": "c",
-        "explanation": "GNPIP diluncurkan 10 Agustus 2022 di Malang sebagai respons lonjakan inflasi volatile food 11,47%.",
-    },
-    {
-        "id": "pcpm_7",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Berapa tingkat inflasi volatile food saat peluncuran GNPIP yang menjadi latar belakang urgensi program tersebut?",
-        "options": {"a": "8,47%", "b": "9,47%", "c": "10,47%", "d": "11,47%"},
-        "answer": "d",
-        "explanation": "GNPIP diluncurkan akibat lonjakan inflasi volatile food mencapai 11,47% pada saat itu.",
-    },
-    {
-        "id": "pcpm_8",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Program GNPIP yang kini diperkuat menjadi GPIPS (Gerakan Pengendalian Inflasi dan Pangan Sejahtera) diperbarui pada:",
-        "options": {"a": "Mei 2024", "b": "Mei 2025", "c": "Mei 2026", "d": "Agustus 2026"},
-        "answer": "c",
-        "explanation": "GPIPS merupakan penguatan GNPIP untuk tantangan ketahanan pangan yang lebih kompleks, diperbarui Mei 2026.",
-    },
-    {
-        "id": "pcpm_9",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Strategi 4K dalam pengendalian inflasi mencakup, KECUALI:",
-        "options": {
-            "a": "Keterjangkauan",
-            "b": "Ketersediaan",
-            "c": "Kelancaran",
-            "d": "Kemandirian",
-        },
-        "answer": "d",
-        "explanation": "Strategi 4K: Keterjangkauan, Ketersediaan, Kelancaran, dan Komunikasi — bukan Kemandirian.",
-    },
-    {
-        "id": "pcpm_10",
-        "category": "PCPM",
-        "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
-        "question": "Peran KPwDN dalam sinergi TPIP/TPID dapat mencakup fasilitasi operasi pasar melalui:",
-        "options": {
-            "a": "Penetapan suku bunga acuan daerah",
-            "b": "Sewa tenda, meja, pemberian FDP, dan disinergikan dengan program kerja KPwDN",
-            "c": "Pencetakan uang rupiah di daerah",
-            "d": "Pengelolaan rekening kas umum daerah",
-        },
-        "answer": "b",
-        "explanation": "KPwDN mendukung operasi pasar melalui fasilitasi penyelenggaraan (sewa tenda, meja), pemberian FDP, dan sinergi program kerja dengan timing/lokasi tepat sasaran.",
-    },
-]
+# Soal yang dikecualikan: DR (Rupiah Digital) & KPW (materi KPw/PCPM)
+EXCLUDED_IDS = {"sp_2"}
+EXCLUDED_KEYWORDS = (
+    "Rupiah Digital",
+    "KPw",
+    "KPW",
+    "KPwDN",
+    "pcpm_",
+)
+
+
+def is_excluded(question: dict) -> bool:
+    if question.get("id", "").startswith("ba2_"):
+        return False
+    if question.get("id") in EXCLUDED_IDS:
+        return True
+    if question.get("id", "").startswith("pcpm_"):
+        return True
+    text = question.get("question", "") + " " + question.get("source", "")
+    return any(kw in text for kw in EXCLUDED_KEYWORDS)
 
 
 def normalize_text(text: str) -> str:
@@ -252,6 +160,100 @@ def parse_bullet_questions(text: str, category: str, source: str, prefix: str) -
   return questions
 
 
+def parse_bahan_soal2_txt(text: str, category: str, source: str, prefix: str) -> list:
+  """Parse paket soal dari file .txt di folder Bahan Soal 2."""
+  text = text.replace("\r\n", "\n")
+  text = re.sub(r"^.*?(?=Soal\s+\d+\s*:)", "", text, count=1, flags=re.I | re.DOTALL)
+
+  blocks = re.split(r"(?=Soal\s+\d+\s*:)", text, flags=re.I)
+  questions = []
+
+  for block in blocks:
+    block = block.strip().strip(",").strip()
+    if not block:
+      continue
+
+    m = re.match(r"Soal\s+(\d+)\s*:\s*(.+)", block, re.I | re.DOTALL)
+    if not m:
+      continue
+    num = int(m.group(1))
+    rest = m.group(2)
+
+    ans_m = re.search(r"Jawaban:\s*([A-Da-d])(?:\s*\(([^)]+)\))?", rest, re.I)
+    if not ans_m:
+      continue
+
+    answer = ans_m.group(1).lower()
+    explanation_extra = (ans_m.group(2) or "").strip()
+    q_body = re.sub(r"\s+", " ", rest[: ans_m.start()].strip())
+
+    opt_parts = re.split(r"\s+([A-D])\.\s+", q_body, flags=re.I)
+    if len(opt_parts) < 2:
+      continue
+
+    question_text = normalize_text(opt_parts[0])
+    options = {}
+    for i in range(1, len(opt_parts), 2):
+      if i + 1 < len(opt_parts):
+        key = opt_parts[i].lower()
+        val = normalize_text(opt_parts[i + 1])
+        if key in "abcd":
+          options[key] = val
+
+    if len(options) < 4:
+      continue
+
+    correct_text = options.get(answer, "")
+    if explanation_extra:
+      explanation = f"{explanation_extra}. Jawaban benar: {correct_text}"
+    else:
+      explanation = f"Jawaban benar ({answer.upper()}): {correct_text}"
+
+    questions.append({
+      "id": f"{prefix}_{num}",
+      "category": category,
+      "source": source,
+      "question": question_text,
+      "options": options,
+      "answer": answer,
+      "explanation": explanation,
+    })
+
+  return questions
+
+
+def load_bahan_soal2_packages() -> tuple[list, list]:
+  """Muat 20 paket soal dari Bahan Soal 2. Return (categories, questions)."""
+  if not os.path.isdir(BAHAN_SOAL_2):
+    return [], []
+
+  txt_files = [
+    f for f in os.listdir(BAHAN_SOAL_2)
+    if f.lower().endswith(".txt")
+  ]
+  txt_files.sort(key=lambda name: int(m.group(1)) if (m := re.match(r"^(\d+)", name)) else 999)
+
+  categories = []
+  questions = []
+
+  for fname in txt_files:
+    num_m = re.match(r"^(\d+)", fname)
+    pkg_num = int(num_m.group(1)) if num_m else len(categories) + 1
+    category = os.path.splitext(fname)[0].strip()
+    prefix = f"ba2_{pkg_num:02d}"
+    path = os.path.join(BAHAN_SOAL_2, fname)
+
+    with open(path, encoding="utf-8") as f:
+      text = f.read()
+
+    parsed = parse_bahan_soal2_txt(text, category, fname, prefix)
+    if parsed:
+      categories.append(category)
+      questions.extend(parsed)
+
+  return categories, questions
+
+
 def deduplicate(questions: list) -> list:
   seen = set()
   result = []
@@ -265,6 +267,7 @@ def deduplicate(questions: list) -> list:
 
 def main():
   all_questions = []
+  ba2_categories, ba2_questions = load_bahan_soal2_packages()
 
   pdf_sources = [
     ("PUR.pdf", "PUR", "pur", parse_abc_questions),
@@ -281,15 +284,19 @@ def main():
     parsed = parser(text, category, filename, prefix)
     all_questions.extend(parsed)
 
-  all_questions.extend(PCPM_QUESTIONS)
+  all_questions.extend(ba2_questions)
   all_questions = deduplicate(all_questions)
+  all_questions = [q for q in all_questions if not is_excluded(q)]
+
+  base_categories = ["PUR", "SP"]
+  categories = base_categories + [c for c in ba2_categories if c not in base_categories] + ["Semua"]
 
   os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
   payload = {
-    "title": "Kuis SP & PUR - PCPM 40",
-    "version": "1.0",
+    "title": "Kuis SP & PUR",
+    "version": "2.0",
     "total": len(all_questions),
-    "categories": ["PUR", "SP", "PCPM", "Semua"],
+    "categories": categories,
     "questions": all_questions,
   }
 
@@ -303,7 +310,7 @@ def main():
     json.dump(payload, f, ensure_ascii=False, indent=2)
     f.write(";\n")
 
-  print(f"Generated {len(all_questions)} questions -> {OUTPUT}")
+  print(f"Generated {len(all_questions)} questions ({len(ba2_categories)} paket Bahan Soal 2) -> {OUTPUT}")
 
 
 if __name__ == "__main__":

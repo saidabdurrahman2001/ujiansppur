@@ -1,0 +1,57 @@
+Berikut adalah 30 soal pilihan ganda (A, B, C, D) mengenai Arah Kebijakan & Infrastruktur Data Sistem Pembayaran (BSPI 2030) berdasarkan sumber yang Anda berikan. Anda dapat langsung menyalin teks ini ke sistem Anda:
+Kumpulan Soal Kuis: BSPI 2030 & Infrastruktur Data SP
+Soal 1: Apa kepanjangan dari BSPI 2030 yang menjadi peta jalan Bank Indonesia? A. Badan Supervisi Perbankan Indonesia 2030 B. Blueprint Sistem Pembayaran Indonesia 2030 C. Basis Sistem Pembayaran Internasional 2030 D. Bangun Sistem Pembayaran Integrasi 2030 Jawaban: B
+,
+Soal 2: Inisiatif utama dalam BSPI 2030 dikenal dengan istilah 4I-RD. Apa yang dimaksud dengan "RD"? A. Regulasi Digital B. Rupiah Digital C. Riset Data D. Reformasi Digital Jawaban: B
+,
+Soal 3: Prinsip utama BSPI 2030 dikenal dengan istilah "3S", yaitu... A. Standarisasi, Simplifikasi, dan Sistemisasi B. Stabilitas, Sinergi, dan Sinkronisasi C. Standarisasi, Sentralisasi, dan Sistemik D. Strategi, Simplifikasi, dan Solusi Jawaban: A
+,
+Soal 4: Dalam strategi prioritas jangka pendek, infrastruktur penghubung antara New BI-FAST dengan Fast Payment Industri (FPI) disebut... A. SNAP B. BIDIC C. NLE (National Linking Engine) D. ANTASENA Jawaban: C
+,
+Soal 5: Komponen infrastruktur data yang berfungsi sebagai ID unik setiap pelaku pembayaran digital adalah... A. BI-Payment Clear B. Payment ID C. Data Exchange Platform D. BI-Payment Info Jawaban: B
+,
+Soal 6: Manakah fungsi utama dari BI-Payment Clear dalam ekosistem data SP? A. Mengumpulkan data granular untuk analitik B. Menyediakan platform berbagi data dengan pemerintah C. Melakukan validasi nama (Account Enquiry) dan deteksi fraud D. Mengelola izin (consent) penggunaan data nasabah Jawaban: C
+,
+Soal 7: Payment ID terdiri dari dua bagian. Bagian yang bersifat STATIS dan tidak berubah adalah... A. Attribute ID B. Primary ID (Hash NIK/NPWP) C. Fraud Check Indicator D. Security Code Jawaban: B
+,
+Soal 8: Pola penulisan Primary ID dalam Payment ID yang benar adalah... A. 16 digit angka NIK asli B. 9 digit dengan pola: 3 huruf (KVK) + 3 angka + 3 huruf (KVK) C. 12 digit angka acak D. Kode bank diikuti nomor rekening Jawaban: B
+,
+Soal 9: Pihak yang memiliki wewenang penuh untuk MENGELOLA infrastruktur Payment ID (Generator & Management) adalah... A. Penyedia Jasa Pembayaran (PJP) B. Otoritas Jasa Keuangan (OJK) C. Bank Indonesia D. Kementerian Dalam Negeri Jawaban: C
+,
+Soal 10: Eksperimentasi pertama penggunaan Payment ID dilakukan secara terbatas untuk use case... A. Pembayaran tol elektronik B. Transaksi QRIS lintas negara C. Bantuan Sosial (Bansos) D. Pendaftaran kartu kredit Jawaban: C
+,
+Soal 11: Komponen Payment ID yang dapat diperbarui (DINAMIS) jika terjadi perubahan status atau data adalah... A. Primary ID B. Hash NIK C. Attribute ID D. Hash NPWP Jawaban: C
+,
+Soal 12: Fungsi "Account Enquiry" (AE) pada BI-Payment Clear dilakukan pada waktu... A. On Transaction (sebelum transaksi dieksekusi) B. Post Transaction (setelah transaksi berhasil) C. Akhir hari (EOD) D. Saat nasabah pertama kali membuka rekening Jawaban: A
+,
+Soal 13: Modul dalam BI-Payment Clear yang berisi data fraudster yang telah DIVERIFIKASI oleh PSP disebut... A. Potential Fraudster Watchlist (PFW) B. Data Anomaly Transaction C. Fraudster Database D. Negative List Configuration Jawaban: C
+,
+Soal 14: FDS BI-Payment Clear secara khusus berlaku untuk transaksi yang melibatkan... A. Hanya antar sesama PSP Non-Utama B. Antar PSP Utama dan transaksi cross (Utama ke Non-Utama) C. Hanya transaksi tunai di ATM D. Transaksi internal di satu bank yang sama (On-us) Jawaban: B
+,
+Soal 15: Platform pertukaran data sistem pembayaran yang mendukung inklusivitas ekonomi digital disebut... A. BI-FAST B. Data Exchange Platform (DEP) / BI-Payment Info C. RTGS D. SNAP Jawaban: B
+,
+Soal 16: Berdasarkan UU Pelindungan Data Pribadi (PDP), jenis data SP yang HANYA bisa diakses dengan izin eksplisit pemilik data adalah... A. Data Publik (Statistik SP) B. Data Kontraktual C. Data Privat (Payment History Individu) D. Data Fraudster Jawaban: C
+,
+Soal 17: Istilah untuk transaksi yang terjadi di dalam satu penyelenggara (PSP) yang sama adalah... A. Off-us transaction B. Cross-border transaction C. On-us transaction D. Interbank transaction Jawaban: C
+,
+Soal 18: Pusat Data BI mengumpulkan data detail per transaksi individu yang disebut dengan data... A. Agregat B. Granular C. Statistik D. Metadata Jawaban: B
+,
+Soal 19: Infrastruktur pengambil data BI yang menyediakan data agregat secara periodik bulanan adalah... A. BI-FAST B. ANTASENA C. RTGS D. BI-Payment Clear Jawaban: B
+,
+Soal 20: Risiko berupa potensi resistensi dari industri terkait desain infrastruktur data SP diklasifikasikan sebagai... A. Risiko Hukum B. Risiko Operasional C. Risiko Strategis D. Risiko Siber Jawaban: C
+Soal 21: Apa mitigasi yang disiapkan BI untuk menghadapi Risiko Hukum terkait pertukaran data individu? A. Meningkatkan kapasitas server B. Mengelola data sesuai UU PDP dan menerbitkan regulasi payung C. Melakukan FGD dengan kepolisian D. Menggunakan teknologi blockchain terbaru Jawaban: B
+,
+Soal 22: Berdasarkan roadmap, kapan target "Live Implementasi" secara bertahap untuk Infrastruktur Data SP? A. Juni 2025 B. Desember 2026 C. Maret 2027 D. Desember 2028 Jawaban: B
+,
+Soal 23: Bagian paling kompleks dari BI-Payment Clear yang direncanakan diimplementasi pada 2027-2028 adalah... A. Fraudster Database B. Payment Clear - Post Transaction C. Payment Clear - On Transaction (Real-time detection) D. Account Enquiry Jawaban: C
+,
+Soal 24: Regulasi baru yang disiapkan sebagai "payung hukum" kewenangan BI dalam penyelenggaraan infrastruktur data adalah... A. UU P2SK B. RPBI 'Payung' SP C. UU PDP D. PBI Perlindungan Konsumen Jawaban: B
+Soal 25: Standar internasional pesan keuangan yang digunakan untuk memperkaya data transaksi dalam BSPI 2030 adalah... A. ISO 9001 B. ISO 20022 C. SNAP API D. SWIFT Code Jawaban: B
+,
+Soal 26: Dalam struktur 4I-RD, inisiatif "Internasional" fokus pada... A. Mencari investor asing untuk bank lokal B. Konektivitas sistem pembayaran lintas batas (cross-border) C. Penggunaan mata uang dolar di seluruh aplikasi D. Standarisasi gaji pegawai bank internasional Jawaban: B
+Soal 27: Apa singkatan dari simpul pusat data di Bank Indonesia? A. BIDIC (Bank Indonesia Data and Information Center) B. BISC (Bank Indonesia Security Center) C. BI-Info D. Pusat Data Nasional Jawaban: A
+Soal 28: "National Linking Engine" (NLE) selama masa transisi dioperasikan oleh... A. Bank Indonesia B. RAJA C. ASPI D. Telkom Jawaban: B
+,
+Soal 29: Manakah yang termasuk 3 Area Kebijakan Sistem Pembayaran di BI? A. Perumusan, Pelaksanaan, dan Pengawasan B. Perencanaan, Penindakan, dan Pelaporan C. Inisiasi, Kliring, dan Setelmen D. Domestik, Regional, dan Global Jawaban: A
+Soal 30: UU PDP yang menjadi landasan utama pengelolaan data dalam infrastruktur data SP adalah singkatan dari... A. Undang-Undang Pembangunan Digital Pratama B. Undang-Undang Pelindungan Data Pribadi C. Undang-Undang Pengelolaan Data Publik D. Undang-Undang Perizinan Data Perbankan Jawaban: B
+,

@@ -1,0 +1,91 @@
+Kumpulan Soal Kuis: Pengelolaan Uang Rupiah (PUR)
+Soal 1: Bank Indonesia adalah satu-satunya lembaga yang berwenang melakukan Pengelolaan Uang Rupiah (PUR) di wilayah NKRI berdasarkan...
+ A. UU No. 23 Tahun 1999 saja B. UU No. 7 Tahun 2011 tentang Mata Uang C. Peraturan Bank Indonesia (PBI) D. Semua jawaban benar
+ Jawaban: D
+Soal 2: Berdasarkan UU No. 7 Tahun 2011, uang Rupiah terdiri dari tiga jenis, yaitu...
+ A. Uang Kertas, Uang Logam, Uang Emas B. Uang Kertas, Uang Logam, Uang Digital
+ C. Uang Fisik, Uang Virtual, Uang Elektronik D. Uang Cetak, Uang Koin, Uang Plastik Jawaban: B
+Soal 3: Lembaga BUMN yang mendapatkan penugasan untuk MENCETAK uang Rupiah adalah...
+ A. Bank Indonesia B. Bank Mandiri C. Perum Peruri
+ D. PT Pos Indonesia Jawaban: C
+Soal 4: "6P" dalam tahapan Pengelolaan Uang Rupiah secara berurutan adalah...
+ A. Perencanaan, Produksi, Pengesahan, Pengedaran, Penukaran, Pemusnahan B. Perencanaan, Pencetakan, Pengeluaran, Pengedaran, Pencabutan & Penarikan, Pemusnahan
+ C. Perencanaan, Percetakan, Peredaran, Penggunaan, Penarikan, Penghancuran D. Perintah, Produksi, Pengiriman, Penukaran, Pembekuan, Penghapusan Jawaban: B
+Soal 5: Uang yang kondisinya rusak, kotor, atau cacat sehingga tidak layak digunakan lagi disebut...
+ A. UTLE (Uang Tidak Layak Edar)
+ B. ULE (Uang Layak Edar) C. HCS (Hasil Cetak Sempurna) D. Legal Tender Jawaban: A
+Soal 6: Pemusnahan uang Rupiah dilakukan terhadap hal-hal berikut, KECUALI...
+ A. Uang Tidak Layak Edar (UTLE) B. Uang yang sudah tidak memiliki manfaat ekonomis C. Uang yang sudah ditarik dari peredaran dan tidak berlaku lagi D. Uang baru yang baru saja dicetak (HCS)
+ Jawaban: D
+Soal 7: Penetapan uang Rupiah sebagai alat pembayaran yang sah (Legal Tender) dilakukan melalui...
+ A. Keputusan Presiden B. Peraturan Bank Indonesia (PBI) yang ditempatkan di LNRI
+ C. Undang-undang DPR D. Nota Kesepahaman (NK) Jawaban: B
+Soal 8: Soil Level dalam konteks PUR digunakan sebagai indikator untuk mengukur...
+ A. Ketahanan bahan baku kertas uang B. Tingkat kelayakan (kekotoran) uang Rupiah yang beredar di masyarakat
+ C. Jumlah uang palsu yang ditemukan D. Kecepatan distribusi uang ke daerah Jawaban: B
+Soal 9: Apa yang dimaksud dengan EKU dalam perencanaan distribusi uang?
+ A. Ekonomi Keuangan Umum B. Estimasi Kebutuhan Uang (proyeksi jumlah uang per wilayah)
+ C. Elektronifikasi Kas Utama D. Evaluasi Kinerja Uang Jawaban: B
+Soal 10: Manakah rumus Estimasi Kebutuhan Uang (EKU) yang benar?
+ A. Outflow + Inflow - Pemusnahan B. Outflow - Inflow + Pemusnahan + Kas Minimum - Posisi Kas Akhir
+ C. Total Uang Beredar - Uang Rusak + Uang Baru D. Inflow - Outflow + Posisi Kas Akhir Jawaban: B
+Soal 11: Pendekatan penyusunan EKU secara "Top Down" dilakukan oleh DKEM menggunakan metode...
+ A. Dekomposisi per wilayah B. Error Correction Model (ECM)
+ C. Survei preferensi masyarakat D. Monitoring realisasi harian Jawaban: B
+Soal 12: Dokumen yang disusun oleh Divisi Command Center sebagai dasar pengiriman uang ke DKU/DKW disebut...
+ A. RDU (Rencana Distribusi Uang)
+ B. ROD (Rencana Operasional Distribusi) C. EKU (Estimasi Kebutuhan Uang) D. PBI (Peraturan Bank Indonesia) Jawaban: A
+Soal 13: Kegiatan penyediaan uang BI yang dititipkan kepada salah satu bank untuk mencukupi kebutuhan daerah tertentu disebut...
+ A. Kas Keliling B. Kas Titipan
+ C. Kas 3T D. Remise Jawaban: B
+Soal 14: Satuan Kerja Middle Office (MO) yang berfungsi sebagai pusat pengendalian informasi dan koordinasi PUR nasional adalah...
+ A. Satker Kas FO Level 1 B. Command Center PUR (CC-PUR)
+ C. SPU (Sentra Pengelolaan Uang) D. DKUT (Depot Kas Utama Terpusat) Jawaban: B
+Soal 15: Struktur sentralisasi operasional PUR yang bertindak sebagai "main hub" distribusi nasional adalah...
+ A. DKW (Depot Kas Wilayah) B. DKU (Depot Kas Utama)
+ C. Satker Kas D. Front Office (FO) Jawaban: B
+Soal 16: Konsep sentralisasi operasional PUR di Bank Indonesia menggunakan kerangka...
+ A. Input-Process-Output B. Front Office (FO) - Middle Office (MO) - Back Office (BO)
+ C. Centralized-Decentralized D. Planning-Doing-Checking Jawaban: B
+Soal 17: Wilayah 3T yang menjadi prioritas layanan kas Bank Indonesia terdiri dari...
+ A. Tertinggal, Terdepan, Terjauh B. Terdepan, Terluar, Terpencil
+ C. Terpencil, Terisolasi, Terluar D. Terdepan, Terbelakang, Terbatas Jawaban: B
+Soal 18: Kerja sama pengedaran uang ke pulau-pulau terpencil (3T) melalui program ERB dilakukan bersama...
+ A. Polri B. TNI AD C. TNI AL
+ D. Kementerian Perhubungan Jawaban: C
+Soal 19: Berapa jumlah pulau 3T yang berhasil dilayani dalam program ERB pada tahun 2023?
+ A. 18 Pulau B. 40 Pulau C. 81 Pulau D. 85 Pulau
+ Jawaban: D
+Soal 20: Apa kepanjangan dari WMS dalam sistem digitalisasi penyimpanan uang di khazanah?
+ A. Wireless Money System B. Warehouse Management System
+ C. Web Money Service D. Wealth Management System Jawaban: B
+Soal 21: Keunggulan WMS Racking System dibandingkan Virtual Racking System adalah...
+ A. Tidak memerlukan internet B. Lebih optimal dalam efisiensi waktu karena menggunakan rak fisik
+ C. Dapat diimplementasikan di khazanah non-ideal D. Biaya infrastruktur lebih murah Jawaban: B
+Soal 22: Sistem otomasi pengolahan uang (ABFS/ABPS) mampu meningkatkan throughput pengolahan sebesar...
+ A. 10% B. 15% C. 20%
+ D. 50% Jawaban: C
+Soal 23: Fitur MONIKA yang berfungsi mengirim sinyal bantuan ke CC-PUR saat kondisi darurat (force majeure) disebut...
+ A. Geo Fencing B. Panic Button
+ C. Engine Cut Off D. RFID Driver Identification Jawaban: B
+Soal 24: MONIKA memperbarui data lokasi kendaraan perkasan (tracking) secara real-time setiap...
+ A. 1 menit B. 30 detik C. 10 detik D. 5 detik
+ Jawaban: D
+Soal 25: Dashboard CC-PUR memiliki berapa menu fungsi utama untuk monitoring indikator PUR?
+ A. 10 Menu B. 15 Menu C. 18 Menu
+ D. 25 Menu Jawaban: C
+Soal 26: PUR Analytics memiliki karakteristik "3C", yaitu...
+ A. Clear, Concise, Complete B. Comprehensive, Coherent, Convenient
+ C. Centralized, Connected, Continuous D. Compact, Compatible, Compliant Jawaban: B
+Soal 27: Istilah "Backlog" dalam operasional perkasan Satker Kas merujuk pada...
+ A. Antrean nasabah di loket penukaran B. Tumpukan uang masuk (setoran bank) yang belum selesai diolah
+ C. Kekurangan uang baru dari Peruri D. Selisih uang kas yang hilang Jawaban: B
+Soal 28: Uang baru yang baru saja dicetak oleh Peruri dan siap dikirimkan ke Bank Indonesia disebut...
+ A. ULE (Uang Layak Edar) B. HCS (Hasil Cetak Sempurna)
+ C. UTLE (Uang Tidak Layak Edar) D. Legal Tender Jawaban: B
+Soal 29: Struktur sentralisasi operasional PUR yang berfungsi sebagai pusat utama perkasan nasional adalah...
+ A. DKW (Depot Kas Wilayah) B. SPU (Sentra Pengelolaan Uang)
+ C. Satker Kas D. KPwDN Jawaban: B
+Soal 30: Berdasarkan alur distribusi, DKW (Depot Kas Wilayah) berperan sebagai...
+ A. Main hub distribusi nasional B. Jalur penghubung (hub) distribusi ke Satker Kas di wilayahnya
+ C. Penanggung jawab pencetakan uang D. Middle Office pengawas nasional Jawaban: B
