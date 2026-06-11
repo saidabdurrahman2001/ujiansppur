@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kuis SP & PUR — PCPM 40</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Kuis SP & PUR</h1>
+    <p>Latihan Soal Pengelolaan Uang Rupiah, Sistem Pembayaran & PCPM 40</p>
+  </header>
+
+  <main class="container">
+    <!-- Home -->
+    <section id="screen-home" class="screen">
+      <div id="resume-banner" class="card hidden" style="background:#fff8e6;border:1px solid #e8c547">
+        <p id="resume-info" style="margin-bottom:0.75rem"></p>
+        <button type="button" class="btn btn-primary" id="btn-resume">Lanjutkan Kuis</button>
+      </div>
+
+      <div class="card">
+        <h2>Pilih Kategori Soal</h2>
+        <div id="category-grid" class="category-grid"></div>
+
+        <div class="options-row">
+          <label>
+            <input type="checkbox" id="randomize" checked />
+            Acak urutan soal
+          </label>
+          <label>
+            Jumlah soal:
+            <input type="number" id="question-count" min="1" value="42" />
+          </label>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="btn-start">Mulai Kuis</button>
+      </div>
+
+      <div class="card">
+        <h2>Riwayat Nilai</h2>
+        <ul id="history-list" class="history-list"></ul>
+        <button type="button" class="btn btn-secondary" id="btn-clear-cache" style="margin-top:0.75rem;width:100%">
+          Hapus Cache
+        </button>
+      </div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="screen-quiz" class="screen hidden">
+      <div class="card">
+        <div class="quiz-meta">
+          <span id="quiz-progress-text">Soal 1 dari 10</span>
+          <span id="quiz-category" class="score-badge">PUR</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill" style="width:0%"></div>
+        </div>
+
+        <p id="question-source" class="question-source"></p>
+        <p id="question-text" class="question-text"></p>
+
+        <div id="choices" class="choices"></div>
+        <div id="pembahasan" class="pembahasan hidden"></div>
+
+        <div class="quiz-actions">
+          <button type="button" class="btn btn-outline" id="btn-quit">Simpan & Keluar</button>
+          <button type="button" class="btn btn-primary" id="btn-submit">Kirim Jawaban</button>
+          <button type="button" class="btn btn-primary hidden" id="btn-next">Soal Berikutnya →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Result -->
+    <section id="screen-result" class="screen hidden">
+      <div class="card">
+        <h2 style="text-align:center">Hasil Kuis</h2>
+        <div class="score-circle">
+          <span id="score-value" class="value">0</span>
+          <span class="label">Nilai</span>
+        </div>
+        <p id="score-detail" style="text-align:center;color:var(--muted);margin-bottom:0.5rem"></p>
+        <p id="grade-text" class="grade-text"></p>
+
+        <div class="quiz-actions">
+          <button type="button" class="btn btn-secondary" id="btn-home">Beranda</button>
+          <button type="button" class="btn btn-primary" id="btn-retry">Ulangi Kuis</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Ringkasan Pembahasan</h2>
+        <div id="review-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

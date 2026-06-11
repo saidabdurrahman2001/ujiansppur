@@ -1,0 +1,601 @@
+{
+  "title": "Kuis SP & PUR - PCPM 40",
+  "version": "1.0",
+  "total": 42,
+  "categories": [
+    "PUR",
+    "SP",
+    "PCPM",
+    "Semua"
+  ],
+  "questions": [
+    {
+      "id": "pur_1",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Dalam rangka meningkatkan efisiensi pengelolaan uang di daerah dengan kebutuhan kas yang tinggi, Bank Indonesia bermitra dengan Perbankan melalui skema Kas Titipan. Apa manfaat utama dari kerja sama ini?",
+      "options": {
+        "a": "Mengurangi peredaran uang tunai di masyarakat agar meningkatkan transaksi digital",
+        "b": "Memastikan ketersediaan uang tunai melalui layanan setoran, penarikan, dan penukaran uang",
+        "c": "Mengurangi jumlah pegawai Bank Indonesia dalam pengelolaan kas di daerah",
+        "d": "Memberikan pelatihan keuangan kepada masyarakat agar memahami penggunaan uang digital"
+      },
+      "answer": "b",
+      "explanation": "Skema Kas Titipan bermitra dengan perbankan untuk memastikan ketersediaan uang tunai melalui layanan setoran, penarikan, dan penukaran uang di daerah berkebutuhan kas tinggi."
+    },
+    {
+      "id": "pur_2",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Dalam pengelolaan Kas Titipan, Bank Indonesia memberikan bantuan finansial kepada Bank Pengelola dalam beberapa bentuk. Jika terjadi kerusakan pada sarana prasarana Bank Pengelola akibat faktor usia dan pemakaian, jenis bantuan finansial apa yang paling tepat diberikan?",
+      "options": {
+        "a": "Bantuan Pendirian, karena diberikan satu kali saat pembukaan kas titipan",
+        "b": "Bantuan Operasional, karena diberikan secara rutin setiap bulan",
+        "c": "Bantuan Pemeliharaan, karena bertujuan memperpanjang, penambahan dan pergantian sarana/prasarana",
+        "d": "Bantuan Asuransi, karena untuk mitigasi kehilangan fisik uang"
+      },
+      "answer": "c",
+      "explanation": "Bantuan Pemeliharaan diberikan untuk memperpanjang umur, penambahan, dan pergantian sarana/prasarana yang rusak akibat usia dan pemakaian."
+    },
+    {
+      "id": "pur_3",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Bank Indonesia mengembangkan layanan kas melalui kolaborasi dengan mitra layanan potensial agar jangkauan dan frekuensi lebih optimal. Apa manfaat utama dari melibatkan mitra layanan seperti Pos Indonesia, Pegadaian, Bank Perkreditan Rakyat (BPR), dan Penyelenggara Jasa Pengolahan Uang Rupiah (PJPUR)?",
+      "options": {
+        "a": "Mengurangi peran Bank Indonesia dalam distribusi uang langsung ke masyarakat",
+        "b": "Memperluas kanal layanan dan efisiensi Sumber Daya Manusia (SDM) & infrastruktur",
+        "c": "Menggantikan peran perbankan nasional dalam penyaluran uang tunai",
+        "d": "Menghapus layanan kas keliling di daerah perkotaan"
+      },
+      "answer": "b",
+      "explanation": "Kolaborasi dengan mitra layanan (Pos, Pegadaian, BPR, PJPUR) memperluas kanal layanan dan meningkatkan efisiensi SDM serta infrastruktur."
+    },
+    {
+      "id": "pur_4",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Dalam kerangka Strategi Utama Blueprint Pengelolaan Uang Rupiah (BPPUR) 2024-2030, pengembangan Sistem Informasi Pengelolaan Uang Rupiah (SI PUR) dikategorikan sebagai inisiatif strategis yang berfokus pada aspek:",
+      "options": {
+        "a": "Ketersediaan Uang Rupiah",
+        "b": "Pengedaran Uang Rupiah",
+        "c": "Pengelolaan Uang Rupiah",
+        "d": "Infrastruktur PUR"
+      },
+      "answer": "c",
+      "explanation": "Pengembangan SI PUR dalam BPPUR 2024–2030 dikategorikan sebagai inisiatif strategis pada aspek Pengelolaan Uang Rupiah."
+    },
+    {
+      "id": "pur_5",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Apa yang dimaksud dengan Digital Smart Cash Management (DSCM) dalam konteks transformasi Sistem Informasi Pengelolaan Uang Rupiah (SI PUR)?",
+      "options": {
+        "a": "Sebuah sistem pengamanan fisik terhadap proses distribusi uang Rupiah berbasis teknologi digital",
+        "b": "Program BI untuk mempercepat pencetakan uang dengan bantuan perangkat lunak kecerdasan buatan",
+        "c": "Inisiatif integratif yang mengelola infrastruktur, proses bisnis, dan pengambilan keputusan secara Seamless Integration, Modernization, Accountability, Resilience dan Trustworthiness (SMART) untuk meningkatkan nilai tambah pengelolaan uang Rupiah",
+        "d": "Metode baru Bank Indonesia untuk menggantikan sistem perbankan konvensional dalam mendistribusikan Rupiah ke masyarakat"
+      },
+      "answer": "c",
+      "explanation": "DSCM adalah inisiatif integratif SMART (Seamless Integration, Modernization, Accountability, Resilience, Trustworthiness) untuk transformasi SI PUR."
+    },
+    {
+      "id": "pur_6",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Manakah dari pernyataan berikut yang paling tepat menggambarkan hasil (outcome) eksternal dari implementasi transformasi Sistem Informasi Pengelolaan Uang Rupiah (SI PUR)?",
+      "options": {
+        "a": "Meningkatkan efisiensi logistik internal antar satuan kerja Bank Indonesia",
+        "b": "Mempercepat siklus anggaran pengadaan dan pencetakan uang",
+        "c": "Meningkatkan akuntabilitas dan kepercayaan terhadap kebijakan Bank Indonesia mengenai Pengelolaan Uang Rupiah (PUR)",
+        "d": "Mengurangi beban administrasi dan pelaporan manual pada sektor non-keuangan"
+      },
+      "answer": "c",
+      "explanation": "Outcome eksternal transformasi SI PUR adalah meningkatkan akuntabilitas dan kepercayaan masyarakat terhadap kebijakan PUR Bank Indonesia."
+    },
+    {
+      "id": "pur_7",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Berikut terdapat beberapa Langkah, seperti: i. Menahan uang ii. Mencatat identitas nasabah iii. Menyimpan uang di brankas hingga audit selesai iv. Memberi tanda terima atas uang Rupiah yang diragukan keasliannya Apa langkah pertama yang harus dilakukan oleh Front Office Bank ketika menerima uang Rupiah yang diragukan keasliannya dari nasabah?",
+      "options": {
+        "a": "i, ii, dan iii",
+        "b": "i, ii, dan iv",
+        "c": "i, iii, dan iv",
+        "d": "ii, iii, dan iv"
+      },
+      "answer": "b",
+      "explanation": "Langkah awal Front Office: menahan uang (i), mencatat identitas nasabah (ii), dan memberi tanda terima (iv). Penyimpanan di brankas dilakukan setelahnya."
+    },
+    {
+      "id": "pur_8",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Apa kewajiban utama pihak selain bank dan PJPUR dalam menangani temuan uang Rupiah yang diragukan keasliannya?",
+      "options": {
+        "a": "Segera mengedarkan kembali uang tersebut jika dianggap masih layak",
+        "b": "Melaporkan kepada BI dan menyetorkan langsung uang tersebut tanpa klarifikasi",
+        "c": "Menjaga fisik uang, tidak mengedarkannya, dan meminta klarifikasi ke BI terdekat",
+        "d": "Menukar uang tersebut di tempat penukaran resmi non-perbankan"
+      },
+      "answer": "c",
+      "explanation": "Pihak selain bank/PJPUR wajib menjaga fisik uang, tidak mengedarkannya, dan meminta klarifikasi ke BI terdekat."
+    },
+    {
+      "id": "pur_9",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Apa yang akan dilakukan oleh Bank Indonesia terhadap uang Rupiah yang dinyatakan tidak asli?",
+      "options": {
+        "a": "Diberikan penggantian dalam bentuk tunai atau kredit rekening bank",
+        "b": "Dicatat dalam sistem dan disimpan kembali dalam kas Bank Indonesia",
+        "c": "Diberikan tanda sebagai uang tidak asli dan diserahkan ke Kepolisian Negara Republik Indonesia",
+        "d": "Dikembalikan kepada pemilik untuk klarifikasi lebih lanjut"
+      },
+      "answer": "c",
+      "explanation": "Uang yang dinyatakan tidak asli diberi tanda khusus dan diserahkan ke Kepolisian Negara Republik Indonesia."
+    },
+    {
+      "id": "pur_0",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Apa prinsip utama yang dipertahankan dalam desain uang Rupiah Tahun Emisi (TE) 2022?",
+      "options": {
+        "a": "Menambahkan gambar presiden dan wakil presiden RI",
+        "b": "Memperkenalkan desain futuristik tanpa tokoh pahlawan",
+        "c": "Mempertahankan gambar utama pahlawan nasional dan tema budaya Indonesia",
+        "d": "Menyertakan elemen digital dan QR code"
+      },
+      "answer": "a",
+      "explanation": "Jawaban berdasarkan materi Bank Indonesia."
+    },
+    {
+      "id": "pur_1",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Salah satu langkah dalam membuat uang TE 2022 mudah dikenali oleh masyarakat adalah:",
+      "options": {
+        "a": "Menghapus watermark dari seluruh pecahan uang",
+        "b": "Menyeragamkan gambar watermark dengan gambar utama",
+        "c": "Menambahkan teks edukatif pada sisi belakang uang",
+        "d": "Menyamakan semua warna antar pecahan uang"
+      },
+      "answer": "b",
+      "explanation": "Skema Kas Titipan bermitra dengan perbankan untuk memastikan ketersediaan uang tunai melalui layanan setoran, penarikan, dan penukaran uang di daerah berkebutuhan kas tinggi."
+    },
+    {
+      "id": "pur_2",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Mengapa teknologi coating digunakan pada pecahan kecil seperti Rp1.000 hingga Rp5.000?",
+      "options": {
+        "a": "Agar uang lebih mudah dilipat dan disimpan",
+        "b": "Untuk meningkatkan keamanan digital",
+        "c": "Memastikan masa edar uang yang lebih lama",
+        "d": "Untuk menampilkan warna yang lebih mencolok"
+      },
+      "answer": "c",
+      "explanation": "Bantuan Pemeliharaan diberikan untuk memperpanjang umur, penambahan, dan pergantian sarana/prasarana yang rusak akibat usia dan pemakaian."
+    },
+    {
+      "id": "pur_3",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "PJPUR berperan penting sebagai Sub Sirkulator dalam pemenuhan uang layak edar dengan ruang lingkup tugas sebagai berikut: I. Mencetak Uang II. Distribusi Uang III. Pengisian Anjungan Tunai Mandiri (ATM) dan Cash Deposit Machine IV. Pembuatan Anjungan Tunai Mandiri (ATM) dan Cash Deposit Machine Dari pernyataan diatas, manakah ruang lingkup dan tugas PJPUR yang benar?",
+      "options": {
+        "a": "Hanya I",
+        "b": "I dan II",
+        "c": "II dan III",
+        "d": "Benar Semua"
+      },
+      "answer": "b",
+      "explanation": "Kolaborasi dengan mitra layanan (Pos, Pegadaian, BPR, PJPUR) memperluas kanal layanan dan meningkatkan efisiensi SDM serta infrastruktur."
+    },
+    {
+      "id": "pur_4",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Dalam percetakan, sering ditemukan hasil cetak tidak sepenuhnya sama dengan desain di komputer. Hal ini dikarenakan",
+      "options": {
+        "a": "Warna di layar komputer merupakan Red, Green and Blue (RGB), sedangkan mesin cetak menggunakan format Cyan, Magenta, Yellow and Key (CMYK)",
+        "b": "Layar di komputer merupakan Cyan, Magenta, Yellow and Key (CMYK), sedangkan mesin cetak menggunakan format Red, Green and Blue (RGB)",
+        "c": "Jawaban A dan B benar",
+        "d": "Jawaban A dan B salah"
+      },
+      "answer": "c",
+      "explanation": "Pengembangan SI PUR dalam BPPUR 2024–2030 dikategorikan sebagai inisiatif strategis pada aspek Pengelolaan Uang Rupiah."
+    },
+    {
+      "id": "pur_5",
+      "category": "PUR",
+      "source": "PUR.pdf",
+      "question": "Perhatikan pernyataan mengenai sistem pengolahan uang di Proyek SINERGI berikut: I. Uang setoran bank diidentifikasi menggunakan Barcode ID pada setiap kemasan. II. Proses dilakukan secara manual sepenuhnya oleh manusia untuk menjaga ketelitian. III. Pemrosesan uang menggunakan sistem otomatisasi (automated feeding & packaging) IV. Perekaman data hasil pengolahan (seperti nomor seri dan tingkat kelusuhan) dilakukan secara digital. Manakah pernyataan yang benar mengenai konsep operasional di Sentra Pengolahan Uang (SPU) SINERGI?",
+      "options": {
+        "a": "I dan II",
+        "b": "I, III, dan IV",
+        "c": "Hanya IV",
+        "d": "Semua Benar"
+      },
+      "answer": "c",
+      "explanation": "DSCM adalah inisiatif integratif SMART (Seamless Integration, Modernization, Accountability, Resilience, Trustworthiness) untuk transformasi SI PUR."
+    },
+    {
+      "id": "sp_1",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Dalam industri sistem pembayaran, siapakah pihak yang memiliki wewenang tunggal untuk mengajukan permohonan pailit terhadap PJP (Penyedia Jasa Pembayaran) dan PIP (Penyelenggara Infrastruktur Sistem Pembayaran)?",
+      "options": {
+        "a": "Bank Indonesia",
+        "b": "Otoritas Jasa Keuangan (OJK)",
+        "c": "Kementerian Keuangan",
+        "d": "Lembaga Penjamin Simpanan (LPS)"
+      },
+      "answer": "a",
+      "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
+    },
+    {
+      "id": "sp_2",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Rupiah Digital wholesale didesain sebagai \"Non-Interest Bearing\" (tidak memberikan bunga). Apa alasan fundamental dibalik desain ini?",
+      "options": {
+        "a": "Karena sistem blockchain tidak bisa menghitung bunga harian.",
+        "b": "Karena fungsinya adalah uang (alat pembayaran), dan secara prinsip uang tunai tidak membawa bunga",
+        "c": "Untuk memaksa nasabah agar tetap menyimpan uang di bank.",
+        "d": "Karena Bank Indonesia sedang mengalami defisit modal."
+      },
+      "answer": "b",
+      "explanation": "Rupiah Digital wholesale non-interest bearing karena fungsinya sebagai uang (alat pembayaran), dan uang tunai secara prinsip tidak membawa bunga."
+    },
+    {
+      "id": "sp_3",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Dalam kebijakan skema harga Gerbang Pembayaran Nasional (GPN), penetapan Merchant Discount Rate (MDR) didasarkan pada azas manfaat bagi merchant. Siapakah yang menanggung biaya MDR ini?",
+      "options": {
+        "a": "Nasabah pembeli (sebagai biaya tambahan/surcharge).",
+        "b": "Bank Indonesia (sebagai subsidi pemerintah).",
+        "c": "Asosiasi Sistem Pembayaran Indonesia (ASPI).",
+        "d": "Merchant/Pedagang (sebagai biaya layanan infrastruktur)."
+      },
+      "answer": "d",
+      "explanation": "MDR ditanggung oleh Merchant/Pedagang sebagai biaya layanan infrastruktur, sesuai azas manfaat bagi merchant."
+    },
+    {
+      "id": "sp_4",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Dalam infrastruktur data SP, 'Payment ID' merupakan identifier unik. Apa fungsi utama dari Payment ID bagi Industri?",
+      "options": {
+        "a": "Menggantikan seluruh nomor rekening bank menjadi satu nomor saja.",
+        "b": "Sebagai alat untuk mencairkan bantuan sosial tanpa kartu.",
+        "c": "Mewajibkan nasabah untuk melakukan KYC setiap bulan.",
+        "d": "Menjamin keamanan ekosistem melalui pembentukan profil risiko dan integritas transaksi SP."
+      },
+      "answer": "d",
+      "explanation": "Payment ID menjamin keamanan ekosistem melalui pembentukan profil risiko dan integritas transaksi SP."
+    },
+    {
+      "id": "sp_5",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Bagaimana cara 'BI-Payment Clear' membantu Penyedia Jasa Pembayaran (PJP) dalam mencegah transaksi mencurigakan secara real-time?",
+      "options": {
+        "a": "Dengan cara menunda seluruh transaksi selama 24 jam untuk verifikasi manual.",
+        "b": "Melalui penyediaan Fraudster Database dan watchlist yang terintegrasi di tahap 'on transaction'.",
+        "c": "Bekerja sama dengan Badan Siber dan Sandi Negara (BSSN) dan Komdigi untuk memantau setiap aktivitas nasabah.",
+        "d": "Menggantikan seluruh nomor rekening bank menjadi satu nomor saja sehingga memudahkan integrasi data"
+      },
+      "answer": "b",
+      "explanation": "BI-Payment Clear mencegah transaksi mencurigakan melalui Fraudster Database dan watchlist terintegrasi pada tahap on-transaction."
+    },
+    {
+      "id": "sp_6",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Data menunjukkan bahwa mayoritas merchant QRIS berasal dari kelompok UMKM. Mengapa hal ini penting bagi target inklusi keuangan BI?",
+      "options": {
+        "a": "Karena merchant besar tidak diperbolehkan menggunakan QRIS.",
+        "b": "Karena digitalisasi UMKM membantu memperluas ekosistem ekonomi digital hingga lapisan terbawah.",
+        "c": "Karena biaya pendaftaran QRIS untuk usaha mikro sangat mahal.",
+        "d": "Agar bank sentral bisa mengontrol harga dagangan UMKM."
+      },
+      "answer": "b",
+      "explanation": "Digitalisasi UMKM memperluas ekosistem ekonomi digital hingga lapisan terbawah, mendukung inklusi keuangan."
+    },
+    {
+      "id": "sp_7",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Jika teridentifikasi adanya anomali transaksi yang berasal dari celah di Mitra API (Application Programming Interface), langkah investigasi teknis awal apa yang paling tepat sesuai?",
+      "options": {
+        "a": "Melakukan isolasi infrastruktur yang terdampak dan melakukan audit forensic",
+        "b": "Menghapus seluruh database transaksi agar virus hilang",
+        "c": "Mengabaikan insiden selama tidak ada nasabah yang melapor demi kelancaran sistem pembayaran",
+        "d": "Menyalahkan pihak ketiga secara publik melalui media massa"
+      },
+      "answer": "a",
+      "explanation": "Langkah investigasi awal: isolasi infrastruktur terdampak dan audit forensik."
+    },
+    {
+      "id": "sp_8",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Berikut merupakan pernyataan yang tepat menurut standar Bank for International Settlements (BIS) / The Committee on Payments and Market Infrastructures (CPMI) (2016), sehingga suatu sistem pembayaran dapat dikategorikan sebagai 'Fast Payment'?",
+      "options": {
+        "a": "Pembayaran dimana transmisi pesan pembayaran dan ketersediaan dana akhir bagi penerima terjadi secara real-time atau mendekati real-time dan beroperasi penuh selama 24 jam sehari dan 7 hari seminggu (24/7)",
+        "b": "Pembayaran dimana transmisi pesan pembayaran dan ketersediaan dana akhir bagi penerima terjadi secara bertahap berdasarkan window time dan beroperasi penuh selama 24 jam sehari dan 7 hari seminggu (24/7)",
+        "c": "Pembayaran dimana transmisi pesan pembayaran dan ketersediaan dana akhir bagi penerima terjadi secara real time dan beroperasi penuh selama hari kerja",
+        "d": "Pembayaran dimana transmisi pesan pembayaran dan ketersediaan dana akhir bagi penerima terjadi secara bertahap dan beroperasi penuh selama hari kerja"
+      },
+      "answer": "a",
+      "explanation": "Fast Payment (BIS/CPMI 2016): transmisi pesan dan ketersediaan dana secara real-time/near real-time, operasi 24/7."
+    },
+    {
+      "id": "sp_9",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Dalam rangka menjaga kelancara penyelenggaraan SP dan FMI, BI melakukan pemantauan kepatuhan terhadap Peserta dan mitra kerja sesuai dengan ketentuan yang berlaku. Pemantauan Tidak Langsung terhadap peserta SP dilakukan melalui",
+      "options": {
+        "a": "Kunjungan fisik ke kantor peserta (on-site).",
+        "b": "Wawancara dengan nasabah bank terkait",
+        "c": "Monitoring rutin terhadap data operasional harian dan laporan berkala",
+        "d": "Memantau seluruh aktivitas penyelenggara secara tidak langsung melalui CCTV dan penyadapan rahasia"
+      },
+      "answer": "c",
+      "explanation": "Pengawasan tidak langsung dilakukan melalui monitoring rutin data operasional harian dan laporan berkala."
+    },
+    {
+      "id": "sp_0",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "QRIS TAP (QRIS Tanpa Pindai) akan terus diperluas dengan potensi use case baru melalui sinergi bersama stakeholder terkait (Bank Rekening Kas Umum Daerah (RKUD) , Penyedia Jasa Pembayaran, dan Pemda). Perhatikan rencana perluasan berikut: (i) Onboarding UMKM di sektor ritel melalui penggunaan alat Near Field Communication (NFC) sederhana seperti Soundbox (ii) Pemanfaatan pada angkutan daerah dengan konsep tap on bus (seperti Damri atau Trans Daerah). (iii) Adopsi pada fasilitas parkir modern berbasis gate di area rumah sakit, mall, hingga kampus. (iv) Penggunaan untuk penyelesaian transaksi belanja online pada e- commerce platform mancanegara Di antara poin-poin tersebut, manakah yang merupakan contoh rencana perluasan use case adopsi QRIS TAP yang tepat sesuai arah kebijakan Bank Indonesia?",
+      "options": {
+        "a": "(i), (ii), dan (iii)",
+        "b": "(i) dan (iv)",
+        "c": "(ii) dan (iv)",
+        "d": "Semua benar"
+      },
+      "answer": "a",
+      "explanation": "Jawaban berdasarkan materi Bank Indonesia."
+    },
+    {
+      "id": "sp_1",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Bank Indonesia terus mendorong penggunaan inovasi sistem pembayaran yang mempermudah transaksi pembayaran yang disesuaikan dengan karakteristik dan kebutuhan di berbagai daerah: (i) Titik kedatangan wisata mancanegara (seperti bandara, pelabuhan, dan terminal). (ii) Moda transportasi, khususnya yang melayani transportasi antarnegara (seperti ferry, bus internasional, dll). (iii) Kawasan destinasi kunjungan wisata mancanegara. (iv) Pasar tradisional domestik di wilayah pedalaman Di antara pilihan tersebut, mana yang merupakan lokasi yang menjadi target utama dari strategi penguatan akseptasi QRIS Antarnegara yang mendukung sektor prioritas menurut kebijakan Bank Indonesia",
+      "options": {
+        "a": "(i), (ii), dan (iii)",
+        "b": "(i) dan (iii)",
+        "c": "(ii) dan (iv)",
+        "d": "Semua benar"
+      },
+      "answer": "a",
+      "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
+    },
+    {
+      "id": "sp_2",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Salah satu sistem Financial Market Infrastructure (FMI) Bank Indonesia adalah BI-Electronic Trading Platform (BI-ETP). Berikut ini merupakan pernyataan yang benar mengenai BI-ETP, kecuali",
+      "options": {
+        "a": "Infrastruktur yang digunakan sebagai sarana transaksi yang dilakukan secara elektronik",
+        "b": "Digunakan untuk transaksi operasi moneter/syariah, transaksi untuk dan atas nama pemerintah, transaksi surat berharga dan transaksi pinjam meminjam tanpa surat berharga dalam rangka pasar uang",
+        "c": "Mekanisme transaksi terdiri dari lelang dan bilateral trading",
+        "d": "Dapat digunakan untuk transaksi antar rekening masyarakat di Bank"
+      },
+      "answer": "b",
+      "explanation": "Rupiah Digital wholesale non-interest bearing karena fungsinya sebagai uang (alat pembayaran), dan uang tunai secara prinsip tidak membawa bunga."
+    },
+    {
+      "id": "sp_3",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Bank Indonesia memiliki kewenangan penuh di bidang Sistem Pembayaran, yang mencakup perizinan, pengaturan, dan pengawasan, hingga tindak lanjut pengawasan berupa pengenaan sanksi terhadap penyelenggaraan sistem pembayaran oleh industri. Diantara pilihan berikut manakah yang merupakan siklus pengawasan SP?",
+      "options": {
+        "a": "Pemeriksaan, Tindak Lanjut, Perizinan",
+        "b": "Asesmen TIKMI, Pengawasan Tidak Langsung, Pemeriksaan",
+        "c": "Pengawasan Langsung, Pemeriksaan, Penindakan",
+        "d": "Pengawasan Tidak Langsung, Pemeriksaan, Tindak Lanjut"
+      },
+      "answer": "d",
+      "explanation": "MDR ditanggung oleh Merchant/Pedagang sebagai biaya layanan infrastruktur, sesuai azas manfaat bagi merchant."
+    },
+    {
+      "id": "sp_4",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Reformasi pengaturan industri SP dituangkan dalam PBI No. 10 Tahun 2025, PADG No. 32 Tahun 2025, dan beberapa petunjuk teknis yang akan menjadi panduan bagi implementasi reformasi pengaturan. Dibawah ini manakan yang bukan merupakan substansi pengaturan Industri SP?",
+      "options": {
+        "a": "Aktivitas Sistem Pembayaran",
+        "b": "Penyelenggara Penunjang",
+        "c": "Inovasi Teknologi",
+        "d": "Penggunaan Uang Rupiah"
+      },
+      "answer": "d",
+      "explanation": "Payment ID menjamin keamanan ekosistem melalui pembentukan profil risiko dan integritas transaksi SP."
+    },
+    {
+      "id": "sp_5",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Berdasarkan pemetaan spasial, kesiapan per provinsi didalam satu wilayah menunjukkan keberagaman kondisi sehingga diperlukan strategi kebijakan yang spesifik dalam inovasi sistem pembayaran sesuai dengan karakteristik daerahnya. Berikut ini merupakan beberapa strategi spasial: (i) inovasi produk advanced (QRIS TAP, BI-FAST Bulk Payment) (ii) pelindungan konsumen dan aspek manajemen risiko (APU PPT) (iii) sarana dan prasarana jaringan komunikasi. (iv) penggunaan QRIS Statis untuk sektor mikro. Strategi mana yang paling tepat untuk daerah dengan keterbatasan infrastruktur dan akseptasi digital?",
+      "options": {
+        "a": "(i) saja",
+        "b": "(ii) dan (iii)",
+        "c": "(iv) saja",
+        "d": "(ii) (iii) dan (iv)"
+      },
+      "answer": "b",
+      "explanation": "BI-Payment Clear mencegah transaksi mencurigakan melalui Fraudster Database dan watchlist terintegrasi pada tahap on-transaction."
+    },
+    {
+      "id": "sp_0",
+      "category": "SP",
+      "source": "Latihan Soal SP PUR_Jawab.pdf",
+      "question": "QRIS TAP (QRIS Tanpa Pindai) akan terus diperluas dengan potensi use case baru melalui sinergi bersama stakeholder terkait (Bank Rekening Kas Umum Daerah (RKUD) , Penyedia Jasa Pembayaran, dan Pemda). Perhatikan rencana perluasan berikut: (i) Onboarding UMKM di sektor ritel melalui penggunaan alat Near Field Communication (NFC) sederhana seperti Soundbox (ii) Pemanfaatan pada angkutan daerah dengan konsep tap on bus (seperti Damri atau Trans Daerah). (iii) Adopsi pada fasilitas parkir modern berbasis gate di area rumah sakit, mall, hingga kampus. (iv) Penggunaan untuk penyelesaian transaksi belanja online pada e-commerce platform mancanegara Di antara poin-poin tersebut, manakah yang merupakan contoh rencana perluasan use case adopsi QRIS TAP yang tepat sesuai arah kebijakan Bank Indonesia?",
+      "options": {
+        "a": "(i), (ii), dan (iii)",
+        "b": "(i) dan (iv)",
+        "c": "(ii) dan (iv)",
+        "d": "Semua benar"
+      },
+      "answer": "a",
+      "explanation": "Jawaban berdasarkan materi Bank Indonesia."
+    },
+    {
+      "id": "sp_1",
+      "category": "SP",
+      "source": "Latihan Soal SP PUR_Jawab.pdf",
+      "question": "Bank Indonesia terus mendorong penggunaan inovasi sistem pembayaran yang mempermudah transaksi pembayaran yang disesuaikan dengan karakteristik dan kebutuhan di berbagai daerah : (i) Titik kedatangan wisata mancanegara (seperti bandara, pelabuhan, dan terminal). (ii) Moda transportasi, khususnya yang melayani transportasi antarnegara (seperti ferry, bus internasional, dll). (iii) Kawasan destinasi kunjungan wisata mancanegara. (iv) Pasar tradisional domestik di wilayah pedalaman Di antara pilihan tersebut, mana yang merupakan lokasi yang menjadi target utama dari strategi penguatan akseptasi QRIS Antarnegara yang mendukung sektor prioritas menurut kebijakan Bank Indonesia",
+      "options": {
+        "a": "(i), (ii), dan (iii)",
+        "b": "(i) dan (iii)",
+        "c": "(ii) dan (iv)",
+        "d": "Semua benar"
+      },
+      "answer": "a",
+      "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
+    },
+    {
+      "id": "pcpm_1",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Evolusi Tim Pengendalian Inflasi di Indonesia dimulai dari TPI (2005), kemudian berkembang menjadi TPID (2008). Berapa jumlah TPID yang mencakup seluruh Indonesia saat ini?",
+      "options": {
+        "a": "342 TPID",
+        "b": "442 TPID",
+        "c": "542 TPID",
+        "d": "642 TPID"
+      },
+      "answer": "c",
+      "explanation": "Materi PCPM menyebutkan evolusi TPI → TPID → Pokjanas → Keppres 23/2017 (TPIN), kini mencakup 542 TPID di seluruh Indonesia."
+    },
+    {
+      "id": "pcpm_2",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Berapa persen inflasi nasional yang berasal dari daerah menurut materi pengendalian inflasi?",
+      "options": {
+        "a": "±60%",
+        "b": "±70%",
+        "c": "±80%",
+        "d": "±90%"
+      },
+      "answer": "c",
+      "explanation": "Sekitar ±80% inflasi nasional berasal dari daerah, sehingga pengendalian inflasi memerlukan peran aktif pemda melalui TPID."
+    },
+    {
+      "id": "pcpm_3",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Payung hukum utama pengendalian inflasi berlandaskan pada peraturan berikut, KECUALI:",
+      "options": {
+        "a": "Keppres 23/2017",
+        "b": "Permenko 10/2017",
+        "c": "Peraturan sektoral 4K (Perpres, Permendag, Permentan, PP)",
+        "d": "UU No. 23 Tahun 1999 tentang Bank Indonesia"
+      },
+      "answer": "d",
+      "explanation": "Landasan hukum TPIP-TPID berlapis: Keppres 23/2017, Permenko 10/2017, dan regulasi sektoral 4K. UU BI bukan payung hukum langsung TPID."
+    },
+    {
+      "id": "pcpm_4",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Struktur koordinasi pengendalian inflasi berjenjang dari pusat ke daerah adalah:",
+      "options": {
+        "a": "TPIN (Menko Perekonomian) → TPID Provinsi (Gubernur) → TPID Kab/Kota (Bupati/Walikota)",
+        "b": "BI Pusat → KPwDN → TPID Provinsi → TPID Kab/Kota",
+        "c": "Menko Perekonomian → Bupati/Walikota → Gubernur",
+        "d": "TPIN → TPID Kab/Kota → TPID Provinsi"
+      },
+      "answer": "a",
+      "explanation": "Struktur berjenjang: TPIN di pusat (Menko Perekonomian), TPID Provinsi (Gubernur), dan TPID Kab/Kota (Bupati/Walikota) dengan pelaporan dua arah."
+    },
+    {
+      "id": "pcpm_5",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Siklus respons pengendalian inflasi yang dijalankan melalui forum rakor strategi 4K disebut:",
+      "options": {
+        "a": "SMART",
+        "b": "PIKKE",
+        "c": "DSCM",
+        "d": "KEKDA"
+      },
+      "answer": "b",
+      "explanation": "PIKKE = Pemantauan – Identifikasi – Koordinasi – Kebijakan – Evaluasi, dijalankan lewat 6 forum rakor strategi 4K."
+    },
+    {
+      "id": "pcpm_6",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "GNPIP (Gerakan Nasional Pengendalian Inflasi Pangan) diluncurkan pada 10 Agustus 2022 di kota:",
+      "options": {
+        "a": "Jakarta",
+        "b": "Surabaya",
+        "c": "Malang",
+        "d": "Bandung"
+      },
+      "answer": "c",
+      "explanation": "GNPIP diluncurkan 10 Agustus 2022 di Malang sebagai respons lonjakan inflasi volatile food 11,47%."
+    },
+    {
+      "id": "pcpm_7",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Berapa tingkat inflasi volatile food saat peluncuran GNPIP yang menjadi latar belakang urgensi program tersebut?",
+      "options": {
+        "a": "8,47%",
+        "b": "9,47%",
+        "c": "10,47%",
+        "d": "11,47%"
+      },
+      "answer": "d",
+      "explanation": "GNPIP diluncurkan akibat lonjakan inflasi volatile food mencapai 11,47% pada saat itu."
+    },
+    {
+      "id": "pcpm_8",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Program GNPIP yang kini diperkuat menjadi GPIPS (Gerakan Pengendalian Inflasi dan Pangan Sejahtera) diperbarui pada:",
+      "options": {
+        "a": "Mei 2024",
+        "b": "Mei 2025",
+        "c": "Mei 2026",
+        "d": "Agustus 2026"
+      },
+      "answer": "c",
+      "explanation": "GPIPS merupakan penguatan GNPIP untuk tantangan ketahanan pangan yang lebih kompleks, diperbarui Mei 2026."
+    },
+    {
+      "id": "pcpm_9",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Strategi 4K dalam pengendalian inflasi mencakup, KECUALI:",
+      "options": {
+        "a": "Keterjangkauan",
+        "b": "Ketersediaan",
+        "c": "Kelancaran",
+        "d": "Kemandirian"
+      },
+      "answer": "d",
+      "explanation": "Strategi 4K: Keterjangkauan, Ketersediaan, Kelancaran, dan Komunikasi — bukan Kemandirian."
+    },
+    {
+      "id": "pcpm_10",
+      "category": "PCPM",
+      "source": "PCPM40 - KPw Advisor Ekonomi Daerah",
+      "question": "Peran KPwDN dalam sinergi TPIP/TPID dapat mencakup fasilitasi operasi pasar melalui:",
+      "options": {
+        "a": "Penetapan suku bunga acuan daerah",
+        "b": "Sewa tenda, meja, pemberian FDP, dan disinergikan dengan program kerja KPwDN",
+        "c": "Pencetakan uang rupiah di daerah",
+        "d": "Pengelolaan rekening kas umum daerah"
+      },
+      "answer": "b",
+      "explanation": "KPwDN mendukung operasi pasar melalui fasilitasi penyelenggaraan (sewa tenda, meja), pemberian FDP, dan sinergi program kerja dengan timing/lokasi tepat sasaran."
+    }
+  ]
+}
