@@ -229,6 +229,12 @@ body {
   font-weight: 600;
   margin-bottom: 1.25rem;
   line-height: 1.55;
+  white-space: pre-line;
+}
+
+.choice-text {
+  white-space: pre-line;
+  flex: 1;
 }
 
 .choices {

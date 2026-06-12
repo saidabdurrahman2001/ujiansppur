@@ -1,4 +1,4 @@
-const CACHE_KEY = "kuis_sppur_cache_v1";
+const CACHE_KEY = "kuis_sppur_cache_v3";
 
 const state = {
   category: "Semua",
@@ -113,12 +113,30 @@ function renderHistory(history) {
     .join("");
 }
 
+function questionFingerprint(text) {
+  return (text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "")
+    .slice(0, 100);
+}
+
+function dedupeQuestionPool(pool) {
+  const seen = new Set();
+  return pool.filter((q) => {
+    const fp = questionFingerprint(q.question);
+    if (seen.has(fp)) return false;
+    seen.add(fp);
+    return true;
+  });
+}
+
 function prepareQuestions() {
   let pool =
     state.category === "Semua"
       ? [...QUIZ_DATA.questions]
       : QUIZ_DATA.questions.filter((q) => q.category === state.category);
 
+  pool = dedupeQuestionPool(pool);
   if (state.randomize) pool = shuffle(pool);
 
   const count = Math.min(state.questionCount || pool.length, pool.length);
@@ -188,15 +206,16 @@ function renderQuestion() {
   document.getElementById("quiz-category").textContent = q.category;
   document.getElementById("progress-fill").style.width = `${pct}%`;
   document.getElementById("question-source").textContent = q.source;
-  document.getElementById("question-text").textContent = q.question;
+  document.getElementById("question-text").textContent = q.question || "";
 
   const choicesEl = document.getElementById("choices");
   const pembahasanEl = document.getElementById("pembahasan");
   pembahasanEl.classList.add("hidden");
   choicesEl.innerHTML = "";
 
-  const isSubmitted = state.submitted[q.id];
-  const userAnswer = state.answers[q.id];
+  const idx = state.currentIndex;
+  const isSubmitted = state.submitted[idx];
+  const userAnswer = state.answers[idx];
 
   Object.entries(q.options).forEach(([key, text]) => {
     const div = document.createElement("div");
@@ -208,9 +227,9 @@ function renderQuestion() {
       else if (userAnswer === key) div.classList.add("wrong");
     }
 
-    div.innerHTML = `<span class="choice-key">${key.toUpperCase()}</span><span>${text}</span>`;
+    div.innerHTML = `<span class="choice-key">${key.toUpperCase()}</span><span class="choice-text">${text}</span>`;
     if (!isSubmitted) {
-      div.addEventListener("click", () => selectAnswer(q.id, key));
+      div.addEventListener("click", () => selectAnswer(idx, key));
     }
     choicesEl.appendChild(div);
   });
@@ -240,16 +259,16 @@ function renderQuestion() {
   saveProgress();
 }
 
-function selectAnswer(qid, key) {
-  state.answers[qid] = key;
+function selectAnswer(index, key) {
+  state.answers[index] = key;
   document.getElementById("btn-submit").disabled = false;
   renderQuestion();
 }
 
 function submitAnswer() {
-  const q = state.questions[state.currentIndex];
-  if (!state.answers[q.id]) return;
-  state.submitted[q.id] = true;
+  const idx = state.currentIndex;
+  if (!state.answers[idx]) return;
+  state.submitted[idx] = true;
   renderQuestion();
 }
 
@@ -267,8 +286,8 @@ function finishQuiz() {
   const total = state.questions.length;
   let correct = 0;
 
-  state.questions.forEach((q) => {
-    if (state.answers[q.id] === q.answer) correct++;
+  state.questions.forEach((q, i) => {
+    if (state.answers[i] === q.answer) correct++;
   });
 
   const score = Math.round((correct / total) * 100);
@@ -293,7 +312,7 @@ function finishQuiz() {
   const review = document.getElementById("review-list");
   review.innerHTML = state.questions
     .map((q, i) => {
-      const ok = state.answers[q.id] === q.answer;
+      const ok = state.answers[i] === q.answer;
       return `<div class="review-item">
         <div class="q-num">Soal ${i + 1} [${q.category}]</div>
         <div>${q.question.substring(0, 120)}${q.question.length > 120 ? "..." : ""}</div>

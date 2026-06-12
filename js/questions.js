@@ -1,7 +1,7 @@
 const QUIZ_DATA = {
   "title": "Kuis SP & PUR",
   "version": "2.0",
-  "total": 628,
+  "total": 627,
   "categories": [
     "PUR",
     "SP",
@@ -81,8 +81,8 @@ const QUIZ_DATA = {
         "c": "Pengelolaan Uang Rupiah",
         "d": "Infrastruktur PUR"
       },
-      "answer": "c",
-      "explanation": "Pengembangan SI PUR dalam BPPUR 2024–2030 dikategorikan sebagai inisiatif strategis pada aspek Pengelolaan Uang Rupiah."
+      "answer": "d",
+      "explanation": "Pengembangan SI PUR dalam BPPUR 2024–2030 dikategorikan sebagai inisiatif strategis pada aspek Infrastruktur PUR."
     },
     {
       "id": "pur_5",
@@ -116,7 +116,7 @@ const QUIZ_DATA = {
       "id": "pur_7",
       "category": "PUR",
       "source": "PUR.pdf",
-      "question": "Berikut terdapat beberapa Langkah, seperti: i. Menahan uang ii. Mencatat identitas nasabah iii. Menyimpan uang di brankas hingga audit selesai iv. Memberi tanda terima atas uang Rupiah yang diragukan keasliannya Apa langkah pertama yang harus dilakukan oleh Front Office Bank ketika menerima uang Rupiah yang diragukan keasliannya dari nasabah?",
+      "question": "Berikut terdapat beberapa Langkah, seperti:\ni. Menahan uang ii. Mencatat identitas nasabah iii. Menyimpan uang di brankas hingga audit selesai iv. Memberi tanda terima atas uang Rupiah yang diragukan keasliannya Apa langkah pertama yang harus dilakukan oleh Front Office Bank ketika menerima uang Rupiah yang diragukan keasliannya dari nasabah?",
       "options": {
         "a": "i, ii, dan iii",
         "b": "i, ii, dan iv",
@@ -155,7 +155,7 @@ const QUIZ_DATA = {
       "explanation": "Uang yang dinyatakan tidak asli diberi tanda khusus dan diserahkan ke Kepolisian Negara Republik Indonesia."
     },
     {
-      "id": "pur_0",
+      "id": "pur_10",
       "category": "PUR",
       "source": "PUR.pdf",
       "question": "Apa prinsip utama yang dipertahankan dalam desain uang Rupiah Tahun Emisi (TE) 2022?",
@@ -165,11 +165,11 @@ const QUIZ_DATA = {
         "c": "Mempertahankan gambar utama pahlawan nasional dan tema budaya Indonesia",
         "d": "Menyertakan elemen digital dan QR code"
       },
-      "answer": "a",
-      "explanation": "Jawaban berdasarkan materi Bank Indonesia."
+      "answer": "c",
+      "explanation": "Desain uang TE 2022 mempertahankan gambar pahlawan nasional dan tema budaya Indonesia."
     },
     {
-      "id": "pur_1",
+      "id": "pur_11",
       "category": "PUR",
       "source": "PUR.pdf",
       "question": "Salah satu langkah dalam membuat uang TE 2022 mudah dikenali oleh masyarakat adalah:",
@@ -180,10 +180,10 @@ const QUIZ_DATA = {
         "d": "Menyamakan semua warna antar pecahan uang"
       },
       "answer": "b",
-      "explanation": "Skema Kas Titipan bermitra dengan perbankan untuk memastikan ketersediaan uang tunai melalui layanan setoran, penarikan, dan penukaran uang di daerah berkebutuhan kas tinggi."
+      "explanation": "Watermark diseragamkan dengan gambar utama agar uang TE 2022 mudah dikenali masyarakat."
     },
     {
-      "id": "pur_2",
+      "id": "pur_12",
       "category": "PUR",
       "source": "PUR.pdf",
       "question": "Mengapa teknologi coating digunakan pada pecahan kecil seperti Rp1.000 hingga Rp5.000?",
@@ -194,24 +194,24 @@ const QUIZ_DATA = {
         "d": "Untuk menampilkan warna yang lebih mencolok"
       },
       "answer": "c",
-      "explanation": "Bantuan Pemeliharaan diberikan untuk memperpanjang umur, penambahan, dan pergantian sarana/prasarana yang rusak akibat usia dan pemakaian."
+      "explanation": "Teknologi coating pada pecahan kecil (Rp1.000–Rp5.000) untuk memastikan masa edar uang yang lebih lama."
     },
     {
-      "id": "pur_3",
+      "id": "pur_13",
       "category": "PUR",
       "source": "PUR.pdf",
-      "question": "PJPUR berperan penting sebagai Sub Sirkulator dalam pemenuhan uang layak edar dengan ruang lingkup tugas sebagai berikut: I. Mencetak Uang II. Distribusi Uang III. Pengisian Anjungan Tunai Mandiri (ATM) dan Cash Deposit Machine IV. Pembuatan Anjungan Tunai Mandiri (ATM) dan Cash Deposit Machine Dari pernyataan diatas, manakah ruang lingkup dan tugas PJPUR yang benar?",
+      "question": "PJPUR berperan penting sebagai Sub Sirkulator dalam pemenuhan uang layak edar dengan ruang lingkup tugas sebagai berikut:\nI. Mencetak Uang\nII. Distribusi Uang\nIII. Pengisian Anjungan Tunai Mandiri (ATM) dan Cash Deposit Machine\nIV. Pembuatan Anjungan Tunai Mandiri (ATM) dan Cash Deposit Machine Dari pernyataan diatas, manakah ruang lingkup dan tugas PJPUR yang benar?",
       "options": {
         "a": "Hanya I",
         "b": "I dan II",
         "c": "II dan III",
         "d": "Benar Semua"
       },
-      "answer": "b",
-      "explanation": "Kolaborasi dengan mitra layanan (Pos, Pegadaian, BPR, PJPUR) memperluas kanal layanan dan meningkatkan efisiensi SDM serta infrastruktur."
+      "answer": "c",
+      "explanation": "Ruang lingkup PJPUR yang benar adalah Distribusi Uang (II) dan Pengisian ATM/CDM (III)."
     },
     {
-      "id": "pur_4",
+      "id": "pur_14",
       "category": "PUR",
       "source": "PUR.pdf",
       "question": "Dalam percetakan, sering ditemukan hasil cetak tidak sepenuhnya sama dengan desain di komputer. Hal ini dikarenakan",
@@ -221,22 +221,22 @@ const QUIZ_DATA = {
         "c": "Jawaban A dan B benar",
         "d": "Jawaban A dan B salah"
       },
-      "answer": "c",
-      "explanation": "Pengembangan SI PUR dalam BPPUR 2024–2030 dikategorikan sebagai inisiatif strategis pada aspek Pengelolaan Uang Rupiah."
+      "answer": "a",
+      "explanation": "Layar komputer menggunakan RGB, sedangkan mesin cetak menggunakan CMYK sehingga hasil cetak berbeda dari desain di layar."
     },
     {
-      "id": "pur_5",
+      "id": "pur_15",
       "category": "PUR",
       "source": "PUR.pdf",
-      "question": "Perhatikan pernyataan mengenai sistem pengolahan uang di Proyek SINERGI berikut: I. Uang setoran bank diidentifikasi menggunakan Barcode ID pada setiap kemasan. II. Proses dilakukan secara manual sepenuhnya oleh manusia untuk menjaga ketelitian. III. Pemrosesan uang menggunakan sistem otomatisasi (automated feeding & packaging) IV. Perekaman data hasil pengolahan (seperti nomor seri dan tingkat kelusuhan) dilakukan secara digital. Manakah pernyataan yang benar mengenai konsep operasional di Sentra Pengolahan Uang (SPU) SINERGI?",
+      "question": "Perhatikan pernyataan mengenai sistem pengolahan uang di Proyek SINERGI berikut:\nI. Uang setoran bank diidentifikasi menggunakan Barcode ID pada setiap kemasan.\nII. Proses dilakukan secara manual sepenuhnya oleh manusia untuk menjaga ketelitian.\nIII. Pemrosesan uang menggunakan sistem otomatisasi (automated feeding & packaging)\nIV. Perekaman data hasil pengolahan (seperti nomor seri dan tingkat kelusuhan) dilakukan secara digital. Manakah pernyataan yang benar mengenai konsep operasional di Sentra Pengolahan Uang (SPU) SINERGI?",
       "options": {
         "a": "I dan II",
         "b": "I, III, dan IV",
         "c": "Hanya IV",
         "d": "Semua Benar"
       },
-      "answer": "c",
-      "explanation": "DSCM adalah inisiatif integratif SMART (Seamless Integration, Modernization, Accountability, Resilience, Trustworthiness) untuk transformasi SI PUR."
+      "answer": "b",
+      "explanation": "SPU SINERGI: identifikasi barcode (I), otomatisasi feeding & packaging (III), dan perekaman digital (IV). Proses tidak sepenuhnya manual."
     },
     {
       "id": "sp_1",
@@ -251,6 +251,20 @@ const QUIZ_DATA = {
       },
       "answer": "a",
       "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
+    },
+    {
+      "id": "sp_2",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Rupiah Digital wholesale didesain sebagai \"Non-Interest Bearing\" (tidak memberikan bunga). Apa alasan fundamental dibalik desain ini?",
+      "options": {
+        "a": "Karena sistem blockchain tidak bisa menghitung bunga harian.",
+        "b": "Karena fungsinya adalah uang (alat pembayaran), dan secara prinsip uang tunai tidak membawa bunga",
+        "c": "Untuk memaksa nasabah agar tetap menyimpan uang di bank.",
+        "d": "Karena Bank Indonesia sedang mengalami defisit modal."
+      },
+      "answer": "b",
+      "explanation": "Rupiah Digital wholesale non-interest bearing karena fungsinya sebagai uang (alat pembayaran), dan uang tunai secara prinsip tidak membawa bunga."
     },
     {
       "id": "sp_3",
@@ -351,10 +365,10 @@ const QUIZ_DATA = {
       "explanation": "Pengawasan tidak langsung dilakukan melalui monitoring rutin data operasional harian dan laporan berkala."
     },
     {
-      "id": "sp_0",
+      "id": "sp_10",
       "category": "SP",
       "source": "SP.pdf",
-      "question": "QRIS TAP (QRIS Tanpa Pindai) akan terus diperluas dengan potensi use case baru melalui sinergi bersama stakeholder terkait (Bank Rekening Kas Umum Daerah (RKUD) , Penyedia Jasa Pembayaran, dan Pemda). Perhatikan rencana perluasan berikut: (i) Onboarding UMKM di sektor ritel melalui penggunaan alat Near Field Communication (NFC) sederhana seperti Soundbox (ii) Pemanfaatan pada angkutan daerah dengan konsep tap on bus (seperti Damri atau Trans Daerah). (iii) Adopsi pada fasilitas parkir modern berbasis gate di area rumah sakit, mall, hingga kampus. (iv) Penggunaan untuk penyelesaian transaksi belanja online pada e- commerce platform mancanegara Di antara poin-poin tersebut, manakah yang merupakan contoh rencana perluasan use case adopsi QRIS TAP yang tepat sesuai arah kebijakan Bank Indonesia?",
+      "question": "QRIS TAP (QRIS Tanpa Pindai) akan terus diperluas dengan potensi use case baru melalui sinergi bersama stakeholder terkait (Bank Rekening Kas Umum Daerah (RKUD) , Penyedia Jasa Pembayaran, dan Pemda). Perhatikan rencana perluasan berikut:\n(i) Onboarding UMKM di sektor ritel melalui penggunaan alat Near Field Communication (NFC) sederhana seperti Soundbox\n(ii) Pemanfaatan pada angkutan daerah dengan konsep tap on bus (seperti Damri atau Trans Daerah).\n(iii) Adopsi pada fasilitas parkir modern berbasis gate di area rumah sakit, mall, hingga kampus.\n(iv) Penggunaan untuk penyelesaian transaksi belanja online pada e- commerce platform mancanegara Di antara poin-poin tersebut, manakah yang merupakan contoh rencana perluasan use case adopsi QRIS TAP yang tepat sesuai arah kebijakan Bank Indonesia?",
       "options": {
         "a": "(i), (ii), dan (iii)",
         "b": "(i) dan (iv)",
@@ -362,13 +376,13 @@ const QUIZ_DATA = {
         "d": "Semua benar"
       },
       "answer": "a",
-      "explanation": "Jawaban berdasarkan materi Bank Indonesia."
+      "explanation": "Perluasan QRIS TAP tepat: UMKM ritel NFC/Soundbox, angkutan daerah tap-on-bus, dan parkir berbasis gate. E-commerce mancanegara bukan prioritas."
     },
     {
-      "id": "sp_1",
+      "id": "sp_11",
       "category": "SP",
       "source": "SP.pdf",
-      "question": "Bank Indonesia terus mendorong penggunaan inovasi sistem pembayaran yang mempermudah transaksi pembayaran yang disesuaikan dengan karakteristik dan kebutuhan di berbagai daerah: (i) Titik kedatangan wisata mancanegara (seperti bandara, pelabuhan, dan terminal). (ii) Moda transportasi, khususnya yang melayani transportasi antarnegara (seperti ferry, bus internasional, dll). (iii) Kawasan destinasi kunjungan wisata mancanegara. (iv) Pasar tradisional domestik di wilayah pedalaman Di antara pilihan tersebut, mana yang merupakan lokasi yang menjadi target utama dari strategi penguatan akseptasi QRIS Antarnegara yang mendukung sektor prioritas menurut kebijakan Bank Indonesia",
+      "question": "Bank Indonesia terus mendorong penggunaan inovasi sistem pembayaran yang mempermudah transaksi pembayaran yang disesuaikan dengan karakteristik dan kebutuhan di berbagai daerah:\n(i) Titik kedatangan wisata mancanegara (seperti bandara, pelabuhan, dan terminal).\n(ii) Moda transportasi, khususnya yang melayani transportasi antarnegara (seperti ferry, bus internasional, dll).\n(iii) Kawasan destinasi kunjungan wisata mancanegara.\n(iv) Pasar tradisional domestik di wilayah pedalaman Di antara pilihan tersebut, mana yang merupakan lokasi yang menjadi target utama dari strategi penguatan akseptasi QRIS Antarnegara yang mendukung sektor prioritas menurut kebijakan Bank Indonesia",
       "options": {
         "a": "(i), (ii), dan (iii)",
         "b": "(i) dan (iii)",
@@ -376,10 +390,24 @@ const QUIZ_DATA = {
         "d": "Semua benar"
       },
       "answer": "a",
-      "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
+      "explanation": "Target QRIS Antarnegara: titik kedatangan wisatawan, moda transportasi antarnegara, dan kawasan destinasi wisata."
     },
     {
-      "id": "sp_3",
+      "id": "sp_12",
+      "category": "SP",
+      "source": "SP.pdf",
+      "question": "Salah satu sistem Financial Market Infrastructure (FMI) Bank Indonesia adalah BI-Electronic Trading Platform (BI-ETP). Berikut ini merupakan pernyataan yang benar mengenai BI-ETP, kecuali",
+      "options": {
+        "a": "Infrastruktur yang digunakan sebagai sarana transaksi yang dilakukan secara elektronik",
+        "b": "Digunakan untuk transaksi operasi moneter/syariah, transaksi untuk dan atas nama pemerintah, transaksi surat berharga dan transaksi pinjam meminjam tanpa surat berharga dalam rangka pasar uang",
+        "c": "Mekanisme transaksi terdiri dari lelang dan bilateral trading",
+        "d": "Dapat digunakan untuk transaksi antar rekening masyarakat di Bank"
+      },
+      "answer": "d",
+      "explanation": "BI-ETP TIDAK digunakan untuk transaksi antar rekening masyarakat di bank — itu di luar ruang lingkup FMI BI."
+    },
+    {
+      "id": "sp_13",
       "category": "SP",
       "source": "SP.pdf",
       "question": "Bank Indonesia memiliki kewenangan penuh di bidang Sistem Pembayaran, yang mencakup perizinan, pengaturan, dan pengawasan, hingga tindak lanjut pengawasan berupa pengenaan sanksi terhadap penyelenggaraan sistem pembayaran oleh industri. Diantara pilihan berikut manakah yang merupakan siklus pengawasan SP?",
@@ -390,10 +418,10 @@ const QUIZ_DATA = {
         "d": "Pengawasan Tidak Langsung, Pemeriksaan, Tindak Lanjut"
       },
       "answer": "d",
-      "explanation": "MDR ditanggung oleh Merchant/Pedagang sebagai biaya layanan infrastruktur, sesuai azas manfaat bagi merchant."
+      "explanation": "Siklus pengawasan SP: Pengawasan Tidak Langsung → Pemeriksaan → Tindak Lanjut."
     },
     {
-      "id": "sp_4",
+      "id": "sp_14",
       "category": "SP",
       "source": "SP.pdf",
       "question": "Reformasi pengaturan industri SP dituangkan dalam PBI No. 10 Tahun 2025, PADG No. 32 Tahun 2025, dan beberapa petunjuk teknis yang akan menjadi panduan bagi implementasi reformasi pengaturan. Dibawah ini manakan yang bukan merupakan substansi pengaturan Industri SP?",
@@ -404,49 +432,21 @@ const QUIZ_DATA = {
         "d": "Penggunaan Uang Rupiah"
       },
       "answer": "d",
-      "explanation": "Payment ID menjamin keamanan ekosistem melalui pembentukan profil risiko dan integritas transaksi SP."
+      "explanation": "Penggunaan Uang Rupiah bukan substansi pengaturan Industri SP — itu domain PUR, bukan regulasi SP."
     },
     {
-      "id": "sp_5",
+      "id": "sp_15",
       "category": "SP",
       "source": "SP.pdf",
-      "question": "Berdasarkan pemetaan spasial, kesiapan per provinsi didalam satu wilayah menunjukkan keberagaman kondisi sehingga diperlukan strategi kebijakan yang spesifik dalam inovasi sistem pembayaran sesuai dengan karakteristik daerahnya. Berikut ini merupakan beberapa strategi spasial: (i) inovasi produk advanced (QRIS TAP, BI-FAST Bulk Payment) (ii) pelindungan konsumen dan aspek manajemen risiko (APU PPT) (iii) sarana dan prasarana jaringan komunikasi. (iv) penggunaan QRIS Statis untuk sektor mikro. Strategi mana yang paling tepat untuk daerah dengan keterbatasan infrastruktur dan akseptasi digital?",
+      "question": "Berdasarkan pemetaan spasial, kesiapan per provinsi didalam satu wilayah menunjukkan keberagaman kondisi sehingga diperlukan strategi kebijakan yang spesifik dalam inovasi sistem pembayaran sesuai dengan karakteristik daerahnya. Berikut ini merupakan beberapa strategi spasial:\n(i) inovasi produk advanced (QRIS TAP, BI-FAST Bulk Payment)\n(ii) pelindungan konsumen dan aspek manajemen risiko (APU PPT)\n(iii) sarana dan prasarana jaringan komunikasi.\n(iv) penggunaan QRIS Statis untuk sektor mikro. Strategi mana yang paling tepat untuk daerah dengan keterbatasan infrastruktur dan akseptasi digital?",
       "options": {
         "a": "(i) saja",
         "b": "(ii) dan (iii)",
         "c": "(iv) saja",
         "d": "(ii) (iii) dan (iv)"
       },
-      "answer": "b",
-      "explanation": "BI-Payment Clear mencegah transaksi mencurigakan melalui Fraudster Database dan watchlist terintegrasi pada tahap on-transaction."
-    },
-    {
-      "id": "sp_0",
-      "category": "SP",
-      "source": "Latihan Soal SP PUR_Jawab.pdf",
-      "question": "QRIS TAP (QRIS Tanpa Pindai) akan terus diperluas dengan potensi use case baru melalui sinergi bersama stakeholder terkait (Bank Rekening Kas Umum Daerah (RKUD) , Penyedia Jasa Pembayaran, dan Pemda). Perhatikan rencana perluasan berikut: (i) Onboarding UMKM di sektor ritel melalui penggunaan alat Near Field Communication (NFC) sederhana seperti Soundbox (ii) Pemanfaatan pada angkutan daerah dengan konsep tap on bus (seperti Damri atau Trans Daerah). (iii) Adopsi pada fasilitas parkir modern berbasis gate di area rumah sakit, mall, hingga kampus. (iv) Penggunaan untuk penyelesaian transaksi belanja online pada e-commerce platform mancanegara Di antara poin-poin tersebut, manakah yang merupakan contoh rencana perluasan use case adopsi QRIS TAP yang tepat sesuai arah kebijakan Bank Indonesia?",
-      "options": {
-        "a": "(i), (ii), dan (iii)",
-        "b": "(i) dan (iv)",
-        "c": "(ii) dan (iv)",
-        "d": "Semua benar"
-      },
-      "answer": "a",
-      "explanation": "Jawaban berdasarkan materi Bank Indonesia."
-    },
-    {
-      "id": "sp_1",
-      "category": "SP",
-      "source": "Latihan Soal SP PUR_Jawab.pdf",
-      "question": "Bank Indonesia terus mendorong penggunaan inovasi sistem pembayaran yang mempermudah transaksi pembayaran yang disesuaikan dengan karakteristik dan kebutuhan di berbagai daerah : (i) Titik kedatangan wisata mancanegara (seperti bandara, pelabuhan, dan terminal). (ii) Moda transportasi, khususnya yang melayani transportasi antarnegara (seperti ferry, bus internasional, dll). (iii) Kawasan destinasi kunjungan wisata mancanegara. (iv) Pasar tradisional domestik di wilayah pedalaman Di antara pilihan tersebut, mana yang merupakan lokasi yang menjadi target utama dari strategi penguatan akseptasi QRIS Antarnegara yang mendukung sektor prioritas menurut kebijakan Bank Indonesia",
-      "options": {
-        "a": "(i), (ii), dan (iii)",
-        "b": "(i) dan (iii)",
-        "c": "(ii) dan (iv)",
-        "d": "Semua benar"
-      },
-      "answer": "a",
-      "explanation": "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."
+      "answer": "c",
+      "explanation": "Daerah terbatas infrastruktur/akseptasi digital: strategi QRIS Statis untuk sektor mikro (iv) paling tepat."
     },
     {
       "id": "ba2_01_1",
@@ -3485,20 +3485,6 @@ const QUIZ_DATA = {
       },
       "answer": "b",
       "explanation": "Jawaban benar (B): Transaksi yang sudah setel bersifat final dan tidak bisa dibatalkan (irrevocable)"
-    },
-    {
-      "id": "ba2_08_9",
-      "category": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST",
-      "source": "8. BI-RTGS, SSSS, ETP, SKNBI, & BI-FAST.txt",
-      "question": "Prinsip 'No Money No Game' dalam operasional BI-RTGS berarti...",
-      "options": {
-        "a": "Transaksi tidak dipungut biaya jika dana cukup",
-        "b": "Setelmen dana harus didukung dana yang cukup di rekening peserta (tidak bisa defisit)",
-        "c": "Hanya bank yang memiliki modal besar yang boleh bertransaksi",
-        "d": "Transaksi hanya boleh dilakukan pada hari kerja"
-      },
-      "answer": "b",
-      "explanation": "Jawaban benar (B): Setelmen dana harus didukung dana yang cukup di rekening peserta (tidak bisa defisit)"
     },
     {
       "id": "ba2_08_10",

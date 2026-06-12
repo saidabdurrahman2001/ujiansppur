@@ -16,7 +16,7 @@ ANSWER_KEYS = {
     "pur_1": ("b", "Skema Kas Titipan bermitra dengan perbankan untuk memastikan ketersediaan uang tunai melalui layanan setoran, penarikan, dan penukaran uang di daerah berkebutuhan kas tinggi."),
     "pur_2": ("c", "Bantuan Pemeliharaan diberikan untuk memperpanjang umur, penambahan, dan pergantian sarana/prasarana yang rusak akibat usia dan pemakaian."),
     "pur_3": ("b", "Kolaborasi dengan mitra layanan (Pos, Pegadaian, BPR, PJPUR) memperluas kanal layanan dan meningkatkan efisiensi SDM serta infrastruktur."),
-    "pur_4": ("c", "Pengembangan SI PUR dalam BPPUR 2024–2030 dikategorikan sebagai inisiatif strategis pada aspek Pengelolaan Uang Rupiah."),
+    "pur_4": ("d", "Pengembangan SI PUR dalam BPPUR 2024–2030 dikategorikan sebagai inisiatif strategis pada aspek Infrastruktur PUR."),
     "pur_5": ("c", "DSCM adalah inisiatif integratif SMART (Seamless Integration, Modernization, Accountability, Resilience, Trustworthiness) untuk transformasi SI PUR."),
     "pur_6": ("c", "Outcome eksternal transformasi SI PUR adalah meningkatkan akuntabilitas dan kepercayaan masyarakat terhadap kebijakan PUR Bank Indonesia."),
     "pur_7": ("b", "Langkah awal Front Office: menahan uang (i), mencatat identitas nasabah (ii), dan memberi tanda terima (iv). Penyimpanan di brankas dilakukan setelahnya."),
@@ -25,11 +25,12 @@ ANSWER_KEYS = {
     "pur_10": ("c", "Desain uang TE 2022 mempertahankan gambar pahlawan nasional dan tema budaya Indonesia."),
     "pur_11": ("b", "Watermark diseragamkan dengan gambar utama agar uang TE 2022 mudah dikenali masyarakat."),
     "pur_12": ("c", "Teknologi coating pada pecahan kecil (Rp1.000–Rp5.000) untuk memastikan masa edar uang yang lebih lama."),
-    "pur_13": ("d", "PJPUR sebagai Sub Sirkulator mencakup pencetakan, distribusi, pengisian ATM/CDM, dan pembuatan ATM/CDM."),
+    "pur_13": ("c", "Ruang lingkup PJPUR yang benar adalah Distribusi Uang (II) dan Pengisian ATM/CDM (III)."),
     "pur_14": ("a", "Layar komputer menggunakan RGB, sedangkan mesin cetak menggunakan CMYK sehingga hasil cetak berbeda dari desain di layar."),
     "pur_15": ("b", "SPU SINERGI: identifikasi barcode (I), otomatisasi feeding & packaging (III), dan perekaman digital (IV). Proses tidak sepenuhnya manual."),
     # SP
     "sp_1": ("a", "Bank Indonesia memiliki wewenang tunggal mengajukan permohonan pailit terhadap PJP dan PIP."),
+    "sp_2": ("b", "Rupiah Digital wholesale non-interest bearing karena fungsinya sebagai uang (alat pembayaran), dan uang tunai secara prinsip tidak membawa bunga."),
     "sp_3": ("d", "MDR ditanggung oleh Merchant/Pedagang sebagai biaya layanan infrastruktur, sesuai azas manfaat bagi merchant."),
     "sp_4": ("d", "Payment ID menjamin keamanan ekosistem melalui pembentukan profil risiko dan integritas transaksi SP."),
     "sp_5": ("b", "BI-Payment Clear mencegah transaksi mencurigakan melalui Fraudster Database dan watchlist terintegrasi pada tahap on-transaction."),
@@ -45,10 +46,9 @@ ANSWER_KEYS = {
     "sp_15": ("c", "Daerah terbatas infrastruktur/akseptasi digital: strategi QRIS Statis untuk sektor mikro (iv) paling tepat."),
 }
 
-# Soal yang dikecualikan: DR (Rupiah Digital) & KPW (materi KPw/PCPM)
-EXCLUDED_IDS = {"sp_2"}
+# Soal yang dikecualikan: materi KPw/PCPM lama
+EXCLUDED_IDS = set()
 EXCLUDED_KEYWORDS = (
-    "Rupiah Digital",
     "KPw",
     "KPW",
     "KPwDN",
@@ -73,26 +73,51 @@ def normalize_text(text: str) -> str:
     return text
 
 
+def format_list_in_question(text: str) -> str:
+    """Pisahkan item I/II/III/IV atau (i)/(ii)/(iii)/(iv) ke baris baru agar mudah dibaca."""
+    text = re.sub(r"\s+((?:I{1,3}|IV))\.\s+", r"\n\1. ", text)
+    text = re.sub(r"\s+([iv])\.\s+", r"\n\1. ", text)
+    text = re.sub(r"\s+\(([ivx]+)\)\s+", r"\n(\1) ", text, flags=re.I)
+    return text.strip()
+
+
+def question_fingerprint(question: str) -> str:
+    """Fingerprint untuk deteksi soal duplikat/near-duplikat."""
+    text = question.lower()
+    text = re.sub(r"[^a-z0-9]", "", text)
+    return text[:100]
+
+
+def split_numbered_blocks(text: str) -> list[tuple[int, str]]:
+    """Pecah teks soal berdasarkan nomor di awal baris (hindari split '10.' -> '0.')."""
+    parts = re.split(r"(?:(?<=\n)|^)(\d{1,2})\.\s+", text)
+    blocks = []
+    idx = 1 if parts and not parts[0].strip() else 0
+
+    if idx == 0:
+        m = re.match(r"(\d{1,2})\.\s+([\s\S]*)", text.strip())
+        if m:
+            blocks.append((int(m.group(1)), m.group(2)))
+        return blocks
+
+    while idx < len(parts) - 1:
+        blocks.append((int(parts[idx]), parts[idx + 1]))
+        idx += 2
+    return blocks
+
+
 def parse_abc_questions(text: str, category: str, source: str, prefix: str) -> list:
   """Parse soal format a/b/c/d."""
   text = re.sub(r"\n(?=[a-d]\.\s)", " ", text)
-  blocks = re.split(r"(?=\d+\.\s)", text)
   questions = []
 
-  for block in blocks:
-    block = block.strip()
-    m = re.match(r"(\d+)\.\s*(.+)", block, re.DOTALL)
-    if not m:
-      continue
-    num = int(m.group(1))
-    rest = m.group(2)
-
+  for num, rest in split_numbered_blocks(text):
     opt_pattern = r"(?:^|\s)([a-d])\.\s+"
     parts = re.split(opt_pattern, rest)
     if len(parts) < 3:
       continue
 
-    question_text = normalize_text(parts[0])
+    question_text = format_list_in_question(normalize_text(parts[0]))
     options = {}
     for i in range(1, len(parts), 2):
       if i + 1 < len(parts):
@@ -123,19 +148,13 @@ def parse_abc_questions(text: str, category: str, source: str, prefix: str) -> l
 def parse_bullet_questions(text: str, category: str, source: str, prefix: str) -> list:
   """Parse soal format bullet (●)."""
   text = text.replace("●", "\n● ")
-  blocks = re.split(r"(?=\d+\.\s)", text)
   questions = []
 
-  for block in blocks:
-    block = block.strip()
-    m = re.match(r"(\d+)\.\s*(.+)", block, re.DOTALL)
-    if not m:
-      continue
-    num = int(m.group(1))
-    rest = m.group(2)
+  for num, rest in split_numbered_blocks(text):
+    rest = rest.strip()
 
     parts = re.split(r"\n●\s+", rest)
-    question_text = normalize_text(parts[0])
+    question_text = format_list_in_question(normalize_text(parts[0]))
     options = {}
     labels = ["a", "b", "c", "d"]
     for i, part in enumerate(parts[1:5]):
@@ -191,7 +210,7 @@ def parse_bahan_soal2_txt(text: str, category: str, source: str, prefix: str) ->
     if len(opt_parts) < 2:
       continue
 
-    question_text = normalize_text(opt_parts[0])
+    question_text = format_list_in_question(normalize_text(opt_parts[0]))
     options = {}
     for i in range(1, len(opt_parts), 2):
       if i + 1 < len(opt_parts):
@@ -254,14 +273,27 @@ def load_bahan_soal2_packages() -> tuple[list, list]:
   return categories, questions
 
 
+def deduplicate_by_id(questions: list) -> list:
+  """Buang duplikat ID — penyebab jawaban auto-terisi di soal berikutnya."""
+  by_id = {}
+  for q in questions:
+    by_id[q["id"]] = q
+  return list(by_id.values())
+
+
 def deduplicate(questions: list) -> list:
-  seen = set()
+  """Buang soal berulang (teks sama atau fingerprint mirip)."""
+  seen_exact = set()
+  seen_fp = set()
   result = []
   for q in questions:
-    h = hashlib.md5(q["question"].encode()).hexdigest()
-    if h not in seen:
-      seen.add(h)
-      result.append(q)
+    exact = hashlib.md5(q["question"].encode()).hexdigest()
+    fp = question_fingerprint(q["question"])
+    if exact in seen_exact or fp in seen_fp:
+      continue
+    seen_exact.add(exact)
+    seen_fp.add(fp)
+    result.append(q)
   return result
 
 
@@ -272,7 +304,6 @@ def main():
   pdf_sources = [
     ("PUR.pdf", "PUR", "pur", parse_abc_questions),
     ("SP.pdf", "SP", "sp", parse_abc_questions),
-    ("Latihan Soal SP PUR_Jawab.pdf", "SP", "sp", parse_bullet_questions),
   ]
 
   for filename, category, prefix, parser in pdf_sources:
@@ -285,6 +316,7 @@ def main():
     all_questions.extend(parsed)
 
   all_questions.extend(ba2_questions)
+  all_questions = deduplicate_by_id(all_questions)
   all_questions = deduplicate(all_questions)
   all_questions = [q for q in all_questions if not is_excluded(q)]
 
